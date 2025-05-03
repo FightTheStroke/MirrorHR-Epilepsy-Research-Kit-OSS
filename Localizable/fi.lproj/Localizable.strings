@@ -1,0 +1,843 @@
+
+
+"languageUIMsg" = "Käyttöliittymän kieli";
+"languageUI_String" = "Suomi";
+"errorMsg" = "Virhe";
+"shareFeedback" = "Anna meille palautetta";
+"doYouNeedHelpString" = "Tarvitsetko apua?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR: Epilepsy Research Kit";
+"secondsString" = "sekuntia";
+"defaultEmergencyNumber" = "112";
+"sympt_emptySymptom" = "tyhjä symtpom";
+"sympt_seizure" = "Takavariko";
+"sympt_highBPM" = "Korkea syke";
+"sympt_lowBPM" = "Matala sydämen syke";
+"sympt_constipation" = "Ummetus";
+"sympt_diarrhea" = "Ripuli";
+"sympt_hiccup" = "Hikka";
+"sympt_dizziness" = "Puimaus";
+"sympt_fatigue" = "Väsymys";
+"sympt_fever" = "Kuume";
+"sympt_headache" = "Päänsärky";
+"sympt_medicalExamination" = "Lääkärintarkastus";
+"sympt_hospitalization" = "Sairaalahoito";
+"sympt_emergencyRoom" = "Päivystyshuone";
+"sympt_coughing" = "Yskä";
+"sympt_nausea" = "Pahoinvointi";
+"sympt_shortnessOfBreath" = "Hengenahdistus";
+"sympt_soreThroat" = "Kurkkukipu";
+"sympt_vomiting" = "Oksentelu";
+"sympt_excitement" = "Jännitys";
+"sympt_moodChanges" = "Mielialan muutokset";
+"sympt_sleepChanges" = "Unimuutokset";
+"sympt_sleepDeprivation" = "Unipuute";
+"sympt_appetiteChanges" = "Muoksut ruokahalussa";
+"sympt_videoLog" = "Videopäiväkirja";
+"sympt_videoSeizureLog" = "Takavarikoloki";
+"sympt_textLog" = "Tekstiloki";
+"sympt_stress" = "Stressi";
+"sympt_medicationTaken" = "Lääkitys otettu";
+"sympt_medicationForgotten" = "Lääkitys jäänyt väliin";
+"sympt_other" = "Muu";
+"sympt_emergencyMedication" = "Hätälääkitys";
+"tabChecklist" = "Tarkistuslista";
+"tabRealTimeMonitor" = "Reaaliaikainen";
+"tabDiary" = "Päiväkirja";
+"tabInsights" = "Tilaukset";
+"tabSettings" = "Asetukset";
+"tabDebugLogs" = "Virheenkorjaus";
+"tabOnboarding" = "Perehtyminen";
+"realTimeNoWatchSampleImage" = "reaaliaikainen näyte";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "Anteeksi, en voinut tallentaa videota :( ";
+"comingSoonMsg" = "Tulossa pian: ";
+"youMustHaveWatchString" = "Reaaliaikaiseen valvontaan ja hälytyksiin tarvitaan Apple Watch";
+"iHaveAWatchNowString" = "Minulla on Apple Watch";
+"appleWatchRequiredMsg" = "Tämä ominaisuus vaatii Apple Watchin";
+"importantMsg" = "Tärkeä viesti";
+"watchMainErrorMsg" = "Kellosovellusta ei ole asennettu TAI kelloa ei ole yhdistetty puhelimen kanssa, asenna/tarkista se";
+"wichLanguageDoUSpeak" = "Mitä kieltä puhut?";
+"selectLanguage" = "Valitse yksi seuraavista käytettävissä olevista puheentunnistuskielistä:";
+"willAddMoreLanguagesMsg" = "Lisäämme uusia kieliä tulevaisuudessa.";
+"whenQuestion" = "Milloin?";
+"lastWeeksString" = "Viimeiset viikot";
+"lastMonthsString" = "Viimeiset kuukaudet";
+"weekdaysString" = "Arkipäivät";
+"weekendString" = "Viikonloppu";
+"loggedAtString" = "Kirjautunut: ";
+"fromString" = "Lähettäjä: ";
+"toString" = "Vastaanottaja: ";
+"LenghtString" = "Pituus: ";
+"notesString" = "Huomautukset: ";
+"editNotesString" = "Muokkaa muistiinpanoja kohteelle: ";
+"rememberDuplicateNotificationsString" = "Muista välttää kellon ilmoituksia tai hälytys ei käynnisty, kun sovellus on taustalla!";
+"gotItMsg" = "Selvä!";
+"unplannedEventMsg" = "Anteeksi, odottamaton tapahtuma tapahtui";
+"stopLowBatteryNotificationsMsg" = "Lopeta ilmoitukset akun heikentymisestä";
+"continueMsg" = "Jatka";
+"firedAtMsg" = "Käynnistetty ";
+"manualAlarmTriggeredMsg" = "Käynnistetty manuaalisesti ";
+"manualFalseAlarmTriggeredMsg" = "Väärä hälytys ";
+"byBPMofMsg" = "BPM:n mukaan";
+"watchBatteryIsMsg" = "Kellon akku on ";
+"doYouWantLowBatteryNotificationsMsg" = "Haluatko edelleen saada ilmoituksia kellon akun heikentymisestä?";
+"firedByMsg" = "käynnisti ";
+"bpmMsg1" = " BPM. ";
+"unclassifiedAlarmStopMsg" = " Istunto pysäytetty, luokittelematon hälytys";
+"lastSeizureMsg" = "Viimeinen kohtaus";
+"seizureStatsMsg" = "Kouristukset ";
+"videoLogBtnMsg" = "Videopäiväkirja";
+"seizureLogBtnMsg" = "Videon takavarikko";
+"drillDownByDateMsg" = "BPM päivämäärän mukaan";
+"symptomsLogs" = "Oirepäiväkirja";
+"insightsNavigationMsg" = "Tilaukset";
+"analyzingDataMsg" = "Analysoidaan tietoja...";
+"sinceLastEventMsg" = "Viimeisestä tapahtumasta: ";
+"sinceLastEventString" = "viimeisestä lähtien";
+"fromPreviousMsg" = "Edellisen tapahtuman jälkeen:";
+"congratsNoSeizureMsg" = "Onnittelut! Ei vakavia tapahtumia!";
+"saveLogMsg" = "Tallenna loki";
+"detailLogMsg" = "Onko jokin yksityiskohta, jonka haluat tallentaa?";
+"saveBtnMsg" = "Tallenna";
+"speechHintMsg" = "Vihje: voit kirjoittaa tai, jos painat näyttönäppäimistön mikrofonin symbolia, voit sanella.";
+"cancelActionMsg" = "Hylkää";
+"okActionMsg" = "OK";
+"realTimeMsg" = "Reaaliaikainen";
+"alarmMsg" = "Hälytys";
+"csvExportMsg" = "Vie CSV-muotoon";
+"olderString" = "Vanhempi";
+"thisWeekString" = "Tällä viikolla";
+"exportString" = "Vie";
+"warningMsg" = "Varoitus";
+"startMsg" = "Aloita";
+"stopMsg" = "Lopeta";
+"ciaoMsg" = "Ciao, olen Mario";
+"ciaoHeadlineMsg" = "Ciao tarkoittaa 'Hei', Italiaksi";
+"ciaoDescriptionMsg" = "Kiitos, että liityit kanssani taistelemaan epilepsiaa vastaan";
+"disclaimerTitleMsg" = "VASTUUVAPAUSLAUSEKE";
+"disclaimerHeadlineMsg" = "MirrorHR on suunniteltu auttamaan vanhempia, lääkäreitä ja huoltajia saamaan enemmän tietoa rakkaiden lasten kohtauksista. Sen ovat kehittäneet vanhemmat ja lääkärit vanhemmille ja lääkäreille. MirrorHR EI ole lääketieteellinen laite, ja sitä on käytettävä vain yhteistyössä lääkärisi kanssa.";
+"disclaimerDescriptionMsg" = "MirrorHR luottaa Apple Iphoneen ja Watchiin kaikissa antureissa ja tiedonkeruussa. Videot tallennetaan kirjastoosi, terveystiedot paikalliseen Apple HealthKitiin. Ainoat tiedot, jotka saattavat jäädä puhelimesta, ovat virheraportit (toivottavasti erittäin hyvin). muutaman kerran).";
+"personalizeStartMsg" = "Muokkaa MirrorHR";
+"personalizeStartHeadlineMsg" = "MirrorHR on suunniteltu auttamaan vanhempia, lääkäreitä ja hoitajia saamaan enemmän tietoa rakkaiden kohtauksista.";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "Mikä on nimesi?";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "Jos olet vanhempi tai hoitaja, kirjoita hoitamasi lapsen nimi.";
+"whereULiveMsg" = "Missä asut?";
+"whereULiveHeadLineMsg" = "Jotta voimme havaita sääolosuhteet ja korreloida tapahtumia";
+"whereULiveDescriptionMsg" = "Hyödynnämme https://openweathermap.org tätä ominaisuutta";
+"alarmSettingsMsg" = "HÄLYTYSASETUKSET";
+"alarmString" = "HÄLYTYKSET";
+"minBpmMsg" = "Minimi BPM";
+"minMaxBpmDescriptionMsg" = "MirrorHR mittaa sydämenlyöntiä reaaliajassa (BPM) ja antaa hälytyksen, kun nämä ehdot ovat totta:";
+"maxBpmMsg" = "Maksimi BPM";
+"mirrorNotificationMsg" = "TÄRKEÄÄ!";
+"mirrorNotificationsWatchMsg" = "Poista kellon ilmoitukset käytöstä";
+"mirrorNotificationDescriptionMsg" = "Tämä on erittäin tärkeää, tee se heti, kiitos.\n Siirry Watch-sovellukseen, MirrorHR:n ilmoitukset ja suojatut ilmoitukset eivät peilaudu kelloon.";
+"alarmSoundTitleMsg" = "HÄLYTYKSET";
+"alarmSoundHeadlineMsg" = "(Kyllä, sen pitäisi pystyä herättämään sinut, jos se laukeaa!)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "ILMOITUKSET";
+"notificationSoundHeadlineMsg" = "Ilmoitukset eivät ole kriittisiä, mutta silti ne ovat erittäin tärkeitä";
+"notificationSoundDescriptionMsg" = "Ilmoitamme esimerkiksi, kun kellon tietojen vastaanottamisessa on ongelmia tai akku on vähissä, joten on parempi seurata niitä";
+"parentalControlTitleMsg" = "Lapsilukko";
+"parentalControlOnString" = "Vanhempien valvonta on käytössä";
+"parentalControlHeadlineMsg" = "Estä istunnon pysäyttäminen Watchista";
+"parentalControlDescriptionMsg" = "Se mahdollistaa joitain turvaominaisuuksia, kuten istunnon pysäyttämisen eston kellosta, hälytysilmoitusten automaattisen uudelleenkäynnistyksen 15 minuutin kuluttua väärästä hälytyksestä jne. Jos tämä ei ole käytössä, saat ilmoituksen istunnon päättymisestä kellosta.";
+"emergencyContactTitleMsg" = "Hätänumero";
+"emergencyContactHeadLineMsg" = "vain saada se";
+"emergencyCallLabelMsg" = "Ohje";
+"helpLabelMsg" = "Ohje";
+
+"emergencyContactDescriptionMsg" = "Se voi olla 112 tai vastaava maassasi tai mikä tahansa muu puhelin, johon haluat soittaa mahdollisimman nopeasti, varmuuden vuoksi.";
+"emergencyContactDescriptionMsg4AboutView" = "Se voi olla 112 tai vastaava maassasi tai mikä tahansa muu puhelin, johon haluat soittaa mahdollisimman nopeasti.";
+"readyToStartTitleMsg" = "Valmis aloittamaan!";
+"readyToStartHeadlineMsg" = "Kiitos avusta.";
+"readyToStartDescriptionMsg" = "Voit aina muuttaa mitä tahansa asetuksia Asetukset-välilehdellä";
+"whenBpmLowerThanMsg" = "Kun BPM on pienempi kuin";
+"whenBpmHigherThanMsg" = "Kun BPM on suurempi kuin";
+"triageDeltaTimeBeforeFireAlarmMsg" = "Aikapuskuri ennen hälytyksen laukaisua: ";
+"privacyMsg" = "Hyväksy tietosuojakäytäntö";
+"privacyAcceptanceMsg" = "Ymmärrän";
+"alarmSoundStyleMsg" = "Hälytyksen äänityyli";
+"testAlarmSoundMsg" = "Testaa hälytysääntä";
+"testAlarmBtnMsg" = "Testaa hälytys";
+"testLowBatteryBtnMsg" = "Testaa akun heikko varaus";
+"testAlarmSoundBgkTitleMsg" = "Testaa hälytyksen ääni (viivästynyt)";
+"testAlarmSoundBgkMsg" = "Tärkeää! Testaa hälytys, kun puhelin on Älä häiritse -tilassa.";
+"testAlarmImptMsg" = "Palaa takaisin iphonen aloitusnäyttöön ja aseta puhelin äänettömään tilaan varmistaaksesi, että se käynnistyy, kun sovellus on taustalla ja jopa yöllä. Hälytyksen pitäisi laukea 30 sekunnin kuluttua. Jos näet vain ilmoituksen mutta et kuule voimakasta ääntä, varmista, että ilmoitukset eivät toistu kellossa";
+"notificationSoundStyleMsg" = "Ilmoitusten äänityyli";
+"testNotificationSoundMsg" = "Testaa ilmoitusääntä";
+"openWatchAppMsg" = "Avaa Watch App";
+"testCallMsg" = "Testipuhelu";
+"nameString" = "Nimi:";
+"livingInString" = "Asuin:";
+"iSpeakLanguage" = "Puhun:";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Apple Watch saatavilla";
+"watchAvailableToggleCaptionString" = "Jos sinulla on Apple Watch, voit ottaa käyttöön lisäominaisuudet, kuten tulisijan sykkeen reaaliaikaisen seurannan, hälytykset, ilmoitukset ja paljon muuta.";
+"alarmSettingsFooterMsg" = "Se käynnistyy välittömästi näiden olosuhteiden perusteella. Apple Watchin on oltava kytkettynä";
+"parentalControlProfileMsg" = "Reaaliaikaista valvontaa ei voi pysäyttää Apple Watchista, ja hälytykset otetaan uudelleen käyttöön automaattisesti 15 minuutin kuluttua väärästä hälytyksestä";
+"recordAVideoMsg" = "Tallenna videopäiväkirja";
+"notificationFooterMsg" = "Reaaliaikainen näyttö Apple Watchin kanssa on otettava käyttöön näitä ilmoituksia varten";
+"noDataNotificationMsg" = "Kun tietoja ei vastaanoteta Apple Watchista yli";
+"batteryLevelProfileMsg" = "Kun kellon akun varaustaso on alhaisempi kuin";
+"sleepSettingsTitleMsg" = "SLEEP-asetukset";
+"sleepSettingsFooterMsg" = "Reaaliaikainen näyttö Apple Watchin kanssa on otettava käyttöön unenseurantaa varten";
+"deepSleepMaxBpmMsg" = "Syvän unen maksimi BPM";
+"lightSleepMaxBpmMsg" = "Kevyen unen maksimi BPM";
+"notificationSettingsHeaderMsg" = "ILMOITUSASETUKSET";
+"notificationSettingsFooterMsg" = "Varo: ilmoitus on parempi kuin väliin jäänyt tapahtuma...";
+"shouldFireNoDataMsg" = "Tulipaloilmoitus, kun tietoja ei vastaanoteta Apple Watchista";
+"shouldFireLowBatteryMsg" = "Paloilmoitus, kun Apple Watchin akku on vähissä";
+"notifyRealTimeEndMsg1" = "Reaaliaikainen valvonta päättyi Apple Watchista";
+"notifyRealTimeEngMsg2" = "(ei tarvita, jos lapsilukko on käytössä)";
+"aboutMsg" = "Tietoja";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "Voit lisätä/muokata muistiinpanoa napsauttamalla kunkin oireen nimeä tai poistaaksesi sen pyyhkäisemällä vasemmalle.";
+"deprecatedDefaultQuickLogNote" = "Muokkaa muistiinpanoa pyyhkäisemällä oikealle, poista tämä merkintä pyyhkäisemällä vasemmalle";
+"debugModeMsg" = "Kehittäjälogitila";
+"developerMode" = "Kehittäjätila";
+"migrateDBMsg" = "Siirrä edellisestä versiosta";
+"logsSoFarMsg" = "lokit tähän mennessä";
+"seizuresSoFarMsg" = "kohtaukset";
+"seizuresOnlyFilterMsg" = "Kouristukset";
+"editLogNotesMsg" = "Lokimerkinnät - Muokkaa";
+"logASymptomMsg4LogsView" = "Lokitapahtumat";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "Palauta kaikki asetukset ja poista kaikki tiedot (varo, ettei se ole peruutettavissa!)";
+"restartOnboardingMsg" = "Käynnistä käyttöönotto uudelleen";
+"developerString" = "Kehittäjä";
+"appNameString" = "Sovelluksen nimi";
+"versionString" = "Versio";
+"compatibilityString" = "Vaatimukset";
+"contactsString" = "Yhteystiedot";
+"contactLabelMsg" = "Ota yhteyttä";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "Tietosuojakäytäntö";
+"privacyPolicyLinkLabel" = "Tietosuojakäytäntö";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "Verkkosivusto";
+"sampleChartDataMsg" = "Näytekaaviotiedot";
+"notificationTitleMsg" = "ILMOITUKSET";
+"realTimeWarningMsg" = "Apple Watchin on oltava kytkettynä hälytyksiä ja ilmoituksia varten";
+"chartOptionsTitleMsg" = "KAAVION VAIHTOEHDOT";
+"showMarkersMsg" = "Näytä hälytysmerkit";
+"showBandsMsg" = "Näytä kaavion kaistat";
+"reset2DefaultMsg" = "Palauta oletusarvot";
+"seeAllSettingsMsg" = "Avaa kaikki asetukset";
+"realTimeOffMsg" = "Reaaliaika on POIS PÄÄLTÄ";
+"bootingProgressMsg" = "Käynnistetään...";
+"lastBpmMsg" = "Viimeinen BPM:";
+"secsAgoMsg" = "sekuntia sitten";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "Avainasetukset";
+"legendaLabelMsg" = "Legenda:";
+"deepSleepLabelMsg" = "Syvä uni";
+"lightSleepLabelMsg" = "Kevyt uni";
+"awakeLabelMsg" = "Awake";
+"tagFalseAlarmTitleMsg" = "Merkitse väärä hälytys";
+"tagFalseAlarmActionMsg" = "Tallenna väärä hälytys";
+"tagFalseAlarmAllGoodMsg" = "Epätosi";
+"tagEndOfSezure" = "Lopeta kohtaus";
+"tagVideoSeizure" = "Video";
+"saveSeizureMsg" = "Tallenna kohtaus";
+"seizureLabelMsg" = "Takavariko";
+"falseAlarmSuggestion1" = "Stressi";
+"falseAlarmSuggestion2" = "Unelma";
+"falseAlarmSuggestion3" = "Peli";
+"elapsedTimeString" = "kulunut aika";
+"whatTimeIsNowString" = "nykyinen aika";
+"defaultCityString" = "Milano";
+"initialBatteryMsg" = "Akun alkutaso: ";
+"logLabelMsg" = "Lokit";
+"offLabelMsg" = "OFF";
+"tap3timesMsg" = "Napauta 3 kertaa";
+"watchAppNotInstalledString" = "MirrorHR:ää ei ole asennettu Apple Watchiin";
+"cantCommunicateWatchString" = "Ei voi kommunikoida Apple Watchin kanssa";
+"watchNotPairedString" = "Apple Watchia ei ole yhdistetty iPhoneen";
+"watchNotReachableString" = "Kellon MirrorHR ei ole tavoitettavissa, tarkista, että se toimii etualalla, tai aloita istunto kellosta";
+"canTFireNotificationString" = "Ilmoitusta ei voi käynnistää, koska ";
+"canTStartSessionString" = "Istunnon aloittaminen ei onnistu. Tarkista, että MirrorHR on käynnissä kellon etualalla ja yritä uudelleen";
+"soSorryString" = "Olen niin pahoillani :-( ... tämä vain tapahtui: ";
+"saveAndCloseString" = "Tallenna ja sulje";
+"alarmFiredAtString" = "Hälytys sytytettiin ";
+"byBPMOfString" = "BPM:n mukaan";
+"checkRangeString" = ". Tarkista, että kello on käytetty oikein ja että se on alueella.";
+"alarmEventString" = "Hälytys";
+"warningEventString" = "Varoitus";
+"noDataEventString" = "Ei tietoja";
+"lowBatteryEventString" = "Akun varaus vähissä";
+"unclassifiedEventString" = "Luokittelematon tapahtuma";
+"handleSezureEventString" = "Katsoa kohtausta";
+"handleFalseAlarmEventString" = "Käsittele väärä hälytys";
+"stopFromWatchEventString" = "Pysähdys vastaanotettu Apple Watchista";
+"sessionStopFromPhoneEventString" = "Istunto pysäytettiin puhelimesta";
+"criticalErrorEventString" = "Kriittinen virhe: ";
+"criticalErrorSorryEventString" = "Olen niin pahoillani :( Törmäsin odottamattomaan virheeseen.";
+"testSoundEventString" = "Testaa ääni: ";
+"notificationString" = "Ilmoitus";
+"sessionBootingEventString" = "Istunnon käynnistys";
+"manualAlarmEventString" = "Manuaalinen hälytys";
+"manualAlarmTriggeredNotesString" = "Käynnistänyt manuaalisesti ";
+"logsInTotalMsg" = "lokit";
+"intervalBetweenLast2Seizures" = "Viimeisten kohtausten välinen aika";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "M";
+"dayIndicatorString" = "d";
+"hoursIndicatorString" = "h";
+"minutesIndicatorString" = "m";
+"secondsIndicatorString" = "s";
+"eventsString" = "Tapahtumat";
+"insightsFilterToggleLeftString" = "Kaikki lokit";
+"symptomString" = "Oire";
+"potentialTriggerString" = "Mahdollinen laukaisu";
+"severeEventString" = "Vakava tapahtuma";
+"goodHabitString" = "Hyvä tapa";
+"badHabitString" = "Paha tapa";
+"askPermissionsTitle" = "Käyttöoikeudet";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "Tarkista käyttöoikeudet";
+"thanksForPermissionsString" = "Kiitos, kaikki luvat on myönnetty";
+"iPhoneBatteryIsMsg" = "iPhonen akku on ";
+"howLongDidItLastMsg" = "Kuinka kauan se kesti?";"languageUIMsg" = "Käyttöliittymän kieli";
+"watchNotReachableString" = "MirrorHR ei ole tavoitettavissa Apple Watchissa: tarkista, että se on käynnissä ja on etualalla, tai paina START suoraan Apple Watchin MirrorHR:stä";
+"noDataReceivedString" = "Tietoja ei vastaanotettu yli ";
+"medicationAlarmString" = "Lääkitysmuistutus";
+"medicationAlarmViewTitle" = "Lääkitysmuistutukset";
+"medicationAlarmMessage" = "On aika ottaa lääkkeesi";
+"medicationTakenString" = "Lääkitys otettu";
+"medicationSnoozeString" = "Torkkulääkitysmuistutus";
+"medicationSnoozeStringDescription" = "Lääkitysmuistutus";
+"addMedicationReminderString" = "Lisää/muokkaa lääkemuistutuksia";
+"yes_String" = "Kyllä";
+"no_String" = "Ei";
+"deleteAllRemindersString" = "Poista kaikki muistutukset";
+"confirmString" = "Vahvista";
+"confirmDeleteMedicationRemindersMsg" = "Haluatko todella poistaa kaikki lääkemuistutukset?";
+"medicationAlarmFooter" = "Muista aina ottaa lääkkeet! Voit lopulta siirtää muistutuksia 10 minuutiksi.";
+"closeButtonString" = "Sulje";
+"howLongDidItLastMsg" = "Kuinka kauan se kesti?";
+"addButtonString" = "Lisää";
+"nextScheduledRemindersString" = "Seuraavat ajoitetut muistutukset:";
+"EveryWeekDayAtString" = "Joka viikonpäivä klo:";
+"EveryWeekEndAtString" = "Joka viikonloppu klo:";
+"requestReviewMessage" = "Pidätkö MirrorHR:stä?";
+"manualMedicationMsg" = "Kannan sen käsin takaisin päiväkirjaan";
+"sympt_medicationChange" = "Lääkitysmuutos";
+"medications_String" = "Lääkkeet";
+"allLogs" = "Kaikki";
+"reportAsMissedMedicationString" = "Ilmoitan sen unohtuneena lääkkeenä";
+"medicationNotificationBodyMessage" = "On aika ottaa lääkkeesi. Napauta tästä kirjautuaksesi MirrorHR:ään tai torkkuaksesi 10 minuuttia";
+"letMeUpdateMissedMedicationString" = "Otin ne eri aikaan samana päivänä, anna minun päivittää tiedot";
+"filterByDate" = "Suodata päivämäärän mukaan";
+"event_realTimeSession" = "Reaaliaikainen istunto";
+"bpmTakesTimeMsg" = "Huomaa: istunnon päätyttyä BPM-kaavion näyttäminen voi kestää muutaman minuutin.";
+"telemetrySectionString" = "Liity hakuun";
+"shareAnonymizedTelemetryMsg" = "Jaa tilastotietoja täysin nimettömästi ja auta epilepsiatutkimusta";
+"telemetryRealTime" = "Reaaliaikaisten istuntojen määrä";
+"telemetrySeizures" = "Kovausten määrä";
+"telemetrySymptoms" = "Kirjattujen oireiden määrä";
+"telemetryNavigation" = "Peruskäyttötilastot";
+"telemetryVideoLog" = "Videolokin määrä";
+"telemetrySezuresVideoLog" = "Tavaroiden lukumäärä VideoLog";
+"telemetryBPMValues" = "BPM-hälytysten kynnysarvo";
+"telemetryMedicationReminders" = "Lääkitysmuistutusten määrä";
+"telemetryLanguage" = "Liitännän kieli";
+"telemetryExplainMsg" = "Telemetriatiedot ovat täysin anonymisoituja ja jos voit jakaa ne kanssamme, se todella auttaa parantamaan muiden perheiden elämää. Kiitos!";
+"enableAllTelemetryOptionsString" = "Ota käyttöön/poista käytöstä kaikki asetukset";
+"WhatsNewInThisVersion" = "Mitä uutta tässä versiossa on";
+"HereIsQuickUpdate" = "Tässä on nopea päivitys uusimmista ominaisuuksista";
+"helpOneHelpEveryone" = "Paras tapa auttaa yhtä on auttaa kaikkia muita";
+"Sentiment_String" = "Tunne";
+"detectSympstomsString" = "Havaitut oireet";
+"sympt_cold" = "Kylmä";
+"sentiment_negative" = "negatiivinen";
+"sentiment_medium" = "neutraali";
+"sentiment_positive" = "positiivinen";
+"confirmSymptomsUnderstanding" = "Sanomasi perusteella ymmärrän, että haluat rekisteröidä nämä oireet, vahvista ne minulle?";
+"appreciationForTheOpportunityToLearn" = "Jos ymmärsin väärin, poista merkintä tai lisää muita, jotta voin kehittyä ajan myötä. Kiitos.";
+"sympt_therapy" = "Hoito (kuntoutus jne.)";
+"sympt_fall" = "Syksy";
+"sympt_headShot" = "Headshot";
+"supportingFunctionsString" = "Tukitoiminnot";
+"sympt_sport" = "Urheilu";
+"whatsNewInVideoLogV3" = "Tässä versiossa se on vielä tehokkaampi tunnistamalla automaattisesti yleisimmät oireet ja tapahtumat, antamalla mahdollisuuden validoida ne ja jäljittää ne sitten automaattisesti päiväkirjassa. Siten on entistä helpompi muistaa kaikki tärkeät asioita, tee vaikka vain lyhyt video, niin sovellus hoitaa loput.";
+"SymptomSearchBarSearchString" = "Hae ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "Veren happi";
+"RespiratoryRateString" = "Hengitystaajuus";
+"sympt_vaccine" = "Yleinen rokotus";
+"sympt_covidVaccine" = "Covid-19-rokote";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "Paina kerran oireen oikealla puolella olevaa ympyrää tallentaaksesi nopeasti oireen tai tapahtuman. Paina ja pidä painettuna 2 sekunnin ajan oireen oikealla puolella olevaa ympyrää avataksesi näytön, johon voit syöttää muita tietoja ja / tai muistiinpanoja. Piilota tämä viesti painamalla uudelleen symbolia (?).";
+"kidWeightString" = "Paino";
+"measurementsUnitString" = "Mittausyksiköt";
+
+"version8_7OnboardingCardDescription" = "1. Uudet oireet ja tapahtumat, jotka voidaan kirjata päiväkirjaan (mukaan lukien Covid ja yleinen 'muu'), antavat sinun olla entistä tarkempi ja täydellisempi keskusteluissa lääkäreiden kanssa. \n
+2. Niille, joilla ei ole Apple Watchia, on nyt mahdollista tallentaa kohtausten pituus manuaalisesti, kun se syötetään päiväkirjaan. \n
+3. Päiväkirjassa on nyt mahdollista lisätä muistiinpanoja mihin tahansa oireeseen tai tapahtumaan yksinkertaisesti pitämällä  ⃝-painiketta painettuna kahden sekunnin ajan. \n
+4. Jos RealTime-istunto on aktiivinen unen aikana, sykkeen lisäksi hengitystiheys ja veren happi havaitaan ja raportoidaan muistiinpanoissa istunnon lopussa. \n
+5. On myös mahdollista tallentaa paino (esimerkiksi lääkkeiden vaihdon sovittamiseksi). \n
+6. Telemetriatiedot ovat yksinkertaisempia (aina anonyymejä) ja auttavat meitä paljon ymmärtämään, kuinka voimme parantaa ja auttaa yhä useampia ihmisiä. \n
+7. Korjattu joitakin tyylivirheitä. \n
+8. Jos pidät MirrorHR:stä ja haluat antaa meille ehdotuksia, muista, että arvostelu ja sähköposti ovat aina tervetulleita. Etsi linkit Asetukset-osiosta. \n
+Kiitos! \n ";
+
+"sympt_other_medications" = "Muut lääkkeet";
+"sympt_weightLog" = "Paino";
+"sympt_absence" = "Poissaolo";
+
+"supportMirrorHRTak" = "Auta meitä kehittämään MirrorHR:ää edelleen";
+"supportMirrorHRTakDescription" = "Arvostamme paljon apua, jotta voimme jatkaa MirrorHR:n kehittämistä ja parantamista, jotta voimme saavuttaa jokaisen apua tarvitsevan perheen.";
+"OpenInBrowserLinkMsg" = "Avaa selaimessa";
+"joinMirrorHRCommunityTask" = "Liity MirrorHR-yhteisöön";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR on yhteisön johtama yritys, koska vain yhdessä voimme vaikuttaa.";
+"realTimeSessionTaskDescription" = "Useiden valvontaistuntojen suorittaminen auttaa sinua ymmärtämään paremmin, miten järjestelmä toimii ja kuinka voit säätää kaikkia asetuksia paremmin.";
+"videoLogTaskDescription" = "Säännöllisen videopäiväkirjan pitäminen, esimerkiksi ennen nukkumaanmenoa, on hyvä tapa pohtia päivän aikana tapahtuneita. Jos mainitset oireet, se voi myös tallentaa ne automaattisesti. Huomioi: lapset saattavat täyttää rakastunut siihen rutiiniin :-)";
+"medicationTakenTaskDecription" = "Lääkkeen unohtaminen voi aiheuttaa monia ongelmia. Varmista, että asetat lääkemuistutuksia (Asetukset-näkymässä) ja että seuraat lääkkeitä oikein joka kerta.";
+"noTaskHistoryYet" = "Ei vielä historiaa";
+"stepTaskCompletedOn" = "valmistunut";
+"faqCheckListPicker" = "FAQ";
+"habitsCheckListPicker" = "Tottumukset";
+"RefreshListText" = "Päivitä";
+"shareWithDoctorTask" = "Jaa MirrorHR-tiedot lääkärisi kanssa";
+"shareWithDoctorTaskDescription" = "MirrorHR-tietojen säännöllinen jakaminen lääkärin kanssa on erittäin tärkeää. Totuta tekemään tämä vähintään kerran viikossa.";
+
+"exportAndShareDataCSV" = "Vie ja jaa MirrorHR-tietoja (CSV)";
+"exportAndShareDataXLS" = "Vie ja jaa MirrorHR-tietoja (XLS)";
+
+"version8_8OnboardingCardDescription" = "1. Uusi tarkistuslistaominaisuus, joka auttaa luomaan hyviä tapoja, ratkaisemaan usein kysyttyjä kysymyksiä ja osallistumaan vanhempien ja lääkäreiden yhteisöön, joka kehittää MirrorHR:ää.\n
+2. Niille, joilla ei ole Apple Watchia, on nyt mahdollista tallentaa kohtausten pituus manuaalisesti, kun se syötetään päiväkirjaan yhdellä napautuksella.\n
+3. Nyt on kuitenkin mahdollista lisätä muistiinpanoja mihin tahansa oireeseen tai tapahtumaan yksinkertaisesti pitämällä  ⃝-painiketta painettuna kahden sekunnin ajan päiväkirjassa.\n
+4. Hengitystiheys ja veren happi havaitaan nyt, jos RealTime-istunto on aktiivinen yöunen aikana.\n
+5. Nyt on mahdollista viedä tietoja ja tuoda ne uudelleen, jos vaihdat uuteen puhelimeen.\n
+6. Korjattu joitakin tyylivirheitä.\n
+7. Jos pidät MirrorHR:stä ja haluat antaa meille ehdotuksia, muista, että arvostelu ja sähköposti ovat aina tervetulleita. Etsi linkit Asetukset-osiosta.\n
+Kiitos!\n ";
+
+"FaqFromTheCommunity" = "Kysymyksiä ja ehdotuksia yhteisöltä";
+"watchConnectivityFAQTask" = "iPhonen ja kellon liitettävyys";
+"watchConnectivityFAQTaskDescription" = "Miksi saan joskus ilmoituksen, että tietoja ei ole vastaanotettu?";
+"resetCheckListAboutButton" = "Nollaa tarkistuslista";
+"newBadgeText" = "uusi";
+"rateMirrorHRTask" = "Auta parantamaan MirrorHR:ää";
+"rateMirrorHRTaskDescription" = "Jos pidät tästä sovelluksesta, anna sille viisi tähteä Apple Storessa tai jaa palautetta tai ehdotusta sähköpostitse.";
+"thanksToBeLocalized" = "Kiitos!";
+
+"mirrorHRUserFlowTask" = "Miten MirrorHR:ää käytetään";
+"mirrorHRUserFlowTaskDescription" = "Teemme parhaamme tehdäksemme MirrorHR:stä mahdollisimman yksinkertaisen, mutta silti täältä löydät ehdotuksia sen käyttöön.";
+
+"ImportMirrorHRXLSLocalized" = "Tuo MirrorHR XLS-tiedosto";
+"ImportMirrorHRCSVLocalized" = "Tuo MirrorHR CSV-tiedosto";
+
+"mirrorHRHistoryTask" = "Tarina MirrorHR:n takana";
+"mirrorHRHistoryTaskDescription" = "Miksi MirrorHR on kehitetty? Miten se on kehitetty? Mitä se tarkoittaa, että vanhemmat ja lääkärit kehittävät vanhemmille ja lääkäreille?";
+"checkListDefaultCompletiontMsg" = "Onnittelut!";
+"checkListdefaultIncentiveMsg" = "Jatka!";
+"telemetryChecklistProgresses" = "Tarkistuslista etenee";
+"exportAndShareLastMonthBPMData" = "Vie ja jaa viimeisten 30 päivän täydet BPM-tiedot (CSV)";
+"knowMoreWHOTask" = "Tiedä lisää epilepsiasta";
+"knowMoreWHOTaskDescription" = "WHO (Maailman terveysjärjestö) on loistava tietolähde epilepsiasta.";
+
+"sympt_dermatitis" = "Ihottuma";
+"sympt_menses" = "Kuukautiset";
+
+"alarmSoundVolumeMsg" = "Äänenvoimakkuus";
+"ExportSezuresDataOnlyMsg" = "Vie takavarikointitiedot";
+"Export6MonthsOfHRV" = "Vie viimeisen kuuden kuukauden HRV-tiedot (jos saatavilla) (CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "Kaikkien tietojen vieminen voi kestää jonkin aikaa. Ikkuna tiedoston jakamista varten tulee näkyviin mahdollisimman pian.";
+
+"ImportedNElementsFromXLSLocalized" = "Tuodut oireet: ";
+"CanTReadTheXLSFileLocalized" = "XLS-tiedostoa ei voi lukea";
+"CanTReadTheCSVFileLocalized" = "CSV-tiedostoa ei voi lukea";
+
+"ImportCompleteLocalizedAlertTitle" = "Tuonti valmis";
+
+"AlertConfirmMsgText" = "Vahvista";
+"BtnOverwriteMsg" = "Korvaa kaikki tiedot";
+"BtnAppendMsg" = "Lisää olemassa oleviin tietoihin";
+"BtnCancelMsg" = "Peruuta";
+
+"version9OnboardingCardDescription" = "1. Uudet FastLog-painikkeet (päiväkirjanäkymä)
+2. Uusia tuonti- ja vientitietoja Excel-muodossa, paljon enemmän tietoja (Insights- ja Checklist-näkymät)
+3. Uusi vaihtoehto hälytysten voimakkuuden säätämiseen (Asetukset-näkymä)
+4. Uudet tapahtumat kuukautiset ja ihotulehdus (Diary View)
+5. Vähimmäisalusta on nyt iOS 15/watchOS 7.5 (niiden luotettavuuden ja turvallisuuden lisäämiseksi)
+6. Virhe korjattu: kuvat ja symbolit joissakin laitteissa, videolokin tallennus jopa ilman ääntä, kohtausten välikaava
+7. Tunnetut ongelmat: iPhonen ja Watchin pariliitos saattaa vaatia tehdasasetusten palautuksen joissakin laitteissa, kun käyttöjärjestelmä päivitetään.
+8. Jos pidät MirrorHR:stä ja haluat antaa meille ehdotuksia, ota huomioon, että arvostelu ja sähköposti ovat aina tervetulleita. Etsi linkit Asetukset-osiosta.
+Kiitos! ";
+
+"sympt_FilterSupport" = "Lisäsuodattimet";
+"exportAndShareAnonymizedDataXLS" = "Lähetä nimettömiä tietoja";
+
+"appTerminatedMessage" = "MirrorHR on suljettu, eikä se voi enää vastaanottaa tietoja tai lähettää hälytyksiä!";
+
+"alreadyTakenString" = "Valmis";
+"minutesAgoString" = "m sitten";
+
+// TherapyRelatedStrings
+"therapiesNavTitle" = "Hoidot";
+"newTherapyString" = "Uusi hoito";
+"newCocktailString" = "Uusi rutiini";
+"therapySampleName" = "Hoidon nimi";
+"defaultNewTherapyName" = "hoidon nimi";
+"defaultNewDrugName" = "lääkkeen nimi";
+"newDrugString" = "Uusi lääke";
+"drugShapePillDescription" = "Pillerit";
+"drugShapeSpoonDescription" = "Neste";
+"drugDosesTitle" = "Lääkeannokset";
+"cocktailSectionTitle" = "Rutiinit";
+"drugsSectionTitle" = "Huumeet";
+"therapyAlertYesNoSaveMsg" = "Haluatko tallentaa sen?";
+"missingFieldsALertMsg" = "Sinun on ensin täytettävä kaikki kentät";
+"reminderAtString" = "Muistutus osoitteessa: ";
+"enableReminderString" = "Ota muistutus käyttöön";
+"therapyUnitText" = "Yksikkö:";
+"therapyShapeText" = "Muoto:";
+"therapyQuantityText" = "Määrä:";
+"noDrugNameText" = "Ei lääkkeen nimeä";
+"noDrugUnitText" = "Ei lääkeyksikköä";
+"noDrugShapeText" = "Ei lääkkeen muotoa";
+"noCocktailNameText" = "Ei rutiinin nimeä";
+"drugOtherShapeDescription" = "Muu";
+"sampleRoutineNameText" = "es. aamu";
+"sampleDrugNameString" = "es. Tegretol";
+"noReminderString" = "Ei muistutusta";
+"noTherapyNameString" = "Ei terapiaa";
+"therapySessionFooterText" = "Tässä voit seurata hoitojesi historiaa";
+"therapyOnboardingHeadline" = "Tässä voit seurata hoitojesi historiaa";
+"noCurrentTherapyText" = "Nykyistä hoitoa ei ole";
+"currentTherapyTitleText" = "Todellinen hoito";
+"addUpdateTherapiesText" = "Lisää tai päivitä hoitoja";
+"editUpdateAllTherapyDB" = "Muokkaa hoitotietoja";
+"cantDeleteAsUsedInCurrentTherapy" = "Tätä tietuetta ei voi poistaa, koska nykyinen hoito käyttää sitä";
+"clearAllTherapyDataMsg" = "Tyhjennä kaikki tiedot";
+"confirmDeleteAllTherapyData" = "Tämä poistaa kaikki hoitoon liittyvät tiedot";
+"navigationBackDefaultText" = "Takaisin";
+// EndTherapyRelatedStrings
+
+"version9_50onboardingCardDescription" =
+"1. Vain iOS 15
+2. Lisää reaaliaikaiseen istuntoon kirjattuja tietoja (kuten bpm-tilastot)
+3. Uusi terapiapäällikkö
+4. Excel-vienti vie nyt viimeiset 20 takavarikointia erillisiin Excel-välilehtiin ja vie paljon enemmän BPM-arvoja
+5. Täysin anonymisoitujen tietojen Excel-vienti
+6. BPM-kaavio, kun napsautat aikajananäkymää ja se on kohtaus
+7. Korjattu videokohtaus kohtausta käsiteltäessä
+8. Ukrainan, thain ja venäjän kielet
+9. Parempi NoData-kahva (nyt se synkronoi pysäytystilan kellon kanssa)
+10. Ilmoitusääni, kun sovellus suljetaan
+11. Kuvakekilpi päälle/pois valvontatilan perusteella
+12. Parannettu lääkemuistutusten käsittely
+13. virheenkorjaus
+Jos pidät MirrorHR:stä ja haluat antaa meille ehdotuksia, muista, että arvostelu ja sähköposti ovat aina tervetulleita. Etsi linkit Asetukset-osiosta.
+Kiitos!
+";
+
+"helpWithLocalizationString" = "Auta meitä MirrorHR:n lokalisoinnissa";
+
+"kidDateOfBirthString" = "Syntymäpäivä";
+"kidAgeString" = "Ikä";
+
+"AbsenceEpilepsyType" = "Poissaolokohtaukset (tunnetaan aiemmin nimellä petit mal)";
+"TonicClonicEpilepsyType" = "Tonis-klooniset tai kouristuskohtaukset (tunnetaan aiemmin nimellä grand mal)";
+"AtonicEpilespyType" = "Atoniset kohtaukset (tunnetaan myös pudotuskohtauksina)";
+"ClonicEpilepsyType" = "Klooniset kohtaukset";
+"TonicEpilepsyType" = "Toniset kohtaukset";
+"MyoclonicEpilepsyType" = "Myokloniset kohtaukset";
+"FocalAwarenessEpilepsyType" = "Fokaaliset kohtaukset, joissa tietoisuus säilyy";
+"FocalNotAwareEpilepsyType" = "Fokaaliset kohtaukset, joihin liittyy tietoisuuden menetys";
+"UnknownEpilepyType" = "Tuntematon";
+"epilepsyTypeString" = "Epilepsiatyyppi";
+
+"firstRunWatchAlertMsg" = "Kun käytät MirrorHR:ää ensimmäisen kerran Apple Watchissasi, varmista, että annat luvan käyttää terveystietoja";
+
+"tabCommunity" = "Yhteisö";
+"CommunityNavigationTitle" = "Yhteisö";
+"firstRunWatchAlertMsg" = "Kun käytät MirrorHR:ää ensimmäisen kerran Apple Watchissasi, varmista, että annat luvan käyttää terveystietoja";
+"firstRunWatchAlertMsgExtended" = "Kun käytät MirrorHR:ää ensimmäistä kertaa Apple Watchissasi, varmista, että annat luvan käyttää terveystietojasi. Jos ongelma jatkuu, yksinkertaisin tapa on poistaa MirrorHR puhelimestasi ja Apple Watchistasi, asenna se uudelleen ja kiinnitä huomiota ensimmäinen kerta, kun MirrorHR ajetaan Apple Watchissa.";
+"tabCommunityTitle" = "Yhteisö";
+"askForHelpChecklist" = "Ohje";
+"askForHelpChecklistDescription" = "Tarvitsetko apua? Ota yhteyttä, niin teemme parhaamme auttaaksemme sinua. Aikavyöhykkeesi välillä voi kuitenkin olla muutaman tunnin ero. Voit myös lähettää sähköpostin suoraan osoitteeseen helpme@mirrorhr.org.";
+"permissionsCheckFaq" = "Apple Watch ei voi lukea sykettäsi";
+"permissionsCheckFaqDescription" = "Miksi Apple Watchin MirrorHR näyttää aina 0 BPM, vaikka sovellus on käynnissä muutaman minuutin kuluttua?";
+
+"nightViewCardTitle" = "Yönäkymä";
+"nightViewCardHeadline" = "MirrorHR ei koskaan nuku";
+"nightViewCardDescription" = "Kun sykkeen seuranta on aktiivinen, voit aktivoida yötilan kääntämällä puhelimen vaakasuoraan. Näytön kirkkautta himmennetään, ja näytöllä näytetään vain olennaiset tiedot. Lisäksi MirrorHR estää puhelimen sammumisen, joten voit seurata tilannetta yhdellä silmäyksellä. On suositeltavaa pitää puhelin kytkettynä virtalähteeseen yön aikana. Huomautus: Jos olet päivittänyt iOS 17:ään, on suositeltavaa poistaa StandBy-toiminto käytöstä iPhonen asetuksista. ";
+"startFromWatchCardTitle" = "Aloita Apple Watchista";
+"startFromWatchCardHeadline" = "Aloita valvonta MirrorHR:stä Apple Watchissa";
+"startFromWatchCardDescription" = "Yksityisyyden ja turvallisuuden varmistamiseksi valvonta on aloitettava Apple Watchin MirrorHR-sovelluksesta. Kun valvonta on aktiivinen, iPhone voi pysäyttää sen tai jopa käynnistää sen uudelleen 15 minuutin kuluessa, minkä jälkeen se on käynnistettävä uudelleen Apple Watch.";
+"sympt_toothache" = "Hammassärky";
+"rebootWatchCardTitle" = "Käynnistä Apple Watch uudelleen";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "Varmista, että MirrorHR on päivitetty uusimpaan versioon myös Apple Watchissasi. Joskus se voi kestää muutaman minuutin, ja varmistaaksesi, että kaikki toimii oikein, on suositeltavaa sammuttaa Apple Watch ja käynnistää se. uudelleen pitämällä alhaalla kruunun alla olevaa sivupainiketta, kuten kuvassa. ";
+"doctorsEmailString" = "Lääkäreiden sähköpostiosoite:";
+"minutesString" = "minuutiksi";
+
+"version9_60onboardingCardDescription" = "Tervetuloa MirrorHR Epilepsy Research Kitin versioon 9.60: entistä helpompi käyttää ja täynnä ominaisuuksia.
+MirrorHR on ilmainen, turvallinen ja yksityinen sovellus, jonka vanhemmat ja lääkärit ovat kehittäneet vanhemmille ja lääkäreille.
+Jotkut ominaisuudet, kuten reaaliaikainen sykemittaus ja hälytykset, vaativat Apple Watchin (jossa on WatchOS 8+), joka on yhdistetty iPhoneen (jossa iOS 15+). Jos sinulla ei kuitenkaan ole Apple Watchia, sovellus on silti erittäin hyödyllinen kaikkien tapahtumien ja oireiden tallentamiseen ja parempaan yhteydenpitoon lääkärisi kanssa.
+MirrorHR ei ole lääkinnällinen laite, eikä sen aio ollakaan: se haluaa vain auttaa sinua oppimaan läheisesi epilepsiasta yhdessä lääkärisi kanssa.
+
+Tämän version merkittävistä innovaatioista:
+1. Paranneltu Apple Watchin ohjaus reaaliaikaiseen seurannan hallintaan.
+2. Parannettu tietojen vienti Exceliin helpottaa tietojen jakamista lääkärisi kanssa.
+3. Mahdollisesti esitäytä lääkärillesi sähköposti viimeisimmän epilepsiakohtauksen tiedoilla.
+4. Uusia oireita on saatavilla päiväkirjassa, ja nyt on mahdollista syöttää oireen tai tapahtuman tarkka kesto.
+5. Korjattu joitakin virheitä ja suorituskyvyn parannuksia.
+
+Muistutamme myös, että MirrorHR on täysin anonyymi ja tiedot ovat vain puhelimessasi.
+Reaaliaikainen seuranta vaatii pariliitoksen Apple Watchin kanssa.
+Päivityksen jälkeen suosittelemme Apple Watchin käynnistämistä uudelleen varmistaaksesi, että kaksi sovellusta (iPhonessa ja Apple Watchissa) on kohdistettu oikein.
+
+Erityinen kiitos kahdelle superäidille, jotka ovat jatkuvasti antaneet meille ehdotuksia MirrorHR:n parantamiseksi: kiitos paljon, Stefania ja Elena. #NeverStopFighting
+
+Jos haluat auttaa meitä tekemään MirrorHR Epilepsy Research Kitistä entistä hyödyllisemmän, ota meihin yhteyttä osoitteeseen helpme@mirrorhr.org ja lähetä arvostelu Applen App Storeen.
+
+Kiitos, että osallistuitte yhdessä epilepsiatutkimukseen.
+";
+
+"backupSymptomsDataString" = "Oireiden varmuuskopiointi";
+"restoreSymptomsDataString" = "Palauta oireet varmuuskopiosta";
+
+"AttentionRiskyWorkInProgressMessage" = "TYÖ KÄYNNISSÄ.\n\nODOTA TÄSSÄ JA PIDÄ MIRRORH AKTIIVISSA, MAI SE VOI TULLA EPÄVAKAAKSI";
+
+"WhatsNew9_70_Title1" = "Ole hallinnassa";
+"WhatsNew9_70_SubTitle1" = "Uusi varmuuskopiointi- ja palautustoiminto";
+"WhatsNew9_70_Body1" = "Tiedot ovat aina turvassa ja täysin hallussasi. Napsauta vientikuvaketta päiväkirjanäkymässä nähdäksesi uudet vaihtoehdot.";
+
+"WhatsNew9_70_Title2" = "Mitä uutta";
+"WhatsNew9_70_SubTitle2" = "Tämä sivu";
+"WhatsNew9_70_Body2" = "Helppo tapa nähdä uusimmat päivitykset";
+
+"WhatsNew9_70_Title3" = "Virheenkorjauksia";
+"WhatsNew9_70_SubTitle3" = "Pari virhettä";
+"WhatsNew9_70_Body3" = "MirrorHR on luotettavampi kuin koskaan. Kiitos jatkuvasta palautteestasi";
+
+"NotifyRTEndTitleMsg" = "Reaaliaikainen istunto päättyy";
+"NotifyRTEndCaptionMsg" = "Käynnistä ilmoitus, kun reaaliaikainen istunto lopetetaan. Se saattaa auttaa estämään sen vahingossa pysähtymisen";
+"NoDataEventStringV2" = "En voi vastaanottaa tietoja Apple Watchista!";
+"NoDataEventCaptionV2" = "Tarkista, että iPhone ja Apple Watch on yhdistetty ja tavoitettavissa. Jos virhe jatkuu, käynnistä uudelleen.";
+"NoDataReceivedStringV2" = "En ole saanut tietoja Apple Watchista yli ";
+
+"TelemetryLocalizedSymptomsLogged" = "Oireet";
+"TelemetryLocalizedBpmMinMax" = "BPM-kynnykset";
+"TelemetryLocalizedMedicationReminders" = "Lääkitysmuistutukset";
+"TelemetryLocalizedCheckList" = "Tarkistuslista etenee";
+"TelemetryLocalizedDateOfBirth" = "Ikä";
+"TelemetryLocalizedEpilepsyType" = "Epilepsiatyyppi";
+"TelemetryLocalizedMirrorHRError" = "Sovellusvirheet";
+"TelemetryLocalizedMonitoringSession" = "Seurantaistunnot";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "Haluatko lopettaa ilmoitusten vastaanottamisen kriittisistä virheistä?";
+
+//Striimaukseen liittyviä juttuja
+"YouMustHaveWatchOrStreamingMain" = "Jotta haluat käyttää reaaliaikaista sykemittaria, vastaanottaa hälytyksiä ja monia muita ominaisuuksia, sinulla on oltava Apple Watch pariksi tämän iPhonen kanssa.";
+
+"YouMustHaveWatchOrStreamingSecondary" = "Vaihtoehtoisesti voit vastaanottaa tietoja toisesta iPhonesta, joka on liitetty Apple Watchiin ja yhdistetty samaan verkkoon.";
+
+"IGetDataFromAnotherPhoneInLan" = "Voin saada tietoja toisesta iPhonesta, jossa on MirrorHR ja joka on pariksi Apple Watchin kanssa";
+
+"HealthDataSourceSettingsView" = "Terveyden tietolähde";
+
+"EnableStreamingSettingsView" = "Ota suoratoisto käyttöön";
+
+"StreamingSectionFooterIntro" = "Sinulla on oltava iPhone ja Apple Watch, jotta voit ottaa käyttöön reaaliaikaisen valvonnan, hälytykset jne.
+Jos sinulla on muita iPhone-laitteita (enintään 3) ilman Apple Watchia, voit lähettää niille tietoja, jos ne ovat kaikki yhteydessä samaan wifi-verkkoon (esim. suuret talot, lapset toisessa huoneessa, kun heidän iPhonensa on MirrorHR-sovellus ja Apple Watch jne.).";
+
+"StreamingSectionAlertMsg" = "Kaikissa iPhoneissa on oltava MirrorHR asennettuna ja suoratoistolippu käytössä. Apple Watchiin yhdistetty laite lähettää tietoja, kun taas muut laitteet vastaanottavat ne. Huomaa: MirroHR:n on oltava etualalla molemmissa laitteissa . Jos yhteys katkeaa, sinun on suoritettava yhteystoimenpiteet uudelleen RealTime View -näkymässä. Jos tarvitset apua tämän ominaisuuden kanssa, älä epäröi lähettää sähköpostia osoitteeseen helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "Stream";
+"StreamingConnectedTo" = "Yhdistetty:";
+"NotConnectedToAnyStream" = "Ei yhdistetty mihinkään streamiin";
+"StreamingReceivingDataFrom" = "Vastaanotetaan tietoja kohteesta:";
+"StreamingSendingDataTo" = "Lähetetään tietoja osoitteeseen:";
+"CheckStreamingUnderstandAlert" = "Tarkista suoratoiston ymmärtäminen";
+"PairedWithAppleWatchView" = "Paritettu Apple Watchin kanssa";
+
+"CiaoSettingsGreeting" = "Hei";
+"FrequentlyAskedQuestionsSeparator" = "Usein kysytyt kysymykset (FAQ)";
+
+"sympt_aura" = "Aura";
+"version10_5_WhatsNewDescription" = "1. Yksinkertaistunut käyttökokemus ja uusia oireita.
+2. Korjattu joitain virheitä.
+Jos pidät MirrorHR:stä ja haluat antaa meille ehdotuksia, muista, että arvostelu ja sähköposti ovat aina tervetulleita. Etsi linkit Asetukset-osiosta.
+Kiitos!";
+
+"InformazioniPersonaliHeader" = "Henkilökohtaiset tiedot";
+
+"healthPermissionsFAQTask" = "Apple HealthKitin käyttöoikeuksien korjaaminen.";
+"cantWorkWithoutHealthAccessMessage" = "Olen pahoillani, en voi työskennellä ilman pääsyä terveystietoihin. Jos se oli virhe, tarkista tukivaihtoehdot iPhonen MirrorHR-sovelluksesta tai asenna MirrorHR uudelleen.";
+"healthAccessErrorMessage" = "Apple HealthKitin terveystietojen lukemisessa tapahtui virhe. Tarkista tukivaihtoehdot iPhonen MirrorHR-sovelluksesta.";
+"GrantAllPermissionsCarefullyMessage" = "Anna lupa lukea terveystietoja. ";
+"GrantAllPermissionsCarefullyMessagePart2" = "Huomaa, että jos peruutat prosessin tai estät jonkin luvan, MirrorHR ei voi toimia ollenkaan.";
+"TapHereToHandleMsg" = "Käsittele napauttamalla tätä.";
+"YouAreInStreamingMode" = "MirrorHR on asetettu vastaanottamaan tietoja toisesta iPhonesta, joka on yhdistetty Apple Watchiin. Koska se on järjestetty vain vastaanottamaan tietoja, sinulla on rajoitetut ominaisuudet ja vaihtoehdot.";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "Haluan lopettaa tietojen vastaanottamisen toisesta laitteesta ja nähdä kaikki vaihtoehdot.";
+"ItWillStopCurrentSessionMsg" = "Huomaa: se pysäyttää nykyisen istunnon.";
+
+"MirrorHRLeveragesBPMHeadline" = "Kliiniset tutkimukset ovat osoittaneet, että yli 70 %:lla epilepsiapotilaista on äkillinen nopea syke muutamassa sekunnissa kohtauksen alkamisesta. MirrorHR tarkkailee jatkuvasti sykettä (BPM) Apple Watchin kautta, ja on mahdollista aseta hälytyksiä tiettyjen olosuhteiden tarkistamiseksi. Jos sinulla ei ole Apple Watchia, kaikki lääkärit suosittelevat pitämään päiväkirjaa kaikista oireista ja tapahtumista, ja jopa tässä MirrorHR voi auttaa sinua.";
+"AlarmOnboardingCardHeadline" = "Tässä voit asettaa sykekynnykset (BPM), joille haluat saada hälytyksen. Varmista, ettet toista ilmoituksia Apple Watchissa tai et ehkä saa hälytyksiä. Tämä ominaisuus edellyttää, että iPhone on yhdistetty Apple Watchiin.";
+"CanTEarAlarmSoundGoBackMsg" = "Jos et ole saanut testihälytysilmoitusta, palaa edelliseen näyttöön ja varmista, että olet noudattanut kaikkia vaiheita. Jos tarvitset tukea, älä epäröi lähettää meille sähköpostia osoitteeseen helpme@mirrorhr.org";
+
+"ItRquiresPermissionsAPopUpWillShow" = "Ponnahdusikkuna, jossa pyydetään lupaa lukea kellon terveystietoja, tulee näkyviin, jos otat tämän ominaisuuden käyttöön. Myönnä kaikki vaaditut käyttöoikeudet.";
+"HealthDataUnavailableErrorMsg" = "Vaadittuja terveystietoja ei ole saatavilla tällä laitteella. Tarkista tukivaihtoehdot.";
+"QuantityTypeUnavailableErrorMsg" = "Vaadittu terveysmäärätyyppi ei ole käytettävissä tässä laitteessa. Tarkista tukivaihtoehdot.";
+"DataTypeUnavailableErrorMsg" = "Vaadittu terveystietotyyppi ei ole käytettävissä tässä laitteessa. Tarkista tukivaihtoehdot.";
+"HealthPermissionsNotGrantedErrorMsg" = "Et ole myöntänyt tarvittavia oikeuksia lukea terveystietoja Apple HealthKitistä. Valitettavasti MirrorHR ei voi toimia ilman sitä. Jos se oli tahatonta, ota meihin yhteyttä osoitteessa helpme@mirrorhr.org tai vain yritä poistaa MirrorHR Apple Storesta ja asentaa se uudelleen.";
+
+"AskNotificationPermissionsMsg" = "Anna lupa lähettää ilmoituksia ja tärkeitä ilmoituksia (ne käynnistyvät, vaikka iPhone on äänettömässä tilassa).";
+
+"AcceptingConditionsByContinuingMsg" = "Jatkamalla MirrorHR:n käyttöä vahvistan, että olen lukenut ja ymmärtänyt yllä olevat ja hyväksyn ehdot.";
+"SwipeRightToContinueSetupMsg" = "Siirry asennusta pidemmälle pyyhkäisemällä oikealle.";
+"StopUsingMirrorHRContactUsMsg" = "Jos et ole samaa mieltä, lopeta MirrorHR:n käyttö. Jos tarvitset lisätietoja, ota meihin yhteyttä sähköpostitse osoitteeseen helpme@mirrorhr.org.";
+
+"AboutYouPersonalSettingsSection" = "Tietoja sinusta";
+"SettingsSettingsSection" = "Asetukset";
+"MedicalPlanSettingsSection" = "Lääketieteellinen suunnitelma";
+"AboutMirrorHRSettingsSection" = "Tietoja MirrorHR:stä";
+
+"sympt_ask4Help" = "Pyydä apua";
+"remoteNotificationsSettingsTitleMsg" = "Hoivaajat";
+"remoteNotificationsCaregiversFooter" = "Hoivaaja voi jakaa ID:nsä potilaalle lähettämällä linkin (WhatsAppin, tekstiviestin tai muun menetelmän kautta). Kun potilas avaa linkin, hän voi rekisteröidä hoivaajan saadakseen ilmoituksen jokaisesta tapahtumasta tai hälytyksestä. Molempien tulee olla asentaneet ja konfiguroineet MirrorHR:n. Voit olla useita hoivaajia.";
+"yourUniqueIDText" = "Oma ainutlaatuinen tunnus:";
+"shareYourIDCaregiverMsg" = "Jaa ID:si potilaalle, jotta voit toimia hoivaajana ja vastaanottaa ilmoituksia kirjatuista oireista tai hälytyksistä.";
+"shareYourIDBtnMsg" = "Jaa potilastunnuksesi hoitajan kanssa, jotta voit lähettää ilmoituksia oireista, hälytyksistä jne.";
+"caregiversListMsg" = "Tässä ovat nykyiset hoivaajasi, jotka voivat vastaanottaa ilmoituksia sinulta.";
+"uUIDMsg" = "Oma ainutlaatuinen, nimetön tunnus:";
+"saveSymptomInDiaryMsg" = "Tallenna oire päiväkirjaan";
+"remoteNotificationMsg" = "Etäilmoitus:";
+"sympt_AlarmFired" = "Hälytys laukaistu";
+"stopReceivingNotificationsFor15Mins" = "Lopeta ilmoitusten vastaanottaminen 15 minuutiksi.";
+"event_RealTimeSessionStarted" = "Reaaliaikainen istunto käynnistetty";
+"tryPushNotificationBtnLabel" = "Kokeile ilmoitusta";
+"testRemoteNotifications" = "Tämä oli testi";
+
+"version11_WhatsNewDescription" = "Esittelemme uuden merkittävän ominaisuuden: etäseurannan hoitajille. On nyt mahdollista lähettää etäilmoituksia MirrorHR-sovellukseen, joka on asennettu hoitajan iPhoneen. Tämä ominaisuus voidaan määrittää asetus-välilehdessä ja se mahdollistaa myös 'Pyydä apua' -ilmoituksen lähettämisen Päiväkirja-välilehdestä tai uuden widgetin kautta iPhone-aloitusnäytössä.
+
+Jos arvostat MirrorHR:ää ja haluaisit antaa palautetta tai ehdotuksia, tiedä, että arvostelu ja sähköposti ovat aina tervetulleita. Löydät linkit Asetukset-osasta. Kiitos!";
+
+"alarmSentMsg" = "Hälytys lähetetty";
+"stopCountdownMsg" = "Pysäytä laskenta";
+"stoppedMsg" = "Pysäytetty";
+
+"TabHome" = "Koti";
+"NextMedication" = "Seuraava lääkitys";
+"RemindersLink" = "Muistutukset";
+"QuickNotesMsg" = "Pikamuistiinpano";
+"savedBtnMsg" = "Tallennettu";
+"RemindersNotSet" = "Muistutuksia ei ole asetettu";
+"TherapiesNotSet" = "Terapioita ei ole asetettu";
+"ThisWeekMedicationAtGlance" = "Tämän viikon lääkitys";
+"SinceLastSeizureString" = "viimeisimmästä kohtauksesta lähtien";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "Tervetuloa MirrorHR:n versioon 14 - Epilepsiatutkimuskit! Olemme innoissamme esitellä uudistetun Koti-välilehden, joka tuo olennaiset tiedot suoraan sormenpäillesi. Pääasioiden kirjaaminen, lääkkeiden ja hoitojen seuraaminen sekä nopeiden muistiinpanojen tekeminen on nyt helpompaa kuin koskaan. MirrorHR:n avulla saat selkeämmän kuvan epilepsian hallinnasta ja voit käydä tehokkaampia keskusteluja terveydenhuollon tarjoajasi kanssa. Arvokas palautteesi on johtanut suorituskyvyn parannuksiin ja virhekorjauksiin, mikä tekee sovelluksesta sujuvamman kuin koskaan.
+
+Rakastatko MirrorHR:ää? Arvostelusi ja palautteesi ovat keskeisiä kokemuksen hiomisessa. Ole hyvä ja jätä arvostelu tai lähetä meille sähköpostia ehdotuksillasi. Löydät linkit Asetukset-osiosta. Kiitos jatkuvasta tuesta!";
+
+"MoodMsg" = "Mieliala";
+"sympt_mood_happy" = "Iloinen";
+"sympt_mood_calm" = "Rauhallinen";
+"sympt_mood_sad" = "Surullinen";
+"sympt_mood_angry" = "Ärtynyt";
+"sympt_mood_anxious" = "Ahdistunut";
+
+"AppreciateDonationsMsg" = "MirrorHR on ja pysyy aina ilmaisena. Arvostamme kuitenkin kaikkia lahjoituksia sen kehittämiseksi, jos vain voit. Kiitos.";
+"ThankYouForDonationMsg" = "Kiitos lahjoituksestasi! Arvostamme sitä suuresti!";
+"DonationFailedMsg" = "Lahjoitus epäonnistui! Voit yrittää uudelleen myöhemmin. Kiitos.";
+"DonationCancelledMsg" = "Lahjoitus on peruutettu. Voit yrittää uudelleen myöhemmin. Kiitos.";
+"UnknownDonationStatusMsg" = "Tuntematon lahjoituksen tila. Voit yrittää uudelleen myöhemmin. Kiitos.";
+
+"sympt_Myoclonic_Trembling" = "Myokloninen Vapina";
+
+"EnableLocalStreaming" = "Ota paikallinen suoratoisto käyttöön";
+"EnableReceivingRemoteStreaming" = "Ota etädatan vastaanottaminen käyttöön Internetin kautta";
+"EnableReceivingRemoteStreamingFooter" = "Jos olet hoitaja, voit vastaanottaa BPM:itä ja ilmoituksia etäiseltä MirrorHR:lta. Vaaditaan vanhempi/huoltaja-suhde ja internet-yhteys. Tietoja voidaan viivyttää verkkoyhteyksien vuoksi, ja BPM:t voidaan lähettää aina kun mahdollista.";
+
+// Versio 15 - Heinäkuu 2024
+
+"CreateMirrorHRBckTitle" = "Luo MirrorHR-varmuuskopio";
+"BackupRestoredMsg" = "Varmuuskopio palautettu";
+"RestoreBackupMsg" = "Palauta varmuuskopio";
+"ConfirmRestoreMsg" = "Vahvista palautus";
+"ProcessingMsg" = "Käsitellään...";
+"ConfirmRestoreMessageExt" = "Oletko varma, että haluat palauttaa varmuuskopion? Tämä korvaa nykyiset tiedot.";
+"RestoreOnlyMsg" = "Palauta";
+"RestoreCompleteSuccessMsg" = "Palautus onnistui.";
+"RestoreFailureMsg" = "Palautus epäonnistui virheellä: ";
+"BackupErrorSorryMsg" = "Anteeksi, en voi palauttaa MirrorHR-varmuuskopiota";
+"SwitchedActivePatientBecauseSeverEvent" = "Vaihdettiin aktiivista potilasta käsittelemään juuri saapunutta vakavaa tapahtumaa. Aloitettiin BPM:ien vastaanotto.";
+"SameEventsMsg" = "Samat tapahtumat";
+"HandlingRemoteCommandMsg" = "Käsitellään etäkomentoa: ";
+"event_realTimeSessionEnded" = "Reaaliaikasessio päättynyt";
+"RealTimeRemoteActiveMsg" = "Reaaliaika on aktiivinen etä-MirrorHR:ssä.";
+"RealTimeRemoteOffMsg" = "Reaaliaika on POIS päältä etä-MirrorHR:ssä.";
+"RemoteRealtimeUnkwongMsg" = "Reaaliajan tila on TUNTEMATON etä-MirrorHR:ssä.";
+"RemoteNoPatientSelectedMsg" = "Ei potilaita valittuna etä-MirrorHR:ksi";
+"RemoteFetchingDataMsg" = "Haetaan tietoja etä-MirrorHR:stä";
+"RemoteNoDataKeyMsg" = "Ei vastaanoteta tietoja etä-MirrorHR:stä";
+"RemoteNoDataCaptionMsg" = "Internet-yhteys voi puuttua tai reaaliaikasessio ei ole aktiivinen etä-MirrorHR:ssä";
+"RemoteMustHaveWatchInfoMsg" = "Sinulla on oltava paritettu Apple Watch tai toinen MirrorHR-sovellus, joka striimaa tietoja. Voit tarkistaa kaikki vaihtoehdot Asetukset-välilehdellä, Terveystietolähteet-osiossa.";
+"RemoteCheckStatusActiveMsg" = "Tarkista etätila";
+"RemoteCheckingStatusDisabledMsg" = "Tarkistetaan ...";
+"RemoteRunningMsgMaxTime" = "Vastaanotetaan BPM:ejä etä-MirrorHR:stä (max 5 min)";
+"RemoteRealTimeIsNotRunningMsg" = "Reaaliaika ei ole käynnissä etä-MirrorHR:ssä";
+"RemoteTryReceivingBpmsMsg" = "Yritetään vastaanottaa BPM:ejä etä-MirrorHR:stä";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Vastaanotetaan BPM:ejä etä-MirrorHR:stä (vain muutama minuutti)";
+"RemoteStreamingOptionsSettingsMsg" = "Voit asettaa striimausvaihtoehtoja Asetukset - Terveystietolähteet";
+"RemoteConnectedAndReceivingMsg" = "Yhdistetty Internetiin ja vastaanotetaan tietoja:";
+"RemoteNoPatientAssociatedMsg" = "Ei yhdistettyjä potilaita";
+"RemoteSelectActivePatientMsg" = "Valitse ja aktivoi potilas";
+"RemoteThereIsNoInternetConnectionMsg" = "EI Internet-yhteyttä";
+"RemoteConnectedToInternetMsg" = "Yhdistetty Internetiin";
+"RemoteSendingDataToMsg" = "Lähetetään tietoja kohteeseen:";
+"RemoteNoCaregiverAssociatedMsg" = "Ei yhdistettyjä hoitajia";
+"BackupAndRestoreHeaderMsg" = "Varmuuskopiointi ja palautus";
+"LocalNotificationsHeaderMsg" = "Paikalliset ilmoitukset";
+"RemoteNotificationsHeaderMsg" = "Etäilmoitukset";
+"RemoteActivePatientsHeaderMsg" = "Aktiiviset potilaat";
+"Ask4HelpNeedsYourHelpMsg" = "tarvitsee apuasi!";
+"RemoteNotificationTitleMsg" = "Etäilmoitus";
+"LocationServicesLocalized" = "Sijaintipalvelut";
+"RemoteDiaryOnlyDataSourceTitle" = "Vain päiväkirja";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Paritettu Apple Watchin kanssa ja lähetetään pääasiallisia tapahtumia hoitajille Internetin kautta";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Paritettu Apple Watchin kanssa ja lähetetään pääasiallisia tapahtumia ja BPM:ejä hoitajille Internetin kautta";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Vastaanotetaan pääasiallisia tapahtumia toisesta MirrorHR:stä Internetin kautta";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Vastaanotetaan pääasiallisia tapahtumia ja BPM:ejä toisesta MirrorHR:stä Internetin kautta";
+"RemotePotentialOnboardingRestartMsg" = "Onboarding saattaa käynnistyä uudelleen, jotta muutamat uudet asetukset voidaan määrittää oikein.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Ei saatavilla olevaa Apple Watchia. MirrorHR toimii vain päiväkirjana. Ei aktivoituja biometrisiä tietolähteitä, ei hälytyksiä saatavilla.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR on suoraan paritettu Apple Watchiin ja voi vastaanottaa biometrisiä tietoja. Paikalliset hälytykset ja ilmoitukset ovat käytössä.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR on paritettu Apple Watchiin ja voi lähettää pääasiallisia tapahtumia hoitajalle Internetin kautta, ilmoituksina. Hoitajan tulee pitää MirrorHR käynnissä ja määritettynä vastaanottamaan nämä tapahtumat. Näissä ilmoituksissa voi olla viivettä.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR on paritettu Apple Watchiin ja voi lähettää pääasiallisia tapahtumia ja BPM:ejä hoitajalle Internetin kautta. Hoitajan tulee pitää MirrorHR käynnissä ja määritettynä vastaanottamaan nämä tapahtumat ja BPM:it. Näissä ilmoituksissa voi olla viivettä.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR ei ole suoraan kytketty Apple Watchiin, mutta se voi vastaanottaa pääasiallisia tapahtumia toisesta MirrorHR:stä, joka on paritettu Apple Watchiin, Internetin kautta. Näiden ilmoitusten vastaanottamisessa voi olla viivettä.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR ei ole suoraan kytketty Apple Watchiin, mutta se voi vastaanottaa sekä pääasiallisia tapahtumia että BPM:ejä toisesta MirrorHR:stä, joka on paritettu Apple Watchiin, Internetin kautta. Näiden ilmoitusten vastaanottamisessa voi olla viivettä, ja MirrorHR:n tulee olla etualalla, jotta BPM:t vastaanotetaan.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR ei ole aktiivinen etä-iPhonessa";
+"RemoteStopReceivedFromPatientMsg" = "Etäpotilaan lähettämä reaaliaikainen komento vastaanotettu";
+"RemoteNoDataFromTheInternetMsg" = "Etäpotilaalta ei ole vastaanotettu tietoja";
+
+"version15_WhatsNewDescription" = "Tervetuloa MirrorHR:n versioon 15 - Epilepsy Research Kit! Olemme innoissamme voidessamme esitellä täydellisen etäseurantajärjestelmämme, joka lisää lasten ja läheisten autonomiaa. Päättapahtumien kirjaamisen, lääkkeiden ja hoitojen seurannan lisäksi voit nyt vastaanottaa etäilmoituksia kaikista näistä toiminnoista, mukaan lukien hälytykset ja BPM:t, vaikka olisitkin kilometrejä rakkaasi luota. Tämä ominaisuus vaatii, että potilas käyttää Apple Watchia, joka on yhdistetty iPhoneen, jossa on MirrorHR, kun taas sinä, huoltajana, tarvitset vain MirrorHR:n iPhoneesi.
+
+Kuten aina, MirrorHR auttaa sinua saamaan selkeämmän käsityksen epilepsian hallinnasta ja edistää parempia keskusteluja terveydenhuollon tarjoajan kanssa. Arvokkaat palautteesi ovat johtaneet suorituskyvyn parantamiseen ja virheiden korjaamiseen, mikä tekee sovelluksesta sujuvamman kuin koskaan.
+
+Rakastatko MirrorHR:ää? Arvostelusi ja palautteesi ovat ratkaisevan tärkeitä kokemuksen parantamiseksi. Jätä rohkeasti arvostelu tai lähetä meille sähköpostia ehdotuksillasi. Löydät linkit Asetukset-osiosta. Kiitos jatkuvasta tuestasi!";

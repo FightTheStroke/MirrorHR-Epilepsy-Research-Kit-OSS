@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Αυτή η εφαρμογή";
+
+// Authorization Statuses
+"NotDeterminedLocalized" = "Δεν έχει καθοριστεί";
+"DeniedLocalized" = "Απορρίφθηκε";
+"AuthorizedLocalized" = "Εξουσιοδοτημένο";
+"UnknownLocalized" = "Άγνωστο";
+"NotAvailableLocalized" = "Μη διαθέσιμο";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Σφάλμα διαχειριστή αδειών: Ο τύπος άδειας δεν υπάρχει";
+
+// Permissions Names
+"CameraLocalized" = "Βιντεοκάμερα";
+"CriticalNotificationsLocalized" = "Κρίσιμες Ειδοποιήσεις";
+"NotificationsLocalized" = "Ειδοποιήσεις";
+"HealthDataLocalized" = "Δεδομένα Υγείας";
+"MicrophoneLocalized" = "Μικρόφωνο";
+"SpeechRecognitionLocalized" = "Αναγνώριση Ομιλίας";
+
+// Messages
+"OKMessageLocalized" = "Ευχαριστώ!";
+"RecoveryMsgLocalizePart1" = "Παρακαλώ μεταβείτε στις ρυθμίσεις του iPhone και αναζητήστε το";
+"DescriptionMsgPart1" = "Η ενεργοποίηση";
+"DescriptionMsgPart2" = "είναι απαραίτητη για να λειτουργήσει σωστά αυτή η εφαρμογή.";
+"NoOkMessagePart1" = "Δεν δώσατε πρόσβαση στο";
+"NoOkMessagePart2" = "και έτσι δεν μπορώ να λειτουργήσω σωστά. Λυπάμαι.";
+"RecoveryMsgLocalizePart2" = "και δώστε όλες τις απαραίτητες άδειες. Ευχαριστώ.";
+
+// Check View
+"AuthCheckPointTitle" = "Έλεγχος αδειών";
+"GrantItBtnLabel" = "Δώστε το";
+"SomeMissingAuthNeeded" = "Κάποιες άδειες λείπουν και είναι απαραίτητες για να λειτουργήσει σωστά η εφαρμογή. Παρακαλώ δώστε τις όλες. Αν χρειάζεστε βοήθεια, στείλτε email στο:";
+
+// Mandatory
+"MandatoryMsg" = "Υποχρεωτικό";
+
+// Navigation
+"SkipMsgText" = "Παράλειψη";
+"LocationServicesLocalized" = "Υπηρεσίες Τοποθεσίας";

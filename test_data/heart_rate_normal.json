@@ -1,0 +1,15 @@
+[
+  {"timestamp": "2024-04-09T08:00:00Z", "value": 68, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:05Z", "value": 67, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:10Z", "value": 68, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:15Z", "value": 69, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:20Z", "value": 70, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:25Z", "value": 69, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:30Z", "value": 70, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:35Z", "value": 71, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:40Z", "value": 72, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:45Z", "value": 71, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:50Z", "value": 70, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:00:55Z", "value": 71, "source": "apple_watch"},
+  {"timestamp": "2024-04-09T08:01:00Z", "value": 72, "source": "apple_watch"}
+]

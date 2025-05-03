@@ -1,0 +1,847 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"languageUIMsg" = "Bahasa Antarmuka Pengguna";
+"languageUI_String" = "Inggris";
+"errorMsg" = "Kesalahan";
+"shareFeedback" = "Berikan kami masukan";
+"doYouNeedHelpString" = "Apakah Anda membutuhkan bantuan?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR: Kit Penelitian Epilepsi";
+"secondsString" = "detik";
+"defaultEmergencyNumber" = "112";
+"sympt_emptySymptom" = "gejala kosong";
+"sympt_seizure" = "Kejang";
+"sympt_highBPM" = "Detak jantung tinggi";
+"sympt_lowBPM" = "Detak jantung rendah";
+"sympt_constipation" = "Sembelit";
+"sympt_diarrhea" = "Diare";
+"sympt_hiccup" = "Cegukan";
+"sympt_dizziness" = "Pusing";
+"sympt_fatigue" = "Kelelahan";
+"sympt_fever" = "Demam";
+"sympt_headache" = "Sakit kepala";
+"sympt_medicalExamination" = "Pemeriksaan medis";
+"sympt_hospitalization" = "Hospitalisasi";
+"sympt_emergencyRoom" = "Ruang Darurat";
+"sympt_coughing" = "Batuk";
+"sympt_nausea" = "Mual";
+"sympt_shortnessOfBreath" = "Sesak napas";
+"sympt_soreThroat" = "Sakit Tenggorokan";
+"sympt_vomiting" = "Muntah";
+"sympt_excitement" = "Gembira";
+"sympt_moodChanges" = "Perubahan suasana hati";
+"sympt_sleepChanges" = "Perubahan tidur";
+"sympt_sleepDeprivation" = "Kekurangan tidur";
+"sympt_appetiteChanges" = "Perubahan nafsu makan";
+"sympt_videoLog" = "Buku Harian Video";
+"sympt_videoSeizureLog" = "Catatan Kejang";
+"sympt_textLog" = "Catatan Teks";
+"sympt_stress" = "Stres";
+"sympt_medicationTaken" = "Obat yang diambil";
+"sympt_medicationForgotten" = "Obat yang terlupakan";
+"sympt_other" = "Lainnya";
+"sympt_emergencyMedication" = "Obat darurat (es. Buccolam, Micropam)";
+"tabChecklist" = "Daftar Periksa";
+"tabRealTimeMonitor" = "RealTime";
+"tabDiary" = "Buku Harian";
+"tabInsights" = "Wawasan";
+"tabSettings" = "Pengaturan";
+"tabDebugLogs" = "Debug";
+"tabOnboarding" = "Onboarding";
+"realTimeNoWatchSampleImage" = "realtimesample";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "Maaf, saya tidak dapat menyimpan video :( ";
+"comingSoonMsg" = "Segera hadir: ";
+"youMustHaveWatchString" = "Anda membutuhkan Apple Watch untuk pemantauan real-time dan alarm";
+"iHaveAWatchNowString" = "Saya memiliki Apple Watch";
+"appleWatchRequiredMsg" = "Apple Watch diperlukan untuk fitur ini";
+"importantMsg" = "Pesan penting";
+"watchMainErrorMsg" = "Aplikasi Watch tidak diinstal ATAU watch tidak dipasangkan dengan telepon, silakan instal/periksa";
+"wichLanguageDoUSpeak" = "Bahasa apa yang Anda gunakan?";
+"selectLanguage" = "Silakan pilih salah satu bahasa pengenalan ucapan yang tersedia:";
+"willAddMoreLanguagesMsg" = "Kami akan menambahkan lebih banyak bahasa di masa mendatang.";
+"whenQuestion" = "Kapan?";
+"lastWeeksString" = "Minggu terakhir";
+"lastMonthsString" = "Bulan terakhir";
+"weekdaysString" = "Hari kerja";
+"weekendString" = "Akhir pekan";
+"loggedAtString" = "Masuk pada: ";
+"fromString" = "Dari: ";
+"toString" = "Ke: ";
+"LenghtString" = "Panjang: ";
+"notesString" = "Catatan: ";
+"editNotesString" = "Edit catatan untuk: ";
+"rememberDuplicateNotificationsString" = "Harap diingat untuk menghindari pemberitahuan di jam atau alarm tidak akan berbunyi ketika aplikasi berada di latar belakang!";
+"gotItMsg" = "Mengerti!";
+"unplannedEventMsg" = "Maaf, kejadian yang tidak direncanakan terjadi";
+"stopLowBatteryNotificationsMsg" = "Hentikan pemberitahuan baterai rendah";
+"continueMsg" = "Lanjutkan";
+"firedAtMsg" = "Ditembak pada ";
+"manualAlarmTriggeredMsg" = "Ditembak secara manual pada ";
+"manualFalseAlarmTriggeredMsg" = "Alarm palsu ";
+"byBPMofMsg" = "oleh BPM";
+"watchBatteryIsMsg" = "Baterai jam tangan adalah ";
+"doYouWantLowBatteryNotificationsMsg" = "Apakah Anda ingin terus menerima pemberitahuan untuk baterai rendah di jam tangan?";
+"firedByMsg" = "dipicu oleh ";
+"bpmMsg1" = " BPM. ";
+"unclassifiedAlarmStopMsg" = " Sesi berhenti, alarm tidak terklasifikasi";
+"lastSeizureMsg" = "Kejang terakhir";
+"seizureStatsMsg" = "Kejang ";
+"videoLogBtnMsg" = "Diari Video";
+"seizureLogBtnMsg" = "Kejang Video";
+"drillDownByDateMsg" = "BPM berdasarkan tanggal";
+"symptomsLogs" = "Diari Gejala";
+"insightsNavigationMsg" = "Wawasan";
+"analyzingDataMsg" = "Menganalisis Data...";
+"sinceLastEventMsg" = "Sejak peristiwa terakhir: ";
+"sinceLastEventString" = "sejak terakhir pada";
+"fromPreviousMsg" = "Sejak peristiwa sebelumnya:";
+"congratsNoSeizureMsg" = "Selamat! Tidak ada kejadian serius!";
+"saveLogMsg" = "Simpan log";
+"detailLogMsg" = "Apakah ada detail yang ingin Anda catat?";
+"saveBtnMsg" = "Simpan";
+"speechHintMsg" = "Petunjuk: Anda dapat mengetik atau, jika Anda menekan simbol mikrofon pada keyboard layar, Anda dapat mendiktatkan.";
+"cancelActionMsg" = "Batal";
+"okActionMsg" = "OK";
+"realTimeMsg" = "RealTime";
+"alarmMsg" = "Alarm";
+"csvExportMsg" = "Ekspor ke CSV";
+"olderString" = "Lebih lama";
+"thisWeekString" = "Minggu ini";
+"exportString" = "Ekspor";
+"warningMsg" = "Peringatan";
+"startMsg" = "Mulai";
+"stopMsg" = "Berhenti";
+"ciaoMsg" = "Ciao, saya Mario";
+"ciaoHeadlineMsg" = "Ciao berarti 'Hai', dalam bahasa Italia";
+"ciaoDescriptionMsg" = "Terima kasih telah bergabung bersama saya dalam memerangi Epilepsi";
+"disclaimerTitleMsg" = "PENAFIAN";
+"disclaimerHeadlineMsg" = "MirrorHR dirancang untuk membantu orang tua, dokter, dan pengasuh memperoleh wawasan lebih tentang kejang yang dialami oleh anak-anak mereka. Ini dikembangkan oleh orang tua dan dokter untuk orang tua dan dokter. MirrorHR BUKAN perangkat medis dan hanya harus digunakan dalam kemitraan dengan dokter Anda.";
+"disclaimerDescriptionMsg" = "MirrorHR bergantung pada iPhone dan Watch Apple untuk semua sensor dan pengumpulan data. Video disimpan di perpustakaan Anda, data kesehatan disimpan di Apple HealthKit lokal. Satu-satunya data yang mungkin meninggalkan ponsel Anda adalah laporan kecelakaan (semoga sangat jarang).";
+"personalizeStartMsg" = "Mari personalisasikan MirrorHR";
+"personalizeStartHeadlineMsg" = "MirrorHR dirancang untuk membantu orang tua, dokter, dan pengasuh memperoleh wawasan lebih tentang kejang yang dialami oleh orang-orang terkasih mereka.";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "Siapa namamu?";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "Jika Anda seorang orang tua atau pengasuh, silakan masukkan nama anak yang Anda rawat.";
+"whereULiveMsg" = "Di mana Anda tinggal?";
+"whereULiveHeadLineMsg" = "Agar kami dapat mendeteksi kondisi cuaca dan menghubungkannya dengan kejadian";
+"whereULiveDescriptionMsg" = "Kami memanfaatkan https://openweathermap.org untuk fitur ini";
+"alarmSettingsMsg" = "PENGATURAN ALARM";
+"alarmString" = "ALARMA";
+"minBpmMsg" = "BPM Minimum";
+"minMaxBpmDescriptionMsg" = "MirrorHR mengukur detak jantung secara real-time (BPM) dan memicu alarm ketika kondisi-kondisi ini terpenuhi:";
+"maxBpmMsg" = "BPM Maksimum";
+"mirrorNotificationMsg" = "PENTING!";
+"mirrorNotificationsWatchMsg" = "Nonaktifkan notifikasi di Apple Watch";
+"mirrorNotificationDescriptionMsg" = "Ini sangat penting, lakukan sekarang juga, silakan.\n Buka aplikasi Watch, pilih Notifikasi, dan pastikan notifikasi keamanan dari MirrorHR tidak ditampilkan di Apple Watch.";
+"alarmSoundTitleMsg" = "Alarm";
+"alarmSoundHeadlineMsg" = "(ya, seharusnya bisa membangunkan Anda jika terjadi!)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "Notifikasi";
+"notificationSoundHeadlineMsg" = "Notifikasi tidak kritis, tetapi tetap sangat penting";
+"notificationSoundDescriptionMsg" = "Misalnya, kami memberi tahu ketika ada masalah dalam menerima data dari jam tangan, atau saat baterai sedang rendah, dan sebagainya, jadi lebih baik memantau mereka.";
+"parentalControlTitleMsg" = "Kontrol Orang Tua";
+"parentalControlOnString" = "Kontrol Orang Tua Aktif";
+"parentalControlHeadlineMsg" = "Mencegah menghentikan sesi dari Apple Watch";
+"parentalControlDescriptionMsg" = "Ini mengaktifkan beberapa fitur keamanan seperti mencegah penghentian sesi dari Apple Watch, otomatis menghidupkan kembali notifikasi alarm setelah 15 menit dari alarm palsu, dll. Jika ini nonaktif, Anda akan menerima notifikasi saat sesi berakhir dari Apple Watch.";
+"emergencyContactTitleMsg" = "Nomor darurat";
+"emergencyContactHeadLineMsg" = "hanya untuk memiliki";
+"emergencyCallLabelMsg" = "Bantuan";
+"helpLabelMsg" = "Bantuan";
+
+"emergencyContactDescriptionMsg" = "Ini bisa 112, atau yang setara di negara Anda, atau nomor telepon lain yang ingin Anda hubungi secepat mungkin, hanya untuk keadaan darurat.";
+"emergencyContactDescriptionMsg4AboutView" = "Ini bisa 112, atau yang setara di negara Anda, atau nomor telepon lain yang ingin Anda hubungi secepat mungkin.";
+"readyToStartTitleMsg" = "Siap untuk memulai!";
+"readyToStartHeadlineMsg" = "Terima kasih atas bantuannya.";
+"readyToStartDescriptionMsg" = "Anda selalu dapat mengubah pengaturan apa pun dari tab Pengaturan";
+"whenBpmLowerThanMsg" = "Ketika BPM lebih rendah dari";
+"whenBpmHigherThanMsg" = "Ketika BPM lebih tinggi dari";
+"triageDeltaTimeBeforeFireAlarmMsg" = "Buffer waktu sebelum mengaktifkan alarm: ";
+"privacyMsg" = "Terima kebijakan privasi";
+"privacyAcceptanceMsg" = "Saya mengerti";
+"alarmSoundStyleMsg" = "Gaya suara alarm";
+"testAlarmSoundMsg" = "Uji suara alarm";
+"testAlarmBtnMsg" = "Uji alarm";
+"testLowBatteryBtnMsg" = "Uji baterai rendah";
+"testAlarmSoundBgkTitleMsg" = "Uji suara alarm (tertunda)";
+"testAlarmSoundBgkMsg" = "Penting! Uji alarm saat telepon dalam mode jangan ganggu.";
+"testAlarmImptMsg" = "Silakan kembali ke layar beranda iPhone dan atur telepon dalam mode senyap, agar alarm akan berbunyi saat aplikasi berjalan di latar belakang dan bahkan saat malam hari. Alarm harus berbunyi setelah 30 detik. Jika Anda hanya melihat notifikasi tetapi tidak mendengar suara yang kuat, pastikan notifikasi tidak diulang di Apple Watch.";
+"notificationSoundStyleMsg" = "Gaya suara notifikasi";
+"testNotificationSoundMsg" = "Uji suara notifikasi";
+"openWatchAppMsg" = "Buka Aplikasi Watch";
+"testCallMsg" = "Uji panggilan";
+"nameString" = "Nama:";
+"livingInString" = "Tempat tinggal:";
+"iSpeakLanguage" = "Saya berbicara:";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Tersedia Apple Watch";
+"watchAvailableToggleCaptionString" = "Jika Anda memiliki Apple Watch, Anda dapat mengaktifkan fitur canggih seperti pemantauan detak jantung secara real-time, alarm, notifikasi, dan masih banyak lagi.";
+"alarmSettingsFooterMsg" = "Memicu secara langsung berdasarkan kondisi-kondisi ini. Apple Watch harus terhubung";
+"parentalControlProfileMsg" = "Pemantauan secara real-time tidak dapat dihentikan dari Apple Watch dan alarm akan diaktifkan kembali secara otomatis setelah 15 menit dari alarm palsu.";
+"recordAVideoMsg" = "Rekam video diary";
+"notificationFooterMsg" = "Pemantauan secara real-time dengan Apple Watch harus diaktifkan untuk notifikasi ini";
+"noDataNotificationMsg" = "Ketika tidak menerima data dari Apple Watch selama lebih dari";
+"batteryLevelProfileMsg" = "Ketika level baterai jam lebih rendah dari";
+"sleepSettingsTitleMsg" = "Pengaturan TIDUR";
+"sleepSettingsFooterMsg" = "Monitor secara real-time dengan Apple Watch harus diaktifkan untuk pelacakan tidur";
+"deepSleepMaxBpmMsg" = "BPM maksimum Tidur Mendalam";
+"lightSleepMaxBpmMsg" = "BPM maksimum Tidur Ringan";
+"notificationSettingsHeaderMsg" = "Pengaturan NOTIFIKASI";
+"notificationSettingsFooterMsg" = "Perhatikan: notifikasi lebih baik daripada kehilangan peristiwa ...";
+"shouldFireNoDataMsg" = "Memicu notifikasi ketika tidak menerima data dari Apple Watch";
+"shouldFireLowBatteryMsg" = "Memicu notifikasi ketika baterai Apple Watch rendah";
+"notifyRealTimeEndMsg1" = "Monitoring real-time berakhir dari Apple Watch";
+"notifyRealTimeEngMsg2" = "(tidak diperlukan jika Kontrol Orang Tua diaktifkan)";
+"aboutMsg" = "Tentang";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "Untuk setiap gejala, Anda dapat mengklik namanya untuk menambahkan/mengedit catatan, atau geser ke kiri untuk menghapusnya.";
+"deprecatedDefaultQuickLogNote" = "Geser ke kanan untuk mengedit catatan, geser ke kiri untuk menghapus entri ini";
+"debugModeMsg" = "Mode debugging";
+"developerMode" = "Mode Pengembang";
+"migrateDBMsg" = "Migrasi dari versi sebelumnya";
+"logsSoFarMsg" = "log sejauh ini";
+"seizuresSoFarMsg" = "kejang";
+"seizuresOnlyFilterMsg" = "Kejang";
+"editLogNotesMsg" = "Catatan Log - Edit";
+"logASymptomMsg4LogsView" = "Catat peristiwa";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "Reset semua Pengaturan dan hapus semua data (hati-hati, ini tidak dapat dikembalikan!)";
+"restartOnboardingMsg" = "Mulai ulang Onboarding";
+"developerString" = "Pengembang";
+"appNameString" = "Nama Aplikasi";
+"versionString" = "Versi";
+"compatibilityString" = "Persyaratan";
+"contactsString" = "Kontak";
+"contactLabelMsg" = "Hubungi kami";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "Kebijakan Privasi";
+"privacyPolicyLinkLabel" = "Kebijakan Privasi";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy-ind";
+"websiteString" = "Situs Web";
+"sampleChartDataMsg" = "Contoh Data Grafik";
+"notificationTitleMsg" = "NOTIFIKASI";
+"realTimeWarningMsg" = "Apple Watch harus terhubung untuk alarm dan notifikasi";
+"chartOptionsTitleMsg" = "OPSI GRAFIK";
+"showMarkersMsg" = "Tampilkan penanda alarm";
+"showBandsMsg" = "Tampilkan pita grafik";
+"reset2DefaultMsg" = "Reset ke nilai default";
+"seeAllSettingsMsg" = "Buka semua pengaturan";
+"realTimeOffMsg" = "Pemantauan real-time TIDAK AKTIF";
+"bootingProgressMsg" = "Memuat...";
+"lastBpmMsg" = "BPM Terakhir:";
+"secsAgoMsg" = "detik yang lalu";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "Pengaturan Utama";
+"legendaLabelMsg" = "Legenda:";
+"deepSleepLabelMsg" = "Tidur Mendalam";
+"lightSleepLabelMsg" = "Tidur Ringan";
+"awakeLabelMsg" = "Terjaga";
+"tagFalseAlarmTitleMsg" = "Tandai Pemalsuan Alarm";
+"tagFalseAlarmActionMsg" = "Simpan Pemalsuan Alarm";
+"tagFalseAlarmAllGoodMsg" = "Pemalsuan";
+"tagEndOfSeizure" = "Akhir Kejang";
+"tagVideoSeizure" = "Video";
+"saveSeizureMsg" = "Simpan Kejang";
+"seizureLabelMsg" = "Kejang";
+"falseAlarmSuggestion1" = "Stres";
+"falseAlarmSuggestion2" = "Mimpi";
+"falseAlarmSuggestion3" = "Permainan";
+"elapsedTimeString" = "waktu berlalu";
+"whatTimeIsNowString" = "waktu sekarang";
+"defaultCityString" = "Milano";
+"initialBatteryMsg" = "Tingkat Baterai Awal: ";
+"logLabelMsg" = "Catatan";
+"offLabelMsg" = "MATI";
+"tap3timesMsg" = "Ketuk 3 kali";
+"watchAppNotInstalledString" = "MirrorHR tidak terpasang di Apple Watch";
+"cantCommunicateWatchString" = "Tidak dapat berkomunikasi dengan Apple Watch";
+"watchNotPairedString" = "Apple Watch tidak dipasangkan dengan iPhone";
+"watchNotReachableString" = "MirrorHR di watch tidak dapat dijangkau, harap periksa apakah sedang berjalan di latar belakang atau mulai sesi dari Watch";
+"canTFireNotificationString" = "Tidak dapat mengirimkan notifikasi karena ";
+"canTStartSessionString" = "Tidak dapat memulai sesi, harap periksa apakah MirrorHR berjalan di latar belakang pada Watch dan coba lagi";
+"soSorryString" = "Maaf sekali :-( ... ini baru saja terjadi: ";
+"saveAndCloseString" = "Simpan dan tutup";
+"alarmFiredAtString" = "Alarm berbunyi pada pukul ";
+"byBPMOfString" = "dengan BPM sebesar";
+"checkRangeString" = ". Harap periksa apakah jam tangan dipakai dengan benar dan berada dalam jangkauan.";
+"alarmEventString" = "Alarm";
+"warningEventString" = "Peringatan";
+"noDataEventString" = "Tidak Ada Data";
+"lowBatteryEventString" = "Baterai Rendah";
+"unclassifiedEventString" = "Peristiwa Tidak Terklasifikasi";
+"handleSeizureEventString" = "Penanganan Kejang";
+"handleFalseAlarmEventString" = "Penanganan Alarm Palsu";
+"stopFromWatchEventString" = "Berhenti diterima dari Apple Watch";
+"sessionStopFromPhoneEventString" = "Sesi dihentikan dari telepon";
+"criticalErrorEventString" = "Kesalahan Kritis: ";
+"criticalErrorSorryEventString" = "Maaf sekali :( Saya mengalami kesalahan yang tidak terduga.";
+"testSoundEventString" = "Uji suara untuk: ";
+"notificationString" = "Notifikasi";
+"sessionBootingEventString" = "Sesi Memulai";
+"manualAlarmEventString" = "Alarm Manual";
+"manualAlarmTriggeredNotesString" = "Diaktifkan secara manual oleh ";
+"logsInTotalMsg" = "catatan";
+"intervalBetweenLast2Seizures" = "Interval antara kejang terakhir";
+"yearIndicatorString" = "Tahun";
+"monthsIndicatorString" = "Bulan";
+"dayIndicatorString" = "Hari";
+"hoursIndicatorString" = "Jam";
+"minutesIndicatorString" = "Menit";
+"secondsIndicatorString" = "Detik";
+"eventsString" = "Peristiwa";
+"insightsFilterToggleLeftString" = "Semua catatan";
+"symptomString" = "Gejala";
+"potentialTriggerString" = "Pemicu Potensial";
+"severeEventString" = "Peristiwa Serius";
+"goodHabitString" = "Kebiasaan Baik";
+"badHabitString" = "Kebiasaan Buruk";
+"askPermissionsTitle" = "Izin";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "Periksa izin";
+"thanksForPermissionsString" = "Terima kasih, semua izin telah diberikan";
+"iPhoneBatteryIsMsg" = "Baterai iPhone adalah ";
+"howLongDidItLastMsg" = "Berapa lama itu berlangsung?";
+"languageUIMsg" = "Bahasa Antarmuka";
+"watchNotReachableString" = "MirrorHR tidak dapat dijangkau di Apple Watch: periksa apakah sedang berjalan dan berada di latar depan, atau mulai sesi langsung dari MirrorHR di Apple Watch";
+"noDataReceivedString" = "Tidak ada data yang diterima selama lebih dari ";
+"medicationAlarmString" = "Pengingat Obat";
+"medicationAlarmViewTitle" = "Pengingat Obat";
+"medicationAlarmMessage" = "Sudah waktunya mengonsumsi obat Anda";
+"medicationTakenString" = "Obat sudah dikonsumsi";
+"medicationSnoozeString" = "Tunda pengingat obat";
+"medicationSnoozeStringDescription" = "Pengingat Obat";
+"addMedicationReminderString" = "Tambah/Edit pengingat obat";
+"yes_String" = "Ya";
+"no_String" = "Tidak";
+"deleteAllRemindersString" = "Hapus semua pengingat";
+"confirmString" = "Konfirmasi";
+"confirmDeleteMedicationRemindersMsg" = "Apakah Anda benar-benar ingin menghapus semua pengingat obat?";
+"medicationAlarmFooter" = "Selalu ingat untuk mengonsumsi obat Anda! Anda dapat menunda pengingat selama 10 menit.";
+"closeButtonString" = "Tutup";
+"howLongDidItLastMsg" = "Berapa lama itu berlangsung?";
+"addButtonString" = "Tambah";
+"nextScheduledRemindersString" = "Pengingat berikutnya:";
+"EveryWeekDayAtString" = "Setiap hari kerja pada pukul:";
+"EveryWeekEndAtString" = "Setiap akhir pekan pada pukul:";
+"requestReviewMessage" = "Apakah Anda menyukai MirrorHR?";
+"manualMedicationMsg" = "Saya mencatatnya secara manual di dalam catatan harian";
+"sympt_medicationChange" = "Perubahan Obat";
+"medications_String" = "Obat-obatan";
+"allLogs" = "Semua";
+"reportAsMissedMedicationString" = "Akan saya laporkan sebagai obat yang terlewat";
+"medicationNotificationBodyMessage" = "Sudah waktunya mengonsumsi obat Anda. Ketuk di sini untuk mencatat di MirrorHR atau menunda selama 10 menit";
+
+
+"letMeUpdateMissedMedicationString" = "Saya mengonsumsinya pada waktu yang berbeda di hari yang sama, biarkan saya memperbarui data";
+"filterByDate" = "Filter berdasarkan tanggal";
+"event_realTimeSession" = "Sesi RealTime";
+"bpmTakesTimeMsg" = "Harap dicatat: setelah sesi berakhir, grafik BPM mungkin memerlukan beberapa menit untuk muncul.";
+"telemetrySectionString" = "Bergabunglah dengan penelitian";
+"shareAnonymizedTelemetryMsg" = "Bagikan data statistik secara anonim dan bantu penelitian tentang epilepsi";
+"telemetryRealTime" = "Jumlah sesi real-time";
+"telemetrySeizures" = "Jumlah kejang";
+"telemetrySymptoms" = "Jumlah gejala yang dicatat";
+"telemetryNavigation" = "Statistik penggunaan dasar";
+"telemetryVideoLog" = "Jumlah VideoLog";
+"telemetrySeizuresVideoLog" = "Jumlah VideoLog Kejang";
+"telemetryBPMValues" = "Ambang batas alarm BPM";
+"telemetryMedicationReminders" = "Jumlah pengingat obat";
+"telemetryLanguage" = "Bahasa antarmuka";
+"telemetryExplainMsg" = "Data telemetri sepenuhnya diubah menjadi anonim dan jika Anda dapat membagikannya dengan kami, itu akan sangat membantu untuk meningkatkan kehidupan keluarga lainnya. Terima kasih!";
+"enableAllTelemetryOptionsString" = "Aktifkan/Nonaktifkan semua opsi";
+"WhatsNewInThisVersion" = "Apa yang baru dalam versi ini";
+"HereIsQuickUpdate" = "Berikut adalah pembaruan cepat tentang fitur terbaru";
+"helpOneHelpEveryone" = "Cara terbaik untuk membantu satu orang adalah dengan membantu orang lain";
+"Sentiment_String" = "Sentimen";
+"detectSympstomsString" = "Gejala Terdeteksi";
+"sympt_cold" = "Pilek";
+"sentiment_negative" = "negatif";
+"sentiment_medium" = "netral";
+"sentiment_positive" = "positif";
+"confirmSymptomsUnderstanding" = "Dari apa yang Anda katakan, saya mengerti bahwa Anda ingin mencatat gejala ini, tolong konfirmasi untuk saya?";
+"appreciationForTheOpportunityToLearn" = "Jika saya salah paham, harap batalkan tanda atau tambahkan yang lain agar saya dapat memperbaiki dari waktu ke waktu. Terima kasih.";
+"sympt_therapy" = "Terapi (rehab, dll.)";
+"sympt_fall" = "Jatuh";
+"sympt_headShot" = "Pukulan kepala";
+"supportingFunctionsString" = "Fungsi Pendukung";
+"sympt_sport" = "Olahraga";
+"whatsNewInVideoLogV3" = "Dalam versi ini, VideoLog menjadi lebih kuat dengan secara otomatis mengenali gejala dan peristiwa yang paling umum, memberikan kemungkinan untuk memvalidasi mereka, dan kemudian secara otomatis melacaknya di dalam jurnal. Jadi akan lebih mudah mengingat semua hal penting, hanya dengan melakukan video singkat, dan aplikasi akan melakukan sisanya.";
+"SymptomSearchBarSearchString" = "Cari ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "Oksigen Darah";
+"RespiratoryRateString" = "Detak Napas";
+"sympt_vaccine" = "Vaksinasi Umum";
+"sympt_covidVaccine" = "Vaksin Covid-19";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "Tekan sekali pada lingkaran di sebelah kanan gejala untuk dengan cepat mencatat gejala atau peristiwa. Tahan tekan selama 2 detik pada lingkaran di sebelah kanan gejala untuk membuka layar di mana Anda dapat memasukkan data lain dan/atau catatan. Tekan lagi simbol (?) untuk menyembunyikan pesan ini.";
+"kidWeightString" = "Berat Badan";
+"measurementsUnitString" = "Unit Pengukuran";
+"version8_7OnboardingCardDescription" = "1. Gejala dan peristiwa baru yang dicatat dalam Jurnal (termasuk Covid dan 'lainnya' secara umum) memungkinkan Anda lebih tepat dan lengkap dalam berbicara dengan dokter.\n
+2. Bagi mereka yang tidak memiliki Apple Watch, sekarang mungkin untuk mencatat durasi kejang secara manual saat memasukkannya ke dalam Jurnal.\n
+3. Sekarang juga, Anda dapat menambahkan catatan ke gejala atau peristiwa apa pun dengan hanya menahan tombol  ⃝ selama dua detik di Jurnal.\n
+4. Jika sesi RealTime aktif selama tidur, selain detak jantung, detak napas, dan oksigen dalam darah juga terdeteksi dan dilaporkan dalam catatan di akhir sesi.\n
+5. Sekarang juga dapat menambahkan berat badan (misalnya, untuk mencocokkan perubahan obat).\n
+6. Data telemetri lebih sederhana (sepenuhnya anonim) dan membantu kami memahami cara meningkatkan dan membantu lebih banyak orang.\n
+7. Perbaikan beberapa bug gaya.\n
+8. Jika Anda menyukai MirrorHR dan ingin memberikan saran kepada kami, harap ketahui bahwa ulasan dan email selalu sangat kami hargai. Temukan tautan di bagian Pengaturan.
+Terima kasih!\n ";
+"sympt_other_medications" = "Obat lain";
+"sympt_weightLog" = "Berat Badan";
+"sympt_absence" = "Absen";
+"version8_8OnboardingCardDescription" = "1. Fitur Checklist baru yang membantu dalam menciptakan kebiasaan baik, menyelesaikan pertanyaan yang sering diajukan, dan berpartisipasi dalam komunitas orangtua dan dokter yang sedang mengembangkan MirrorHR.\n
+2. Bagi mereka yang tidak memiliki Apple Watch, sekarang mungkin untuk mencatat durasi kejang secara manual saat memasukkannya ke dalam Jurnal hanya dengan satu ketukan.\n
+3. Sekarang juga, Anda dapat menambahkan catatan ke gejala atau peristiwa apa pun dengan hanya menahan tombol  ⃝ selama dua detik di Jurnal.\n
+4. Detak napas dan oksigen dalam darah sekarang terdeteksi jika sesi RealTime aktif selama tidur malam.\n
+5. Sekarang mungkin untuk mengekspor data dan mengimpor ulang jika pindah ke ponsel baru.\n
+6. Perbaikan beberapa bug gaya.\n
+7. Jika Anda menyukai MirrorHR dan ingin memberikan saran kepada kami, harap ketahui bahwa ulasan dan email selalu sangat kami hargai. Temukan tautan di bagian Pengaturan.\n
+Terima kasih!\n ";
+
+
+
+
+"version9OnboardingCardDescription" = "1. Tombol FastLog baru (Tampilan Diary)
+2. Impor dan ekspor data dalam format Excel, dengan lebih banyak data (Tampilan Insights dan Checklist)
+3. Opsi baru untuk mengatur volume alarm (Tampilan Pengaturan)
+4. Acara baru menstruasi dan dermatitis (Tampilan Diary)
+5. Platform minimum sekarang iOS 15/watchOS 7.5 (untuk keandalan dan keamanan yang lebih baik)
+6. Bug diperbaiki: gambar dan simbol pada beberapa perangkat, penyimpanan video log bahkan tanpa audio, rumus interval kejang
+7. Masalah yang diketahui: pasangan iPhone dan Watch mungkin perlu direset pada beberapa perangkat ketika ada pembaruan sistem operasi.
+8. Jika Anda menyukai MirrorHR dan ingin memberikan saran, harap ketahui bahwa ulasan dan email sangat kami hargai. Temukan tautan di bagian Pengaturan.
+Terima kasih!";
+
+"supportMirrorHRTak" = "Bantu kami mengembangkan MirrorHR lebih lanjut";
+"supportMirrorHRTakDescription" = "Kami sangat menghargai bantuan apa pun agar kami dapat terus mengembangkan dan meningkatkan MirrorHR untuk mencapai setiap keluarga yang membutuhkan.";
+"OpenInBrowserLinkMsg" = "Buka di browser";
+"joinMirrorHRCommunityTask" = "Bergabung dengan Komunitas MirrorHR";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR adalah upaya yang dipimpin oleh komunitas, karena hanya bersama-sama kita dapat memiliki dampak.";
+"realTimeSessionTaskDescription" = "Menjalankan sesi pemantauan ganda akan membantu Anda memahami lebih baik bagaimana sistem ini bekerja dan bagaimana cara menyesuaikan pengaturan dengan lebih baik.";
+"videoLogTaskDescription" = "Menjaga Video Diary secara teratur, misalnya sebelum tidur, adalah cara yang bagus untuk merenungkan apa yang terjadi selama hari itu. Jika Anda menyebutkan gejala, itu juga dapat secara otomatis merekamnya. Harap diingat: anak-anak mungkin menjadi menyukai rutinitas ini :-)";
+"medicationTakenTaskDecription" = "Mengabaikan pengobatan dapat menyebabkan banyak masalah. Pastikan Anda mengatur pengingat pengobatan (di tampilan Pengaturan) dan melacak pengobatan dengan benar setiap kali.";
+"noTaskHistoryYet" = "Belum ada riwayat";
+"stepTaskCompletedOn" = "selesai pada";
+"faqCheckListPicker" = "FAQ";
+"habitsCheckListPicker" = "Kebiasaan";
+"supportCheckListPicker" = "Komunitas";
+"RefreshListText" = "Segarkan";
+"shareWithDoctorTask" = "Bagikan Data MirrorHR dengan dokter Anda";
+"shareWithDoctorTaskDescription" = "Berbagi data MirrorHR secara teratur dengan dokter Anda sangat penting. Biasakan melakukannya setidaknya seminggu sekali.";
+"exportAndShareDataCSV" = "Ekspor dan bagikan data MirrorHR (CSV)";
+"exportAndShareDataXLS" = "Ekspor dan bagikan data MirrorHR (XLS)";
+"FaqFromTheCommunity" = "Pertanyaan dan saran dari komunitas";
+"watchConnectivityFAQTask" = "Konektivitas iPhone dan Watch";
+"watchConnectivityFAQTaskDescription" = "Mengapa saya kadang-kadang mendapatkan notifikasi bahwa data tidak diterima?";
+"permissionsCheckFaq" = "Tidak dapat membaca BPM";
+"permissionsCheckFaqDescription" = "Mengapa Apple Watch tidak dapat membaca BPM dan terkunci pada 0?";
+"resetCheckListAboutButton" = "Reset checklist";
+"newBadgeText" = "baru";
+"rateMirrorHRTask" = "Bantu meningkatkan MirrorHR";
+"rateMirrorHRTaskDescription" = "Jika Anda menyukai aplikasi ini, beri bintang lima di Apple Store, atau bagikan umpan balik atau saran melalui email.";
+"thanksToBeLocalized" = "Terima kasih!";
+
+"mirrorHRUserFlowTask" = "Cara menggunakan MirrorHR";
+"mirrorHRUserFlowTaskDescription" = "Kami melakukan yang terbaik untuk membuat MirrorHR sesederhana mungkin, namun di sini Anda dapat menemukan beberapa saran tentang cara menggunakannya.";
+
+"ImportMirrorHRXLSLocalized" = "Impor File MirrorHR XLS";
+"ImportMirrorHRCSVLocalized" = "Impor File MirrorHR CSV";
+
+"mirrorHRHistoryTask" = "Kisah di balik MirrorHR";
+"mirrorHRHistoryTaskDescription" = "Mengapa MirrorHR dikembangkan? Bagaimana itu dikembangkan? Apa artinya menjadi dikembangkan oleh orangtua dan dokter untuk orangtua dan dokter?";
+
+"checkListDefaultCompletiontMsg" = "Selamat!";
+"checkListdefaultIncentiveMsg" = "Lanjutkan!";
+"telemetryChecklistProgresses" = "Kemajuan Checklist";
+"exportAndShareLastMonthBPMData" = "Ekspor dan bagikan 30 hari terakhir data BPM lengkap (CSV)";
+"knowMoreWHOTask" = "Ketahui lebih lanjut tentang Epilepsi";
+"knowMoreWHOTaskDescription" = "WHO (Organisasi Kesehatan Dunia) adalah sumber informasi yang baik tentang epilepsi.";
+
+"sympt_dermatitis" = "Dermatitis";
+"sympt_menses" = "Periode";
+
+"alarmSoundVolumeMsg" = "Volume";
+"ExportSeizuresDataOnlyMsg" = "Ekspor data kejang (CSV)";
+"Export6MonthsOfHRV" = "Ekspor enam bulan terakhir data HRV (jika tersedia) (CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "Proses ekspor data mungkin membutuhkan waktu. Jendela untuk berbagi file akan muncul sesegera mungkin.";
+
+"ImportedNElementsFromXLSLocalized" = "Gejala yang diimpor: ";
+"CanTReadTheXLSFileLocalized" = "Tidak dapat membaca file XLS";
+"CanTReadTheCSVFileLocalized" = "Tidak dapat membaca file CSV";
+"ImportCompleteLocalizedAlertTitle" = "Impor selesai";
+
+"AlertConfirmMsgText" = "Konfirmasi";
+"BtnOverwriteMsg" = "Timpa semua data";
+"BtnAppendMsg" = "Tambahkan ke data yang ada";
+"BtnCancelMsg" = "Batal";
+
+"sympt_FilterSupport" = "Filter Lanjutan";
+"exportAndShareAnonymizedDataXLS" = "Kirim data anonim";
+"appTerminatedMessage" = "MirrorHR telah ditutup dan tidak lagi dapat menerima data atau mengirim alarm!";
+"alreadyTakenString" = "Selesai";
+"minutesAgoString" = "mnt yang lalu";
+
+"therapiesNavTitle" = "Terapi";
+"newTherapyString" = "Terapi Baru";
+"newCocktailString" = "Rutinitas Baru";
+"therapySampleName" = "Nama Terapi";
+"defaultNewTherapyName" = "nama terapi";
+"defaultNewDrugName" = "nama obat";
+"newDrugString" = "Obat Baru";
+"drugShapePillDescription" = "Pil";
+"drugShapeSpoonDescription" = "Cairan";
+"drugDosesTitle" = "Dosis Obat";
+"cocktailSectionTitle" = "Rutinitas";
+"drugsSectionTitle" = "Obat-obatan";
+"therapyAlertYesNoSaveMsg" = "Apakah Anda ingin menyimpannya?";
+"missingFieldsALertMsg" = "Anda harus mengisi semua kolom terlebih dahulu";
+"reminderAtString" = "Pengingat pada: ";
+"enableReminderString" = "Aktifkan pengingat";
+"therapyUnitText" = "Satuan:";
+"therapyShapeText" = "Bentuk:";
+"therapyQuantityText" = "Kuantitas:";
+"noDrugNameText" = "Tidak ada nama obat";
+"noDrugUnitText" = "Tidak ada satuan obat";
+"noDrugShapeText" = "Tidak ada bentuk obat";
+"noCocktailNameText" = "Tidak ada nama rutinitas";
+"drugOtherShapeDescription" = "Lainnya";
+"sampleRoutineNameText" = "contoh: pagi";
+"sampleDrugNameString" = "contoh: Tegretol";
+"noReminderString" = "Tidak ada pengingat";
+"noTherapyNameString" = "Tidak ada terapi";
+"therapySessionFooterText" = "Di sini Anda dapat melacak riwayat terapi Anda";
+"therapyOnboardingHeadline" = "Di sini Anda dapat melacak riwayat terapi Anda";
+"noCurrentTherapyText" = "Tidak ada terapi saat ini";
+"currentTherapyTitleText" = "Terapi Aktual";
+"addUpdateTherapiesText" = "Tambah atau perbarui terapi";
+"editUpdateAllTherapyDB" = "Edit data terapi";
+"cantDeleteAsUsedInCurrentTherapy" = "Catatan ini tidak dapat dihapus karena digunakan oleh terapi saat ini";
+"clearAllTherapyDataMsg" = "Hapus semua data";
+"confirmDeleteAllTherapyData" = "Ini akan menghapus semua data terkait terapi";
+"navigationBackDefaultText" = "Kembali";
+"version9_50onboardingCardDescription" =
+"1. Hanya iOS 15
+2. Lebih banyak data dicatat dalam Sesi RealTime (seperti statistik bpm)
+3. Manajemen Terapi Baru
+4. Ekspor Excel sekarang menghasilkan 20 kejang terakhir dalam tab excel terpisah untuk mengekspor lebih banyak data BPM
+5. Ekspor data yang sepenuhnya anonim dalam format Excel
+6. Grafik BPM ketika diklik pada tampilan timeline dan itu adalah kejang
+7. Perbaikan videoSeizure saat menangani kejang
+8. Bahasa Ukraina, Thai, Rusia
+9. Penanganan NoData yang lebih baik (sekarang sinkronisasi status berhenti dengan jam tangan)
+10. Bunyi notifikasi ketika aplikasi ditutup
+11. Ikon pelindung aktif/nonaktif berdasarkan status pemantauan
+12. Penanganan pengingat obat yang diperbaiki
+13. Perbaikan bug
+Jika Anda menyukai MirrorHR dan ingin memberikan saran, harap ketahui bahwa ulasan dan email selalu kami nantikan. Temukan tautan di bagian Pengaturan.
+Terima kasih!
+";
+
+"helpWithLocalizationString" = "Bantu kami dalam pelokalan MirrorHR";
+
+"kidDateOfBirthString" = "Tanggal lahir anak";
+"kidAgeString" = "Usia";
+
+"AbsenceEpilepsyType" = "Kejang Absen (dulu dikenal sebagai petit mal)";
+"TonicClonicEpilepsyType" = "Kejang Tonic-Clonic atau konvulsif (dulu dikenal sebagai grand mal)";
+"AtonicEpilespyType" = "Kejang Atonik (juga dikenal sebagai serangan jatuh)";
+"ClonicEpilepsyType" = "Kejang Klonik";
+"TonicEpilepsyType" = "Kejang Tonic";
+"MyoclonicEpilepsyType" = "Kejang Mioklonik";
+"FocalAwarenessEpilepsyType" = "Kejang Fokal dengan kesadaran terjaga";
+"FocalNotAwareEpilepsyType" = "Kejang Fokal dengan kehilangan kesadaran";
+"UnknownEpilepyType" = "Tidak diketahui";
+"epilepsyTypeString" = "Jenis Epilepsi";
+
+"firstRunWatchAlertMsg" = "Pertama kali menjalankan MirrorHR di Apple Watch, pastikan memberikan izin untuk mengakses data kesehatan";
+
+"tabCommunity" = "Komunitas";
+"CommunityNavigationTitle" = "Komunitas";
+"firstRunWatchAlertMsg" = "Ketika pertama kali menjalankan MirrorHR di Apple Watch, pastikan memberikan izin untuk mengakses data kesehatan";
+"firstRunWatchAlertMsgExtended" = "Ketika pertama kali menjalankan MirrorHR di Apple Watch, pastikan memberikan izin untuk mengakses data kesehatan. Jika masalah masih berlanjut, cara termudah adalah dengan menghapus instalasi MirrorHR dari ponsel dan Apple Watch, lalu menginstal ulang dan perhatikan saat pertama kali MirrorHR dijalankan di Apple Watch.";
+"tabCommunityTitle" = "Komunitas";
+"askForHelpChecklist" = "Minta Bantuan";
+"askForHelpChecklistDescription" = "Butuh bantuan? Hubungi kami dan kami akan melakukan yang terbaik untuk membantu Anda. Namun, mungkin ada perbedaan beberapa jam dengan zona waktu Anda. Anda juga dapat mengirim email langsung ke helpme@mirrorhr.org";
+"permissionsCheckFaq" = "Apple Watch tidak dapat membaca detak jantung Anda";
+"permissionsCheckFaqDescription" = "Mengapa MirrorHR di Apple Watch selalu menampilkan 0 BPM, bahkan setelah beberapa menit aplikasi berjalan?";
+
+"nightViewCardTitle" = "Tampilan Malam";
+"nightViewCardHeadline" = "MirrorHR tidak pernah tidur";
+"nightViewCardDescription" = "Ketika pemantauan detak jantung aktif, Anda dapat mengaktifkan mode malam dengan hanya memutar ponsel ke posisi horizontal. Kecerahan layar akan diturunkan, dan hanya informasi esensial yang ditampilkan. Selain itu, MirrorHR akan mencegah ponsel mati, memungkinkan Anda untuk memantau situasi dengan sekilas. Disarankan untuk menjaga ponsel tetap terhubung ke daya selama malam. Catatan: Jika Anda telah memperbarui ke iOS 17, disarankan untuk menonaktifkan fitur StandBy dari pengaturan iPhone Anda. ";
+
+"startFromWatchCardTitle" = "Mulai dari Apple Watch";
+"startFromWatchCardHeadline" = "Mulai pemantauan dari MirrorHR di Apple Watch";
+"startFromWatchCardDescription" = "Untuk menjaga privasi dan keamanan, pemantauan harus dimulai dari aplikasi MirrorHR di Apple Watch. Ketika pemantauan aktif, dapat dihentikan oleh iPhone, atau bahkan diaktifkan kembali dalam waktu 15 menit, setelah itu harus dimulai dari Apple Watch.";
+"sympt_toothache" = "Sakit gigi";
+"rebootWatchCardTitle" = "Restart Apple Watch Anda";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "Pastikan MirrorHR diperbarui ke versi terbaru di Apple Watch Anda juga. Kadang-kadang membutuhkan beberapa menit, dan untuk memastikan semuanya berfungsi dengan baik, disarankan untuk mematikan dan menghidupkan kembali Apple Watch Anda dengan menahan tombol samping di bawah crown, seperti dalam gambar.";
+"doctorsEmailString" = "Email dokter:";
+"minutesString" = "menit";
+
+"version9_60onboardingCardDescription" = "Selamat datang di versi 9.60 dari MirrorHR Epilepsy Research Kit: lebih mudah digunakan dan penuh dengan fitur.
+MirrorHR adalah aplikasi gratis, aman, dan pribadi yang dikembangkan oleh orang tua dan dokter untuk orang tua dan dokter.
+Beberapa fitur, seperti pemantauan detak jantung secara real-time dan alarm, membutuhkan Apple Watch (berjalan pada WatchOS 8+) yang terhubung dengan iPhone (berjalan pada iOS 15+). Namun, jika Anda tidak memiliki Apple Watch, aplikasi ini tetap sangat bermanfaat untuk mencatat semua peristiwa dan gejala serta mempromosikan komunikasi yang lebih baik dengan dokter Anda.
+MirrorHR bukanlah alat medis, juga tidak bermaksud menjadi satu: tujuannya hanya membantu Anda mempelajari lebih banyak tentang epilepsi orang yang Anda cintai bersama dengan dokter Anda.
+
+Di antara inovasi signifikan dalam versi ini:
+1. Pengendalian Apple Watch yang lebih baik untuk pengelolaan pemantauan real-time.
+2. Peningkatan ekspor data ke Excel untuk memudahkan berbagi data dengan dokter Anda.
+3. Kemungkinan untuk memasukkan email prakonsultasi dengan data kejang epilepsi terakhir.
+4. Gejala baru yang tersedia dalam catatan harian, dan sekarang memungkinkan memasukkan durasi yang tepat dari suatu gejala atau peristiwa.
+5. Perbaikan beberapa bug dan peningkatan kinerja.
+
+Kami juga mengingatkan Anda bahwa MirrorHR benar-benar anonim, dan data hanya berada di ponsel Anda.
+Pemantauan real-time memerlukan pairing dengan Apple Watch.
+Setelah pembaruan, kami sarankan untuk me-restart Apple Watch untuk memastikan bahwa dua aplikasi (di iPhone dan Apple Watch) terhubung dengan benar.
+
+Terima kasih khusus kepada dua ibu super yang terus memberikan saran bagi kami untuk meningkatkan MirrorHR: terima kasih banyak, Stefania dan Elena. #NeverStopFighting
+
+Jika Anda ingin membantu kami membuat MirrorHR Epilepsy Research Kit menjadi lebih berguna, silakan hubungi kami di helpme@mirrorhr.org dan berikan ulasan di Apple App Store.
+
+Terima kasih atas kontribusi Anda dalam penelitian epilepsi bersama.";
+
+"backupSymptomsDataString" = "Cadangan Gejala";
+"restoreSymptomsDataString" = "Pulihkan gejala dari cadangan";
+
+"AttentionRiskyWorkInProgressMessage" = "SEDANG DALAM PROSES.\n\nHARAP TUNGGU DI SINI DAN JAGA MIRRORHR AKTIF ATAU MUNGKIN MENJADI TIDAK STABIL";
+
+"WhatsNew9_70_Title1" = "Mendapatkan Kendali";
+"WhatsNew9_70_SubTitle1" = "Fitur cadangan dan pemulihan baru";
+"WhatsNew9_70_Body1" = "Data selalu aman dan sepenuhnya dalam kendali Anda. Klik pada ikon ekspor di Tampilan Diary untuk melihat pilihan baru.";
+
+"WhatsNew9_70_Title2" = "Apa yang baru";
+"WhatsNew9_70_SubTitle2" = "Halaman ini";
+"WhatsNew9_70_Body2" = "Cara yang lebih mudah untuk melihat pembaruan terbaru";
+
+"WhatsNew9_70_Title3" = "Perbaikan Bug";
+"WhatsNew9_70_SubTitle3" = "Beberapa bug";
+"WhatsNew9_70_Body3" = "MirrorHR lebih dapat diandalkan dari sebelumnya. Terima kasih atas umpan balik yang berkelanjutan";
+
+"NotifyRTEndTitleMsg" = "Sesi Real Time berakhir";
+"NotifyRTEndCaptionMsg" = "Menampilkan notifikasi saat sesi Real Time dihentikan. Ini dapat membantu mencegah penghentian secara tidak sengaja";
+"NoDataEventStringV2" = "Saya tidak dapat menerima data dari Apple Watch!";
+"NoDataEventCaptionV2" = "Harap periksa apakah iPhone dan Apple Watch terhubung dan dapat dijangkau. Jika masalah masih berlanjut, harap restart.";
+"NoDataReceivedStringV2" = "Saya belum menerima data dari Apple Watch selama lebih dari ";
+
+"TelemetryLocalizedSymptomsLogged" = "Gejala";
+"TelemetryLocalizedBpmMinMax" = "BPM ambang batas";
+"TelemetryLocalizedMedicationReminders" = "Pengingat obat";
+"TelemetryLocalizedCheckList" = "Progres Checklist";
+"TelemetryLocalizedDateOfBirth" = "Usia";
+"TelemetryLocalizedEpilepsyType" = "Tipe Epilepsi";
+"TelemetryLocalizedMirrorHRError" = "Error Aplikasi";
+"TelemetryLocalizedMonitoringSession" = "Sesi Pemantauan";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "Apakah Anda ingin berhenti menerima pemberitahuan untuk kesalahan kritis?";
+
+//Streaming-related stuff
+"YouMustHaveWatchOrStreamingMain" = "Untuk memiliki monitor detak jantung secara real-time, menerima alarm, dan banyak fitur lainnya, Anda perlu memiliki Apple Watch yang dipasangkan dengan iPhone ini.";
+
+"YouMustHaveWatchOrStreamingSecondary" = "Sebagai alternatif, Anda dapat menerima data dari iPhone lain yang dipasangkan dengan Apple Watch dan terhubung ke jaringan yang sama.";
+
+"IGetDataFromAnotherPhoneInLan" = "Saya bisa mendapatkan data dari iPhone lain yang menjalankan MirrorHR yang dipasangkan dengan Apple Watch";
+
+"HealthDataSourceSettingsView" = "Sumber data kesehatan";
+
+"EnableStreamingSettingsView" = "Aktifkan streaming";
+
+"StreamingSectionFooterIntro" = "Anda harus memiliki iPhone yang dipasangkan dengan Apple Watch untuk mengaktifkan pemantauan real-time, alarm, dll.
+Jika Anda memiliki iPhone lain (maksimal 3) tanpa Apple Watch, Anda dapat mengirimkan data kepada mereka jika semua terhubung ke jaringan wi-fi yang sama (misalnya, rumah besar, anak-anak di ruangan lain dengan aplikasi MirrorHR utama di iPhone mereka dan Apple Watch, dll.).";
+
+"StreamingSectionAlertMsg" = "Semua iPhone harus memiliki MirrorHR terinstal dan flag streaming diaktifkan. Perangkat yang terhubung dengan Apple Watch akan mengirimkan data, sementara perangkat lainnya akan menerimanya. Harap dicatat: MirrorHR harus berjalan di latar belakang pada kedua perangkat. Jika koneksi terputus, Anda harus melakukan prosedur koneksi ulang di Tampilan RealTime. Jika Anda membutuhkan bantuan dengan fitur ini, jangan ragu untuk mengirim email ke helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "Streaming waktu nyata";
+"StreamingConnectedTo" = "Terhubung dengan:";
+"NotConnectedToAnyStream" = "Tidak terhubung dengan streaming apa pun";
+"StreamingReceivingDataFrom" = "Menerima data dari:";
+"StreamingSendingDataTo" = "Mengirim data ke:";
+"CheckStreamingUnderstandAlert" = "Periksa pemahaman streaming";
+"PairedWithAppleWatchView" = "Dipasangkan dengan Apple Watch";
+
+"CiaoSettingsGreeting" = "Halo";
+"FrequentlyAskedQuestionsSeparator" = "Pertanyaan yang Sering Diajukan (FAQ)";
+
+"sympt_aura" = "Aura";
+"version10_5_WhatsNewDescription" = "1. Pengalaman pengguna yang disederhanakan dan gejala baru.
+2. Perbaikan beberapa bug.
+Jika Anda menyukai MirrorHR dan ingin memberikan saran, harap diketahui bahwa ulasan dan email selalu kami nantikan. Temukan tautan di bagian Pengaturan.
+Terima kasih! ";
+
+"InformazioniPersonaliHeader" = "Informasi pribadi";
+
+"healthPermissionsFAQTask" = "Cara memperbaiki izin pada Apple HealthKit.";
+"cantWorkWithoutHealthAccessMessage" = "Maaf, saya tidak dapat bekerja tanpa mengakses data kesehatan. Jika ini adalah kesalahan, harap periksa opsi dukungan di Aplikasi MirrorHR di iPhone atau menginstal ulang MirrorHR.";
+"healthAccessErrorMessage" = "Terjadi kesalahan dalam membaca data kesehatan dari Apple HealthKit. Harap periksa opsi dukungan di Aplikasi MirrorHR di iPhone.";
+"GrantAllPermissionsCarefullyMessage" = "Beri izin untuk membaca data kesehatan.";
+"GrantAllPermissionsCarefullyMessagePart2" = "Harap perhatikan bahwa jika Anda membatalkan proses atau menolak beberapa izin, MirrorHR tidak akan dapat berfungsi sama sekali.";
+"TapHereToHandleMsg" = "Ketuk di sini untuk menanganinya.";
+"YouAreInStreamingMode" = "MirrorHR diatur untuk menerima data dari perangkat lain yang dipasangkan dengan Apple Watch. Dalam mode ini, Anda memiliki kemampuan dan pilihan terbatas.";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "Saya ingin berhenti menerima data dari perangkat lain dan melihat semua opsi.";
+"ItWillStopCurrentSessionMsg" = "Catatan: ini akan menghentikan sesi saat ini.";
+
+"MirrorHRLeveragesBPMHeadline" = "Studi klinis telah menunjukkan bahwa lebih dari 70% orang dengan epilepsi mengalami peningkatan detak jantung yang cepat dalam hitungan detik setelah kejang dimulai. MirrorHR terus memantau detak jantung (BPM) melalui Apple Watch, dan Anda dapat mengatur alarm untuk memeriksa kondisi tertentu. Jika Anda tidak memiliki Apple Watch, semua dokter merekomendasikan untuk mencatat semua gejala dan peristiwa dalam catatan harian, dan dalam hal ini MirrorHR dapat membantu Anda.";
+"AlarmOnboardingCardHeadline" = "Di sini Anda dapat mengatur ambang batas detak jantung (BPM) untuk menerima alarm. Pastikan Anda tidak menggandakan pemberitahuan di Apple Watch, atau Anda mungkin tidak akan menerima alarm. Fitur ini memerlukan iPhone dipasangkan dengan Apple Watch.";
+"CanTEarAlarmSoundGoBackMsg" = "Jika Anda belum menerima pemberitahuan alarm uji, harap kembali ke layar sebelumnya dan pastikan Anda telah mengikuti semua langkah. Jika Anda membutuhkan dukungan, jangan ragu untuk mengirim email ke helpme@mirrorhr.org";
+
+"ItRequiresPermissionsAPopUpWillShow" = "Akan muncul pop-up yang meminta izin untuk membaca data kesehatan dari Apple Watch jika Anda mengaktifkan fitur ini. Harap berikan semua izin yang diperlukan.";
+"HealthDataUnavailableErrorMsg" = "Data kesehatan yang diperlukan tidak tersedia di perangkat ini. Harap periksa opsi dukungan.";
+"QuantityTypeUnavailableErrorMsg" = "Tipe kuantitas kesehatan yang diperlukan tidak tersedia di perangkat ini. Harap periksa opsi dukungan.";
+"DataTypeUnavailableErrorMsg" = "Tipe data kesehatan yang diperlukan tidak tersedia di perangkat ini. Harap periksa opsi dukungan.";
+"HealthPermissionsNotGrantedErrorMsg" = "Anda belum memberikan izin yang diperlukan untuk membaca data kesehatan dari Apple HealthKit. Sayangnya, MirrorHR tidak dapat berfungsi tanpanya. Jika ini tidak disengaja, harap periksa untuk menghubungi kami di helpme@mirrorhr.org, atau coba hapus dan instal ulang MirrorHR dari Apple Store.";
+
+"AskNotificationPermissionsMsg" = "Berikan izin untuk mengirim pemberitahuan dan pemberitahuan kritis (mereka akan muncul bahkan saat iPhone dalam mode senyap).";
+
+"AcceptingConditionsByContinuingMsg" = "Dengan melanjutkan penggunaan MirrorHR, saya mengkonfirmasi bahwa saya telah membaca dan memahami hal di atas, menerima syarat dan ketentuan.";
+"SwipeRightToContinueSetupMsg" = "Geser ke kanan untuk melanjutkan pengaturan.";
+"StopUsingMirrorHRContactUsMsg" = "Jika Anda tidak setuju, harap berhenti menggunakan MirrorHR. Jika Anda membutuhkan informasi apa pun, hubungi kami melalui email di helpme@mirrorhr.org.";
+
+"AboutYouPersonalSettingsSection" = "Tentang Anda";
+"SettingsSettingsSection" = "Pengaturan";
+"MedicalPlanSettingsSection" = "Rencana Medis";
+"AboutMirrorHRSettingsSection" = "Tentang MirrorHR";
+
+"sympt_ask4Help" = "Minta Bantuan";
+"remoteNotificationsSettingsTitleMsg" = "Pelindung";
+"remoteNotificationsCaregiversFooter" = "Pelindung dapat membagikan ID mereka kepada pasien dengan mengirimkan tautan (melalui WhatsApp, SMS, atau metode lainnya). Ketika pasien membuka tautan, mereka dapat mendaftarkan pelindung untuk menerima pemberitahuan untuk setiap gejala yang dicatat atau alarm. Keduanya harus memiliki MirrorHR terinstal dan dikonfigurasi. Anda dapat memiliki beberapa pelindung.";
+"yourUniqueIDText" = "ID Unik Anda:";
+"shareYourIDCaregiverMsg" = "Bagikan ID Anda kepada pasien, sehingga Anda dapat menjadi pelindung dan menerima pemberitahuan untuk gejala yang dicatat atau alarm.";
+"shareYourIDBtnMsg" = "Bagikan ID pasien Anda dengan pengasuh, agar Anda dapat mengirim notifikasi untuk gejala, alarm, dll.";
+"caregiversListMsg" = "Berikut adalah Pelindung Anda saat ini yang dapat menerima pemberitahuan dari Anda.";
+"uUIDMsg" = "ID unik Anda, anonim:";
+"saveSymptomInDiaryMsg" = "Simpan Gejala dalam catatan harian";
+"remoteNotificationMsg" = "Pemberitahuan Jarak Jauh:";
+"sympt_AlarmFired" = "Alarm berbunyi";
+"stopReceivingNotificationsFor15Mins" = "Berhenti menerima pemberitahuan selama 15 menit.";
+"event_RealTimeSessionStarted" = "Sesi waktu nyata dimulai";
+"tryPushNotificationBtnLabel" = "Coba notifikasi";
+"testRemoteNotifications" = "Ini adalah tes";
+
+"version11_WhatsNewDescription" = "Memperkenalkan fitur baru besar: pemantauan jarak jauh untuk pengasuh. Sekarang dimungkinkan untuk mengirim notifikasi jarak jauh ke aplikasi MirrorHR yang diinstal di iPhone pengasuh. Fitur ini dapat dikonfigurasi di tab pengaturan dan juga memungkinkan pengiriman notifikasi 'Minta bantuan' dari tab Diary, atau melalui widget baru di layar utama iPhone.
+
+Jika Anda menghargai MirrorHR dan ingin memberikan umpan balik atau saran, harap ketahui bahwa ulasan dan email selalu diterima. Anda dapat menemukan tautan di bagian Pengaturan. Terima kasih!";
+
+"alarmSentMsg" = "Alarm Terkirim";
+"stopCountdownMsg" = "Hentikan hitungan mundur";
+"stoppedMsg" = "Berhenti";
+
+"TabHome" = "Beranda";
+"NextMedication" = "Obat berikutnya";
+"RemindersLink" = "Pengingat";
+"QuickNotesMsg" = "Catatan cepat";
+"savedBtnMsg" = "Tersimpan";
+"RemindersNotSet" = "Pengingat belum diatur";
+"TherapiesNotSet" = "Terapi belum diatur";
+"ThisWeekMedicationAtGlance" = "Obat minggu ini";
+"SinceLastSeizureString" = "sejak kejang terakhir pada";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "Selamat datang di Versi 14 MirrorHR - Kit Penelitian Epilepsi! Kami sangat senang untuk mengungkap tab Home yang telah direnovasi, membawa informasi penting langsung ke ujung jari Anda. Mencatat event kunci, melacak obat dan terapi, serta membuat catatan cepat kini menjadi lebih mudah. Dengan MirrorHR, dapatkan wawasan yang lebih jelas tentang manajemen epilepsi Anda, mendorong diskusi yang lebih baik dengan penyedia layanan kesehatan Anda. Umpan balik berharga dari Anda telah mengarah pada peningkatan performa dan perbaikan bug, membuat aplikasi berjalan lebih lancar dari sebelumnya.
+
+Menyukai MirrorHR? Ulasan dan umpan balik Anda sangat penting untuk menyempurnakan pengalaman. Jangan ragu untuk meninggalkan ulasan atau mengirimkan email kepada kami dengan saran Anda. Temukan tautan di bagian Pengaturan. Terima kasih atas dukungan berkelanjutan Anda!";
+
+"MoodMsg" = "Suasana hati";
+"sympt_mood_happy" = "Senang";
+"sympt_mood_calm" = "Tenang";
+"sympt_mood_sad" = "Sedih";
+"sympt_mood_angry" = "Marah";
+"sympt_mood_anxious" = "Cemas";
+
+"AppreciateDonationsMsg" = "MirrorHR akan selalu gratis. Namun, kami sangat menghargai donasi apa pun untuk mendukung pengembangannya, jika Anda bisa. Terima kasih.";
+"ThankYouForDonationMsg" = "Terima kasih atas donasi Anda! Sangat kami hargai!";
+"DonationFailedMsg" = "Donasi gagal! Anda dapat mencoba lagi nanti. Terima kasih.";
+"DonationCancelledMsg" = "Donasi telah dibatalkan. Anda dapat mencoba lagi nanti. Terima kasih.";
+"UnknownDonationStatusMsg" = "Status donasi tidak diketahui. Anda dapat mencoba lagi nanti. Terima kasih.";
+
+"sympt_Myoclonic_Trembling" = "Gemetar Mioklonik";
+
+"EnableLocalStreaming" = "Aktifkan streaming lokal";
+"EnableReceivingRemoteStreaming" = "Aktifkan penerimaan data melalui Internet";
+"EnableReceivingRemoteStreamingFooter" = "Jika Anda seorang pengasuh, Anda dapat menerima BPM dan pemberitahuan dari MirrorHR jarak jauh. Diperlukan hubungan orang tua/pengasuh dan konektivitas internet. Data dapat tertunda karena kondisi jaringan, dan BPM dapat dikirimkan sesegera mungkin.";
+
+// Versi 15 - Juli 2024
+
+"CreateMirrorHRBckTitle" = "Buat Cadangan MirrorHR";
+"BackupRestoredMsg" = "Cadangan Dipulihkan";
+"RestoreBackupMsg" = "Pulihkan Cadangan";
+"ConfirmRestoreMsg" = "Konfirmasi Pemulihan";
+"ProcessingMsg" = "Sedang Memproses...";
+"ConfirmRestoreMessageExt" = "Apakah Anda yakin ingin memulihkan cadangan? Ini akan menimpa data yang ada.";
+"RestoreOnlyMsg" = "Pulihkan";
+"RestoreCompleteSuccessMsg" = "Pemulihan berhasil diselesaikan.";
+"RestoreFailureMsg" = "Pemulihan gagal dengan kesalahan: ";
+"BackupErrorSorryMsg" = "Maaf, saya tidak dapat memulihkan Cadangan MirrorHR";
+"SwitchedActivePatientBecauseSeverEvent" = "Pasien Aktif diganti untuk menangani peristiwa parah yang baru saja diterima. Mulai menerima BPM.";
+"SameEventsMsg" = "Peristiwa yang Sama";
+"HandlingRemoteCommandMsg" = "Menangani Perintah Jarak Jauh: ";
+"event_realTimeSessionEnded" = "Sesi RealTime berakhir";
+"RealTimeRemoteActiveMsg" = "RealTime aktif di MirrorHR jarak jauh.";
+"RealTimeRemoteOffMsg" = "RealTime MATI di MirrorHR jarak jauh.";
+"RemoteRealtimeUnkwongMsg" = "Status RealTime TIDAK DIKETAHUI di MirrorHR jarak jauh.";
+"RemoteNoPatientSelectedMsg" = "Tidak ada pasien yang dipilih sebagai MirrorHR jarak jauh";
+"RemoteFetchingDataMsg" = "Mengambil data dari MirrorHR jarak jauh";
+"RemoteNoDataKeyMsg" = "Tidak menerima data dari MirrorHR jarak jauh";
+"RemoteNoDataCaptionMsg" = "Mungkin tidak ada koneksi internet atau sesi waktu nyata mungkin tidak aktif di MirrorHR jarak jauh";
+"RemoteMustHaveWatchInfoMsg" = "Anda harus memiliki Apple Watch yang dipasangkan atau aplikasi MirrorHR lain yang mengalirkan data. Anda dapat memeriksa semua opsi di tab Pengaturan, bagian Sumber data Kesehatan.";
+"RemoteCheckStatusActiveMsg" = "Periksa status jarak jauh";
+"RemoteCheckingStatusDisabledMsg" = "Memeriksa ...";
+"RemoteRunningMsgMaxTime" = "Terima BPM dari MirrorHR jarak jauh (maks. 5 menit)";
+"RemoteRealTimeIsNotRunningMsg" = "RealTime tidak berjalan di MirrorHR jarak jauh";
+"RemoteTryReceivingBpmsMsg" = "Mari coba menerima BPM dari MirrorHR jarak jauh";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Menerima BPM dari MirrorHR jarak jauh (hanya beberapa menit)";
+"RemoteStreamingOptionsSettingsMsg" = "Anda dapat mengatur beberapa opsi streaming di Pengaturan - Sumber Data Kesehatan";
+"RemoteConnectedAndReceivingMsg" = "Terhubung ke Internet dan menerima data dari:";
+"RemoteNoPatientAssociatedMsg" = "Tidak ada pasien yang terkait";
+"RemoteSelectActivePatientMsg" = "Pilih dan aktifkan Pasien";
+"RemoteThereIsNoInternetConnectionMsg" = "TIDAK ada Koneksi Internet";
+"RemoteConnectedToInternetMsg" = "Terhubung ke Internet";
+"RemoteSendingDataToMsg" = "Mengirim data ke:";
+"RemoteNoCaregiverAssociatedMsg" = "Tidak ada pengasuh yang terkait";
+"BackupAndRestoreHeaderMsg" = "Cadangkan dan Pulihkan";
+"LocalNotificationsHeaderMsg" = "Pemberitahuan Lokal";
+"RemoteNotificationsHeaderMsg" = "Pemberitahuan Jarak Jauh";
+"RemoteActivePatientsHeaderMsg" = "Pasien Aktif";
+"Ask4HelpNeedsYourHelpMsg" = "membutuhkan bantuan Anda!";
+"RemoteNotificationTitleMsg" = "Pemberitahuan Jarak Jauh";
+"LocationServicesLocalized" = "Layanan Lokasi";
+"RemoteDiaryOnlyDataSourceTitle" = "Hanya Buku Harian";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Dipadukan dengan Apple Watch dan mengirim peristiwa utama ke pengasuh melalui Internet";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Dipadukan dengan Apple Watch dan mengirim peristiwa utama dan BPM ke pengasuh melalui Internet";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Menerima peristiwa utama dari MirrorHR lain melalui Internet";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Menerima peristiwa utama dan BPM dari MirrorHR lain melalui Internet";
+"RemotePotentialOnboardingRestartMsg" = "Onboarding mungkin akan dimulai ulang untuk konfigurasi yang tepat dari beberapa pengaturan baru.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Tidak ada Apple Watch yang tersedia. MirrorHR berfungsi hanya sebagai buku harian. Tidak ada sumber data biometrik yang diaktifkan, tidak ada alarm yang tersedia.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR langsung dipadukan dengan Apple Watch dan dapat menerima data biometrik. Alarm lokal dan pemberitahuan diaktifkan.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR dipadukan dengan Apple Watch dan dapat mengirim peristiwa utama ke pengasuh melalui Internet, sebagai pemberitahuan. Pengasuh harus menjalankan MirrorHR dan dikonfigurasi untuk menerima peristiwa ini. Mungkin ada penundaan dalam pemberitahuan ini.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR dipadukan dengan Apple Watch dan dapat mengirim peristiwa utama dan BPM ke pengasuh melalui Internet. Pengasuh harus menjalankan MirrorHR dan dikonfigurasi untuk menerima peristiwa dan BPM ini. Mungkin ada penundaan dalam pemberitahuan ini.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR tidak terhubung langsung ke Apple Watch, tetapi dapat menerima peristiwa utama dari MirrorHR lain yang dipadukan dengan Apple Watch, melalui Internet. Mungkin ada penundaan dalam menerima pemberitahuan ini.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR tidak terhubung langsung ke Apple Watch, tetapi dapat menerima peristiwa utama dan BPM dari MirrorHR lain yang dipadukan dengan Apple Watch, melalui Internet. Mungkin ada penundaan dalam menerima pemberitahuan ini, dan MirrorHR harus berada di latar depan untuk memastikan BPM diterima.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR tidak aktif di iPhone jarak jauh";
+"RemoteStopReceivedFromPatientMsg" = "Perintah berhenti RealTime diterima dari pasien jarak jauh";
+"RemoteNoDataFromTheInternetMsg" = "Tidak ada data yang diterima dari pasien jarak jauh";
+
+"version15_WhatsNewDescription" = "Selamat datang di Versi 15 MirrorHR - Epilepsy Research Kit! Kami sangat senang memperkenalkan sistem pemantauan jarak jauh penuh kami, meningkatkan otonomi untuk anak-anak dan orang terkasih kami. Selain mencatat acara utama, melacak obat dan terapi, Anda sekarang dapat menerima pemberitahuan jarak jauh untuk semua aktivitas ini, termasuk alarm dan BPM, bahkan dari jarak bermil-mil. Fitur ini mengharuskan pasien memakai Apple Watch yang dipasangkan dengan iPhone yang menjalankan MirrorHR, sementara Anda, sebagai pengasuh, hanya membutuhkan MirrorHR di iPhone Anda.
+
+Seperti biasa, MirrorHR membantu Anda mendapatkan wawasan yang lebih jelas tentang manajemen epilepsi, mendorong diskusi yang lebih baik dengan penyedia layanan kesehatan Anda. Masukan Anda yang sangat berharga telah menghasilkan peningkatan kinerja dan perbaikan bug, menjadikan aplikasi lebih lancar dari sebelumnya.
+
+Mencintai MirrorHR? Ulasan dan umpan balik Anda sangat penting untuk menyempurnakan pengalaman. Jangan ragu untuk meninggalkan ulasan atau mengirimkan email kepada kami dengan saran Anda. Temukan tautannya di bagian Pengaturan. Terima kasih atas dukungan Anda yang berkelanjutan!";

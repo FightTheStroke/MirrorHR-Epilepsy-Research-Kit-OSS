@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Ứng dụng này";
+
+// Trạng thái ủy quyền
+"NotDeterminedLocalized" = "Chưa xác định";
+"DeniedLocalized" = "Bị từ chối";
+"AuthorizedLocalized" = "Được ủy quyền";
+"UnknownLocalized" = "Không xác định";
+"NotAvailableLocalized" = "Không có sẵn";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Lỗi Trình quản lý quyền: loại quyền không tồn tại";
+
+// Tên quyền
+"CameraLocalized" = "Máy quay phim";
+"CriticalNotificationsLocalized" = "Thông báo quan trọng";
+"NotificationsLocalized" = "Thông báo";
+"HealthDataLocalized" = "Dữ liệu sức khỏe";
+"MicrôLocalized" = "Micrô";
+"SpeechRecognitionLocalized" = "Nhận dạng giọng nói";
+
+// Tin nhắn
+"OKMessageLocalized" = "Cảm ơn!";
+"RecoveryMsgLocalizePart1" = "Vui lòng vào cài đặt iPhone và tìm kiếm";
+"DescriptionMsgPart1" = "Đang kích hoạt";
+"DescriptionMsgPart2" = "cần thiết để ứng dụng này hoạt động bình thường.";
+"NoOkMessagePart1" = "Bạn không cấp quyền truy cập";
+"NoOkMessagePart2" = "và vì vậy tôi không thể làm việc chính xác. Tôi xin lỗi.";
+"RecoveryMsgLocalizePart2" = "và cấp tất cả các quyền cần thiết. Xin cảm ơn.";
+
+// Kiểm tra Xem
+"AuthCheckPointTitle" = "Kiểm tra ủy quyền";
+"GrantItBtnLabel" = "Cấp cho nó";
+"SomeMissingAuthNeeded" = "Một số ủy quyền vẫn cần thiết để ứng dụng hoạt động chính xác. Vui lòng cấp tất cả. Nếu bạn cần bất kỳ trợ giúp nào, hãy gửi email tới:";
+
+// Bắt buộc
+"MandatoryMsg" = "Bắt buộc";
+// Dẫn đường
+"SkipMsgText" = "Bỏ qua";
+"LocationServicesLocalized" = "Dịch vụ vị trí";

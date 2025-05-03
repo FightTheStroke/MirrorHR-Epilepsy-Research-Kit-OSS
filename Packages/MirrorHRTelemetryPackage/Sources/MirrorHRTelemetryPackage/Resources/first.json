@@ -1,0 +1,96 @@
+{
+  "sessionID": "1ACF4D51-C3C7-4CFE-8D04-CC5B674088F4",
+  "userID": "C9634690-975E-48FF-A71B-2999DFBF319C",
+  "sessionStats": {
+    "lightSleepPerc": 0,
+    "seizuresCnt": 0,
+    "keyFlowThresholds": {
+      "minBatteryLevelForNotification": 15,
+      "lightSleepMax": 94,
+      "alarmMin": 40,
+      "alarmMax": 135,
+      "shouldFireNoData": true,
+      "shouldFireLowBattery": true,
+      "triageDeltaTimeBeforeFireAlarm": 0,
+      "deepSleepMax": 80,
+      "maxIntervalWithoutData": 60,
+      "warningMax": 130,
+      "warningMin": 45
+    },
+    "bpmsCount": 13,
+    "deepSleepPerc": 100,
+    "minBpm": 58,
+    "sumBpms": 773,
+    "healthQuantities": {
+      "quantityValues": []
+    },
+    "deepSleepCnt": 13,
+    "alarmsCnt": 0,
+    "warningPerc": 0,
+    "endDate": 682097889.988119,
+    "warningCnt": 0,
+    "maxBpm": 61,
+    "avgBpm": 59,
+    "falseAlarmsCnt": 0,
+    "alarmPerc": 0,
+    "startDate": 682097831.533524,
+    "lightSleepCnt": 0,
+    "awakePerc": 0,
+    "stdDeviation": 1.224744871391589,
+    "awakeCnt": 0
+  },
+  "dataSeries": [
+    {
+      "date": 682097832.496652,
+      "bpm": 60
+    },
+    {
+      "date": 682097837.546869,
+      "bpm": 59
+    },
+    {
+      "date": 682097842.544175,
+      "bpm": 58
+    },
+    {
+      "date": 682097847.537574,
+      "bpm": 61
+    },
+    {
+      "date": 682097852.555629,
+      "bpm": 61
+    },
+    {
+      "date": 682097857.538868,
+      "bpm": 58
+    },
+    {
+      "date": 682097862.528459,
+      "bpm": 58
+    },
+    {
+      "date": 682097866.535065,
+      "bpm": 59
+    },
+    {
+      "date": 682097870.550855,
+      "bpm": 60
+    },
+    {
+      "date": 682097874.54223,
+      "bpm": 60
+    },
+    {
+      "date": 682097878.589384,
+      "bpm": 59
+    },
+    {
+      "date": 682097883.54476,
+      "bpm": 61
+    },
+    {
+      "date": 682097888.523734,
+      "bpm": 59
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1610"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A93DCDA724472C1E00D2722D"
+               BuildableName = "Epilepsy Research Kit.app"
+               BlueprintName = "Epilepsy Research Kit"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A9942FD92804698D0078F8F5"
+               BuildableName = "Epilepsy Research KitTests.xctest"
+               BlueprintName = "Epilepsy Research KitTests"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A9942FE628046A060078F8F5"
+               BuildableName = "Epilepsy Research KitUITests.xctest"
+               BlueprintName = "Epilepsy Research KitUITests"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2475F42824AA40D7002730C9"
+               BuildableName = "Epilepsy Research Kit Tests.xctest"
+               BlueprintName = "Epilepsy Research Kit Tests"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A9942FD92804698D0078F8F5"
+               BuildableName = "Epilepsy Research KitTests.xctest"
+               BlueprintName = "Epilepsy Research KitTests"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A9942FE628046A060078F8F5"
+               BuildableName = "Epilepsy Research KitUITests.xctest"
+               BlueprintName = "Epilepsy Research KitUITests"
+               ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "EpilepsyResearchKitUITestsLaunchTests">
+               </Test>
+               <Test
+                  Identifier = "EpilepsyResearchKitUITestsLaunchTests/testLaunch()">
+               </Test>
+               <Test
+                  Identifier = "PermissionsManager">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MirrorHRTelemetryPackageTests"
+               BuildableName = "MirrorHRTelemetryPackageTests"
+               BlueprintName = "MirrorHRTelemetryPackageTests"
+               ReferencedContainer = "container:Packages/MirrorHRTelemetryPackage">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "MirrorHRTelemetryPackageTests/testAlamoGetV1()">
+               </Test>
+               <Test
+                  Identifier = "MirrorHRTelemetryPackageTests/testPOSTJSONAsURL()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "RoberdanToolBoxTests"
+               BuildableName = "RoberdanToolBoxTests"
+               BlueprintName = "RoberdanToolBoxTests"
+               ReferencedContainer = "container:Packages/RoberdanToolbox">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "StreamingTests"
+               BuildableName = "StreamingTests"
+               BlueprintName = "StreamingTests"
+               ReferencedContainer = "container:Packages/Streaming">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MirrorHRKitTests"
+               BuildableName = "MirrorHRKitTests"
+               BlueprintName = "MirrorHRKitTests"
+               ReferencedContainer = "container:MirrorHRKit">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "BackupManagerTests/testBackupAndRestore()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "PermissionsManagerTests"
+               BuildableName = "PermissionsManagerTests"
+               BlueprintName = "PermissionsManagerTests"
+               ReferencedContainer = "container:Packages/PermissionsManager">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TherapyPackageTests"
+               BuildableName = "TherapyPackageTests"
+               BlueprintName = "TherapyPackageTests"
+               ReferencedContainer = "container:Packages/TherapyPackage">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      enableASanStackUseAfterReturn = "YES"
+      enableThreadSanitizer = "YES"
+      enableUBSanitizer = "YES"
+      disableMainThreadChecker = "YES"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      enableGPUValidationMode = "1"
+      allowLocationSimulation = "NO"
+      showNonLocalizedStrings = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A93DCDA724472C1E00D2722D"
+            BuildableName = "Epilepsy Research Kit.app"
+            BlueprintName = "Epilepsy Research Kit"
+            ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.CloudKitDebug 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "IDEPreferLogStreaming=YES"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.SQLDebug 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.Logging.stderr 0 "
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.ConcurrencyDebug 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.MigrationDebug 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "IDEPreferLogStreaming"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IDELogRedirectionPolicy"
+            value = "oslogToStdio"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
+      </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "Mumbai, India"
+         referenceType = "1">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Debug"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A93DCDA724472C1E00D2722D"
+            BuildableName = "Epilepsy Research Kit.app"
+            BlueprintName = "Epilepsy Research Kit"
+            ReferencedContainer = "container:Epilepsy Research Kit.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

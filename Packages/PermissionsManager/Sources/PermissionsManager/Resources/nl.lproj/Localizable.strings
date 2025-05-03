@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Deze toepassing";
+
+// Autorisatiestatussen
+"NotDeterminedLocalized" = "Niet bepaald";
+"DeniedLocalized" = "Geweigerd";
+"AuthorizedLocalized" = "Geautoriseerd";
+"UnknownLocalized" = "Onbekend";
+"NotAvailableLocalized" = "Niet beschikbaar";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Machtigingsbeheerfout: machtigingstype bestaat niet";
+
+// Machtigingen Namen
+"CameraLocalized" = "Videocamera";
+"CriticalNotificationsLocalized" = "Kritieke meldingen";
+"NotificationsLocalized" = "Meldingen";
+"HealthDataLocalized" = "Gezondheidsgegevens";
+"MicrophoneLocalized" = "Microfoon";
+"SpeechRecognitionLocalized" = "Spraakherkenning";
+
+// Berichten
+"OKMessageLocalized" = "Bedankt!";
+"RecoveryMsgLocalizePart1" = "Ga naar iPhone-instellingen en zoek naar";
+"DescriptionMsgPart1" = "Inschakelen";
+"DescriptionMsgPart2" = "is essentieel voor een correcte werking van deze app.";
+"NoOkMessagePart1" = "U hebt geen toegang verleend tot";
+"NoOkMessagePart2" = "en dus kan ik niet correct werken. Het spijt me.";
+"RecoveryMsgLocalizePart2" = "en verleen alle vereiste machtigingen. Dank u.";
+
+// Controleer Weergave
+"AuthCheckPointTitle" = "Autorisatiecontrole";
+"GrantItBtnLabel" = "Toestaan";
+"SomeMissingAuthNeeded" = "Sommige autorisaties zijn nog steeds nodig om de app correct te laten werken. Verleen ze alstublieft allemaal. Als u hulp nodig heeft, stuur dan een e-mail naar:";
+
+// Verplicht
+"MandatoryMsg" = "Verplicht";
+// Navigatie
+"SkipMsgText" = "Overslaan";
+
+"LocationServicesLocalized" = "Locatievoorzieningen";

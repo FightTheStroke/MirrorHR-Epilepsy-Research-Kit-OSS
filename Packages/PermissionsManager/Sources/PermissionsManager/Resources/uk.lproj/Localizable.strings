@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Ця програма";
+
+// Статуси авторизації
+"NotDeterminedLocalized" = "Не визначено";
+"DeniedLocalized" = "Відмовлено";
+"AuthorizedLocalized" = "Авторизований";
+"UnknownLocalized" = "Невідомо";
+"NotAvailableLocalized" = "Недоступно";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Помилка менеджера дозволів: тип дозволу не існує";
+
+// Імена дозволів
+"CameraLocalized" = "Відеокамера";
+"CriticalNotificationsLocalized" = "Критичні сповіщення";
+"NotificationsLocalized" = "Сповіщення";
+"HealthDataLocalized" = "Дані про стан здоров'я";
+"MicrophoneLocalized" = "Мікрофон";
+"SpeechRecognitionLocalized" = "Розпізнавання мовлення";
+
+// Повідомлення
+"OKMessageLocalized" = "Дякуємо!";
+"RecoveryMsgLocalizePart1" = "Будь ласка, перейдіть до налаштувань iPhone і знайдіть";
+"RecoveryMsgLocalizePart2" = "і захистити всі необхідні дозволи дозволено. Дякуємо.";
+"DescriptionMsgPart1" = "Увімкнення";
+"NoOkMessagePart1" = "Ви не надали доступ до";
+"NoOkMessagePart2" = "тому я не можу працювати належним чином. Вибачте.";
+"RecoveryMsgLocalizePart2" = "і надайте всі необхідні дозволи. Дякуємо.";
+
+// Перевірка перегляду
+"AuthCheckPointTitle" = "Перевірка авторизації";
+"GrantItBtnLabel" = "Надати";
+"SomeMissingAuthNeeded" = "Деякі авторизації все ще потрібні для правильної роботи програми. Будь ласка, надайте їх усі. Якщо вам потрібна допомога, надішліть електронний лист на адресу:";
+
+// Обов'язковий
+"MandatoryMsg" = "Обов'язковий";
+// Навігація
+"SkipMsgText" = "Пропустити";
+"LocationServicesLocalized" = "Служби локації";

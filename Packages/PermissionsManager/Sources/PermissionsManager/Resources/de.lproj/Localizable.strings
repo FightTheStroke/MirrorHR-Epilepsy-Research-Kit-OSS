@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Diese Anwendung";
+
+// Autorisierungsstatus
+"NotDeterminedLocalized" = "Nicht bestimmt";
+"DeniedLocalized" = "Abgelehnt";
+"AuthorizedLocalized" = "Autorisiert";
+"UnknownLocalized" = "Unbekannt";
+"NotAvailableLocalized" = "Nicht verfügbar";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Berechtigungsmanager-Fehler: Berechtigungstyp existiert nicht";
+
+// Berechtigungsnamen
+"CameraLocalized" = "Videokamera";
+"CriticalNotificationsLocalized" = "Kritische Benachrichtigungen";
+"NotificationsLocalized" = "Benachrichtigungen";
+"HealthDataLocalized" = "Gesundheitsdaten";
+"MicrophoneLocalized" = "Mikrofon";
+"SpeechRecognitionLocalized" = "Spracherkennung";
+
+// Mitteilungen
+"OKMessageLocalized" = "Danke!";
+"RecoveryMsgLocalizePart1" = "Bitte gehen Sie zu den iPhone-Einstellungen und suchen Sie nach";
+"DescriptionMsgPart1" = "Aktivieren";
+"DescriptionMsgPart2" = "ist unerlässlich, damit diese App richtig funktioniert.";
+"NoOkMessagePart1" = "Sie haben keinen Zugriff gewährt auf";
+"NoOkMessagePart2" = "und deshalb kann ich nicht richtig arbeiten. Es tut mir leid.";
+"RecoveryMsgLocalizePart2" = "und gewähren Sie alle erforderlichen Berechtigungen. Vielen Dank.";
+
+// Ansicht prüfen
+"AuthCheckPointTitle" = "Berechtigungsprüfung";
+"GrantItBtnLabel" = "Erteilen";
+"SomeMissingAuthNeeded" = "Einige Autorisierungen sind noch erforderlich, damit die App korrekt funktioniert. Bitte erteilen Sie sie alle. Wenn Sie Hilfe benötigen, senden Sie eine E-Mail an:";
+
+// Verpflichtend
+"MandatoryMsg" = "Obligatorisch";
+// Navigieren
+"SkipMsgText" = "Überspringen";
+"LocationServicesLocalized" = "Ortungsdienste";

@@ -1,0 +1,88 @@
+{
+  "schema": {
+    "version": "1.0.0",
+    "description": "Schema for tracking research publications using MirrorHR data",
+    "properties": {
+      "publications": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "title",
+            "authors",
+            "publication_date",
+            "venue",
+            "abstract",
+            "data_usage",
+            "contact_email",
+            "submission_date"
+          ],
+          "properties": {
+            "id": { "type": "string", "description": "Unique identifier for the publication" },
+            "title": { "type": "string", "description": "Publication title" },
+            "authors": { "type": "array", "items": { "type": "string" }, "description": "List of authors" },
+            "publication_date": { "type": "string", "format": "date", "description": "Date of publication (YYYY-MM-DD)" },
+            "venue": { "type": "string", "description": "Journal or conference name" },
+            "doi": { "type": "string", "description": "Digital Object Identifier (if available)" },
+            "url": { "type": "string", "format": "uri", "description": "URL to the publication" },
+            "abstract": { "type": "string", "description": "Publication abstract" },
+            "data_usage": { "type": "string", "description": "How MirrorHR data was used in the research" },
+            "contact_email": { "type": "string", "format": "email", "description": "Contact email for the corresponding author" },
+            "submission_date": { "type": "string", "format": "date", "description": "Date when publication was submitted to our tracking system" },
+            "tags": { "type": "array", "items": { "type": "string" }, "description": "Research topics/tags" }
+          }
+        }
+      }
+    }
+  },
+  "publications": [
+    {
+      "id": "MHR-PUB-2023-001",
+      "title": "Heart Rate Pattern Analysis for Seizure Detection: A Case Study Using Wearable Technology",
+      "authors": [
+        "Smith, J.",
+        "Johnson, R.",
+        "Williams, T."
+      ],
+      "publication_date": "2023-06-15",
+      "venue": "Journal of Neurological Research",
+      "doi": "10.1234/jnr.2023.12345",
+      "url": "https://example.org/publications/heart-rate-patterns",
+      "abstract": "This study examines heart rate patterns preceding epileptic seizures using long-term monitoring data. Our analysis identified significant changes in heart rate variability preceding seizure events, suggesting potential for early detection systems.",
+      "data_usage": "We utilized the MirrorHR dataset to train and validate our seizure detection algorithm, specifically using heart rate pattern data from 50+ seizure events to identify predictive markers.",
+      "contact_email": "jsmith@university.edu",
+      "submission_date": "2023-08-22",
+      "tags": [
+        "seizure detection",
+        "heart rate",
+        "machine learning",
+        "wearable technology"
+      ]
+    },
+    {
+      "id": "MHR-PUB-2023-002",
+      "title": "Comparative Analysis of Automated Seizure Detection Algorithms Using Consumer Wearables",
+      "authors": [
+        "Garcia, M.",
+        "Li, H.",
+        "Patel, S.",
+        "Anderson, K."
+      ],
+      "publication_date": "2023-11-03",
+      "venue": "International Conference on Medical Informatics",
+      "doi": "10.5678/icmi.2023.67890",
+      "url": "https://example.org/conferences/icmi2023/proceedings",
+      "abstract": "This paper presents a comparative evaluation of five different algorithms for automated seizure detection using consumer-grade wearable devices. We evaluated performance using real-world data from epilepsy patients, focusing on sensitivity, specificity, and detection latency.",
+      "data_usage": "The MirrorHR dataset provided real-world testing data for our algorithm comparison, allowing us to evaluate performance against verified seizure events in uncontrolled environments.",
+      "contact_email": "mgarcia@research.org",
+      "submission_date": "2024-01-17",
+      "tags": [
+        "algorithm comparison",
+        "wearable devices",
+        "seizure detection",
+        "performance evaluation"
+      ]
+    }
+  ]
+} 

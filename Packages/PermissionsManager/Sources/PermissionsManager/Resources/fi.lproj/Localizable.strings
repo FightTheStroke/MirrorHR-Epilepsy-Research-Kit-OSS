@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Tämä sovellus";
+
+// Valtuutustilat
+"NotDeterminedLocalized" = "Ei määritetty";
+"DeniedLocalized" = "Edelty";
+"AuthorizedLocalized" = "Valtuutettu";
+"UnknownLocalized" = "Tuntematon";
+"NotAvailableLocalized" = "Ei saatavilla";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Käyttöoikeuksien hallinnan virhe: käyttöoikeustyyppiä ei ole olemassa";
+
+// Käyttöoikeuksien nimet
+"CameraLocalized" = "Videokamera";
+"CriticalNotificationsLocalized" = "Kriittiset ilmoitukset";
+"NotificationsLocalized" = "Ilmoitukset";
+"HealthDataLocalized" = "Terveystiedot";
+"MicrophoneLocalized" = "Mikrofoni";
+"SpeechRecognitionLocalized" = "Puheentunnistus";
+
+// Viestit
+"OKMessageLocalized" = "Kiitos!";
+"RecoveryMsgLocalizePart1" = "Siirry iPhonen asetuksiin ja etsi";
+"DescriptionMsgPart1" = "Otetaan käyttöön";
+"DescriptionMsgPart2" = "on välttämätöntä, jotta tämä sovellus toimii oikein.";
+"NoOkMessagePart1" = "Et antanut käyttöoikeutta";
+"NoOkMessagePart2" = "enkä siksi voi toimia oikein. Olen pahoillani.";
+"RecoveryMsgLocalizePart2" = "ja anna kaikki vaaditut käyttöoikeudet. Kiitos.";
+
+// Tarkista näkymä
+"AuthCheckPointTitle" = "Valtuutusten tarkistus";
+"GrantItBtnLabel" = "Anna se";
+"SomeMissingAuthNeeded" = "Jotkin valtuutukset tarvitaan vielä, jotta sovellus toimii oikein. Myönnä ne kaikki. Jos tarvitset apua, lähetä sähköpostia osoitteeseen:";
+
+// Pakollinen
+"MandatoryMsg" = "Pakollinen";
+// Navigointi
+"SkipMsgText" = "Ohita";
+"LocationServicesLocalized" = "Sijaintipalvelut";

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "symptom-001",
+    "type": "seizure",
+    "subtype": "tonic_clonic",
+    "startTime": "2024-04-09T14:30:00Z",
+    "endTime": "2024-04-09T14:32:15Z",
+    "duration": 135,
+    "notes": "Sudden onset while sitting at desk. Preceded by 10 seconds of aura.",
+    "severity": "severe",
+    "triggers": ["stress", "lack_of_sleep"],
+    "medicationStatus": "took_as_prescribed",
+    "recovery": {
+      "timeToFullRecovery": 3600,
+      "postIctalSymptoms": ["confusion", "headache", "fatigue"]
+    }
+  },
+  {
+    "id": "symptom-002",
+    "type": "seizure",
+    "subtype": "absence",
+    "startTime": "2024-04-08T10:15:00Z",
+    "endTime": "2024-04-08T10:15:30Z",
+    "duration": 30,
+    "notes": "Brief staring episode during class. Teacher noticed.",
+    "severity": "mild",
+    "triggers": ["unknown"],
+    "medicationStatus": "took_as_prescribed",
+    "recovery": {
+      "timeToFullRecovery": 60,
+      "postIctalSymptoms": ["mild_confusion"]
+    }
+  },
+  {
+    "id": "symptom-003",
+    "type": "aura",
+    "subtype": "visual",
+    "startTime": "2024-04-07T18:45:00Z",
+    "endTime": "2024-04-07T18:47:00Z",
+    "duration": 120,
+    "notes": "Saw flashing lights in peripheral vision, seizure did not progress.",
+    "severity": "moderate",
+    "triggers": ["flickering_lights", "fatigue"],
+    "medicationStatus": "took_as_prescribed",
+    "recovery": {
+      "timeToFullRecovery": 300,
+      "postIctalSymptoms": ["anxiety"]
+    }
+  }
+]

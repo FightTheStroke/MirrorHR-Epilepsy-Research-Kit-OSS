@@ -1,0 +1,849 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 19/12/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"languageUIMsg" = "यूआई भाषा";
+"languageUI_String" = "Hindi";
+"errorMsg" = "त्रुटि";
+"shareFeedback" = "हमें एक प्रतिक्रिया दें";
+"doYouNeedHelpString" = "क्या आपको सहायता चाहिए?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHR.org";
+"appName" = "MirrorHR: Epilepsy Research Kit";
+"secondsString" = "सेकंड";
+"defaultEmergencyNumber" = "102";
+"sympt_emptySymptom" = "रिक्त लक्षण";
+"sympt_seizure" = "जब्ती";
+"sympt_highBPM" = "हाई हार्ट बीट";
+"sympt_lowBPM" = "लो हार्ट बीट";
+"sympt_constipation" = "कब्ज";
+"sympt_diarrhea" = "दस्त";
+"sympt_hiccup" = "हिचकी";
+"sympt_dizziness" = "चक्कर आना";
+"sympt_fatigue" = "थकान";
+"sympt_fever" = "बुखार";
+"sympt_headache" = "सिरदर्द";
+"sympt_medicalExamination" = "चिकित्सा परीक्षा";
+"sympt_hospitalization" = "अस्पताल में भर्ती";
+"sympt_emergencyRoom" = "आपातकालीन कक्ष";
+"sympt_coughing" = "खांसी";
+"sympt_nausea" = "मतली";
+"sympt_shortnessOfBreath" = "सांस की तकलीफ";
+"sympt_soreThroat" = "गले में खराश";
+"sympt_vomiting" = "उल्टी";
+"sympt_excitement" = "उत्साह";
+"sympt_moodChanges" = "मूड चेंजेस";
+"sympt_sleepChanges" = "नींद में परिवर्तन";
+"sympt_sleepDeprivation" = "नींद की कमी";
+"sympt_appetiteChanges" = "भूख परिवर्तन";
+"sympt_videoLog" = "वीडियो डायरी";
+"sympt_videoSeizureLog" = "जब्ती लॉग";
+"sympt_textLog" = "पाठ लॉग";
+"sympt_stress" = "तनाव";
+"sympt_medicationTaken" = "दवा ली गई";
+"sympt_medicationForgotten" = "दवा छूट गई";
+"sympt_other" = "अन्य";
+"sympt_other_medications" = "अन्य दवाएं";
+"sympt_emergencyMedication" = "आपातकालीन दवा";
+"tabChecklist" = "चेकलिस्ट";
+"tabRealTimeMonitor" = "रियल टाइम";
+"tabDiary" = "डायरी";
+"tabInsights" = "अंतर्दृष्टि";
+"tabSettings" = "सेटिंग्स";
+"tabDebugLogs" = "डीबग";
+"tabOnboarding" = "ऑनबोर्डिंग";
+"realTimeNoWatchSampleImage" = "realtimesample";
+"personalizeStartImage" = "";
+"WhatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "वॉच नोटिफिकेशनऑफ";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "मुझे खेद है, मैं वीडियो को सहेजने में सक्षम नहीं था :( ";
+"ComingSoonMsg" = "जल्द ही आ रहा है:";
+"youMustHaveWatchString" = "रियल टाइम मॉनिटरिंग और अलार्म के लिए Apple वॉच की आवश्यकता है";
+"iHaveAWatchNowString" = "मेरे पास एक Apple वॉच है।";
+"appleWatchRequiredMsg" = "इस सुविधा के लिए Apple वॉच आवश्यक है";
+"importantMsg" = "महत्वपूर्ण संदेश";
+"watchMainErrorMsg" = "वॉच ऐप इंस्टॉल नहीं है या वॉच को फोन के साथ पेयर नहीं किया गया है, कृपया इसे इंस्टॉल/चेक करें";
+"wichLanguageDoUSpeak" = "आप कौन सी भाषा बोलते हैं?";
+"selectLanguage" = "कृपया उन उपलब्ध वाक् पहचान भाषाओं में से एक का चयन करें:";
+"willAddMoreLanguagesMsg" = "हम भविष्य में और भाषाएँ जोड़ेंगे।";
+"whenQuestion" = "कब?";
+"lastWeeksString" = "पिछले सप्ताह";
+"lastMonthsString" = "पिछले महीने";
+"weekdaysString" = "सप्ताह के दिन";
+"weekendString" = "सप्ताहांत";
+"loggedAtString" = "लॉग इन:";
+"fromString" = "से:";
+"toString" = "टू:";
+"LenghtString" = "लंबाई:";
+"notesString" = "नोट्स:";
+"editNotesString" = "इसके लिए नोट्स संपादित करें:";
+"RememberDuplicateNotificationsString" = "कृपया याद रखें कि घड़ी पर नोटिफिकेशन से बचें या ऐप के बैकग्राउंड में होने पर अलार्म नहीं जलेगा!";
+"gotItMsg" = "समझ गया!";
+"unplannedEventMsg" = "क्षमा करें, अनियोजित घटना हुई";
+"stopLowBatteryNotificationsMsg" = "कम बैटरी नोटिफ़िकेशन रोकें";
+"continueMsg" = "जारी रखें";
+"firedAtMsg" = "पर निकाल दिया गया";
+"manualAlarmTriggeredMsg" = "मैन्युअल रूप से निकाल दिया गया";
+"manualFalseAlarmTriggeredMsg" = "गलत अलार्म";
+"byBPofMsg" = "बीपीएम के द्वारा";
+"watchBatteryIsMsg" = "वॉच बैटरी है";
+"doYouWantLowBatteryNotificationsMsg" = "क्या आप घड़ी पर कम बैटरी के लिए सूचनाएं प्राप्त करना जारी रखना चाहते हैं?";
+"FiredByMsg" = "द्वारा निकाल दिया गया";
+"bpmMsg1" = "बीपीएम।";
+"unclassifiedAlarmStopMsg" = "सत्र रुक गया, अवर्गीकृत अलार्म";
+"lastSeizureMsg" = "अंतिम जब्ती";
+"seizureStatsMsg" = "बरामदगी";
+"videoLogBtnMsg" = "वीडियो डायरी";
+"seizureLogBtnMsg" = "वीडियो जब्ती";
+"drillDownByDateMsg" = "दिनांक के अनुसार BPM";
+"symptomsLogs" = "लक्षण डायरी";
+"InsightsNavigationMsg" = "अंतर्दृष्टि";
+"analyzingDataMsg" = "डेटा का विश्लेषण...";
+"sinceLastEventMsg" = "आखिरी घटना के बाद से:";
+"sinceLastEventString" = "आखिरी बार से";
+"fromPreviousMsg" = "पिछली घटना के बाद से:";
+"congratsNoSeizureMsg" = "बधाई हो! कोई गंभीर घटना नहीं!";
+"saveLogMsg" = "लॉग सहेजें";
+"detailLogMsg" = "क्या कोई विवरण है जिसे आप रिकॉर्ड करना चाहते हैं?";
+"saveBtnMsg" = "सहेजें";
+"speechHintMsg" = "संकेत: आप टाइप कर सकते हैं या, यदि आप ऑन-स्क्रीन कीबोर्ड पर माइक्रोफ़ोन के प्रतीक को दबाते हैं तो आप उसे निर्देशित कर सकते हैं।";
+"cancelActionMsg" = "खारिज करें";
+"okActionMsg" = "ओके";
+"realTimeMsg" = "रीयलटाइम";
+"alarmMsg" = "अलार्म";
+"csvExportMsg" = "सीएसवी को निर्यात करें";
+"olderString" = "पुराना";
+"thisWeekString" = "इस वीक";
+"exportString" = "निर्यात";
+"warningMsg" = "चेतावनी";
+"startMsg" = "स्टार्ट";
+"stopMsg" = "स्टॉप";
+"ciaoMsg" = "सियाओ, मैं मारियो हूँ";
+"ciaoHeadlineMsg" = "Ciao का अर्थ इतालवी में 'Hi' है";
+"ciaoDescriptionMsg" = "मिरगी से लड़ने में मेरे साथ जुड़ने के लिए धन्यवाद";
+"disclaimerTitleMsg" = "अस्वीकरण";
+"disclaimerHeadlineMsg" = "मिररएचआर माता-पिता, डॉक्टरों और देखभाल करने वालों को उनके प्यारे बच्चों के दौरे के बारे में अधिक जानकारी रखने में मदद करने के लिए डिज़ाइन किया गया है। इसे माता-पिता और डॉक्टरों द्वारा माता-पिता और डॉक्टरों के लिए विकसित किया गया है। मिररएचआर एक चिकित्सा उपकरण नहीं है और इसका उपयोग किया जाना है केवल आपके डॉक्टर के साथ साझेदारी में।";
+"disclaimerDescriptionMsg" = "मिररएचआर सभी सेंसर और डेटा संग्रह के लिए ऐप्पल आईफोन और वॉच पर निर्भर करता है। वीडियो आपकी लाइब्रेरी में संग्रहीत होते हैं, स्वास्थ्य डेटा स्थानीय ऐप्पल हेल्थकिट में संग्रहीत किया जाता है। केवल डेटा जो आपके फोन को छोड़ सकता है वह क्रैश रिपोर्ट है (उम्मीद है कि बहुत कुछ बार)।";
+"personalizeStartMsg" = "आइए मिररएचआर को वैयक्तिकृत करें";
+"personalizeStartHeadlineMsg" = "मिररएचआर माता-पिता, डॉक्टरों और देखभाल करने वालों को अपने प्रियजनों के दौरे के बारे में अधिक जानकारी रखने में मदद करने के लिए डिज़ाइन किया गया है।";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "आपका नाम क्या है?";
+"WhatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "यदि आप माता-पिता या देखभाल करने वाले हैं, तो कृपया उस बच्चे का नाम दर्ज करें जिसकी आप देखभाल कर रहे हैं।";
+"whereULiveMsg" = "आप कहाँ रहते हैं?";
+"whereULiveHeadLineMsg" = "ताकि हम मौसम की स्थिति का पता लगा सकें और घटनाओं से संबंधित हो सकें";
+"whereULiveDescriptionMsg" = "हम इस सुविधा के लिए https://openweathermap.org का लाभ उठाते हैं";
+"alarmSettingsMsg" = "अलार्म सेटिंग्स";
+"alarmString" = "अलार्म";
+"minBpmMsg" = "न्यूनतम बीपीएम";
+"minMaxBpmDescriptionMsg" = "मिररएचआर वास्तविक समय (बीपीएम) में दिल की धड़कन को मापता है और उन स्थितियों के सही होने पर अलार्म बजाता है:";
+"maxBpmMsg" = "अधिकतम बीपीएम";
+"mirrorNotificationMsg" = "महत्वपूर्ण!";
+"mirrorNotificationsWatchMsg" = "घड़ी पर सूचनाएं अक्षम करें";
+"mirrorNotificationDescriptionMsg" = "यह बहुत महत्वपूर्ण है, कृपया इसे अभी करें। \n वॉच ऐप पर जाएं, मिररएचआर से नोटिफिकेशन और सुरक्षित नोटिफिकेशन वॉच में मिरर नहीं होते हैं।";
+"alarmSoundTitleMsg" = "अलार्म";
+"alarmSoundHeadlineMsg" = "(हाँ, अगर यह आग लगती है तो यह आपको जगाने में सक्षम होना चाहिए!)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "सूचनाएं";
+"NotificationSoundHeadlineMsg" = "सूचनाएं महत्वपूर्ण नहीं हैं, फिर भी वे बहुत महत्वपूर्ण हैं";
+"notificationSoundDescriptionMsg" = "उदाहरण के लिए, जब घड़ी से डेटा प्राप्त करने में कुछ समस्याएं होती हैं, या कम बैटरी आदि होती है, तो हम उन्हें सूचित करते हैं, इसलिए उनकी निगरानी करना बेहतर है";
+"parentalControlTitleMsg" = "अभिभावकीय नियंत्रण";
+"parentalControlOnString" = "अभिभावकीय नियंत्रण चालू है";
+"parentalControlHeadlineMsg" = "सत्र को घड़ी से रोकने से रोकें";
+"parentalControlDescriptionMsg" = "यह कुछ सुरक्षा सुविधाओं को सक्षम करता है जैसे कि घड़ी से सत्र को रोकना, झूठे अलार्म से 15 मिनट के बाद अलार्म सूचनाओं को स्वतः पुनरारंभ करना, आदि। यदि यह बंद है, तो सत्र समाप्त होने पर आपको एक सूचना प्राप्त होगी। घड़ी से।";
+"emergencyContactTitleMsg" = "इमरजेंसी नंबर";
+"emergencyContactHeadLineMsg" = "बस इसे प्राप्त करने के लिए";
+"emergencyCallLabelMsg" = "सहायता";
+"helpLabelMsg" = "सहायता";
+
+"emergencyContactDescriptionMsg" = "यह 102 हो सकता है, या यह आपके देश में समकक्ष हो सकता है, या किसी भी अन्य फोन पर आप जितनी जल्दी हो सके कॉल करने में सक्षम होना चाहते हैं, बस मामले में।";
+"emergencyContactDescriptionMsg4AboutView" = "यह 102 हो सकता है, या यह आपके देश में समकक्ष हो सकता है, या कोई अन्य फ़ोन जिसे आप जितनी जल्दी हो सके कॉल करने में सक्षम होना चाहते हैं।";
+"readyToStartTitleMsg" = "शुरू करने के लिए तैयार!";
+"readyToStartHeadlineMsg" = "आपकी मदद के लिए धन्यवाद।";
+"readyToStartDescriptionMsg" = "आप सेटिंग टैब से किसी भी सेटिंग को हमेशा बदल सकते हैं";
+"whenBpmLowerThanMsg" = "जब BPM इससे कम हो";
+"whenBpmHigherThanMsg" = "जब बीपीएम इससे अधिक हो";
+"triageDeltaTimeBeforeFireAlarmMsg" = "अलार्म फ़ायर करने से पहले समय बफ़र:";
+"privacyMsg" = "गोपनीयता नीति स्वीकार करें";
+"privacyAcceptanceMsg" = "मैं समझता हूँ";
+"alarmSoundStyleMsg" = "अलार्म ध्वनि शैली";
+"testAlarmSoundMsg" = "अलार्म ध्वनि का परीक्षण करें";
+"testAlarmBtnMsg" = "टेस्ट अलार्म";
+"testLowBatteryBtnMsg" = "निम्न बैटरी का परीक्षण करें";
+"testAlarmSoundBgkTitleMsg" = "अलार्म ध्वनि का परीक्षण करें (विलंबित)";
+"testAlarmSoundBgkMsg" = "महत्वपूर्ण! फ़ोन के डू नॉट डिस्टर्ब मोड में होने पर अलार्म का परीक्षण करें।";
+"testAlarmImptMsg" = "कृपया iPhone होम स्क्रीन पर वापस जाएं और फोन को साइलेंट मोड में रखें, ताकि ऐप के बैकग्राउंड में होने पर और रात में भी यह सक्रिय हो जाए। अलार्म 30 सेकंड के बाद चालू होना चाहिए। यदि आप केवल सूचना देखते हैं लेकिन एक मजबूत आवाज नहीं सुन सकता, कृपया सुनिश्चित करें कि घड़ी पर सूचनाएं डुप्लिकेट नहीं हैं";
+"notificationSoundStyleMsg" = "सूचनाएं ध्वनि शैली";
+"testNotificationSoundMsg" = "टेस्ट नोटिफिकेशन साउंड";
+"openWatchAppMsg" = "ओपन वॉच ऐप";
+"testCallMsg" = "टेस्ट कॉल";
+"nameString" = "नाम:";
+"livingInString" = "लिविंग इन:";
+"iSpeakLanguage" = "मैं बोलता हूँ:";
+"watchAvailableSectionString" = "ऐप्पल वॉच";
+"watchAvailableToggleString" = "Apple वॉच उपलब्ध है";
+"watchAvailableToggleCaptionString" = "यदि आपके पास एक Apple वॉच है, तो आप उन्नत सुविधाओं को सक्षम कर सकते हैं जैसे कि हार्ट बीट की रीयल-टाइम मॉनिटरिंग, अलार्म, नोटिफिकेशन और बहुत कुछ।";
+"alarmSettingsFooterMsg"= "इन शर्तों के आधार पर यह तुरंत सक्रिय हो जाता है। Apple वॉच अवश्य कनेक्ट होनी चाहिए";
+"parentalControlProfileMsg" = "रियलटाइम मॉनिटरिंग को Apple वॉच से रोका नहीं जा सकता है और झूठे अलार्म को फ़्लैग करने के 15 मिनट बाद अलार्म स्वचालित रूप से फिर से सक्षम हो जाते हैं";
+"recordAVideoMsg" = "एक वीडियो डायरी रिकॉर्ड करें";
+"NotificationFooterMsg" = "इन सूचनाओं के लिए Apple वॉच के साथ रीयलटाइम मॉनिटर सक्षम होना चाहिए";
+"noDataNotificationMsg" = "जब Apple वॉच से अधिक से अधिक डेटा प्राप्त न हो";
+"batteryLevelProfileMsg" = "जब घड़ी की बैटरी का स्तर इससे कम हो";
+"sleepSettingsTitleMsg" = "स्लीप सेटिंग्स";
+"sleepSettingsFooterMsg" = "Apple वॉच के साथ रीयलटाइम मॉनिटर स्लीप ट्रैकिंग के लिए सक्षम होना चाहिए";
+"deepSleepMaxBpmMsg" = "डीप स्लीप मैक्स बीपीएम";
+"lightSleepMaxBpmMsg" = "लाइट स्लीप मैक्स बीपीएम";
+"notificationSettingsHeaderMsg" = "अधिसूचना सेटिंग";
+"NotificationSettingsFooterMsg" = "ध्यान रखें: एक सूचना छूटी हुई घटना से बेहतर है ...";
+"shouldFireNoDataMsg" = "Apple वॉच से डेटा प्राप्त नहीं होने पर आग की सूचना";
+"shouldFireLowBatteryMsg" = "ऐप्पल वॉच की बैटरी कम होने पर आग की सूचना";
+"NotifyRealTimeEndMsg1" = "रियलटाइम मॉनिटरिंग Apple वॉच से समाप्त हो गई";
+"NotifyRealTimeEngMsg2" = "(यदि माता-पिता का नियंत्रण सक्षम है तो इसकी आवश्यकता नहीं है)";
+"aboutMsg" = "के बारे में";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "प्रत्येक लक्षण के लिए आप नोट जोड़ने/संपादित करने के लिए उसके नाम पर क्लिक कर सकते हैं, या इसे हटाने के लिए बाईं ओर स्वाइप कर सकते हैं।";
+"deprecatedDefaultQuickLogNote" = "नोट संपादित करने के लिए दाएं स्वाइप करें, इस प्रविष्टि को हटाने के लिए बाएं स्वाइप करें";
+"debugModeMsg" = "देव लॉगिंग मोड";
+"developerMode" = "डेवलपर मोड";
+"migrateDBMsg" = "पिछले संस्करण से माइग्रेट करें";
+"logsSoFarMsg" = "अब तक के लॉग";
+"seizuresSoFarMsg" = "बरामदगी";
+"seizuresOnlyFilterMsg" = "बरामदगी";
+"editLogNotesMsg" = "लॉग नोट्स - संपादित करें";
+"logASymptomMsg4LogsView" = "लॉग इवेंट";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "सभी सेटिंग्स रीसेट करें और सभी डेटा हटाएं (ध्यान रखें कि यह प्रतिवर्ती नहीं है!)";
+"restartOnboardingMsg" = "रीस्टार्ट ऑनबोर्डिंग";
+"developerString" = "डेवलपर";
+"appNameString" = "ऐप का नाम";
+"versionString" = "संस्करण";
+"compatibilityString" = "आवश्यकताएं";
+"contactsString" = "संपर्क";
+"contactLabelMsg" = "हमसे संपर्क करें";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "आईओएस 14\\वॉचओएस 7";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "गोपनीयता नीति";
+"privacyPolicyLinkLabel" = "गोपनीयता नीति";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "वेबसाइट";
+"sampleChartDataMsg" = "नमूना चार्ट डेटा";
+"notificationTitleMsg" = "सूचनाएं";
+"realTimeWarningMsg" = "Apple वॉच को अलार्म और नोटिफिकेशन के लिए कनेक्टेड होना चाहिए";
+"chartOptionsTitleMsg" = "चार्ट विकल्प";
+"showMarkersMsg" = "अलार्म मार्कर दिखाएं";
+"showBandsMsg" = "चार्ट बैंड दिखाएं";
+"reset2DefaultMsg" = "डिफ़ॉल्ट मानों पर रीसेट करें";
+"seeAllSettingsMsg" = "सभी सेटिंग्स खोलें";
+"realTimeOffMsg" = "रीयलटाइम बंद है";
+"bootingProgressMsg" = "बूटिंग...";
+"lastBpmMsg" = "अंतिम BPM:";
+"secsAgoMsg" = "सेकंड पहले";
+"bPmLabelMsg" = "बीपीएम";
+"keySettingsNavigationTitleMsg" = "कुंजी सेटिंग्स";
+"LegendaLabelMsg" = "लीजेंडा:";
+"deepSleepLabelMsg" = "डीप स्लीप";
+"lightSleepLabelMsg" = "लाइट स्लीप";
+"awakeLabelMsg" = "जागृत";
+"tagFalseAlarmTitleMsg" = "टैग गलत अलार्म";
+"tagFalseAlarmActionMsg" = "गलत अलार्म सहेजें";
+"tagFalseAlarmAllGoodMsg" = "गलत";
+"tagEndOfSeizure" = "एंड सीज़्योर";
+"tagVideoSeizure" = "वीडियो";
+"saveSeizureMsg" = "सेव सीजर";
+"seizureLabelMsg" = "जब्ती";
+"falseAlarmSuggestion1" = "तनाव";
+"falseAlarmSuggestion2" = "ड्रीम";
+"falseAlarmSuggestion3" = "गेम";
+"elapsedTimeString" = "बीता हुआ समय";
+"WhatTimeIsNowString" = "वर्तमान समय";
+"defaultCityString" = "मिलानो";
+"initialBatteryMsg" = "प्रारंभिक बैटरी स्तर:";
+"logLabelMsg" = "लॉग्स";
+"offLabelMsg" = "ऑफ";
+"tap3timesMsg" = "3 बार टैप करें";
+"watchAppNotInstalledString" = "Apple वॉच पर मिररएचआर स्थापित नहीं है";
+"cantCommunicateWatchString" = "Apple वॉच के साथ संचार नहीं कर सकता";
+"watchNotPairedString" = "Apple वॉच को iPhone के साथ पेयर नहीं किया गया है";
+"watchNotReachableString" = "घड़ी पर मिररएचआर उपलब्ध नहीं है, कृपया जांचें कि यह अग्रभूमि में चल रहा है, या वॉच से सत्र प्रारंभ करें";
+"canTFireNotificationString" = "इसकी वजह से अधिसूचना को सक्रिय नहीं किया जा सकता";
+"canTStartSessionString" = "सत्र प्रारंभ नहीं कर सकता, कृपया जांचें कि मिररएचआर वॉच पर अग्रभूमि में चल रहा है और पुनः प्रयास करें";
+"soSorryString" = "आई एम सो सॉरी :-(... यह अभी हुआ:";
+"saveAndCloseString" = "सहेजें और बंद करें";
+"alarmFiredAtString" = "अलार्म चालू हुआ";
+"byBPMOfString" = "बीपीएम के द्वारा";
+"checkRangeString" = "। कृपया जांच लें कि घड़ी सही ढंग से पहनी गई है और सीमा में है.";
+"alarmEventString" = "अलार्म";
+"warningEventString" = "चेतावनी";
+"noDataEventString" = "कोई डेटा नहीं";
+"lowBatteryEventString" = "लो बैटरी";
+"unclassifiedEventString" = "अवर्गीकृत घटना";
+"handleSeizureEventString" = "हैंडल जब्ती";
+"HandleFalseAlarmEventString" = "हैंडल फाल्स अलार्म";
+"stopFromWatchEventString" = "Apple वॉच से प्राप्त रोकें";
+"sessionStopFromPhoneEventString" = "सत्र फोन से बंद हो गया";
+"criticalErrorEventString" = "गंभीर त्रुटि:";
+"criticalErrorSorryEventString" = "मुझे बहुत खेद है :( मैं एक अप्रत्याशित त्रुटि में भाग गया।";
+"testSoundEventString" = "इसके लिए ध्वनि का परीक्षण करें:";
+"notificationString" = "अधिसूचना";
+"sessionBootingEventString" = "सत्र बूटिंग";
+"manualAlarmEventString" = "मैनुअल अलार्म";
+"manualAlarmTriggeredNotesString" = "मैन्युअल रूप से निकाल दिया गया";
+"logsInTotalMsg" = "लॉग";
+"intervalBetweenLast2Seizures" = "अंतिम दौरे के बीच अंतराल";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "M";
+"dayIndicatorString" = "d";
+"hoursIndicatorString" = "h";
+"minutesIndicatorString" = "m";
+"secondsIndicatorString" = "s";
+"eventsString" = "इवेंट्स";
+"InsightsFilterToggleLeftString" = "सभी लॉग";
+"symptomString" = "लक्षण";
+"potentialTriggerString" = "संभावित ट्रिगर";
+"severeEventString" = "गंभीर घटना";
+"goodHabitString" = "अच्छी आदत";
+"badHabitString" = "बुरी आदत";
+"askPermissionsTitle" = "अनुमतियाँ";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "अनुमतियों की जाँच करें";
+"thanksForPermissionsString" = "धन्यवाद, सभी अनुमतियां दी गई हैं";
+"iPhoneBatteryIsMsg" = "iPhone बैटरी है";
+"howLongDidItLastMsg" = "यह कितने समय तक चला?";"भाषायूआईएमएसजी" = "यूआई भाषा";
+"watchNotReachableString" = "मिररएचआर ऐप्पल वॉच पर पहुंच योग्य नहीं है: जांचें कि यह चल रहा है और अग्रभूमि में है, या ऐप्पल वॉच पर मिररएचआर से सीधे स्टार्ट दबाएं";
+"noDataReceivedString" = "इससे अधिक के लिए कोई डेटा प्राप्त नहीं हुआ";
+"medicationAlarmString" = "दवा अनुस्मारक";
+"medicationAlarmViewTitle" = "दवा अनुस्मारक";
+"medicationAlarmMessage" = "यह आपकी दवा लेने का समय है";
+"medicationTakenString" = "दवा ली गई";
+"medicationSnoozeString" = "दवा अनुस्मारक याद दिलाएं";
+"medicationSnoozeStringDescription" = "दवा अनुस्मारक";
+"addMedicationReminderString" = "दवा अनुस्मारक जोड़ें/संपादित करें";
+"yes_String" = "हां";
+"no_String" = "नहीं";
+"deleteAllRemindersString" = "सभी अनुस्मारक हटाएं";
+"confirmString" = "पुष्टि करें";
+"ConfirmDeleteMedicationRemindersMsg" = "क्या आप वाकई सभी दवा रिमाइंडर हटाना चाहते हैं?";
+"medicationAlarmFooter" = "दवाएं लेना हमेशा याद रखें! आप अंततः 10 मिनट के लिए रिमाइंडर को याद दिला सकते हैं।";
+"closeButtonString" = "बंद करें";
+"howLongDidItLastMsg" = "यह कितने समय तक चला?";
+"addButtonString" = "जोड़ें";
+"nextScheduledRemindersString" = "अगला शेड्यूल्ड रिमाइंडर:";
+"EveryWeekDayAtString" = "हर सप्ताहदिन:";
+"EveryWeekEndAtString" = "हर सप्ताहांत में:";
+"requestReviewMessage" = "क्या आपको मिररएचआर पसंद है? मैं";
+"manualMedicationMsg" = "मैं इसे डायरी में हाथ से वापस ले जाता हूँ";
+"sympt_medicationChange" = "दवा परिवर्तन";
+"medications_String" = "दवाएं";
+"allLogs" = "ऑल";
+"reportAsMissedMedicationString" = "मैं इसे छूटी हुई दवा के रूप में रिपोर्ट करूँगा";
+"medicationNotificationBodyMessage" = "यह आपकी दवा लेने का समय है। मिररएचआर में लॉग इन करने या 10 मिनट के लिए याद दिलाने के लिए यहां टैप करें";
+"letMeUpdateMissedMedicationString" = "मैंने उन्हें उसी दिन के अलग-अलग समय पर लिया, मुझे डेटा अपडेट करने दें";
+"filterByDate" = "तारीख के अनुसार फ़िल्टर करें";
+"event_realTimeSession" = "रीयलटाइम सेशन";
+"bpmTakesTimeMsg" = "कृपया ध्यान दें: एक सत्र समाप्त होने के बाद, BPM चार्ट को प्रदर्शित होने में कुछ मिनट लग सकते हैं।";
+"telemetrySectionString" = "खोज में शामिल हों";
+"shareAnonymizedTelemetryMsg" = "सांख्यिकीय डेटा को पूरी तरह से गुमनाम रूप से साझा करें, और मिर्गी पर शोध में मदद करें";
+"telemetryRealTime" = "रीयलटाइम सत्रों की संख्या";
+"telemetrySeizures" = "बरामदगी की संख्या";
+"telemetrySymptoms" = "लक्षणों की संख्या दर्ज";
+"telemetryNavigation" = "मूल उपयोग के आँकड़े";
+"telemetryVideoLog" = "वीडियोलॉग की संख्या";
+"telemetrySeizuresVideoLog" = "जब्ती वीडियोलॉग की संख्या";
+"telemetryBPMValues" = "बीपीएम अलार्म थ्रेशोल्ड";
+"telemetryMedicationReminders" = "दवा अनुस्मारकों की संख्या";
+"telemetryLanguage" = "इंटरफ़ेस भाषा";
+"telemetryExplainMsg" = "टेलीमेट्री डेटा पूरी तरह से अज्ञात है और यदि आप उन्हें हमारे साथ साझा कर सकते हैं तो यह वास्तव में अन्य परिवारों के जीवन को बेहतर बनाने में मदद करेगा। धन्यवाद!";
+"enableAllTelemetryOptionsString" = "सभी विकल्पों को सक्षम/अक्षम करें";
+"WhatsNewInThisVersion" = "इस संस्करण में नया क्या है";
+"HereIsQuickUpdate" = "यहाँ नवीनतम सुविधाओं पर एक त्वरित अद्यतन है";
+"helpOneHelpeveryone" = "किसी की मदद करने का सबसे अच्छा तरीका है, हर किसी की मदद करना";
+"Sentiment_String" = "भावना";
+"detectSympstomsString" = "पता लगाए गए लक्षण";
+"sympt_cold" = "कोल्ड";
+"sentiment_negative" = "नकारात्मक";
+"sentiment_medium" = "तटस्थ";
+"sentiment_positive" = "सकारात्मक";
+"ConfirmSymptomsUnderस्टैंडिंग" = "आपने जो कहा उससे मैं समझता हूं कि आप इन लक्षणों को दर्ज करना चाहते हैं, कृपया मेरे लिए उनकी पुष्टि करें?";
+"appreciationForTheOpportunityToLearn" = "अगर मैं गलत समझा, तो कृपया फ़्लैग करें या दूसरों को जोड़ें ताकि मैं समय के साथ सुधार कर सकूँ। धन्यवाद।";
+"sympt_therapy" = "चिकित्सा (पुनर्वसन, आदि)";
+"sympt_fall" = "गिरना";
+"sympt_headShot" = "हेडशॉट";
+"supportingFunctionsString" = "सहायक कार्य";
+"sympt_sport" = "खेल";
+"WhatsNewInVideoLogV3" = "इस संस्करण में यह सबसे आम लक्षणों और घटनाओं को स्वचालित रूप से पहचानने, उन्हें मान्य करने की संभावना देकर और फिर डायरी में स्वचालित रूप से उनका पता लगाने के द्वारा और भी अधिक शक्तिशाली है। इसलिए सभी महत्वपूर्ण को याद रखना और भी आसान हो जाएगा। चीजें, बस एक छोटा वीडियो भी करें और एप्लिकेशन बाकी काम करेगा।";
+"SymptomSearchBarSearchString" = "खोज ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "रक्त ऑक्सीजन";
+"RespiratoryRateString" = "श्वसन दर";
+"sympt_vaccine" = "जेनेरिक टीकाकरण";
+"sympt_covidVaccine" = "Covid-19 वैक्सीन";
+"sympt_covid" = "कोविड -19";
+"DiaryLogsHelpMsg" = "लक्षण या घटना को तुरंत रिकॉर्ड करने के लिए लक्षण के दाईं ओर सर्कल पर एक बार दबाएं। एक स्क्रीन खोलने के लिए लक्षण के दाईं ओर सर्कल पर 2 सेकंड के लिए दबाकर रखें जहां आप अन्य डेटा दर्ज कर सकते हैं और / या नोट्स। इस संदेश को छिपाने के लिए फिर से प्रतीक (?) दबाएं। ";
+"kidWeightString" = "वजन";
+"measurementsUnitString" = "माप इकाइयां";
+
+"version8_7OnboardingCardDescription" = "1. नए लक्षण और घटनाएं जो डायरी में दर्ज की जा सकती हैं (कोविड और एक सामान्य 'अन्य' सहित) फिर आपको डॉक्टरों के साथ बातचीत में अधिक से अधिक सटीक और पूर्ण होने की अनुमति देती हैं। \n
+2. जिनके पास Apple वॉच नहीं है, उनके लिए अब जर्नल में इसे दर्ज करते समय बरामदगी की लंबाई को मैन्युअल रूप से रिकॉर्ड करना संभव है। \n
+3. अभी भी डायरी में अब किसी भी लक्षण या घटना में नोट्स जोड़ना संभव है, केवल दो सेकंड के लिए बटन दबाकर। \n
+4. यदि रीयलटाइम सत्र नींद के दौरान सक्रिय है, तो हृदय गति के अलावा, रक्त में श्वसन दर और ऑक्सीजन का पता लगाया जाता है और सत्र के अंत में नोट्स में रिपोर्ट किया जाता है। \n
+5. वजन रिकॉर्ड करना भी संभव है (उदाहरण के लिए दवाओं के परिवर्तन से मेल खाने के लिए)। \n
+6. टेलीमेट्री डेटा सरल (हमेशा गुमनाम) होता है और हमें यह समझने में बहुत मदद करता है कि कैसे सुधार किया जाए और अधिक से अधिक लोगों की मदद की जाए। \n
+7. कुछ स्टाइल बग्स को ठीक किया गया \n
+8. अगर आपको मिररएचआर पसंद है और अगर आप हमें सुझाव देना चाहते हैं, तो कृपया जान लें कि समीक्षा और ईमेल का हमेशा स्वागत है। सेटिंग्स अनुभाग में लिंक खोजें। \n
+धन्यवाद ";
+
+"sympt_other_mediations" = "अन्य दवाएं";
+"sympt_weightLog" = "वजन";
+"sympt_absence" = "अनुपस्थिति";
+
+"supportMirrorHRTak" = "मिररएचआर को और विकसित करने में हमारी मदद करें";
+"supportMirrorHRTakDescription" = "हम किसी भी मदद की बहुत सराहना करते हैं ताकि हम किसी भी जरूरतमंद परिवार तक पहुंचने के लिए मिररएचआर का विकास और सुधार जारी रख सकें।";
+"OpenInBrowserLinkMsg" = "ब्राउज़र में खोलें";
+"joinMirrorHRCommunityTask" = "मिररएचआर कम्युनिटी से जुड़ें";
+"joinMirrorHRCommunityTaskDescription" = "मिररएचआर एक समुदाय के नेतृत्व वाला प्रयास है, क्योंकि केवल एक साथ हम एक प्रभाव डाल सकते हैं।";
+"realTimeSessionTaskDescription" = "एकाधिक निगरानी सत्र चलाने से आपको यह समझने में मदद मिलेगी कि सिस्टम कैसे काम करता है और सभी सेटिंग्स को बेहतर तरीके से कैसे ट्यून करें।";
+"videoLogTaskDescription" = "एक नियमित वीडियो डायरी रखना, उदाहरण के लिए, सोने से पहले, यह दिन के दौरान क्या हुआ, इस पर चिंतन करने का एक शानदार तरीका है। यदि आप लक्षणों का उल्लेख करते हैं, तो यह उन्हें स्वचालित रूप से रिकॉर्ड भी कर सकता है। कृपया जागरूक रहें: बच्चे इसे भर सकते हैं। उस दिनचर्या के प्यार में :-)";
+"मेडिकेशनटेकन टास्क डिक्रिप्शन" = "दवा को भूलने से कई समस्याएं हो सकती हैं। सुरक्षित है कि आप दवा रिमाइंडर सेट करते हैं (सेटिंग दृश्य में) और यह कि आप हर बार दवाओं को सही ढंग से ट्रैक करते हैं।";
+"noTaskHistoryYet" = "अभी तक कोई इतिहास नहीं";
+"stepTaskCompletedOn" = "पूरा हुआ";
+"faqCheckListPicker" = "FAQ";
+"habitsCheckListPicker" = "आदतें";
+"RefreshListText" = "समर्थन";
+"shareWithDoctorTask" = "अपने डॉक्टर के साथ मिररएचआर डेटा साझा करें";
+"shareWithDoctorTaskDescription" = "अपने डॉक्टर के साथ मिररएचआर डेटा नियमित रूप से साझा करना अत्यंत महत्वपूर्ण है। सप्ताह में कम से कम एक बार ऐसा करने की आदत डालें।";
+
+"exportAndShareDataCSV" = "मिररएचआर डेटा निर्यात और साझा करें (CSV)";
+"exportAndShareDataXLS" = "मिररएचआर डेटा निर्यात और साझा करें (XLS)";
+
+"version8_8OnboardingCardDescription" = "1. नई चेकलिस्ट सुविधा जो अच्छी आदतें बनाने, अक्सर पूछे जाने वाले प्रश्नों को हल करने और मिररएचआर विकसित करने वाले माता-पिता और डॉक्टरों के समुदाय में भाग लेने में मदद करती है।\n
+2. जिनके पास Apple वॉच नहीं है, अब केवल एक टैप से इसे डायरी में दर्ज करते समय मैन्युअल रूप से बरामदगी की लंबाई रिकॉर्ड करना संभव है।\n
+3. फिर भी, अब डायरी में बटन को दो सेकंड के लिए दबाकर किसी भी लक्षण या घटना में नोट्स जोड़ना संभव है।\n
+4. रात की नींद के दौरान रीयलटाइम सत्र सक्रिय होने पर अब रक्त में श्वसन दर और ऑक्सीजन का पता लगाया जाता है।\n
+5. अब डेटा निर्यात करना और नए फ़ोन पर जाने की स्थिति में उन्हें पुनः आयात करना संभव है।\n
+6. कुछ स्टाइल बग्स को ठीक किया गया।\n
+7. यदि आप मिररएचआर को पसंद करते हैं और हमें सुझाव देना चाहते हैं, तो कृपया जान लें कि समीक्षा और ईमेल का हमेशा स्वागत है। सेटिंग अनुभाग में लिंक ढूंढें.\n
+धन्यवाद ";
+
+"FaqFromTheCommunity" = "समुदाय से प्रश्न और सुझाव";
+"watchConnectivityFAQTask" = "आईफोन और वॉच कनेक्टिविटी";
+"watchConnectivityFAQTaskDescription" = "मुझे कभी-कभी यह सूचना क्यों मिलती है कि डेटा प्राप्त नहीं हुआ है?";
+"resetCheckListAboutButton" = "चेकलिस्ट रीसेट करें";
+"newBadgeText" = "नया";
+"rateMirrorHRTask" = "मिररएचआर को बेहतर बनाने में मदद करें";
+"rateMirrorHRTaskDescription" = "यदि आप इस ऐप को पसंद करते हैं तो इसे ऐप्पल स्टोर पर पांच सितारे दें, या मेल के माध्यम से कोई प्रतिक्रिया या सुझाव साझा करें।";
+"thanksToBeLocalized" = "धन्यवाद!";
+
+"mirrorHRUserFlowTask" = "मिररएचआर का उपयोग कैसे करें";
+"mirrorHRUserFlowTaskDescription" = "हम मिररएचआर को यथासंभव सरल बनाने के लिए अपनी पूरी कोशिश कर रहे हैं, फिर भी आप इसका उपयोग करने के तरीके के बारे में कुछ सुझाव पा सकते हैं।";
+
+"ImportMirrorHRXLSLocalized" = "Import MirrorHR XLS फ़ाइल";
+"ImportMirrorHRCSVLocalized" = "Import MirrorHR CSV फ़ाइल";
+
+"mirrorHRHistoryTask" = "मिररएचआर के पीछे की कहानी";
+"mirrorHRHistoryTaskDescription" = "मिररएचआर को क्यों विकसित किया गया है? इसे कैसे विकसित किया गया है? इसका क्या अर्थ है माता-पिता और डॉक्टरों द्वारा माता-पिता और डॉक्टरों के लिए विकसित किया जा रहा है?";
+"checkListDefaultCompletiontMsg" = "बधाई हो!";
+"checkListdefaultIncentiveMsg" = "जारी रखें!";
+"telemetryChecklistProgresses" = "चेकलिस्ट प्रोग्रेस";
+"exportAndShareLastMonthBPMData" = "पिछले 7 दिनों के पूरे BPM डेटा को निर्यात और साझा करें (CSV)";
+"knowMoreWHOTask" = "मिर्गी के बारे में और जानें";
+"knowMoreWHOTaskDescription" = "WHO (विश्व स्वास्थ्य संगठन) मिर्गी के बारे में जानकारी का एक बड़ा स्रोत है।";
+
+"sympt_dermatitis" = "जिल्द की सूजन";
+"sympt_menses" = "मासिक धर्म";
+
+"alarmSoundVolumeMsg" = "वॉल्यूम";
+"ExportSeizuresDataOnlyMsg" = "निर्यात बरामदगी डेटा (CSV)";
+"Export6MonthsOfHRV" = "पिछले छह महीनों के एचआरवी डेटा निर्यात करें (यदि उपलब्ध हो) (CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "सभी डेटा निर्यात करने में कुछ समय लग सकता है। फ़ाइल साझा करने के लिए एक विंडो जल्द से जल्द दिखाई देगी।";
+
+"ImportedNElementsFromXLSLocalized" = "आयातित लक्षण:";
+"CanTReadTheXLSFileLocalized" = "XLS फ़ाइल नहीं पढ़ सकता";
+"CanTReadTheCSVFileLocalized" = "CSV फ़ाइल नहीं पढ़ सकता";
+
+"ImportCompleteLocalizedAlertTitle" = "आयात पूर्ण";
+
+"AlertConfirmMsgText" = "पुष्टि करें";
+"BtnOverwriteMsg" = "सभी डेटा को अधिलेखित करें";
+"BtnAppendMsg" = "मौजूदा डेटा में जोड़ें";
+"BtnCancelMsg" = "रद्द करें";
+
+"version9OnboardingCardDescription" = "1. नए FastLog बटन (डायरी व्यू)
+2. एक्सेल प्रारूप में नया आयात और निर्यात डेटा, कई और डेटा के साथ (अंतर्दृष्टि और चेकलिस्ट दृश्य)
+3. अलार्म की मात्रा को विनियमित करने के लिए नया विकल्प (सेटिंग्स देखें)
+4. नई घटनाएं माहवारी और जिल्द की सूजन (डायरी देखें)
+5. न्यूनतम प्लेटफॉर्म अब iOS 15/watchOS 7.5 है (उनकी बढ़ी हुई विश्वसनीयता और सुरक्षा के लिए)
+6. बग फिक्स: कुछ उपकरणों में चित्र और प्रतीक, ऑडियो के बिना भी वीडियो लॉग सहेजना, बरामदगी अंतराल सूत्र
+7. ज्ञात समस्याएँ: ऑपरेटिंग सिस्टम अपडेट होने पर iPhone और वॉच पेयरिंग को कुछ उपकरणों में रीसेट की आवश्यकता हो सकती है।
+8. यदि आप मिररएचआर को पसंद करते हैं और हमें सुझाव देना चाहते हैं, तो कृपया जान लें कि समीक्षा और ईमेल का हमेशा स्वागत है। सेटिंग्स अनुभाग में लिंक खोजें।
+शुक्रिया! ";
+
+"sympt_FilterSupport" = "उन्नत फ़िल्टर";
+"exportAndShareAnonymizedDataXLS" = "अनाम डेटा भेजें";
+"appTerminatedMessage" = "मिररएचआर बंद कर दिया गया है और अब डेटा प्राप्त करने या अलार्म भेजने में सक्षम नहीं है!";
+
+"alreadyTakenString" = "हो गया";
+"minutesAgoString" = "मिनट पहले";
+
+// Therapy related strings
+"therapiesNavTitle" = "थेरेपीज़";
+"newTherapyString" = "नई थेरेपी";
+"newCocktailString" = "नया रूटीन";
+"therapySampleName" = "चिकित्सा नाम";
+"defaultNewTherapyName" = "चिकित्सा नाम";
+"defaultNewDrugName" = "दवा का नाम";
+"newDrugString" = "नई दवा";
+"drugShapePillDescription" = "गोली";
+"drugShapeSpoonDescription" = "लिक्विड";
+"drugDosesTitle" = "दवा की खुराक";
+"cocktailSectionTitle" = "रूटीन";
+"drugsSectionTitle" = "ड्रग्स";
+"therapyAlertYesNoSaveMsg" = "क्या आप इसे सहेजना चाहते हैं?";
+"missingFieldsALertMsg" = "आपको पहले सभी फ़ील्ड भरने होंगे";
+"reminderAtString" = "रिमाइंडर यहां:";
+"enableReminderString" = "अनुस्मारक सक्षम करें";
+"therapyUnitText" = "यूनिट:";
+"therapyShapeText" = "आकृति:";
+"therapyQuantityText" = "मात्रा:";
+"noDrugNameText" = "कोई दवा का नाम नहीं";
+"noDrugUnitText" = "कोई दवा इकाई नहीं";
+"noDrugShapeText" = "कोई दवा आकार नहीं";
+"noCocktailNameText" = "कोई नियमित नाम नहीं";
+"drugOtherShapeDescription" = "अन्य";
+"sampleRoutineNameText" = "es. सुबह";
+"sampleDrugNameString" = "एस। टेग्रेटोल";
+"noReminderString" = "कोई रिमाइंडर नहीं";
+"noTherapyNameString" = "नो थेरेपी";
+"therapySessionFooterText" = "यहां आप अपने उपचार के इतिहास को ट्रैक कर सकते हैं";
+"therapyOnboardingHeadline" = "यहां आप अपने उपचार के इतिहास को ट्रैक कर सकते हैं";
+"noCurrentTherapyText" = "कोई वर्तमान चिकित्सा नहीं है";
+"currentTherapyTitleText" = "वास्तविक चिकित्सा";
+"addUpdateTherapiesText" = "चिकित्सा जोड़ें या अपडेट करें";
+"editUpdateAllTherapyDB" = "चिकित्सा डेटा संपादित करें";
+"cantDeleteAsUsedInCurrentTherapy" = "इस रिकॉर्ड को हटाया नहीं जा सकता क्योंकि यह वर्तमान चिकित्सा द्वारा उपयोग किया जाता है";
+"clearAllTherapyDataMsg" = "सभी डेटा साफ़ करें";
+"confirmDeleteAllTherapyData" = "यह सभी चिकित्सा संबंधी डेटा को हटा देगा";
+"navigationBackDefaultText" = "बैक";
+// EndTherapyRelatedStrings
+
+"version9_50onboardingCardDescription" =
+"1. केवल आईओएस 15
+2. रीयलटाइम सत्र में अधिक डेटा लॉग इन किया गया (जैसे बीपीएम आंकड़े)
+3. न्यू थेरेपी मैनेजर
+4. एक्सेल निर्यात अब पिछले 20 बरामदगी को अलग एक्सेल टैब में निर्यात करता है ताकि और अधिक बीपीएम निर्यात किया जा सके
+5. पूरी तरह से अज्ञात डेटा का एक्सेल निर्यात
+6. बीपीएम चार्ट जब टाइमलाइन व्यू पर क्लिक करते हैं और यह एक जब्ती है
+7. एक जब्ती को संभालने के दौरान फिक्स्ड वीडियो जब्ती
+8. यूक्रेनी, थाय, रूसी भाषाएं
+9. बेहतर NoData हैंडल (अब यह घड़ी के साथ स्टॉप की स्थिति को सिंक करता है)
+10. ऐप समाप्त होने पर अधिसूचना ध्वनि
+11. निगरानी स्थिति के आधार पर आइकन शील्ड चालू/बंद
+12. बेहतर दवा अनुस्मारक हैंडलिंग
+13. बग फिक्सिंग
+यदि आप मिररएचआर को पसंद करते हैं और हमें सुझाव देना चाहते हैं, तो कृपया जान लें कि एक समीक्षा और एक ईमेल का हमेशा स्वागत है। सेटिंग्स अनुभाग में लिंक खोजें।
+शुक्रिया!
+";
+
+"helpWithLocalizationString" = "मिररएचआर के स्थानीयकरण में हमारी सहायता करें";
+
+"kidDateOfBirthString" = "जन्म तिथि";
+"kidAgeString" = "आयु";
+
+"AbsenceEpilepsyType" = "अनुपस्थिति दौरे (पूर्व में पेटिट मल के रूप में जाना जाता है)";
+"TonicClonicEpilepsyType" = "टॉनिक-क्लोनिक या ऐंठन वाले दौरे (पहले ग्रैंड माल के रूप में जाना जाता था)";
+"AtonicEpilespyType" = "एटोनिक सीज़र्स (जिसे ड्रॉप अटैक भी कहा जाता है)";
+"ClonicEpilepsyType" = "क्लोनिक सीज़र्स";
+"TonicEpilepsyType" = "टॉनिक सीजर";
+"MyoclonicEpilepsyType" = "मायोक्लोनिक दौरे";
+"FocalAwarenessEpilepsyType" = "फोकल सीज़र्स विथ रिटेन्ड अवेयरनेस";
+"FocalNotAwareEpilepsyType" = "फोकल दौरे के साथ जागरूकता की हानि";
+"UnknownEpilepyType" = "अज्ञात";
+"epilepsyTypeString" = "मिर्गी टाइप";
+
+"firstRunWatchAlertMsg" = "जब आप पहली बार अपने Apple वॉच पर MirrorHR चलाते हैं, तो सुनिश्चित करें कि आपने स्वास्थ्य डेटा तक पहुँचने की अनुमति दी है";
+
+"tabCommunity" = "समुदाय";
+"CommunityNavigationTitle" = "समुदाय";
+"firstRunWatchAlertMsg" = "जब आप पहली बार अपने Apple वॉच पर MirrorHR चलाते हैं, तो सुनिश्चित करें कि आपने स्वास्थ्य डेटा तक पहुँचने की अनुमति दी है";
+"firstRunWatchAlertMsgExtended" = "पहली बार जब आप अपने ऐप्पल वॉच पर मिररएचआर चलाते हैं तो सुनिश्चित करें कि आप अपने स्वास्थ्य डेटा तक पहुंचने की अनुमति देते हैं। यदि समस्या बनी रहती है तो सबसे आसान बात यह है कि अपने फोन और ऐप्पल वॉच से मिररएचआर को अनइंस्टॉल करना, इसे फिर से इंस्टॉल करना और ध्यान देना पहली बार मिररएचआर ऐप्पल वॉच पर चलाया जाता है।";
+"tabCommunityTitle" = "समुदाय";
+"askForHelpChecklist" = "सहायता";
+"askForHelpChecklistDescription" = "क्या आपको मदद चाहिए? हमसे संपर्क करें और हम आपकी मदद करने की पूरी कोशिश करेंगे। हालांकि, आपके समय क्षेत्र में कुछ घंटों का अंतर हो सकता है। आप सीधे helpme@mirrorhr.org पर एक ईमेल भी भेज सकते हैं";
+"permissionsCheckFaq" = "Apple वॉच आपकी हृदय गति को नहीं पढ़ सकती है";
+"permissionsCheckFaqDescription" = "Apple Watch पर MirrorHR हमेशा 0 BPM क्यों दिखाता है, कुछ मिनटों के बाद भी कि एप्लिकेशन चल रहा है?";
+
+"nightViewCardTitle" = "रात्रि दृश्य";
+"nightViewCardHeadline" = "मिररएचआर कभी नहीं सोता";
+"nightViewCardDescription" = "जब हृदय गति मॉनिटरिंग सक्रिय हो, आप फोन को क्षैतिज रूप से घुमाकर सिंपली नाइट मोड सक्रिय कर सकते हैं। स्क्रीन की चमक कम हो जाएगी, और केवल आवश्यक जानकारी ही प्रदर्शित की जाएगी। इसके अलावा, MirrorHR फोन को बंद होने से रोकेगा, जिससे आप एक नजर में स्थिति की निगरानी कर सकें। रात के दौरान फोन को पावर से जुड़ा रखना सुझावित है। ध्यान दें: यदि आपने iOS 17 में अपडेट किया है, तो आपके iPhone की सेटिंग्स में StandBy फीचर को अक्षम करना बेहतर होगा।";
+
+"StartFromWatchCardTitle" = "Apple Watch से शुरू करें";
+"startFromWatchCardHeadline" = "Apple Watch पर MirrorHR से मॉनिटरिंग शुरू करें";
+"startFromWatchCardDescription" = "गोपनीयता और सुरक्षा सुनिश्चित करने के लिए, Apple वॉच पर मिररएचआर एप्लिकेशन से निगरानी शुरू होनी चाहिए। जब ​​निगरानी सक्रिय होती है तो इसे iPhone द्वारा रोका जा सकता है, या यहां तक ​​कि 15 मिनट के भीतर फिर से शुरू किया जा सकता है, जिसके बाद इसे फिर से शुरू किया जाना चाहिए। एप्पल घड़ी। ";
+"sympt_toothache" = "दांत दर्द";
+"rebootWatchCardTitle" = "अपनी Apple वॉच को पुनरारंभ करें";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "सुनिश्चित करें कि आपकी Apple वॉच पर भी MirrorHR नवीनतम संस्करण में अपडेट है। कभी-कभी इसमें कुछ मिनट लग सकते हैं, और यह सुनिश्चित करने के लिए कि सब कुछ ठीक से काम कर रहा है, यह अनुशंसा की जाती है कि आप अपनी Apple वॉच को बंद और चालू करें। फिर से ताज के नीचे साइड बटन को दबाए रखें, जैसा कि छवि में है। ";
+"doctorsEmailString" = "डॉक्टरों का ईमेल:";
+"minutesString" = "मिनट";
+
+"version9_60onboardingCardDescription" = "1. मिररएचआर एपिलेप्सी रिसर्च किट के संस्करण 9.60 में आपका स्वागत है: उपयोग में आसान और सुविधाओं से भरपूर।
+मिररएचआर माता-पिता और डॉक्टरों द्वारा माता-पिता और डॉक्टरों के लिए विकसित एक स्वतंत्र, सुरक्षित और निजी ऐप है।
+रीयल-टाइम हार्ट रेट मॉनिटरिंग और अलार्म जैसी कुछ सुविधाओं के लिए iPhone से कनेक्टेड Apple वॉच (वॉचओएस 8+ चलाना) की आवश्यकता होती है (iOS 15+ पर चल रहा है)। हालाँकि, यदि आपके पास Apple वॉच नहीं है, तो एप्लिकेशन अभी भी सभी घटनाओं और लक्षणों को रिकॉर्ड करने और आपके डॉक्टर के साथ बेहतर संचार को बढ़ावा देने के लिए अत्यधिक फायदेमंद है।
+मिररएचआर एक चिकित्सा उपकरण नहीं है, न ही इसका इरादा है: यह सिर्फ आपके डॉक्टर के साथ गठबंधन में अपने प्रियजनों की मिर्गी के बारे में और जानने में आपकी सहायता करना चाहता है।
+
+इस संस्करण के महत्वपूर्ण नवाचारों में:
+1. रीयल-टाइम निगरानी प्रबंधन के लिए बेहतर Apple वॉच नियंत्रण।
+2. अपने डॉक्टर के साथ डेटा साझा करने की सुविधा के लिए एक्सेल में बेहतर डेटा निर्यात।
+3. संभावित रूप से पिछले मिर्गी के दौरे के डेटा के साथ अपने डॉक्टर के लिए एक ईमेल पूर्व-पॉप्युलेट करें।
+4. डायरी में नए लक्षण उपलब्ध हैं, और अब किसी लक्षण या घटना की सटीक अवधि दर्ज करना संभव है।
+5. कुछ बग्स और प्रदर्शन सुधारों को ठीक किया गया।
+
+हम आपको यह भी याद दिलाते हैं कि मिररएचआर पूरी तरह से गुमनाम है, और डेटा केवल आपके फोन पर है।
+रीयल-टाइम मॉनिटरिंग के लिए Apple वॉच के साथ पेयरिंग की आवश्यकता होती है।
+अपडेट के बाद, हम यह सुनिश्चित करने के लिए Apple वॉच को फिर से शुरू करने की सलाह देते हैं कि दो एप्लिकेशन (iPhone और Apple वॉच पर) सही ढंग से संरेखित हैं।
+
+दो सुपर माताओं का विशेष धन्यवाद जिन्होंने हमें मिररएचआर में सुधार के लिए लगातार सुझाव दिए हैं: बहुत-बहुत धन्यवाद, स्टेफेनिया और ऐलेना। #लड़ना कभी न छोड़ें
+
+यदि आप मिररएचआर एपिलेप्सी रिसर्च किट को और भी अधिक उपयोगी बनाने में हमारी मदद करना चाहते हैं, तो कृपया helpme@mirrorhr.org पर हमसे संपर्क करें और ऐप्पल ऐप स्टोर पर एक समीक्षा पोस्ट करें।
+
+मिर्गी अनुसंधान में एक साथ योगदान करने के लिए धन्यवाद।
+";
+
+"backupSymptomsDataString" = "लक्षण बैकअप";
+"restoreSymptomsDataString" = "बैकअप से लक्षणों को पुनर्स्थापित करें";
+
+"AttentionRiskyWorkInProgressMessage" = "कार्य प्रगति पर है।\n\nकृपया यहां प्रतीक्षा करें और दर्पण को सक्रिय रखें अन्यथा यह अस्थिर हो सकता है";
+
+"WhatsNew9_70_Title1" = "नियंत्रण में रहें";
+"WhatsNew9_70_SubTitle1" = "नया बैकअप और पुनर्स्थापना फ़ंक्शन";
+"WhatsNew9_70_Body1" = "डेटा हमेशा सुरक्षित और आपके पूर्ण नियंत्रण में है। नए विकल्प देखने के लिए डायरी व्यू में निर्यात आइकन पर क्लिक करें।";
+
+"WhatsNew9_70_Title2" = "नया क्या है";
+"WhatsNew9_70_SubTitle2" = "यह पेज";
+"WhatsNew9_70_Body2" = "नवीनतम अपडेट देखने का एक आसान तरीका";
+
+"WhatsNew9_70_Title3" = "बग समाधान";
+"WhatsNew9_70_SubTitle3" = "कुछ बग";
+"WhatsNew9_70_Body3" = "मिररएचआर पहले से कहीं अधिक विश्वसनीय है। आपकी निरंतर प्रतिक्रिया के लिए धन्यवाद";
+
+"NotifyRTEndTitleMsg" = "रियल टाइम सेशन समाप्त";
+"NotifyRTEndCaptionMsg" = "रियल टाइम सेशन बंद होने पर एक नोटिफिकेशन फायर करें। यह गलती से इसे रोकने में मदद कर सकता है";
+"NoDataEventStringV2" = "मैं Apple वॉच से डेटा प्राप्त नहीं कर सकता!";
+"NoDataEventCaptionV2" = "कृपया जांचें कि iPhone और Apple वॉच कनेक्ट हैं और पहुंच योग्य हैं। यदि त्रुटि बनी रहती है, तो कृपया रीबूट करें।";
+"NoDataReceivedStringV2" = "मुझे Apple वॉच से से अधिक के लिए डेटा प्राप्त नहीं हुआ है";
+
+"TelemetryLocalizedSymptomsLogged" = "लक्षण";
+"TelemetryLocalizedBpmMinMax" = "BPM थ्रेसहोल्ड";
+"TelemetryLocalizedMedicationReminders" = "दवा अनुस्मारक";
+"TelemetryLocalizedCheckList" = "चेकलिस्ट आगे बढ़ती है";
+"TelemetryLocalizedDateOfBirth" = "आयु";
+"TelemetryLocalizedEpilepsyType" = "मिरगी का प्रकार";
+"TelemetryLocalizedMirrorHRError" = "एप्लिकेशन त्रुटियाँ";
+"TelemetryLocalizedMonitoringSession" = "निगरानी सत्र";
+
+"DoYouWantStopcriticalErrorNotificationsMsg" = "क्या आप गंभीर त्रुटियों के लिए सूचनाएं प्राप्त करना बंद करना चाहते हैं?";
+
+// स्ट्रीमिंग से संबंधित सामग्री
+"YouMustHaveWatchOrStreamingMain" = "रियल-टाइम में दिल की धड़कन की निगरानी करने, अलार्म प्राप्त करने, और कई अन्य सुविधाएं प्राप्त करने के लिए, आपके पास इस iPhone के साथ एक Apple वॉच जोड़ी होनी चाहिए।";
+
+"YouMustHaveWatchOrStreamingSecondary" = "वैकल्पिक रूप से, आप Apple वॉच के साथ जोड़े गए और उसी नेटवर्क से जुड़े किसी अन्य iPhone से डेटा प्राप्त कर सकते हैं।";
+
+"IGetDataFromAnotherPhoneInLan" = "मैं एक अन्य iPhone से डेटा प्राप्त कर सकता हूं जो एक Apple वॉच के साथ मिररएचआर चला रहा है";
+
+"HealthDataSourceSettingsView" = "स्वास्थ्य डेटा स्रोत";
+
+"EnableStreamingSettingsView" = "स्ट्रीमिंग सक्षम करें";
+
+"StreamingSectionFooterIntro" = "रियल-टाइम मॉनिटरिंग, अलार्म आदि को सक्षम करने के लिए आपके पास Apple वॉच के साथ एक iPhone जोड़ा होना चाहिए।
+यदि आपके पास ऐप्पल वॉच के बिना अन्य आईफ़ोन (अधिकतम 3) हैं, तो आप उन्हें डेटा भेज सकते हैं यदि वे सभी एक ही वाई-फाई नेटवर्क से जुड़े हैं (उदाहरण के लिए बड़े घर, दूसरे कमरे में बच्चे जिनके आईफोन पर मुख्य मिररएचआर ऐप है) , और ऐप्पल वॉच, आदि)।";
+
+"StreamingSectionAlertMsg" = "सभी iPhones में MirrorHR स्थापित होना चाहिए और स्ट्रीमिंग फ़्लैग सक्षम होना चाहिए। Apple वॉच से जुड़ा डिवाइस डेटा भेजेगा, जबकि अन्य डिवाइस उन्हें प्राप्त करेंगे। कृपया ध्यान दें: MirroHR को दोनों डिवाइसों पर अग्रभूमि में चलना होगा। . यदि कनेक्शन खो जाता है, तो आपको रीयलटाइम व्यू में कनेक्शन प्रक्रिया को फिर से करना होगा। यदि आपको इस सुविधा के साथ सहायता की आवश्यकता है, तो ईमेल करने में संकोच न करें helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "स्ट्रीम";
+"StreamingConnectedTo" = "कनेक्टेड टू:";
+"NotConnectedToAnyStream" = "किसी भी स्ट्रीम से कनेक्ट नहीं है";
+"StreamingReceivingDataFrom" = "इससे डेटा प्राप्त करना:";
+"StreamingSendingDataTo" = "इस पर डेटा भेजा जा रहा है:";
+"CheckStreamingUnderstandAlert" = "स्ट्रीमिंग को समझें";
+"PairedWithAppleWatchView" = "Apple वॉच के साथ पेयर्ड";
+"PairedWithAppleWatchView" = "Apple वॉच के साथ पेयर्ड";
+
+"CiaoSettingsGreeting" = "हाय";
+"FrequentlyAskedQuestionsSeparator" = "अक्सर पूछे जाने वाले प्रश्न (एफएक्यू)";
+
+"sympt_aura" = "ऑरा";
+"version10_5_WhatsNewDescription" = "1. सरलीकृत उपयोगकर्ता अनुभव और नए लक्षण।
+2. कुछ बग ठीक किए गए।
+यदि आप मिररएचआर को पसंद करते हैं और हमें सुझाव देना चाहते हैं, तो कृपया जान लें कि समीक्षा और ईमेल का हमेशा स्वागत है। सेटिंग्स अनुभाग में लिंक खोजें।
+धन्यवाद ";
+
+"InformazioniPersonaliHeader" = "व्यक्तिगत जानकारी";
+
+"healthPermissionsFAQTask" = "Apple HealthKit पर अनुमतियों को कैसे ठीक करें।";
+"cantWorkWithoutHealthAccessMessage" = "मुझे खेद है, मैं स्वास्थ्य डेटा तक पहुंच के बिना काम नहीं कर सकता। अगर यह एक गलती थी, तो कृपया iPhone पर मिररएचआर ऐप में समर्थन विकल्पों की जांच करें या मिररएचआर को फिर से इंस्टॉल करें।";
+"healthAccessErrorMessage" = "Apple HealthKit से स्वास्थ्य डेटा पढ़ने में त्रुटि हुई है। कृपया iPhone पर MirrorHR ऐप में समर्थन विकल्पों की जाँच करें।";
+"GrantAllPermissionsCarefullyMessage" = "स्वास्थ्य डेटा पढ़ने की अनुमति दें।";
+"GrantAllPermissionsCarefullyMessagePart2" = "कृपया ध्यान रखें कि यदि आप प्रक्रिया को रद्द करते हैं या कुछ अनुमति से इनकार करते हैं, तो मिररएचआर बिल्कुल भी काम नहीं कर पाएगा।";"TapHereToHandleMsg" = "हैंडल करने के लिए यहां टैप करें।";
+"YouAreInStreamingMode" = "MirrorHR Apple वॉच के साथ जोड़े गए किसी अन्य iPhone से डेटा प्राप्त करने के लिए सेट है। केवल डेटा प्राप्त करने के लिए व्यवस्थित होने के कारण, आपके पास सीमित क्षमताएं और विकल्प हैं।";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "मैं किसी अन्य डिवाइस से डेटा प्राप्त करना बंद करना चाहता हूं और पूर्ण विकल्प देखना चाहता हूं।";
+"ItWillStopCurrentSessionMsg" = "नोट: यह वर्तमान सत्र को रोक देगा।";
+
+"MirrorHRLeveragesBPMHeadline" = "नैदानिक ​​​​अध्ययनों से पता चला है कि मिर्गी से पीड़ित 70% से अधिक लोगों में दौरे की शुरुआत के बाद सेकंड के भीतर अचानक तीव्र हृदय गति होती है। मिररएचआर लगातार ऐप्पल वॉच के माध्यम से हृदय गति (बीपीएम) की निगरानी करता है, और यह संभव है कुछ शर्तों को सत्यापित करने के लिए अलार्म सेट करें। यदि आपके पास ऐप्पल वॉच नहीं है तो सभी डॉक्टरों द्वारा सभी लक्षणों और घटनाओं की एक डायरी रखने की सिफारिश की जाती है, और यहां तक ​​​​कि इसमें मिररएचआर भी आपकी मदद कर सकता है।";
+"AlarmOnboardingCardHeadline" = "यहां आप हृदय गति सीमा (BPM) सेट कर सकते हैं जिसके लिए आप अलार्म प्राप्त करना चाहते हैं। सुनिश्चित करें कि आप Apple वॉच पर सूचनाओं की नकल नहीं करते हैं, या आपको अलार्म प्राप्त नहीं हो सकते हैं। इस सुविधा के लिए आवश्यक है कि iPhone Apple वॉच के साथ जोड़ा गया है।";
+"CanTEarAlarmSoundGoBackMsg" = "यदि आपको परीक्षण अलार्म अधिसूचना प्राप्त नहीं हुई है, तो कृपया पिछली स्क्रीन पर वापस आएं और सुनिश्चित करें कि आपने सभी चरणों का पालन किया है। यदि आपको सहायता की आवश्यकता है तो कृपया हमें helpme@mirrorhr.org पर ईमेल करने में संकोच न करें";
+
+"ItRequiresPermissionsAPopUpWillShow" = "यदि आप इस सुविधा को सक्षम करते हैं तो घड़ी से स्वास्थ्य डेटा पढ़ने की अनुमति मांगने वाला एक पॉप-अप दिखाई देगा। कृपया सभी आवश्यक अनुमतियां दें।";
+"HealthDataUnavailableErrorMsg" = "इस उपकरण पर आवश्यक स्वास्थ्य डेटा उपलब्ध नहीं है। कृपया सहायता विकल्पों की जाँच करें।";
+"QuantityTypeUnavailableErrorMsg" = "आवश्यक स्वास्थ्य मात्रा प्रकार इस उपकरण पर उपलब्ध नहीं है। कृपया सहायता विकल्पों की जाँच करें।";
+"DataTypeUnavailableErrorMsg" = "इस उपकरण पर आवश्यक स्वास्थ्य डेटा प्रकार उपलब्ध नहीं है। कृपया सहायता विकल्पों की जाँच करें।";
+"HealthPermissionsNotGrantedErrorMsg" = "आपने Apple HealthKit से स्वास्थ्य डेटा पढ़ने के लिए आवश्यक अनुमति नहीं दी है। दुर्भाग्य से, MirrorHR इसके बिना काम नहीं कर सकता। अगर यह अनजाने में हुआ था, तो कृपया helpme@mirrorhr.org पर हमसे संपर्क करने के लिए जाँच करें, या बस मिररएचआर को ऐप्पल स्टोर से हटाने और पुनः स्थापित करने का प्रयास करें।";
+
+"AskNotificationPermissionsMsg" = "सूचनाएं और महत्वपूर्ण सूचनाएं भेजने की अनुमति दें (आईफोन के साइलेंट मोड में होने पर भी वे सक्रिय हो जाते हैं)।";
+
+"AcceptingConditionsByContinuingMsg" = "मिररएचआर का उपयोग जारी रखते हुए, मैं पुष्टि करता हूं कि मैंने शर्तों को स्वीकार करते हुए उपरोक्त को पढ़ और समझ लिया है।";
+"SwipeRightToContinueSetupMsg" = "सेटअप के माध्यम से आगे जाने के लिए दाएं स्वाइप करें।";
+"StopUsingMirrorHRContactUsMsg" = "यदि आप सहमत नहीं हैं, तो कृपया मिररएचआर का उपयोग बंद कर दें। यदि आपको कोई जानकारी चाहिए, तो हमें helpme@mirrorhr.org पर ईमेल द्वारा संपर्क करें।";
+
+"YouPersonalSettingsSection के बारे में" = "आपके बारे में";
+"SettingsSettingsSection" = "सेटिंग्स";
+"MedicalPlanSettingsSection" = "मेडिकल प्लान";
+"AboutMirrorHRSettingsSection" = "मिररएचआर के बारे में";
+
+"sympt_ask4Help" = "मदद के लिए पूछें";
+"remoteNotificationsSettingsTitleMsg" = "देखभालक";
+"remoteNotificationsCaregiversFooter" = "देखभालक व्यक्ति WhatsApp, SMS या अन्य किसी तरीके से एक रोगी के साथ अपना आईडी साझा कर सकता है। जब रोगी लिंक खोलता है, तो उसे प्रत्येक घटना या अलार्म के लिए अधिसूचना प्राप्त करने के लिए देखभालक को पंजीकृत कर सकता है। दोनों को MirrorHR स्थापित और विन्यस्त किया होना चाहिए। आप कई देखभालक हो सकते हैं।";
+"yourUniqueIDText" = "आपका अद्वितीय आईडी:";
+"shareYourIDCaregiverMsg" = "रोगी के साथ अपना आईडी साझा करें ताकि आप देखभालक बन सकें और रोगी द्वारा रजिस्टर किए गए लक्षणों या अलार्म के लिए सूचनाएं प्राप्त कर सकें।";
+"shareYourIDBtnMsg" = "अपने लक्षण, अलार्म आदि की सूचनाएँ भेजने के लिए अपने केयरगिवर के साथ अपना मरीज ID साझा करें।";
+"caregiversListMsg" = "यहां आपके मौजूदा देखभालक हैं जो आपसे सूचनाएं प्राप्त कर सकते हैं।";
+"uUIDMsg" = "आपका अद्वितीय, गुमनाम आईडी:";
+"saveSymptomInDiaryMsg" = "डायरी में लक्षण सहेजें";
+"remoteNotificationMsg" = "दूरस्थ सूचना:";
+"sympt_AlarmFired" = "अलार्म बज गया";
+"stopReceivingNotificationsFor15Mins" = "15 मिनट के लिए सूचनाएं प्राप्त करना बंद करें।";
+"event_RealTimeSessionStarted" = "रियलटाइम सत्र प्रारंभ हुआ";
+"tryPushNotificationBtnLabel" = "एक सूचना प्रयास करें";
+"testRemoteNotifications" = "यह एक परीक्षण था";
+
+"version11_WhatsNewDescription" = "महत्वपूर्ण नई सुविधा का परिचय: केयरगिवर के लिए दूरस्थ निगरानी। अब केयरगिवर के आईफोन पर स्थापित MirrorHR ऐप को दूरस्थ सूचनाएं भेजना संभव है। यह सुविधा सेटिंग्स टैब में कॉन्फ़िगर की जा सकती है और यह डायरी टैब से 'मदद के लिए पूछें' सूचना भेजने की संभावना भी सक्षम करती है, या आईफोन होम स्क्रीन पर एक नया विजेट के माध्यम से।
+
+यदि आप MirrorHR की प्रशंसा करते हैं और प्रतिक्रिया या सुझाव देना चाहते हैं, तो कृपया जानें कि एक समीक्षा और ईमेल हमेशा स्वागत हैं। आप लिंक सेटिंग्स अनुभाग में पा सकते हैं। धन्यवाद!";
+
+"alarmSentMsg" = "अलार्म भेजा गया";
+"stopCountdownMsg" = "काउंटडाउन रोकें";
+"stoppedMsg" = "रोक दिया गया";
+
+"TabHome" = "होम";
+"NextMedication" = "अगली दवा";
+"RemindersLink" = "रिमाइंडर्स";
+"QuickNotesMsg" = "त्वरित नोट";
+"savedBtnMsg" = "सहेजा गया";
+"RemindersNotSet" = "रिमाइंडर्स अभी तक सेट नहीं हुए हैं";
+"TherapiesNotSet" = "चिकित्सा अभी तक सेट नहीं हुई है";
+"ThisWeekMedicationAtGlance" = "इस सप्ताह की दवाएं";
+"SinceLastSeizureString" = "आखिरी दौरे पर";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "MirrorHR - एपिलेप्सी रिसर्च किट के संस्करण 14 में आपका स्वागत है! हम एक नया होम टैब लाने के लिए उत्साही हैं, जो मौलिक जानकारी को आपकी उंगलियों तक लेकर आता है। मुख्य घटनाओं का लॉग बनाना, दवाओं और चिकित्साओं का पालन करना, और त्वरित नोट्स बनाना अब कभी नहीं होता था। MirrorHR के साथ, अपने एपिलेप्सी प्रबंधन पर एक स्पष्टतर दृष्टि प्राप्त करें, और अपने स्वास्थ्य प्रदाता के साथ बेहतर वार्ता को बढ़ावा दें। आपकी मूल्यवान प्रतिक्रियाओं ने प्रदर्शन में सुधार और कुछ बग्स को सुलझाया, जिससे ऐप पहले से कहीं अधिक स्मूथ हो गया है।
+
+क्या आपको MirrorHR पसंद है? आपकी समीक्षाएँ और प्रतिक्रियाएँ अनुभव को संवारने में महत्वपूर्ण होती हैं। कृपया एक समीक्षा छोड़ने या अपने सुझावों के साथ हमें ईमेल भेजने में स्वतंत्र महसूस करें। आप सेटिंग्स अनुभाग में लिंक पा सकते हैं। आपके निरंतर समर्थन के लिए धन्यवाद!";
+
+"MoodMsg" = "मनोदशा";
+"sympt_mood_happy" = "प्रसन्न";
+"sympt_mood_calm" = "शांत";
+"sympt_mood_sad" = "उदास";
+"sympt_mood_angry" = "नाराज़";
+"sympt_mood_anxious" = "चिंतित";
+
+"AppreciateDonationsMsg" = "MirrorHR हमेशा मुफ्त रहेगा। फिर भी, अगर आप कर सकते हैं तो इसके विकास को समर्थन देने के लिए हम किसी भी दान की सराहना करते हैं। धन्यवाद।";
+"ThankYouForDonationMsg" = "आपके दान के लिए धन्यवाद! बहुत सराहना की गई!";
+"DonationFailedMsg" = "दान विफल रहा! आप बाद में फिर से कोशिश कर सकते हैं। धन्यवाद।";
+"DonationCancelledMsg" = "दान रद्द कर दिया गया है। आप बाद में फिर से कोशिश कर सकते हैं। धन्यवाद।";
+"UnknownDonationStatusMsg" = "दान की स्थिति अज्ञात है। आप बाद में फिर से कोशिश कर सकते हैं। धन्यवाद।";
+
+"sympt_Myoclonic_Trembling" = "मायोक्लोनिक कंपन";
+
+"EnableLocalStreaming" = "स्थानीय स्ट्रीमिंग सक्षम करें";
+"EnableReceivingRemoteStreaming" = "इंटरनेट के माध्यम से डेटा प्राप्त करने की सक्षमता सक्षम करें";
+"EnableReceivingRemoteStreamingFooter" = "यदि आप एक देखभालक हैं, तो आप एक दूरस्थ MirrorHR से BPM और सूचनाएं प्राप्त कर सकते हैं। एक माता-पिता/अभिभावक संबंध और इंटरनेट कनेक्टिविटी की आवश्यकता होती है। डेटा नेटवर्क शर्तों के कारण विलम्बित हो सकता है, और BPM केवल संभव होने पर भेजे जा सकते हैं।";
+
+// संस्करण 15 - जुलाई 2024
+
+"CreateMirrorHRBckTitle" = "MirrorHR बैकअप बनाएं";
+"BackupRestoredMsg" = "बैकअप पुनःस्थापित किया गया";
+"RestoreBackupMsg" = "बैकअप पुनःस्थापित करें";
+"ConfirmRestoreMsg" = "पुनःस्थापना की पुष्टि करें";
+"ProcessingMsg" = "प्रोसेसिंग...";
+"ConfirmRestoreMessageExt" = "क्या आप वाकई बैकअप पुनःस्थापित करना चाहते हैं? इससे मौजूदा डेटा ओवरराइट हो जाएगा।";
+"RestoreOnlyMsg" = "पुनःस्थापित करें";
+"RestoreCompleteSuccessMsg" = "पुनःस्थापना सफलतापूर्वक पूरी हुई।";
+"RestoreFailureMsg" = "त्रुटि के साथ पुनःस्थापना विफल: ";
+"BackupErrorSorryMsg" = "मुझे खेद है, मैं MirrorHR बैकअप को पुनःस्थापित नहीं कर सकता";
+"SwitchedActivePatientBecauseSeverEvent" = "अभी प्राप्त गंभीर घटना को संभालने के लिए सक्रिय रोगी को बदला गया। BPM प्राप्त करना शुरू किया।";
+"SameEventsMsg" = "समान घटनाएँ";
+"HandlingRemoteCommandMsg" = "दूरस्थ कमांड को संभालना: ";
+"event_realTimeSessionEnded" = "रीयलटाइम सत्र समाप्त हुआ";
+"RealTimeRemoteActiveMsg" = "रीयलटाइम दूरस्थ MirrorHR पर सक्रिय है।";
+"RealTimeRemoteOffMsg" = "रीयलटाइम दूरस्थ MirrorHR पर बंद है।";
+"RemoteRealtimeUnkwongMsg" = "दूरस्थ MirrorHR पर रीयलटाइम स्थिति अज्ञात है।";
+"RemoteNoPatientSelectedMsg" = "दूरस्थ MirrorHR के रूप में कोई रोगी चयनित नहीं है";
+"RemoteFetchingDataMsg" = "दूरस्थ MirrorHR से डेटा प्राप्त किया जा रहा है";
+"RemoteNoDataKeyMsg" = "दूरस्थ MirrorHR से डेटा प्राप्त नहीं हो रहा है";
+"RemoteNoDataCaptionMsg" = "हो सकता है कि इंटरनेट कनेक्टिविटी न हो या दूरस्थ MirrorHR पर रीयलटाइम सत्र सक्रिय न हो";
+"RemoteMustHaveWatchInfoMsg" = "आपके पास एक Apple Watch या एक अन्य MirrorHR ऐप होना चाहिए जो डेटा स्ट्रीम कर रहा हो। आप सेटिंग्स टैब के स्वास्थ्य डेटा स्रोत अनुभाग में सभी विकल्पों की जांच कर सकते हैं।";
+"RemoteCheckStatusActiveMsg" = "दूरस्थ स्थिति की जाँच करें";
+"RemoteCheckingStatusDisabledMsg" = "जाँच हो रही है...";
+"RemoteRunningMsgMaxTime" = "दूरस्थ MirrorHR से BPM प्राप्त करें (अधिकतम 5 मिनट)";
+"RemoteRealTimeIsNotRunningMsg" = "दूरस्थ MirrorHR पर रीयलटाइम चालू नहीं है";
+"RemoteTryReceivingBpmsMsg" = "आइए दूरस्थ MirrorHR से BPM प्राप्त करने का प्रयास करें";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "दूरस्थ MirrorHR से BPM प्राप्त करना (केवल कुछ मिनट)";
+"RemoteStreamingOptionsSettingsMsg" = "आप सेटिंग्स - स्वास्थ्य डेटा स्रोतों में कुछ स्ट्रीमिंग विकल्प सेट कर सकते हैं";
+"RemoteConnectedAndReceivingMsg" = "इंटरनेट से जुड़ा हुआ और डेटा प्राप्त कर रहा है:";
+"RemoteNoPatientAssociatedMsg" = "कोई संबंधित रोगी नहीं हैं";
+"RemoteSelectActivePatientMsg" = "रोगी का चयन करें और सक्रिय करें";
+"RemoteThereIsNoInternetConnectionMsg" = "कोई इंटरनेट कनेक्शन नहीं है";
+"RemoteConnectedToInternetMsg" = "इंटरनेट से जुड़ा हुआ";
+"RemoteSendingDataToMsg" = "डेटा भेजना:";
+"RemoteNoCaregiverAssociatedMsg" = "कोई संबंधित देखभालकर्ता नहीं हैं";
+"BackupAndRestoreHeaderMsg" = "बैकअप और पुनःस्थापना";
+"LocalNotificationsHeaderMsg" = "स्थानीय सूचनाएँ";
+"RemoteNotificationsHeaderMsg" = "दूरस्थ सूचनाएँ";
+"RemoteActivePatientsHeaderMsg" = "सक्रिय रोगी";
+"Ask4HelpNeedsYourHelpMsg" = "आपकी मदद की जरूरत है!";
+"RemoteNotificationTitleMsg" = "दूरस्थ सूचना";
+"LocationServicesLocalized" = "स्थान सेवाएँ";
+"RemoteDiaryOnlyDataSourceTitle" = "केवल डायरी";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Apple Watch से जोड़ा गया है और मुख्य घटनाओं को इंटरनेट के माध्यम से देखभालकर्ताओं को भेज रहा है";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Apple Watch से जोड़ा गया है और मुख्य घटनाओं और BPM को इंटरनेट के माध्यम से देखभालकर्ताओं को भेज रहा है";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "इंटरनेट के माध्यम से अन्य MirrorHR से मुख्य घटनाओं को प्राप्त कर रहा है";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "इंटरनेट के माध्यम से अन्य MirrorHR से मुख्य घटनाओं और BPM को प्राप्त कर रहा है";
+"RemotePotentialOnboardingRestartMsg" = "कुछ नई सेटिंग्स को सही ढंग से कॉन्फ़िगर करने के लिए ऑनबोर्डिंग पुनः प्रारंभ हो सकता है।";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "कोई उपलब्ध Apple Watch नहीं है। MirrorHR केवल एक डायरी के रूप में काम करता है। कोई जैवमेट्रिक डेटा स्रोत सक्रिय नहीं है, कोई अलार्म उपलब्ध नहीं है।";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR सीधे Apple Watch से जुड़ा हुआ है और जैवमेट्रिक डेटा प्राप्त कर सकता है। स्थानीय अलार्म और सूचनाएँ सक्रिय हैं।";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR Apple Watch से जुड़ा हुआ है और इंटरनेट के माध्यम से मुख्य घटनाओं को देखभालकर्ता को सूचनाओं के रूप में भेज सकता है। देखभालकर्ता को MirrorHR को चालू रखना चाहिए और इन घटनाओं को प्राप्त करने के लिए कॉन्फ़िगर करना चाहिए। इन सूचनाओं में देरी हो सकती है।";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR Apple Watch से जुड़ा हुआ है और मुख्य घटनाओं और BPM को इंटरनेट के माध्यम से देखभालकर्ता को भेज सकता है। देखभालकर्ता को MirrorHR को चालू रखना चाहिए और इन घटनाओं और BPM को प्राप्त करने के लिए कॉन्फ़िगर करना चाहिए। इन सूचनाओं में देरी हो सकती है।";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR सीधे Apple Watch से जुड़ा नहीं है, लेकिन यह इंटरनेट के माध्यम से Apple Watch से जुड़ी अन्य MirrorHR से मुख्य घटनाओं को प्राप्त कर सकता है। इन सूचनाओं को प्राप्त करने में देरी हो सकती है।";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR सीधे Apple Watch से जुड़ा नहीं है, लेकिन यह इंटरनेट के माध्यम से Apple Watch से जुड़ी अन्य MirrorHR से मुख्य घटनाओं और BPM को प्राप्त कर सकता है। इन सूचनाओं को प्राप्त करने में देरी हो सकती है, और यह सुनिश्चित करने के लिए कि BPM प्राप्त हो रहे हैं, MirrorHR को अग्रभूमि में होना चाहिए।";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR दूरस्थ iPhone पर सक्रिय नहीं है";
+"RemoteStopReceivedFromPatientMsg" = "दूरस्थ रोगी से रीयलटाइम स्टॉप कमांड प्राप्त हुआ";
+"RemoteNoDataFromTheInternetMsg" = "दूरस्थ रोगी से कोई डेटा प्राप्त नहीं हुआ";
+
+"version15_WhatsNewDescription" = "MirrorHR - Epilepsy Research Kit के संस्करण 15 में आपका स्वागत है! हम अपने पूर्ण रिमोट मॉनिटरिंग सिस्टम को पेश करने के लिए उत्साहित हैं, जो हमारे बच्चों और प्रियजनों के लिए स्वायत्तता बढ़ाता है। मुख्य घटनाओं को लॉग करने, दवाओं और उपचारों को ट्रैक करने के अलावा, अब आप इन सभी गतिविधियों के लिए दूरस्थ सूचनाएं प्राप्त कर सकते हैं, जिनमें अलार्म और BPM भी शामिल हैं, भले ही आप अपने प्रियजन से मीलों दूर हों। इस सुविधा के लिए आवश्यक है कि रोगी एक Apple Watch पहने जो MirrorHR चलाने वाले iPhone से जोड़ी गई हो, जबकि आप, एक देखभालकर्ता के रूप में, केवल अपने iPhone पर MirrorHR की आवश्यकता है।
+
+हमेशा की तरह, MirrorHR आपको मिर्गी प्रबंधन में स्पष्ट अंतर्दृष्टि प्राप्त करने में मदद करता है, जो आपके स्वास्थ्य सेवा प्रदाता के साथ बेहतर चर्चाओं को बढ़ावा देता है। आपके अमूल्य फीडबैक ने प्रदर्शन सुधार और बग सुधार की ओर अग्रसर किया है, जिससे ऐप पहले से कहीं अधिक सुचारू हो गया है।
+
+MirrorHR से प्यार करते हैं? आपका रिव्यू और फीडबैक अनुभव को परिष्कृत करने में महत्वपूर्ण है। बेझिझक समीक्षा छोड़ें या अपने सुझावों के साथ हमें ईमेल करें। लिंक सेटिंग्स सेक्शन के तहत पाए जाते हैं। आपके निरंतर समर्थन के लिए धन्यवाद!";

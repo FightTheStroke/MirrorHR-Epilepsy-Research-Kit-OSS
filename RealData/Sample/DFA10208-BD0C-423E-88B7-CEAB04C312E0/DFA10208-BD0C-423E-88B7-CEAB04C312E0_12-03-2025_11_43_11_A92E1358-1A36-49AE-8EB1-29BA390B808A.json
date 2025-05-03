@@ -1,0 +1,172 @@
+{
+  "DataSeries": [
+    {
+      "bpm": 64,
+      "date": "12-03-2025 11:40:37"
+    },
+    {
+      "bpm": 53,
+      "date": "12-03-2025 11:40:41"
+    },
+    {
+      "bpm": 49,
+      "date": "12-03-2025 11:40:46"
+    },
+    {
+      "bpm": 48,
+      "date": "12-03-2025 11:40:51"
+    },
+    {
+      "bpm": 46,
+      "date": "12-03-2025 11:40:56"
+    },
+    {
+      "bpm": 46,
+      "date": "12-03-2025 11:41:01"
+    },
+    {
+      "bpm": 47,
+      "date": "12-03-2025 11:41:06"
+    },
+    {
+      "bpm": 47,
+      "date": "12-03-2025 11:41:11"
+    },
+    {
+      "bpm": 48,
+      "date": "12-03-2025 11:41:16"
+    },
+    {
+      "bpm": 48,
+      "date": "12-03-2025 11:41:21"
+    },
+    {
+      "bpm": 52,
+      "date": "12-03-2025 11:41:26"
+    },
+    {
+      "bpm": 61,
+      "date": "12-03-2025 11:41:35"
+    },
+    {
+      "bpm": 60,
+      "date": "12-03-2025 11:41:36"
+    },
+    {
+      "bpm": 57,
+      "date": "12-03-2025 11:41:41"
+    },
+    {
+      "bpm": 57,
+      "date": "12-03-2025 11:41:46"
+    },
+    {
+      "bpm": 53,
+      "date": "12-03-2025 11:41:51"
+    },
+    {
+      "bpm": 51,
+      "date": "12-03-2025 11:41:56"
+    },
+    {
+      "bpm": 50,
+      "date": "12-03-2025 11:42:01"
+    },
+    {
+      "bpm": 54,
+      "date": "12-03-2025 11:42:06"
+    },
+    {
+      "bpm": 56,
+      "date": "12-03-2025 11:42:10"
+    },
+    {
+      "bpm": 60,
+      "date": "12-03-2025 11:42:15"
+    },
+    {
+      "bpm": 63,
+      "date": "12-03-2025 11:42:21"
+    },
+    {
+      "bpm": 59,
+      "date": "12-03-2025 11:42:26"
+    },
+    {
+      "bpm": 55,
+      "date": "12-03-2025 11:42:30"
+    },
+    {
+      "bpm": 52,
+      "date": "12-03-2025 11:42:35"
+    },
+    {
+      "bpm": 52,
+      "date": "12-03-2025 11:42:40"
+    },
+    {
+      "bpm": 52,
+      "date": "12-03-2025 11:42:46"
+    },
+    {
+      "bpm": 50,
+      "date": "12-03-2025 11:42:51"
+    },
+    {
+      "bpm": 51,
+      "date": "12-03-2025 11:42:56"
+    },
+    {
+      "bpm": 52,
+      "date": "12-03-2025 11:43:01"
+    },
+    {
+      "bpm": 53,
+      "date": "12-03-2025 11:43:06"
+    },
+    {
+      "bpm": 54,
+      "date": "12-03-2025 11:43:11"
+    }
+  ],
+  "Event": null,
+  "EventType": "MonitoringSession",
+  "Header": {
+    "UserId": "DFA10208-BD0C-423E-88B7-CEAB04C312E0"
+  },
+  "SessionStats": {
+    "AlarmPerc": 36,
+    "AlarmsCnt": 17,
+    "AvgBpm": 52,
+    "AwakeCnt": 0,
+    "AwakePerc": 1,
+    "BpmsCount": 47,
+    "DeepSleepCnt": 11,
+    "DeepSleepPerc": 23,
+    "EndDate": "12-03-2025 11:43:11",
+    "FalseAlarmsCnt": 0,
+    "KeyFlowThresholds": {
+      "AlarmMax": 135,
+      "AlarmMin": 50,
+      "DeepSleepMax": 75,
+      "LightSleepMax": 94,
+      "MaxIntervalWithoutData": 60,
+      "MinBatteryLevelForNotification": 15,
+      "ShouldFireLowBattery": true,
+      "ShouldFireNoData": true,
+      "TriageDeltaTimeBeforeFireAlarm": 0,
+      "WarningMax": 130,
+      "WarningMin": 55
+    },
+    "LightSleepCnt": 0,
+    "LightSleepPerc": 0,
+    "MaxBpm": 64,
+    "MinBpm": 46,
+    "SeizuresCnt": 1,
+    "StartDate": "12-03-2025 11:40:29",
+    "StdDeviation": 4.825205559937543,
+    "SumBpms": 2459,
+    "WarningCnt": 19,
+    "WarningPerc": 40
+  }
+}

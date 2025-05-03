@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "אפליקציה זו";
+
+// Authorization Statuses
+"NotDeterminedLocalized" = "לא נקבע";
+"DeniedLocalized" = "נדחה";
+"AuthorizedLocalized" = "מורשה";
+"UnknownLocalized" = "לא ידוע";
+"NotAvailableLocalized" = "לא זמין";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "שגיאת מנהל הרשאות: סוג הרשאה לא קיים";
+
+// Permissions Names
+"CameraLocalized" = "מצלמת וידאו";
+"CriticalNotificationsLocalized" = "התראות קריטיות";
+"NotificationsLocalized" = "התראות";
+"HealthDataLocalized" = "נתוני בריאות";
+"MicrophoneLocalized" = "מיקרופון";
+"SpeechRecognitionLocalized" = "זיהוי דיבור";
+
+// Messages
+"OKMessageLocalized" = "תודה!";
+"RecoveryMsgLocalizePart1" = "נא לגשת להגדרות iPhone, ולחפש את";
+"DescriptionMsgPart1" = "הפעלת";
+"DescriptionMsgPart2" = "הכרחית לתפקוד תקין של אפליקציה זו.";
+"NoOkMessagePart1" = "לא הענקת גישה ל";
+"NoOkMessagePart2" = "ולכן אינני יכול לתפקד כראוי. אני מצטער.";
+"RecoveryMsgLocalizePart2" = "והענק את כל ההרשאות הנדרשות. תודה.";
+
+// Check View
+"AuthCheckPointTitle" = "בדיקת הרשאות";
+"GrantItBtnLabel" = "הענק זאת";
+"SomeMissingAuthNeeded" = "חסרות כמה הרשאות הדרושות להפעלת האפליקציה בצורה תקינה. נא להעניק את כולן. אם אתה זקוק לעזרה, שלח דוא״ל אל:";
+
+// Mandatory
+"MandatoryMsg" = "חובה";
+
+// Navigation
+"SkipMsgText" = "דלג";
+"LocationServicesLocalized" = "שירותי מיקום";

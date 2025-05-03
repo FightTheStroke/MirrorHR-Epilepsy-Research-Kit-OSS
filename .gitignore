@@ -1,0 +1,168 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+.DS_Store
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app.zip
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+fastlane/screenshots/
+fastlane/screenshots/.DS_Store
+fastlane/screenshots/screenshots.html
+
+# Code Injection
+iOSInjectionProject/
+
+# SciChart license files and binaries
+Pods/SciChart/SciChart.xcframework/ios-arm64/SciChart.framework/SciChart
+Pods/SciChart/SciChart.xcframework/ios-arm64_i386_x86_64-simulator/SciChart.framework/SciChart
+
+# Design files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.nosync
+*.icloud
+
+# Environment files containing secrets
+.env
+.env.*
+!.env.example
+
+# Certificates and provisioning profiles
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.key
+*.pem
+*.pfx
+*.keychain
+Certificates/
+
+# API keys and other secrets
+*apikey*
+*secret*
+*credential*
+*password*
+*token*
+*_key*
+GoogleService-Info.plist
+*/ApiKeys.swift
+*/Secrets.swift
+RoberdanSecretsPackage.swift
+MsNotificationHubViewModel.swift
+OpenAIPackage.swift
+
+# Local data
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.realm
+*.realm.lock
+*.realm.management
+*.db
+
+# Build outputs
+*.xcarchive
+*.ipa
+*.dSYM
+*.app
+output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# Cursor editor files
+.cursor/
+.cursor/**/*
+
+# Ruby dependency files
+Gemfile.lock
+
+# Specific MirrorHR exclusions
+RealData/ReadDataBPMSymptoms.zip
+
+# Xcode baseline snapshots
+xcshareddata/xcbaselines/
+clean_repo.sh

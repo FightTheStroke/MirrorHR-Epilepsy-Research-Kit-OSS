@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Denna applikation";
+
+// Authorization Statuses
+"NotDeterminedLocalized" = "Ej fastställt";
+"DeniedLocalized" = "Nekad";
+"AuthorizedLocalized" = "Auktoriserad";
+"UnknownLocalized" = "Okänd";
+"NotAvailableLocalized" = "Ej tillgänglig";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Behörighetshanteringsfel: behörighetstyp existerar inte";
+
+// Permissions Names
+"CameraLocalized" = "Videokamera";
+"CriticalNotificationsLocalized" = "Kritiska Meddelanden";
+"NotificationsLocalized" = "Meddelanden";
+"HealthDataLocalized" = "Hälsodata";
+"MicrophoneLocalized" = "Mikrofon";
+"SpeechRecognitionLocalized" = "Taligenkänning";
+
+// Messages
+"OKMessageLocalized" = "Tack!";
+"RecoveryMsgLocalizePart1" = "Gå till iPhone-inställningarna och leta efter";
+"DescriptionMsgPart1" = "Att aktivera";
+"DescriptionMsgPart2" = "är viktigt för att denna app ska fungera korrekt.";
+"NoOkMessagePart1" = "Du har inte gett tillgång till";
+"NoOkMessagePart2" = "och därför kan jag inte fungera korrekt. Jag är ledsen.";
+"RecoveryMsgLocalizePart2" = "och ge alla nödvändiga behörigheter. Tack.";
+
+// Check View
+"AuthCheckPointTitle" = "Behörighetskontroll";
+"GrantItBtnLabel" = "Ge det";
+"SomeMissingAuthNeeded" = "Vissa behörigheter saknas och behövs för att appen ska fungera korrekt. Ge dem alla. Om du behöver hjälp, skicka ett e-postmeddelande till:";
+
+// Mandatory
+"MandatoryMsg" = "Obligatoriskt";
+
+// Navigation
+"SkipMsgText" = "Hoppa över";
+"LocationServicesLocalized" = "Platstjänster";
+

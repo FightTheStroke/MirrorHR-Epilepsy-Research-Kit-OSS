@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Aplikasi ini";
+
+// Status Kebenaran
+"NotDeterminedLocalized" = "Tidak ditentukan";
+"DeniedLocalized" = "Ditolak";
+"AuthorizedLocalized" = "Dibenarkan";
+"UnknownLocalized" = "Tidak diketahui";
+"NotAvailableLocalized" = "Tidak tersedia";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Ralat Pengurus Kebenaran: jenis kebenaran tidak wujud";
+
+// Nama Kebenaran
+"CameraLocalized" = "Kamera video";
+"CriticalNotificationsLocalized" = "Pemberitahuan Kritikal";
+"NotificationsLocalized" = "Pemberitahuan";
+"HealthDataLocalized" = "Data Kesihatan";
+"MicrophoneLocalized" = "Mikrofon";
+"SpeechRecognitionLocalized" = "Pengiktirafan Ucapan";
+
+// Mesej
+"OKMessageLocalized" = "Terima kasih!";
+"RecoveryMsgLocalizePart1" = "Sila pergi pada tetapan iPhone dan cari";
+"DescriptionMsgPart1" = "Mendayakan";
+"DescriptionMsgPart2" = "adalah penting untuk apl ini berfungsi dengan betul.";
+"NoOkMessagePart1" = "Anda tidak memberikan akses kepada";
+"NoOkMessagePart2" = "jadi saya tidak dapat bekerja dengan betul. Saya minta maaf.";
+"RecoveryMsgLocalizePart2" = "dan berikan semua kebenaran yang diperlukan. Terima kasih.";
+
+// Semak Paparan
+"AuthCheckPointTitle" = "Semakan kebenaran";
+"GrantItBtnLabel" = "Berikan";
+"SomeMissingAuthNeeded" = "Sesetengah keizinan masih diperlukan untuk apl berfungsi dengan betul. Sila berikan semuanya. Jika anda memerlukan sebarang bantuan hantar e-mel ke:";
+
+// Wajib
+"MandatoryMsg" = "Wajib";
+// Navigasi
+"SkipMsgText" = "Langkau";
+"LocationServicesLocalized" = "Perkhidmatan Lokasi";

@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Questa applicazione";
+
+// Stati di autorizzazione
+"NotDeterminedLocalized" = "Non determinato";
+"DeniedLocalized" = "Negato";
+"AuthorizedLocalized" = "Autorizzato";
+"UnknownLocalized" = "Sconosciuto";
+"NotAvailableLocalized" = "Non disponibile";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Errore Gestione autorizzazioni: il tipo di autorizzazione non esiste";
+
+// Nomi di autorizzazioni
+"CameraLocalized" = "Videocamera";
+"CriticalNotificationsLocalized" = "Notifiche critiche";
+"NotificationsLocalized" = "Notifiche";
+"HealthDataLocalized" = "Dati sanitari";
+"MicrophoneLocalized" = "Microfono";
+"SpeechRecognitionLocalized" = "Riconoscimento vocale";
+
+// Messaggi
+"OKMessageLocalized" = "Grazie!";
+"RecoveryMsgLocalizePart1" = "Accedi alle impostazioni di iPhone e cerca";
+"RecoveryMsgLocalizePart2" = "e concedi tutti i permessi richiesti. Grazie.";
+"DescriptionMsgPart1" = "Abilitazione";
+"DescriptionMsgPart2" = "è essenziale per il corretto funzionamento di questa app.";
+"NoOkMessagePart1" = "Non hai concesso l'accesso a";
+"NoOkMessagePart2" = "e quindi non posso lavorare correttamente. Mi dispiace.";
+
+// Check View
+"AuthCheckPointTitle" = "Controllo autorizzazioni";
+"GrantItBtnLabel" = "Concedi";
+"SomeMissingAuthNeeded" = "Alcune autorizzazioni sono ancora necessarie affinchè l'applicazione possa funzionare correttamente. Per favore concedile tutte. Se hai bisogno di qualsiasi aiuto manda una email a:";
+
+// Mandatory
+"MandatoryMsg" = "Obbligatorio";
+
+// Navigation
+"SkipMsgText" = "Salta";
+"LocationServicesLocalized" = "Servizi di localizzazione";

@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Это приложение";
+
+// Статусы авторизации
+"NotDeterminedLocalized" = "Не определено";
+"DeniedLocalized" = "Отказано";
+"АвторизованныйLocalized" = "Авторизованный";
+"UnknownLocalized" = "Неизвестно";
+"NotAvailableLocalized" = "Недоступно";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Ошибка диспетчера разрешений: тип разрешения не существует";
+
+// Имена разрешений
+"CameraLocalized" = "Видеокамера";
+"CriticalNotificationsLocalized" = "Важные уведомления";
+"NotificationsLocalized" = "Уведомления";
+"HealthDataLocalized" = "Данные о здоровье";
+"MicrophoneLocalized" = "Микрофон";
+"SpeechRecognitionLocalized" = "Распознавание речи";
+
+// Сообщения
+"OKMessageLocalized" = "Спасибо!";
+"RecoveryMsgLocalizePart1" = "Зайдите в настройки iPhone и найдите";
+"DescriptionMsgPart1" = "Включение";
+"DescriptionMsgPart2" = "это необходимо для правильной работы этого приложения.";
+"NoOkMessagePart1" = "Вы не предоставили доступ";
+"NoOkMessagePart2" = "и поэтому у меня не работает корректно. Извините.";
+"RecoveryMsgLocalizePart2" = "и предоставить все необходимые разрешения. Спасибо.";
+
+// Проверить вид
+"AuthCheckPointTitle" = "Проверка авторизаций";
+"GrantItBtnLabel" = "Предоставить";
+"SomeMissingAuthNeeded" = "Некоторые авторизации все еще необходимы для правильной работы приложения. Предоставьте их все. Если вам нужна помощь, отправьте электронное письмо по адресу:";
+
+// Обязательное
+"MandatoryMsg" = "Обязательно";
+// Навигация
+"SkipMsgText" = "Пропустить";
+"LocationServicesLocalized" = "Службы геолокации";

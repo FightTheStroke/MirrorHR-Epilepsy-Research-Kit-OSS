@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Esta aplicación";
+
+// Estados de autorización
+"NotDeterminedLocalized" = "No determinado";
+"DenegadoLocalizado" = "Denegado";
+"AutorizadoLocalizado" = "Autorizado";
+"DesconocidoLocalizado" = "Desconocido";
+"NotAvailableLocalized" = "No disponible";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Error del administrador de permisos: el tipo de permiso no existe";
+
+// Nombres de permisos
+"CameraLocalized" = "Cámara de vídeo";
+"CriticalNotificationsLocalized" = "Notificaciones críticas";
+"NotificationsLocalized" = "Notificaciones";
+"HealthDataLocalized" = "Datos de salud";
+"MicrophoneLocalized" = "Micrófono";
+"SpeechRecognitionLocalized" = "Reconocimiento de voz";
+
+// Mensajes
+"OKMessageLocalized" = "¡Gracias!";
+"RecoveryMsgLocalizePart1" = "Acceda a la configuración del iPhone y busque";
+"DescriptionMsgPart1" = "Habilitando";
+"DescriptionMsgPart2" = "es esencial para que esta aplicación funcione correctamente.";
+"NoOkMessagePart1" = "No concedió acceso a";
+"NoOkMessagePart2" = "y no puedo trabajar correctamente. Lo siento.";
+"RecoveryMsgLocalizePart2" = "y otorgue todos los permisos necesarios. Gracias.";
+
+// Comprobar vista
+"AuthCheckPointTitle" = "Comprobación de autorizaciones";
+"GrantItBtnLabel" = "Otorgarlo";
+"SomeMissingAuthNeeded" = "Todavía se necesitan algunas autorizaciones para que la aplicación funcione correctamente. Otórguelas todas. Si necesita ayuda, envíe un correo electrónico a:";
+
+// Obligatorio
+"ObligatorioMsj" = "Obligatorio";
+
+"SkipMsgText" = "Omitir";
+"LocationServicesLocalized" = "Servicios de ubicación";

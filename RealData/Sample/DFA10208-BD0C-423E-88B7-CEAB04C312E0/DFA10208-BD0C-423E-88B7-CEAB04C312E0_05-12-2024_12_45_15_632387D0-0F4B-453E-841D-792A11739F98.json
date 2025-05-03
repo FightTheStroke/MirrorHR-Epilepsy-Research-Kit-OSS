@@ -1,0 +1,43 @@
+{
+  "DataSeries": [],
+  "Event": null,
+  "EventType": "MonitoringSession",
+  "Header": {
+    "UserId": "DFA10208-BD0C-423E-88B7-CEAB04C312E0"
+  },
+  "SessionStats": {
+    "AlarmPerc": 11,
+    "AlarmsCnt": 87,
+    "AvgBpm": 66,
+    "AwakeCnt": 68,
+    "AwakePerc": 10,
+    "BpmsCount": 784,
+    "DeepSleepCnt": 415,
+    "DeepSleepPerc": 52,
+    "EndDate": "05-12-2024 12:45:15",
+    "FalseAlarmsCnt": 0,
+    "KeyFlowThresholds": {
+      "AlarmMax": 135,
+      "AlarmMin": 50,
+      "DeepSleepMax": 75,
+      "LightSleepMax": 94,
+      "MaxIntervalWithoutData": 60,
+      "MinBatteryLevelForNotification": 15,
+      "ShouldFireLowBattery": true,
+      "ShouldFireNoData": true,
+      "TriageDeltaTimeBeforeFireAlarm": 0,
+      "WarningMax": 130,
+      "WarningMin": 55
+    },
+    "LightSleepCnt": 110,
+    "LightSleepPerc": 14,
+    "MaxBpm": 105,
+    "MinBpm": 47,
+    "SeizuresCnt": 4,
+    "StartDate": "05-12-2024 10:43:24",
+    "StdDeviation": 14.497720787971364,
+    "SumBpms": 51946,
+    "WarningCnt": 104,
+    "WarningPerc": 13
+  }
+}

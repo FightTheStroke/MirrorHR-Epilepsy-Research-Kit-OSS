@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "このアプリケーション";
+
+// 承認ステータス
+"NotDeterminedLocalized" = "未定";
+"DeniedLocalized" = "拒否";
+"AuthorizedLocalized" = "承認済み";
+"UnknownLocalized" = "不明";
+"NotAvailableLocalized" = "利用できません";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "権限マネージャー エラー: 権限タイプが存在しません";
+
+// パーミッション名
+"CameraLocalized" = "ビデオ カメラ";
+"CriticalNotificationsLocalized" = "重要な通知";
+"NotificationsLocalized" = "通知";
+"HealthDataLocalized" = "ヘルス データ";
+"MicrophoneLocalized" = "マイク";
+"SpeechRecognitionLocalized" = "音声認識";
+
+// メッセージ
+"OKMessageLocalized" = "ありがとうございます!";
+"RecoveryMsgLocalizePart1" = "iPhone の設定に移動して探してください";
+"DescriptionMsgPart1" = "有効化";
+"DescriptionMsgPart2" = "このアプリが正しく動作するために不可欠です。";
+"NoOkMessagePart1" = "アクセスを許可していません";
+"NoOkMessagePart2" = "そのため、正しく動作できません。申し訳ありません。";
+"RecoveryMsgLocalizePart2" = "必要な権限をすべて付与してください。ありがとうございます。";
+
+// ビューをチェック
+"AuthCheckPointTitle" = "権限チェック";
+"GrantItBtnLabel" = "許可する";
+"SomeMissingAuthNeeded" = "アプリが正しく動作するためには、いくつかの承認がまだ必要です。すべて許可してください。サポートが必要な場合は、次の宛先に電子メールを送信してください:";
+
+// 必須
+"MandatoryMsg" = "必須";
+// ナビゲーション
+"SkipMsgText" = "スキップ";
+"LocationServicesLocalized" = "位置情報サービス";

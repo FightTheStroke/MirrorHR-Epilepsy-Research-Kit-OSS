@@ -1,0 +1,26 @@
+[
+    {
+        "version": "9.70",
+        "new": [
+            {
+                "icon": "square.and.arrow.up.circle",
+                "title": "WhatsNew9_70_Title1",
+                "subtitle": "WhatsNew9_70_SubTitle1",
+                "body": "WhatsNew9_70_Body1"
+            },
+            {
+                "icon": "newspaper",
+                "title": "WhatsNew9_70_Title2",
+                "subtitle": "WhatsNew9_70_SubTitle2",
+                "body": "WhatsNew9_70_Body2"
+            },
+            
+            {
+                "icon": "hammer.fill",
+                "title": "WhatsNew9_70_Title3",
+                "subtitle": "WhatsNew9_70_SubTitle3",
+                "body": "WhatsNew9_70_Body3"
+            }
+        ]
+    }
+]

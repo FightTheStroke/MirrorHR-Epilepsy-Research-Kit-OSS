@@ -1,0 +1,916 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"languageUIMsg" = "UI Dili";
+"languageUI_String" = "Türkçe";
+"errorMsg" = "Hata";
+"shareFeedback" = "Bize geri bildirim verin";
+"doYouNeedHelpString" = "Yardıma ihtiyacınız var mı?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR: Epilepsi Araştırma Kiti";
+"secondsString" = "saniye";
+"defaultEmergencyNumber" = "911";
+"sympt_emptySymptom" = "boş belirti";
+"sympt_seizure" = "Nöbet";
+"sympt_highBPM" = "Yüksek nabız";
+"sympt_lowBPM" = "Düşük nabız";
+"sympt_constipation" = "Kabızlık";
+"sympt_diarrhea" = "İshal";
+"sympt_hiccup" = "Hıçkırık";
+"sympt_dizziness" = "Baş dönmesi";
+"sympt_fatigue" = "Yorgunluk";
+"sympt_fever" = "Ateş";
+"sympt_headache" = "Baş ağrısı";
+"sympt_medicalExamination" = "Tıbbi muayene";
+"sympt_hospitalization" = "Hastaneye yatış";
+"sympt_emergencyRoom" = "Acil Servis";
+"sympt_coughing" = "Öksürük";
+"sympt_nausea" = "Bulantı";
+"sympt_shortnessOfBreath" = "Nefes darlığı";
+"sympt_soreThroat" = "Boğaz ağrısı";
+"sympt_vomiting" = "Kusma";
+"sympt_excitement" = "Heyecan";
+"sympt_moodChanges" = "Ruh hali değişiklikleri";
+"sympt_sleepChanges" = "Uyku değişiklikleri";
+"sympt_sleepDeprivation" = "Uyku eksikliği";
+"sympt_appetiteChanges" = "İştah değişiklikleri";
+"sympt_videoLog" = "Video Günlüğü";
+"sympt_videoSeizureLog" = "Nöbet Günlüğü";
+"sympt_textLog" = "Metin Günlüğü";
+"sympt_stress" = "Stres";
+"sympt_medicationTaken" = "Alınan ilaç";
+"sympt_medicationForgotten" = "Unutulan ilaç";
+"sympt_other" = "Diğer";
+"sympt_emergencyMedication" = "Acil durum ilacı (örn. Buccolam, Micropam)";
+"tabChecklist" = "Kontrol Listesi";
+"tabRealTimeMonitor" = "Gerçek Zaman";
+"tabDiary" = "Günlük";
+"tabInsights" = "Geçmiş";
+"tabSettings" = "Ayarlar";
+"tabDebugLogs" = "Hata Ayıklama";
+"tabOnboarding" = "Başlangıç";
+"realTimeNoWatchSampleImage" = "gerçekzamanörneği";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "Üzgünüm, videoyu kaydedemedim :(";
+"comingSoonMsg" = "Yakında geliyor: ";
+"youMustHaveWatchString" = "Gerçek zamanlı izleme ve alarmlar için bir Apple Watch gereklidir";
+"iHaveAWatchNowString" = "Artık bir Apple Watch'um var";
+"appleWatchRequiredMsg" = "Bu özellik için Apple Watch gereklidir";
+"importantMsg" = "Önemli mesaj";
+"watchMainErrorMsg" = "Saat uygulaması yüklü değil VEYA saat telefonla eşleştirilmemiş, lütfen yükleyin/kontrol edin";
+"wichLanguageDoUSpeak" = "Hangi dili konuşuyorsunuz?";
+"selectLanguage" = "Lütfen mevcut konuşma tanıma dillerinden birini seçin:";
+"willAddMoreLanguagesMsg" = "Gelecekte daha fazla dil ekleyeceğiz.";
+"whenQuestion" = "Ne zaman?";
+"lastWeeksString" = "Son haftalar";
+"lastMonthsString" = "Son aylar";
+"weekdaysString" = "Hafta içi günler";
+"weekendString" = "Hafta sonu";
+"loggedAtString" = "Kaydedildi: ";
+"fromString" = "Başlangıç: ";
+"toString" = "Bitiş: ";
+"LenghtString" = "Uzunluk: ";
+"notesString" = "Notlar: ";
+"editNotesString" = "Notları düzenle: ";
+"rememberDuplicateNotificationsString" = "Lütfen hatırlayın, bildirimleri saatten devre dışı bırakın, aksi takdirde uygulama arka planda iken alarm çalışmaz!";
+"gotItMsg" = "Anladım!";
+"unplannedEventMsg" = "Üzgünüm, beklenmeyen bir olay oldu";
+"stopLowBatteryNotificationsMsg" = "Düşük pil bildirimlerini durdur";
+"continueMsg" = "Devam et";
+"firedAtMsg" = "Başlama zamanı: ";
+"manualAlarmTriggeredMsg" = "Manuel olarak başlatıldı: ";
+"manualFalseAlarmTriggeredMsg" = "Yanlış alarm ";
+"byBPMofMsg" = "BPM ile";
+"watchBatteryIsMsg" = "Saatin pili ";
+"doYouWantLowBatteryNotificationsMsg" = "Saatin düşük pil bildirimi almaya devam etmek istiyor musunuz?";
+"firedByMsg" = "Başlatan ";
+"bpmMsg1" = " BPM. ";
+"unclassifiedAlarmStopMsg" = " Oturum durdu, sınıflandırılmamış alarm";
+"lastSeizureMsg" = "Son nöbet";
+"seizureStatsMsg" = "Nöbetler ";
+"videoLogBtnMsg" = "Video Günlüğü";
+"seizureLogBtnMsg" = "Nöbet Günlüğü";
+"drillDownByDateMsg" = "Tarihe göre BPM";
+"symptomsLogs" = "Belirtiler Günlüğü";
+"insightsNavigationMsg" = "Görüşler";
+"analyzingDataMsg" = "Veri Analiz Ediliyor...";
+"sinceLastEventMsg" = "Son olaydan bu yana: ";
+"sinceLastEventString" = "son tarih";
+"fromPreviousMsg" = "Önceki olaydan bu yana:";
+"congratsNoSeizureMsg" = "Tebrikler! Ciddi olay yok!";
+"saveLogMsg" = "Günlüğü kaydet";
+"detailLogMsg" = "Kaydetmek istediğiniz herhangi bir detay var mı?";
+"saveBtnMsg" = "Kaydet";
+"speechHintMsg" = "İpucu: Yazabilir veya ekran klavyesinde mikrofon simgesine basarsanız dikte edebilirsiniz.";
+"cancelActionMsg" = "Kapat";
+"okActionMsg" = "Tamam";
+"realTimeMsg" = "Gerçek Zaman";
+"alarmMsg" = "Alarm";
+"csvExportMsg" = "CSV'ye Aktar";
+"olderString" = "Daha eski";
+"thisWeekString" = "Bu hafta";
+"exportString" = "Dışa aktar";
+"warningMsg" = "Uyarı";
+"startMsg" = "Başlat";
+"stopMsg" = "Durdur";
+"ciaoMsg" = "Merhaba, ben Mario";
+"ciaoHeadlineMsg" = "Merhaba, İtalyanca'da 'Selam' anlamına gelir";
+"ciaoDescriptionMsg" = "Epilepsi ile mücadeleye katıldığınız için teşekkürler";
+"disclaimerTitleMsg" = "FERAGATNAME";
+"disclaimerHeadlineMsg" = "MirrorHR, ebeveynlere, doktorlara ve bakıcılara sevdiklerinin nöbetleri hakkında daha fazla bilgi edinmelerine yardımcı olmak için tasarlanmıştır. Ebeveynler ve doktorlar tarafından ebeveynler ve doktorlar için geliştirilmiştir. MirrorHR bir tıbbi cihaz değildir ve sadece doktorunuzla birlikte kullanılmalıdır.";
+"disclaimerDescriptionMsg" = "MirrorHR, tüm sensörler ve veri toplama için Apple iPhone ve Watch'a güveniyor. Videolar kütüphanenize kaydedilir, sağlık verileri yerel Apple HealthKit'te saklanır. Telefonunuzdan çıkabilecek tek veri, çökme raporlarıdır (umarım çok nadir olur).";
+"personalizeStartMsg" = "MirrorHR'yi kişiselleştirelim";
+"personalizeStartHeadlineMsg" = "MirrorHR, ebeveynlere, doktorlara ve bakıcılara sevdiklerinin nöbetleri hakkında daha fazla bilgi edinmelerine yardımcı olmak için tasarlanmıştır.";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "Adınız nedir?";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "Bir ebeveyn veya bakıcıysanız, lütfen ilgilendiğiniz çocuğun adını girin.";
+"whereULiveMsg" = "Nerede yaşıyorsunuz?";
+"whereULiveHeadLineMsg" = "Böylece hava koşullarını tespit edebilir ve olaylarla ilişkilendirebiliriz";
+"whereULiveDescriptionMsg" = "Bu özellik için https://openweathermap.org adresinden yararlanıyoruz";
+"alarmSettingsMsg" = "ALARM AYARLARI";
+"alarmString" = "ALARM";
+"minBpmMsg" = "Minimum BPM";
+"minMaxBpmDescriptionMsg" = "MirrorHR, nabzı (BPM) gerçek zamanlı olarak ölçer ve bu koşullar doğru olduğunda bir alarm başlatır:";
+"maxBpmMsg" = "Maksimum BPM";
+"mirrorNotificationMsg" = "ÖNEMLİ!";
+"mirrorNotificationsWatchMsg" = "Saatte bildirimleri devre dışı bırak";
+"mirrorNotificationDescriptionMsg" = "Bu çok önemlidir, lütfen hemen yapın.\n Saat Uygulamasına gidin, Bildirimler ve MirrorHR bildirimlerinin saate yansıtılmadığından emin olun.";
+"alarmSoundTitleMsg" = "ALARM";
+"alarmSoundHeadlineMsg" = "(evet, tetiklendiğinde sizi uyandırabilmelidir!)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "BİLDİRİMLER";
+"notificationSoundHeadlineMsg" = "Bildirimler kritik değildir, yine de çok önemlidir";
+"notificationSoundDescriptionMsg" = "Örneğin, saatten veri alma sorunları veya düşük pil gibi konularda sizi bilgilendiririz, bu nedenle onları izlemek daha iyidir";
+"parentalControlTitleMsg" = "Ebeveyn Kontrolü";
+"parentalControlOnString" = "Ebeveyn Kontrolü Açık";
+"parentalControlHeadlineMsg" = "Oturumu Saatten durdurmayı önleyin";
+"parentalControlDescriptionMsg" = "Yanlış alarmdan 15 dakika sonra alarm bildirimlerinin otomatik olarak yeniden başlatılması gibi bazı güvenlik özelliklerini etkinleştirir. Bu kapalıysa, oturum bittiğinde bir bildirim alırsınız.";
+"emergencyContactTitleMsg" = "Acil durum numarası";
+"emergencyContactHeadLineMsg" = "sadece bulunsun diye";
+"emergencyCallLabelMsg" = "Yardım";
+"emergencyContactDescriptionMsg" = "911, ülkenizdeki eşdeğeri veya acil durumlarda hızlıca aramak istediğiniz başka bir telefon numarası olabilir.";
+"emergencyContactDescriptionMsg4AboutView" = "911, ülkenizdeki eşdeğeri veya acil durumlarda hızlıca aramak istediğiniz başka bir telefon numarası olabilir.";
+"readyToStartTitleMsg" = "Başlamaya hazır!";
+"readyToStartHeadlineMsg" = "Yardımınız için teşekkürler.";
+"readyToStartDescriptionMsg" = "Ayarlar sekmesinden her zaman herhangi bir ayarı değiştirebilirsiniz";
+"whenBpmLowerThanMsg" = "BPM şu değerin altındayken";
+"whenBpmHigherThanMsg" = "BPM şu değerin üstündeyken";
+"triageDeltaTimeBeforeFireAlarmMsg" = "Alarm tetiklenmeden önce zaman tamponu: ";
+"privacyMsg" = "Gizlilik politikasını kabul et";
+"privacyAcceptanceMsg" = "Anlıyorum";
+"alarmSoundStyleMsg" = "Alarm sesi stili";
+"testAlarmSoundMsg" = "Alarm sesini test et";
+"testAlarmBtnMsg" = "Alarmı test et";
+"testLowBatteryBtnMsg" = "Düşük pili test et";
+"testAlarmSoundBgkTitleMsg" = "Alarm sesini test et (gecikmeli)";
+"testAlarmSoundBgkMsg" = "Önemli! Telefon rahatsız etmeyin modundayken alarmı test edin.";
+"testAlarmImptMsg" = "Lütfen iphone ana ekranına dönün ve telefonu sessiz moda alın, uygulama arka plandayken ve hatta gece çalışması için güvence altına alın. Alarm 30 saniye sonra tetiklenmelidir. Yalnızca bildirimi görürseniz ancak güçlü bir ses duyamıyorsanız, bildirimlerin saatten tekrarlandığından emin olun";
+"notificationSoundStyleMsg" = "Bildirim sesi stili";
+"testNotificationSoundMsg" = "Bildirim sesini test et";
+"openWatchAppMsg" = "Saat Uygulamasını Aç";
+"testCallMsg" = "Çağrıyı test et";
+"nameString" = "Ad:";
+"livingInString" = "Yaşadığı yer:";
+"iSpeakLanguage" = "Konuştuğum dil:";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Apple Watch mevcut";
+"watchAvailableToggleCaptionString" = "Bir Apple Watch'unuz varsa, kalp atış hızının gerçek zamanlı izlenmesi, alarmlar, bildirimler ve çok daha fazlası gibi gelişmiş özellikleri etkinleştirebilirsiniz.";
+"alarmSettingsFooterMsg" = "Bu koşullara dayanarak hemen tetiklenir. Apple Watch bağlı olmalıdır";
+"parentalControlProfileMsg" = "Gerçek zamanlı izleme Apple Watch'tan durdurulamaz ve yanlış alarmdan 15 dakika sonra alarmlar otomatik olarak yeniden etkinleştirilir";
+"recordAVideoMsg" = "Bir video günlüğü kaydedin";
+"notificationFooterMsg" = "Bu bildirimler için Apple Watch ile Gerçek Zamanlı İzleme etkin olmalıdır";
+"noDataNotificationMsg" = "Apple Watch'tan 10 dakikadan uzun süre veri alınamadığında";
+"batteryLevelProfileMsg" = "Saat pili seviyesi şu değerin altındayken";
+"sleepSettingsTitleMsg" = "UYKU Ayarları";
+"sleepSettingsFooterMsg" = "Uyku takibi için Apple Watch ile Gerçek Zamanlı İzleme etkin olmalıdır";
+"deepSleepMaxBpmMsg" = "Derin Uyku maksimum BPM";
+"lightSleepMaxBpmMsg" = "Hafif Uyku maksimum BPM";
+"notificationSettingsHeaderMsg" = "BİLDİRİM AYARLARI";
+"notificationSettingsFooterMsg" = "Dikkat: bir bildirim, kaçırılmış bir olaydan daha iyidir...";
+"shouldFireNoDataMsg" = "Apple Watch'tan veri alınamadığında bildirim gönder";
+"shouldFireLowBatteryMsg" = "Apple Watch'un pili düşük olduğunda bildirim gönder";
+"notifyRealTimeEndMsg1" = "Gerçek zamanlı izleme Apple Watch'tan sona erdi";
+"notifyRealTimeEngMsg2" = "(Ebeveyn Kontrolü etkinse gerek yok)";
+"aboutMsg" = "Hakkında";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "Her belirti için adına tıklayarak bir not ekleyebilir/düzenleyebilir veya sola kaydırarak silebilirsiniz.";
+"deprecatedDefaultQuickLogNote" = "Bir notu düzenlemek için sağa kaydırın, bu girdiyi silmek için sola kaydırın";
+"debugModeMsg" = "Geliştirici günlüğü modu";
+"developerMode" = "Geliştirici Modu";
+"migrateDBMsg" = "Önceki sürümden geçiş yap";
+"logsSoFarMsg" = "şimdiye kadar günlükler";
+"seizuresSoFarMsg" = "şimdiye kadar nöbetler";
+"seizuresOnlyFilterMsg" = "Nöbetler";
+"editLogNotesMsg" = "Günlük Notları - Düzenle";
+"logASymptomMsg4LogsView" = "Olayları kaydet";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "Tüm Ayarları Sıfırla ve tüm verileri sil (geri alınamaz!)";
+"restartOnboardingMsg" = "Başlangıcı yeniden başlat";
+"developerString" = "Geliştirici";
+"appNameString" = "Uygulama adı";
+"versionString" = "Sürüm";
+"compatibilityString" = "Gereksinimler";
+"contactsString" = "Kişiler";
+"contactLabelMsg" = "Bize ulaşın";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "Gizlilik Politikası";
+"privacyPolicyLinkLabel" = "Gizlilik Politikası";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "Web Sitesi";
+"sampleChartDataMsg" = "Örnek Grafik Verisi";
+"notificationTitleMsg" = "Bildirimler";
+"realTimeWarningMsg" = "Alarmlar ve bildirimler için Apple Watch bağlı olmalıdır";
+"chartOptionsTitleMsg" = "GRAFİK SEÇENEKLERİ";
+"showMarkersMsg" = "Alarm işaretlerini göster";
+"showBandsMsg" = "Grafik bantlarını göster";
+"reset2DefaultMsg" = "Varsayılan değerlere sıfırla";
+"seeAllSettingsMsg" = "Tüm ayarları aç";
+"realTimeOffMsg" = "Gerçek zamanlı izleme KAPALI";
+"bootingProgressMsg" = "Başlatılıyor...";
+"lastBpmMsg" = "Son BPM:";
+"secsAgoMsg" = "saniye önce";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "Temel ayarlar";
+"legendaLabelMsg" = "Açıklama:";
+"deepSleepLabelMsg" = "Derin Uyku";
+"lightSleepLabelMsg" = "Hafif Uyku";
+"awakeLabelMsg" = "Uyanık";
+"tagFalseAlarmTitleMsg" = "Yanlış Alarm Etiketi";
+"tagFalseAlarmActionMsg" = "Yanlış Alarmı Kaydet";
+"tagFalseAlarmAllGoodMsg" = "Yanlış";
+"tagEndOfSeizure" = "Nöbeti Bitir";
+"tagVideoSeizure" = "Video";
+"saveSeizureMsg" = "Nöbeti Kaydet";
+"seizureLabelMsg" = "Nöbet";
+"falseAlarmSuggestion1" = "Stres";
+"falseAlarmSuggestion2" = "Rüya";
+"falseAlarmSuggestion3" = "Oyun";
+"elapsedTimeString" = "geçen süre";
+"whatTimeIsNowString" = "mevcut zaman";
+"defaultCityString" = "Milano";
+"initialBatteryMsg" = "Başlangıç Pili Seviyesi: ";
+"logLabelMsg" = "Günlükler";
+"offLabelMsg" = "KAPALI";
+"tap3timesMsg" = "3 kez dokunun";
+"watchAppNotInstalledString" = "MirrorHR, Apple Watch'a yüklü değil";
+"cantCommunicateWatchString" = "Apple Watch ile iletişim kurulamıyor";
+"watchNotPairedString" = "Apple Watch, iPhone ile eşleştirilmemiş";
+"watchNotReachableString" = "MirrorHR saate erişilemiyor, lütfen çalıştığını kontrol edin veya oturumu Saatten başlatın";
+"canTFireNotificationString" = "Şu nedenle bildirim gönderilemiyor: ";
+"canTStartSessionString" = "Oturum başlatılamıyor, lütfen MirrorHR'nin Saatte çalıştığını kontrol edin ve tekrar deneyin";
+"soSorryString" = "Çok üzgünüm :-( ... bu oldu: ";
+"saveAndCloseString" = "Kaydet ve kapat";
+"alarmFiredAtString" = "Alarm başlama zamanı: ";
+"byBPMOfString" = "BPM ile";
+"checkRangeString" = ". Lütfen saatin doğru şekilde takıldığını ve menzil içinde olduğunu kontrol edin.";
+"alarmEventString" = "Alarm";
+"warningEventString" = "Uyarı";
+"noDataEventString" = "Veri Yok";
+"lowBatteryEventString" = "Düşük Pil";
+"unclassifiedEventString" = "Sınıflandırılmamış Olay";
+"handleSeizureEventString" = "Nöbeti Yönet";
+"handleFalseAlarmEventString" = "Yanlış Alarmı Yönet";
+"stopFromWatchEventString" = "Apple Watch'tan durdurma alındı";
+"sessionStopFromPhoneEventString" = "Telefon üzerinden oturum durduruldu";
+"criticalErrorEventString" = "Kritik Hata: ";
+"criticalErrorSorryEventString" = "Çok üzgünüm :( Beklenmedik bir hata ile karşılaştım.";
+"testSoundEventString" = "Şunun için test sesi: ";
+"notificationString" = "Bildirim";
+"sessionBootingEventString" = "Oturum Başlatılıyor";
+"manualAlarmEventString" = "Manuel Alarm";
+
+"manualAlarmTriggeredNotesString" = "Manuel olarak başlatıldı ";
+"logsInTotalMsg" = "günlükler";
+"intervalBetweenLast2Seizures" = "Son iki nöbet arasındaki süre";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "A";
+"dayIndicatorString" = "g";
+"hoursIndicatorString" = "s";
+"minutesIndicatorString" = "d";
+"secondsIndicatorString" = "sn";
+"eventsString" = "Olaylar";
+"insightsFilterToggleLeftString" = "Tüm günlükler";
+"symptomString" = "Belirti";
+"potentialTriggerString" = "Olası tetikleyici";
+"severeEventString" = "Ciddi olay";
+"goodHabitString" = "İyi alışkanlık";
+"badHabitString" = "Kötü alışkanlık";
+"askPermissionsTitle" = "İzinler";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "İzinleri kontrol et";
+"thanksForPermissionsString" = "Teşekkürler, tüm izinler verildi";
+"iPhoneBatteryIsMsg" = "iPhone'un pili ";
+"howLongDidItLastMsg" = "Ne kadar sürdü?";
+"languageUIMsg" = "UI Dili";
+"watchNotReachableString" = "MirrorHR, Apple Watch'ta erişilemiyor: çalıştığını ve ön planda olduğunu kontrol edin veya doğrudan Apple Watch'taki MirrorHR'dan BAŞLAT'a basın";
+"noDataReceivedString" = "10 dakikadan uzun süre veri alınmadı ";
+"medicationAlarmString" = "İlaç Hatırlatıcısı";
+"medicationAlarmViewTitle" = "İlaç Hatırlatıcıları";
+"medicationAlarmMessage" = "İlaçlarınızı alma zamanı";
+"medicationTakenString" = "İlaç alındı";
+"medicationSnoozeString" = "İlaç hatırlatıcısını ertele";
+"medicationSnoozeStringDescription" = "İlaç Hatırlatıcısı";
+"addMedicationReminderString" = "İlaç hatırlatıcıları ekle/düzenle";
+"yes_String" = "Evet";
+"no_String" = "Hayır";
+"deleteAllRemindersString" = "Tüm hatırlatıcıları sil";
+"confirmString" = "Onayla";
+"confirmDeleteMedicationRemindersMsg" = "Tüm ilaç hatırlatıcılarını gerçekten silmek istiyor musunuz?";
+"medicationAlarmFooter" = "İlaç almayı her zaman hatırlayın! Hatırlatıcıları 10 dakika boyunca erteleyebilirsiniz.";
+"closeButtonString" = "Kapat";
+"howLongDidItLastMsg" = "Ne kadar sürdü?";
+"addButtonString" = "Ekle";
+"nextScheduledRemindersString" = "Sonraki planlanan hatırlatıcılar:";
+"EveryWeekDayAtString" = "Her hafta içi günü saat:";
+"EveryWeekEndAtString" = "Her hafta sonu günü saat:";
+"requestReviewMessage" = "MirrorHR'yi beğendiniz mi?";
+"manualMedicationMsg" = "Günlüğe elle geri alıyorum";
+"sympt_medicationChange" = "İlaç Değişikliği";
+"medications_String" = "İlaçlar";
+"allLogs" = "Hepsi";
+"reportAsMissedMedicationString" = "Kaçırılan ilaç olarak bildireceğim";
+"medicationNotificationBodyMessage" = "İlaçlarınızı alma zamanı. MirrorHR'ye giriş yapmak veya 10 dakika ertelemek için buraya dokunun";
+"letMeUpdateMissedMedicationString" = "Onları aynı gün farklı bir saatte aldım, verileri güncellememe izin verin";
+"filterByDate" = "Tarihe göre filtrele";
+"event_realTimeSession" = "Gerçek Zamanlı oturum";
+"bpmTakesTimeMsg" = "Lütfen dikkat: bir oturum sona erdikten sonra, BPM grafiği birkaç dakika sonra görünebilir.";
+"telemetrySectionString" = "Araştırmaya katıl";
+"shareAnonymizedTelemetryMsg" = "İstatistiksel verileri tamamen anonim olarak paylaşın ve epilepsi araştırmasına yardımcı olun";
+"telemetryRealTime" = "Gerçek zamanlı oturum sayısı";
+"telemetrySeizures" = "Nöbet sayısı";
+"telemetrySymptoms" = "Kaydedilen belirti sayısı";
+"telemetryNavigation" = "Temel kullanım istatistikleri";
+"telemetryVideoLog" = "Video Günlük sayısı";
+"telemetrySeizuresVideoLog" = "Nöbet Video Günlük sayısı";
+"telemetryBPMValues" = "BPM alarm eşiği";
+"telemetryMedicationReminders" = "İlaç hatırlatıcı sayısı";
+"telemetryLanguage" = "Arayüz dili";
+"telemetryExplainMsg" = "Telemetri verileri tamamen anonimleştirilmiştir ve bunları bizimle paylaşabilirseniz, diğer ailelerin yaşamlarını iyileştirmeye gerçekten yardımcı olur. Teşekkürler!";
+"enableAllTelemetryOptionsString" = "Tüm seçenekleri etkinleştir/devre dışı bırak";
+"WhatsNewInThisVersion" = "Bu sürümde neler yeni";
+"HereIsQuickUpdate" = "İşte en son özelliklerle ilgili hızlı bir güncelleme";
+"helpOneHelpEveryone" = "Birine yardım etmenin en iyi yolu, herkesin yardımına koşmaktır";
+"Sentiment_String" = "Duygu";
+"detectSympstomsString" = "Algılanan belirtiler";
+"sympt_cold" = "Soğuk algınlığı";
+"sentiment_negative" = "negatif";
+"sentiment_medium" = "nötr";
+"sentiment_positive" = "pozitif";
+"confirmSymptomsUnderstanding" = "Söylediklerinize göre bu belirtileri kaydetmek istediğinizi anlıyorum, lütfen bunları benim için onaylar mısınız?";
+"appreciationForTheOpportunityToLearn" = "Eğer yanlış anladıysam, lütfen işaretlemeyi kaldırın veya başkalarını ekleyin, böylece zamanla gelişebilirim. Teşekkürler.";
+"sympt_therapy" = "Tedavi (rehabilitasyon, vb.)";
+"sympt_fall" = "Düşme";
+"sympt_headShot" = "Baş vuruşu";
+"supportingFunctionsString" = "Destekleyici İşlevler";
+"sympt_sport" = "Spor";
+"whatsNewInVideoLogV3" = "Bu sürümde, en yaygın belirtileri ve olayları otomatik olarak tanıyan, doğrulama imkanı veren ve ardından bunları günlüğe otomatik olarak izleyen daha güçlü bir özellik vardır. Böylece tüm önemli şeyleri hatırlamak daha da kolay olacak, sadece kısa bir video çekin ve uygulama gerisini yapacak.";
+"SymptomSearchBarSearchString" = "Ara ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "Kan Oksijen Seviyesi";
+"RespiratoryRateString" = "Solunum Hızı";
+"sympt_vaccine" = "Genel aşılama";
+"sympt_covidVaccine" = "Covid-19 aşısı";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "Bir belirti veya olayı hızlıca kaydetmek için belirti sağındaki daireye bir kez basın. Belirti sağındaki daireye 2 saniye basılı tutun, bu size başka veriler ve/veya notlar eklemenize izin verecek bir ekran açar. Bu mesajı gizlemek için sembole (?) tekrar basın.";
+"kidWeightString" = "Kilo";
+"measurementsUnitString" = "Ölçüm birimleri";
+
+"version8_7OnboardingCardDescription" = "1. Günlükte kaydedilen yeni belirtiler ve olaylar (Covid dahil ve genel 'diğer') doktorlarla yapılan konuşmalarda daha doğru ve eksiksiz olmanızı sağlar.\n
+2. Bir Apple Watch'u olmayanlar için artık nöbetlerin süresini Günlüğe girerken manuel olarak kaydetmek mümkün.\n
+3. Günlükte herhangi bir belirti veya olaya not eklemek için  ⃝ düğmesine iki saniye basarak not ekleyebilirsiniz.\n
+4. Gerçek Zamanlı oturum uykuda aktifken, kalp atış hızı, solunum hızı ve kanda oksijen notlara kaydedilir.\n
+5. Ayrıca ağırlığı kaydetmek de mümkündür (örneğin ilaç değişikliği ile eşleştirmek için).\n
+6. Telemetri verileri daha basittir (kalıcı olarak anonimdir) ve nasıl geliştirileceğimizi anlamamıza yardımcı olur.\n
+7. Bazı stil hataları düzeltildi.\n
+8. MirrorHR'yi beğendiyseniz ve bize önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta göndermek her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz.
+Teşekkürler!\n ";
+
+"sympt_other_medications" = "Diğer ilaçlar";
+"sympt_weightLog" = "Kilo";
+"sympt_absence" = "Absans";
+
+"version8_8OnboardingCardDescription" = "1. Yeni Kontrol Listesi özelliği, iyi alışkanlıklar oluşturmanıza, sık sorulan soruları çözmenize ve MirrorHR'yi geliştiren ebeveynler ve doktorlar topluluğuna katılmanıza yardımcı olur.\n
+2. Bir Apple Watch'u olmayanlar için artık nöbetlerin süresini Günlüğe girerken manuel olarak kaydetmek mümkündür.\n
+3. Günlükte herhangi bir belirti veya olaya not eklemek için  ⃝ düğmesine iki saniye basarak not ekleyebilirsiniz.\n
+4. Gerçek Zamanlı oturum gece uykusu sırasında aktifken, solunum hızı ve kanda oksijen artık algılanır.\n
+5. Verileri dışa aktarmak ve yeni bir telefona geçerken yeniden içe aktarmak mümkündür.\n
+6. Bazı stil hataları düzeltildi.\n
+7. MirrorHR'yi beğendiyseniz ve bize önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta göndermek her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz.
+Teşekkürler!\n ";
+
+"version9OnboardingCardDescription" = "1. Yeni Hızlı Kayıt düğmeleri (Günlük Görünümü)
+2. Excel formatında yeni veri içe ve dışa aktarma, daha fazla veri ile (Görüşler ve Kontrol Listesi görünümleri)
+3. Alarmlar için ses seviyesi ayarını düzenleme seçeneği (Ayarlar görünümü)
+4. Günlük Görünümünde yeni olaylar menstrüasyon ve dermatit
+5. Minimum platform artık iOS 15/watchOS 7.5 (daha fazla güvenilirlik ve güvenlik için)
+6. Hata düzeltildi: bazı cihazlarda resimler ve semboller, ses olmadan bile video günlüğü kaydetme, nöbetler arası formül
+7. Bilinen sorunlar: iPhone ve Saat eşleştirmesi, işletim sistemi güncellemesi olduğunda bazı cihazlarda sıfırlama gerektirebilir.
+8. MirrorHR'yi beğendiyseniz ve bize önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta göndermek her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz.
+Teşekkürler!";
+
+"supportMirrorHRTak" = "MirrorHR'yi geliştirmemize yardımcı olun";
+"supportMirrorHRTakDescription" = "Her türlü yardımı çok takdir ediyoruz, böylece MirrorHR'yi geliştirmeye ve ihtiyacı olan her aileye ulaşmaya devam edebiliriz.";
+"OpenInBrowserLinkMsg" = "Tarayıcıda aç";
+"joinMirrorHRCommunityTask" = "MirrorHR Topluluğuna Katıl";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR, topluluk odaklı bir çabadır, çünkü sadece birlikte bir etki yaratabiliriz.";
+"realTimeSessionTaskDescription" = "Birden fazla izleme oturumu çalıştırmak, sistemin nasıl çalıştığını ve tüm ayarları nasıl daha iyi ayarlayacağınızı anlamanıza yardımcı olur.";
+"videoLogTaskDescription" = "Örneğin, yatmadan önce düzenli bir Video Günlüğü tutmak, gün içinde neler olduğunu düşünmek için harika bir yoldur. Belirtileri belirtirseniz, bunları otomatik olarak kaydedebilir. Dikkat: çocuklar bu rutine aşık olabilir :-)";
+"medicationTakenTaskDecription" = "Bir ilacı unutmak birçok soruna yol açabilir. İlaç hatırlatıcılarını ayarladığınızdan (Ayarlar görünümünde) ve her seferinde ilaçları doğru bir şekilde takip ettiğinizden emin olun.";
+"noTaskHistoryYet" = "Henüz geçmiş yok";
+"stepTaskCompletedOn" = "tamamlandı";
+"faqCheckListPicker" = "SSS";
+"habitsCheckListPicker" = "Alışkanlıklar";
+"supportCheckListPicker" = "Topluluk";
+"RefreshListText" = "Yenile";
+"shareWithDoctorTask" = "MirrorHR Verilerini doktorunuzla paylaşın";
+"shareWithDoctorTaskDescription" = "MirrorHR verilerini düzenli olarak doktorunuzla paylaşmak son derece önemlidir. Bunu haftada en az bir kez alışkanlık haline getirin.";
+"exportAndShareDataCSV" = "MirrorHR verilerini dışa aktar ve paylaş (CSV)";
+"exportAndShareDataXLS" = "MirrorHR verilerini dışa aktar ve paylaş (XLS)";
+
+"FaqFromTheCommunity" = "Topluluktan sorular ve öneriler";
+"watchConnectivityFAQTask" = "iPhone ve Saat bağlantısı";
+"watchConnectivityFAQTaskDescription" = "Neden bazen veri alınmadığına dair bildirim alıyorum?";
+"permissionsCheckFaq" = "BPM okunamıyor";
+"permissionsCheckFaqDescription" = "Neden Apple Watch BPM okuyamıyor ve 0 olarak sabitlenmiş?";
+"resetCheckListAboutButton" = "Kontrol listesini sıfırla";
+"newBadgeText" = "yeni";
+"rateMirrorHRTask" = "MirrorHR'yi geliştirmeye yardımcı olun";
+"rateMirrorHRTaskDescription" = "Bu uygulamayı beğendiyseniz Apple Store'da beş yıldız verin veya e-posta ile herhangi bir geri bildirim veya öneri paylaşın.";
+"thanksToBeLocalized" = "Teşekkürler!";
+
+"mirrorHRUserFlowTask" = "MirrorHR nasıl kullanılır";
+"mirrorHRUserFlowTaskDescription" = "MirrorHR'yi olabildiğince basit hale getirmek için elimizden geleni yapıyoruz, yine de burada nasıl kullanılacağına dair bazı öneriler bulabilirsiniz.";
+
+"ImportMirrorHRXLSLocalized" = "MirrorHR XLS Dosyasını İçe Aktar";
+"ImportMirrorHRCSVLocalized" = "MirrorHR CSV Dosyasını İçe Aktar";
+
+"mirrorHRHistoryTask" = "MirrorHR'nin arkasındaki hikaye";
+"mirrorHRHistoryTaskDescription" = "MirrorHR neden geliştirildi? Nasıl geliştirildi? Ebeveynler ve doktorlar tarafından ebeveynler ve doktorlar için geliştirilmenin anlamı nedir?";
+
+"checkListDefaultCompletiontMsg" = "Tebrikler!";
+"checkListdefaultIncentiveMsg" = "Devam edin!";
+"telemetryChecklistProgresses" = "Kontrol listesi ilerlemeleri";
+"exportAndShareLastMonthBPMData" = "Son 30 günün tam BPM verilerini dışa aktar ve paylaş (CSV)";
+"knowMoreWHOTask" = "Epilepsi hakkında daha fazla bilgi edinin";
+"knowMoreWHOTaskDescription" = "DSÖ (Dünya Sağlık Örgütü), epilepsi hakkında bilgi almak için harika bir kaynaktır.";
+
+"sympt_dermatitis" = "Dermatit";
+"sympt_menses" = "Adet";
+
+"alarmSoundVolumeMsg" = "Ses seviyesi";
+"ExportSeizuresDataOnlyMsg" = "Sadece nöbet verilerini dışa aktar (CSV)";
+"Export6MonthsOfHRV" = "Son altı ayın HRV verilerini dışa aktar (varsa) (CSV)";
+"FastLogMsg" = "Hızlı Kayıt";
+"waitExportFileMsg" = "Tüm verilerin dışa aktarılması biraz zaman alabilir. Dosyayı paylaşma penceresi mümkün olan en kısa sürede görünecektir.";
+
+"ImportedNElementsFromXLSLocalized" = "İthal edilen belirtiler: ";
+"CanTReadTheXLSFileLocalized" = "XLS dosyası okunamıyor";
+"CanTReadTheCSVFileLocalized" = "CSV dosyası okunamıyor";
+"ImportCompleteLocalizedAlertTitle" = "İçe aktarma tamamlandı";
+
+"AlertConfirmMsgText" = "Onayla";
+"BtnOverwriteMsg" = "Tüm verilerin üzerine yaz";
+"BtnAppendMsg" = "Mevcut verilere ekle";
+"BtnCancelMsg" = "İptal";
+
+"sympt_FilterSupport" = "Gelişmiş filtreler";
+"exportAndShareAnonymizedDataXLS" = "Anonim verileri gönder";
+
+"appTerminatedMessage" = "MirrorHR kapatıldı ve artık veri alamıyor veya alarm gönderemiyor!";
+
+"alreadyTakenString" = "Tamamlandı";
+"minutesAgoString" = "dakika önce";
+
+// TherapyRelatedStrings
+"therapiesNavTitle" = "Tedaviler";
+"newTherapyString" = "Yeni Tedavi";
+"newCocktailString" = "Yeni Rutin";
+"therapySampleName" = "Tedavi adı";
+"defaultNewTherapyName" = "tedavi adı";
+"defaultNewDrugName" = "ilaç adı";
+"newDrugString" = "Yeni ilaç";
+"drugShapePillDescription" = "Hap";
+"drugShapeSpoonDescription" = "Sıvı";
+"drugDosesTitle" = "İlaç dozları";
+"cocktailSectionTitle" = "Rutinler";
+"drugsSectionTitle" = "İlaçlar";
+"therapyAlertYesNoSaveMsg" = "Kaydetmek istiyor musunuz?";
+"missingFieldsALertMsg" = "Önce tüm alanları doldurmalısınız";
+"reminderAtString" = "Hatırlatıcı: ";
+"enableReminderString" = "Hatırlatıcıyı etkinleştir";
+"therapyUnitText" = "Birim:";
+"therapyShapeText" = "Şekil:";
+"therapyQuantityText" = "Miktar:";
+"noDrugNameText" = "İlaç adı yok";
+"noDrugUnitText" = "İlaç birimi yok";
+"noDrugShapeText" = "İlaç şekli yok";
+"noCocktailNameText" = "Rutin adı yok";
+"drugOtherShapeDescription" = "Diğer";
+"sampleRoutineNameText" = "örn. sabah";
+"sampleDrugNameString" = "örn. Tegretol";
+"noReminderString" = "Hatırlatıcı yok";
+"noTherapyNameString" = "Tedavi yok";
+"therapySessionFooterText" = "Burada tedavi geçmişinizi izleyebilirsiniz";
+"therapyOnboardingHeadline" = "Burada tedavi geçmişinizi izleyebilirsiniz";
+"noCurrentTherapyText" = "Mevcut tedavi yok";
+"currentTherapyTitleText" = "Mevcut tedavi";
+"addUpdateTherapiesText" = "Tedavi ekle veya güncelle";
+"editUpdateAllTherapyDB" = "Tedavi verilerini düzenle";
+"cantDeleteAsUsedInCurrentTherapy" = "Bu kayıt mevcut tedavi tarafından kullanıldığı için silinemez";
+"clearAllTherapyDataMsg" = "Tüm verileri temizle";
+"confirmDeleteAllTherapyData" = "Bu, tedaviyle ilgili tüm verileri silecek";
+"navigationBackDefaultText" = "Geri";
+// EndTherapyRelatedStrings
+
+"version9_50onboardingCardDescription" =
+"1. Sadece iOS 15
+2. Gerçek Zamanlı Oturumda daha fazla veri kaydedildi (örneğin bpm istatistikleri)
+3. Yeni Tedavi Yöneticisi
+4. Excel dışa aktarma, son 20 nöbeti ayrı excel sekmelerinde dışa aktararak çok daha fazla BPM verisi sağlar
+5. Tamamen anonimleştirilmiş verilerin Excel dışa aktarımı
+6. BPM grafiği zaman çizelgesi görünümünde tıklanınca ve nöbet olduğunda
+7. Nöbeti yönetirken video Nöbet düzeltildi
+8. Ukraynaca, Tayca, Rusça diller
+9. Daha iyi Veri Yok yönetimi (şimdi saatin durdurulma durumuyla senkronize edilir)
+10. Uygulama sonlandırıldığında bildirim sesi
+11. İzleme durumu bazında kalkan simgesi açık/kapalı
+12. İlaç hatırlatıcıları yönetimi geliştirildi
+13. Hata düzeltmeleri
+MirrorHR'yi beğendiyseniz ve bize önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta göndermek her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz.
+Teşekkürler!
+";
+
+"helpWithLocalizationString" = "MirrorHR'nin yerelleştirilmesine yardım edin";
+
+"kidDateOfBirthString" = "Doğum tarihi";
+"kidAgeString" = "Yaş";
+
+"AbsenceEpilepsyType" = "Absans nöbetler (eski adıyla petit mal)";
+"TonicClonicEpilepsyType" = "Tonik-klonik veya konvulsif nöbetler (eski adıyla grand mal)";
+"AtonicEpilespyType" = "Atonik nöbetler (düşme nöbetleri olarak da bilinir)";
+"ClonicEpilepsyType" = "Klonik nöbetler";
+"TonicEpilepsyType" = "Tonik nöbetler";
+"MyoclonicEpilepsyType" = "Miyoklonik nöbetler";
+"FocalAwarenessEpilepsyType" = "Bilinç korunan fokal nöbetler";
+"FocalNotAwareEpilepsyType" = "Bilinç kaybı ile fokal nöbetler";
+"UnknownEpilepyType" = "Bilinmeyen";
+"epilepsyTypeString" = "Epilepsi türü";
+
+"firstRunWatchAlertMsg" = "MirrorHR'yi Apple Watch'ta ilk çalıştırdığınızda, sağlık verilerine erişim izni verdiğinizden emin olun";
+
+"tabCommunity" = "Topluluk";
+"CommunityNavigationTitle" = "Topluluk";
+"firstRunWatchAlertMsg" = "MirrorHR'yi Apple Watch'ta ilk çalıştırdığınızda, sağlık verilerine erişim izni verdiğinizden emin olun";
+"firstRunWatchAlertMsgExtended" = "MirrorHR'yi Apple Watch'ta ilk çalıştırdığınızda, sağlık verilerinize erişim izni verdiğinizden emin olun. Sorun devam ederse, en basit çözüm MirrorHR'yi telefonunuzdan ve Apple Watch'tan kaldırmak, yeniden yüklemek ve Apple Watch'ta MirrorHR'nin ilk çalıştırılmasına dikkat etmektir.";
+"tabCommunityTitle" = "Topluluk";
+"askForHelpChecklist" = "Yardım";
+"askForHelpChecklistDescription" = "Yardıma mı ihtiyacınız var? Bizimle iletişime geçin ve size yardımcı olmak için elimizden geleni yapacağız. Ancak, zaman diliminizle birkaç saat farkı olabilir. Ayrıca helpme@mirrorhr.org adresine doğrudan e-posta gönderebilirsiniz";
+"permissionsCheckFaq" = "Apple Watch kalp atış hızınızı okuyamıyor";
+"permissionsCheckFaqDescription" = "Neden Apple Watch'taki MirrorHR, uygulama çalıştıktan birkaç dakika sonra bile her zaman 0 BPM gösteriyor?";
+
+"nightViewCardTitle" = "Gece Görünümü";
+"nightViewCardHeadline" = "MirrorHR asla uyumaz";
+"nightViewCardDescription" = "Kalp atış hızı izleme aktifken, telefonunuzu yatay konuma çevirerek Gece Modunu etkinleştirebilirsiniz. Ekran parlaklığı azalır ve sadece temel bilgiler görüntülenir. MirrorHR ayrıca telefonunuzun kapanmasını önler, böylece durumu bir bakışta izleyebilirsiniz. Telefonunuzu gece boyunca bir güç kaynağına bağlı tutmanız önerilir. Not: iOS 17'ye yükselttiyseniz, iPhone ayarlarından StandBy özelliğini devre dışı bırakmanız tavsiye edilir.";
+"startFromWatchCardTitle" = "Apple Watch'tan başlat";
+"startFromWatchCardHeadline" = "Apple Watch'taki MirrorHR'dan izlemeyi başlat";
+"startFromWatchCardDescription" = "Gizlilik ve güvenliği sağlamak için izleme, Apple Watch'taki MirrorHR uygulamasından başlatılmalıdır. İzleme aktifken iPhone tarafından durdurulabilir veya 15 dakika içinde yeniden başlatılabilir, ardından Apple Watch'tan yeniden başlatılmalıdır.";
+"sympt_toothache" = "Diş ağrısı";
+"rebootWatchCardTitle" = "Apple Watch'unuzu yeniden başlatın";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "MirrorHR'nin Apple Watch'unuzda da en son sürüme güncellendiğinden emin olun. Bazen birkaç dakika sürebilir ve her şeyin düzgün çalıştığından emin olmak için Apple Watch'unuzu kapatıp tekrar açmanız önerilir. Bunu, resimdeki gibi tepenin altındaki yan düğmeye basılı tutarak yapabilirsiniz.";
+"doctorsEmailString" = "Doktorun e-postası:";
+"minutesString" = "dakika";
+
+"version9_60onboardingCardDescription" = "MirrorHR Epilepsi Araştırma Kiti'nin 9.60 sürümüne hoş geldiniz: kullanımı daha da kolay ve özelliklerle dolu.
+MirrorHR, ebeveynler ve doktorlar tarafından ebeveynler ve doktorlar için geliştirilmiş ücretsiz, güvenli ve özel bir uygulamadır.
+Gerçek zamanlı kalp atış hızı izleme ve alarmlar gibi bazı özellikler, iPhone'a (iOS 15+) bağlı bir Apple Watch (WatchOS 8+) gerektirir. Ancak, bir Apple Watch'unuz olmasa bile, uygulama tüm olayları ve belirtileri kaydetmek ve doktorunuzla daha iyi iletişimi teşvik etmek için hala çok faydalıdır.
+MirrorHR bir tıbbi cihaz değildir, olmayı da amaçlamaz: sadece doktorunuzla işbirliği içinde sevdiklerinizin epilepsisi hakkında daha fazla bilgi edinmenize yardımcı olmak istiyor.
+
+Bu sürümün önemli yeniliklerinden bazıları:
+1. Gerçek zamanlı izleme yönetimi için Apple Watch kontrolü geliştirildi.
+2. Verilerin doktorunuzla paylaşımını kolaylaştırmak için Excel'e veri dışa aktarma iyileştirildi.
+3. Son epileptik nöbet verilerini içeren bir e-posta için önceden bir taslak hazırlama imkanı.
+4. Günlükte yeni belirtiler mevcuttur ve artık bir belirtinin veya olayın tam süresini girebilirsiniz.
+5. Bazı hatalar düzeltildi ve performans iyileştirmeleri yapıldı.
+
+Ayrıca MirrorHR'nin tamamen anonim olduğunu ve verilerin sadece telefonunuzda olduğunu hatırlatırız.
+Gerçek zamanlı izleme, Apple Watch ile eşleştirmeyi gerektirir.
+Güncellemeden sonra, Apple Watch'un doğru şekilde hizalanmış olduğundan emin olmak için Apple Watch'u yeniden başlatmanızı öneririz.
+
+MirrorHR'yi sürekli olarak geliştirmemize katkıda bulunan iki süper anneye özel teşekkürler: çok teşekkürler, Stefania ve Elena. #NeverStopFighting
+
+MirrorHR Epilepsi Araştırma Kiti'ni daha da yararlı hale getirmemize yardımcı olmak istiyorsanız, lütfen helpme@mirrorhr.org adresinden bizimle iletişime geçin ve Apple App Store'da bir inceleme yayınlayın.
+
+Epilepsi araştırmasına katkıda bulunduğunuz için teşekkür ederiz.
+";
+
+"backupSymptomsDataString" = "Belirtiler yedekleme";
+"restoreSymptomsDataString" = "Yedekten belirtileri geri yükle";
+
+"AttentionRiskyWorkInProgressMessage" = "ÇALIŞMA DEVAM EDİYOR.\n\nLÜTFEN BURADA BEKLEYİN VE MIRRORHR AKTİF TUTUN YOKSA KARARSIZ HALE GELEBİLİR";
+
+"WhatsNew9_70_Title1" = "Kontrol sizde";
+"WhatsNew9_70_SubTitle1" = "Yeni yedekleme ve geri yükleme işlevi";
+"WhatsNew9_70_Body1" = "Veriler her zaman güvenlidir ve tamamen sizin kontrolünüzdedir. Günlük Görünümünde dışa aktarma simgesine tıklayın ve yeni seçenekleri görün.";
+
+"WhatsNew9_70_Title2" = "Yenilikler";
+"WhatsNew9_70_SubTitle2" = "Bu sayfa";
+"WhatsNew9_70_Body2" = "En son güncellemelerin ne olduğunu görmenin daha kolay bir yolu";
+
+"WhatsNew9_70_Title3" = "Hata düzeltmeleri";
+"WhatsNew9_70_SubTitle3" = "Birkaç hata";
+"WhatsNew9_70_Body3" = "MirrorHR her zamankinden daha güvenilir. Sürekli geri bildirimleriniz için teşekkürler";
+
+"NotifyRTEndTitleMsg" = "Gerçek Zaman oturumu sona erdi";
+"NotifyRTEndCaptionMsg" = "Gerçek Zaman oturumu durduğunda bir bildirim gönderin. Yanlışlıkla durdurulmasını önlemeye yardımcı olabilir";
+"NoDataEventStringV2" = "Apple Watch'tan veri alamıyorum!";
+"NoDataEventCaptionV2" = "Lütfen iPhone ve Apple Watch'un bağlı ve erişilebilir olduğunu kontrol edin. Hata devam ederse, lütfen yeniden başlatın.";
+"NoDataReceivedStringV2" = "Apple Watch'tan 10 dakikadan uzun süre veri alınamadı ";
+
+"TelemetryLocalizedSymptomsLogged" = "Belirtiler";
+"TelemetryLocalizedBpmMinMax" = "BPM eşikleri";
+"TelemetryLocalizedMedicationReminders" = "İlaç hatırlatıcıları";
+"TelemetryLocalizedCheckList" = "Kontrol listesi ilerlemeleri";
+"TelemetryLocalizedDateOfBirth" = "Yaş";
+"TelemetryLocalizedEpilepsyType" = "Epilepsi Türü";
+"TelemetryLocalizedMirrorHRError" = "Uygulama hataları";
+"TelemetryLocalizedMonitoringSession" = "İzleme oturumları";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "Kritik hatalar için bildirim almayı durdurmak istiyor musunuz?";
+
+//Streaming-related stuff
+"YouMustHaveWatchOrStreamingMain" = "Gerçek zamanlı kalp atış hızı monitörü, alarmlar ve birçok diğer özellik için bu iPhone ile eşleştirilmiş bir Apple Watch'unuz olmalıdır.";
+
+"YouMustHaveWatchOrStreamingSecondary" = "Alternatif olarak, aynı ağa bağlı başka bir iPhone'dan Apple Watch ile eşleştirilmiş veri alabilirsiniz.";
+
+"IGetDataFromAnotherPhoneInLan" = "Apple Watch ile eşleştirilmiş başka bir iPhone'dan veri alabilirim";
+
+"HealthDataSourceSettingsView" = "Sağlık verisi kaynağı";
+
+"EnableStreamingSettingsView" = "Yerel Alan Ağı üzerinden akışı etkinleştir";
+
+"StreamingSectionFooterIntro" = "Gerçek zamanlı izlemeyi, alarmları vb. etkinleştirmek için Apple Watch ile eşleştirilmiş bir iPhone'unuz olmalıdır.
+Apple Watch olmayan (en fazla 3) diğer iPhone'larınız varsa, hepsi aynı Wi-Fi ağına bağlıysa (örneğin, büyük evler, ana MirrorHR uygulaması ve Apple Watch ile başka bir odadaki çocuklar vb.) onlara veri gönderebilirsiniz.";
+
+"StreamingSectionAlertMsg" = "Tüm iPhone'larda MirrorHR yüklü olmalı ve akış bayrağı etkin olmalıdır. Apple Watch ile bağlantılı cihaz veri gönderecek, diğer cihazlar ise verileri alacak. Lütfen dikkat: Her iki cihazda da MirroHR ön planda çalışıyor olmalıdır. Bağlantı kesilirse, Gerçek Zaman Görünümünde bağlantı prosedürünü yeniden yapmanız gerekir. Bu özellik ile ilgili yardıma ihtiyacınız olursa, helpme@mirrorhr.org adresine e-posta göndermekten çekinmeyin";
+
+"RealTimeStreamButtonText" = "Akış";
+"StreamingConnectedTo" = "Bağlı:";
+"NotConnectedToAnyStream" = "Herhangi bir akışa bağlı değil";
+"StreamingReceivingDataFrom" = "Veri alınıyor:";
+"StreamingSendingDataTo" = "Veri gönderiliyor:";
+"CheckStreamingUnderstandAlert" = "Akışı anladığınızı kontrol edin";
+"PairedWithAppleWatchView" = "Apple Watch ile eşleştirildi";
+
+"CiaoSettingsGreeting" = "Merhaba";
+"FrequentlyAskedQuestionsSeparator" = "Sıkça Sorulan Sorular (SSS)";
+
+"sympt_aura" = "Aura";
+"version10_5_WhatsNewDescription" = "1. Basitleştirilmiş kullanıcı deneyimi ve yeni belirtiler.
+2. Bazı hatalar düzeltildi.
+MirrorHR'yi beğendiyseniz ve bize önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta göndermek her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz.
+Teşekkürler!";
+
+"InformazioniPersonaliHeader" = "Kişisel Bilgiler";
+
+"healthPermissionsFAQTask" = "Apple HealthKit izinlerini nasıl düzeltebilirim.";
+"cantWorkWithoutHealthAccessMessage" = "Üzgünüm, sağlık verilerine erişimim olmadan çalışamam. Eğer bir hata olduysa, lütfen iPhone'daki MirrorHR uygulamasındaki destek seçeneklerini kontrol edin veya MirrorHR'yi yeniden yükleyin.";
+"healthAccessErrorMessage" = "Apple HealthKit'ten sağlık verilerini okuma hatası var. Lütfen iPhone'daki MirrorHR uygulamasındaki destek seçeneklerini kontrol edin.";
+"GrantAllPermissionsCarefullyMessage" = "Sağlık verilerini okumak için izin verin.";
+"GrantAllPermissionsCarefullyMessagePart2" = " Lütfen süreci iptal eder veya bazı izinleri reddederseniz, MirrorHR'nin hiç çalışamayacağını unutmayın.";
+"TapHereToHandleMsg" = "Yönetmek için buraya dokunun.";
+"YouAreInStreamingMode" = "MirrorHR, Apple Watch ile eşleştirilmiş başka bir iPhone'dan veri almak üzere ayarlanmıştır. Sadece veri almak için organize edilmiş olduğunuzdan, sınırlı yetenekleriniz ve seçenekleriniz vardır.";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "Başka bir cihazdan veri almayı durdurmak ve tüm seçenekleri görmek istiyorum.";
+"ItWillStopCurrentSessionMsg" = "Not: Bu, mevcut oturumu durduracaktır.";
+
+"MirrorHRLeveragesBPMHeadline" = "Klinik çalışmalar, epilepsili kişilerin %70'inden fazlasının nöbet başladığında birkaç saniye içinde ani hızlı kalp atışına sahip olduğunu göstermiştir. MirrorHR, Apple Watch aracılığıyla kalp atış hızını (BPM) sürekli izler ve belirli koşulları doğrulamak için alarmlar ayarlamak mümkündür. Eğer Apple Watch'unuz yoksa, tüm doktorlar tarafından belirtiler ve olayların bir günlüğünü tutmanız önerilir ve bu konuda MirrorHR size yardımcı olabilir.";
+"AlarmOnboardingCardHeadline" = "Burada, bir alarm almak istediğiniz kalp atış hızı eşiklerini (BPM) ayarlayabilirsiniz. Apple Watch'ta bildirimleri tekrarlamaktan kaçının, yoksa alarmlar gelmeyebilir. Bu özellik iPhone'un Apple Watch ile eşleştirilmesini gerektirir.";
+"CanTEarAlarmSoundGoBackMsg" = "Test alarm bildirimini almadıysanız, lütfen önceki ekrana dönün ve tüm adımları izlediğinizden emin olun. Desteğe ihtiyacınız olursa, lütfen helpme@mirrorhr.org adresine e-posta göndermekten çekinmeyin";
+
+"ItRequiresPermissionsAPopUpWillShow" = "Bu özelliği etkinleştirirseniz, saatten sağlık verilerini okumak için izin isteyen bir pop-up görünecektir. Lütfen gerekli tüm izinleri verin.";
+"HealthDataUnavailableErrorMsg" = "Bu cihazda gerekli sağlık verileri mevcut değil. Lütfen destek seçeneklerini kontrol edin.";
+"QuantityTypeUnavailableErrorMsg" = "Bu cihazda gerekli sağlık miktar türü mevcut değil. Lütfen destek seçeneklerini kontrol edin.";
+"DataTypeUnavailableErrorMsg" = "Bu cihazda gerekli sağlık veri türü mevcut değil. Lütfen destek seçeneklerini kontrol edin.";
+"HealthPermissionsNotGrantedErrorMsg" = "Apple HealthKit'ten sağlık verilerini okumak için gerekli izinleri vermediniz. Maalesef, MirrorHR bunun olmadan çalışamaz. Eğer bu istem dışı olduysa, lütfen bizimle helpme@mirrorhr.org adresinden iletişime geçin veya MirrorHR'yi Apple Store'dan kaldırıp yeniden yüklemeyi deneyin.";
+
+"AskNotificationPermissionsMsg" = "Bildirim ve kritik bildirim göndermek için izin verin (iPhone sessiz moddayken bile ateşlenirler).";
+
+"AcceptingConditionsByContinuingMsg" = "MirrorHR'yi kullanmaya devam ederek, yukarıdakileri okuduğumu, anladığımı ve koşulları kabul ettiğimi onaylıyorum.";
+"SwipeRightToContinueSetupMsg" = "Kuruluma devam etmek için sağa kaydırın.";
+"StopUsingMirrorHRContactUsMsg" = "Eğer kabul etmiyorsanız, lütfen MirrorHR'yi kullanmayı bırakın. Eğer bilgiye ihtiyacınız varsa, bize helpme@mirrorhr.org adresinden e-posta ile ulaşın.";
+
+"AboutYouPersonalSettingsSection" = "Hakkınızda";
+"SettingsSettingsSection" = "Ayarlar";
+"MedicalPlanSettingsSection" = "Tıbbi Plan";
+"AboutMirrorHRSettingsSection" = "MirrorHR Hakkında";
+
+"sympt_ask4Help" = "Yardım isteyin";
+"remoteNotificationsSettingsTitleMsg" = "Bakıcılar";
+"remoteNotificationsCaregiversFooter" = "Bakıcı, kimliğini bir hastaya WhatsApp, SMS veya başka bir yöntemle bir bağlantı göndererek paylaşabilir. Hasta bağlantıyı açtığında, bakıcıyı her olay veya alarm için bir bildirim almak üzere kaydedebilir. Her iki tarafın da MirrorHR yüklü ve yapılandırılmış olması gerekir. Birden fazla bakıcı olabilir.";
+"yourUniqueIDText" = "Benzersiz Kimliğiniz:";
+"shareYourIDCaregiverMsg" = "Bakıcı kimliğinizi bir hasta ile paylaşın, böylece belirtiler kaydedildiğinde veya alarmlar için bildirim alabilirsiniz.";
+"shareYourIDBtnMsg" = "Belirtiler, alarmlar vb. için bildirim gönderebilmeniz için hasta kimliğinizi bir bakıcıyla paylaşın.";
+"caregiversListMsg" = "Ve işte, sizden bildirim alabilen mevcut bakıcılarınız.";
+"uUIDMsg" = "Benzersiz, anonim kimliğiniz:";
+"saveSymptomInDiaryMsg" = "Belirtileri günlüğe kaydet";
+"remoteNotificationMsg" = "Uzak Bildirim:";
+
+"sympt_AlarmFired" = "Alarm ateşlendi";
+"stopReceivingNotificationsFor15Mins" = "15 dakika boyunca bildirim almayı durdur.";
+"event_RealTimeSessionStarted" = "Gerçek zamanlı oturum başladı";
+"tryPushNotificationBtnLabel" = "Bir bildirimi deneyin";
+"testRemoteNotifications" = "Bu bir testti";
+
+"version11_WhatsNewDescription" = "Bakıcılar için uzaktan izleme: Büyük bir yenilik! Artık bakıcıların iPhone'larında yüklü MirrorHR uygulamasına uzaktan bildirim göndermek mümkün. Bu özellik, ayarlar sekmesinde yapılandırılabilir ve ayrıca Günlük sekmesinden veya iPhone ana ekranında yeni bir widget aracılığıyla 'Yardım iste' bildirimi göndermeyi sağlar.
+
+    MirrorHR'yi beğendiyseniz ve geri bildirim veya önerilerde bulunmak istiyorsanız, bir inceleme ve bir e-posta her zaman memnuniyetle karşılanır. Bağlantıları Ayarlar bölümünde bulabilirsiniz. Teşekkürler!";
+
+"alarmSentMsg" = "Alarm gönderildi";
+"stopCountdownMsg" = "Geri sayımı durdur";
+"stoppedMsg" = "Durdu";
+
+"TabHome" = "Ana Sayfa";
+"NextMedication" = "Sonraki ilaç";
+"RemindersLink" = "Hatırlatmalar";
+"QuickNotesMsg" = "Hızlı not";
+"savedBtnMsg" = "Kaydedildi";
+"RemindersNotSet" = "Hatırlatmalar henüz ayarlanmadı";
+"TherapiesNotSet" = "Tedaviler henüz ayarlanmadı";
+"ThisWeekMedicationAtGlance" = "Bu haftanın ilaçları";
+"SinceLastSeizureString" = "son nöbetten itibaren";
+"NewAppNameString" = "Epilepsi Araştırma Kiti";
+
+"version14_WhatsNewDescription" = "MirrorHR - Epilepsi Araştırma Kiti'nin 14. sürümüne hoş geldiniz! Yeniden düzenlenen Ana Sayfa sekmesini sunmaktan büyük mutluluk duyuyoruz, bu da önemli bilgileri parmaklarınızın ucuna getiriyor. Anahtar olayları kaydetmek, ilaçları ve tedavileri izlemek ve hızlı notlar almak hiç bu kadar kolay olmamıştı. MirrorHR ile epilepsi yönetiminize daha net bir bakış açısı kazanın, sağlık sağlayıcınızla daha iyi tartışmalar yapın. Değerli geri bildirimleriniz, performans iyileştirmelerine ve hata düzeltmelerine yol açtı, uygulamayı her zamankinden daha pürüzsüz hale getirdi.
+
+MirrorHR'yi seviyor musunuz? Yorumlarınız ve geri bildirimleriniz deneyimi iyileştirmede önemli bir rol oynar. Bir inceleme bırakmaktan veya önerilerinizi e-posta ile göndermekten çekinmeyin. Bağlantıları Ayarlar bölümünde bulabilirsiniz. Sürekli desteğiniz için teşekkürler!";
+"helpLabelMsg" = "Yardım";
+
+"MoodMsg" = "Ruh Hali";
+"sympt_mood_happy" = "Mutlu";
+"sympt_mood_calm" = "Sakin";
+"sympt_mood_sad" = "Üzgün";
+"sympt_mood_angry" = "Kızgın";
+"sympt_mood_anxious" = "Endişeli";
+
+"AppreciateDonationsMsg" = "MirrorHR her zaman ücretsiz olacak. Ancak, geliştirilmesini desteklemek için herhangi bir bağışı takdir ediyoruz. Teşekkürler.";
+"ThankYouForDonationMsg" = "Bağışınız için teşekkür ederiz! Çok takdir edildi!";
+"DonationFailedMsg" = "Bağış başarısız oldu! Daha sonra tekrar deneyebilirsiniz. Teşekkürler.";
+"DonationCancelledMsg" = "Bağış iptal edildi. Daha sonra tekrar deneyebilirsiniz. Teşekkürler.";
+"UnknownDonationStatusMsg" = "Bilinmeyen bağış durumu. Daha sonra tekrar deneyebilirsiniz. Teşekkürler.";
+
+"sympt_Myoclonic_Trembling" = "Miyoklonik Titreme";
+
+"EnableLocalStreaming" = "Yerel Alan Ağı üzerinden akışı etkinleştir";
+"EnableReceivingRemoteStreaming" = "İnternet üzerinden veri almayı etkinleştir";
+"EnableReceivingRemoteStreamingFooter" = "Bir bakıcı iseniz, uzaktan MirrorHR'dan BPM'leri ve bildirimleri alabilirsiniz. Ebeveyn/tutor ilişkisi ve internet bağlantısı gerektirir. Ağ koşullarına bağlı olarak veri gecikebilir ve BPM'ler mümkün olduğunda gönderilebilir.";
+
+// Version 15 - Temmuz 2024
+
+"CreateMirrorHRBckTitle" = "MirrorHR Yedekleme Oluştur";
+"BackupRestoredMsg" = "Yedekleme Geri Yüklendi";
+"RestoreBackupMsg" = "Yedeklemeyi Geri Yükle";
+"ConfirmRestoreMsg" = "Geri Yüklemeyi Onayla";
+"ProcessingMsg" = "İşleniyor...";
+"ConfirmRestoreMessageExt" = "Yedeklemeyi geri yüklemek istediğinizden emin misiniz? Bu, mevcut verileri üzerine yazacaktır.";
+"RestoreOnlyMsg" = "Geri Yükle";
+"RestoreCompleteSuccessMsg" = "Geri yükleme başarıyla tamamlandı.";
+"RestoreFailureMsg" = "Geri yükleme hatası: ";
+"BackupErrorSorryMsg" = "Üzgünüm, MirrorHR yedeklemesini geri yükleyemiyorum";
+"SwitchedActivePatientBecauseSeverEvent" = "Alınan ciddi olayı yönetmek için Aktif Hasta değiştirildi. BPM'leri almaya başladı.";
+"SameEventsMsg" = "Aynı olaylar";
+"HandlingRemoteCommandMsg" = "Uzak Komut Yönetiliyor: ";
+"event_realTimeSessionEnded" = "Gerçek Zaman oturumu sona erdi";
+"RealTimeRemoteActiveMsg" = "Gerçek Zaman, uzak MirrorHR'de aktif.";
+"RealTimeRemoteOffMsg" = "Gerçek Zaman, uzak MirrorHR'de KAPALI.";
+"RemoteRealtimeUnkwongMsg" = "Gerçek Zaman durumu, uzak MirrorHR'de BİLİNMİYOR.";
+"RemoteNoPatientSelectedMsg" = "Uzak MirrorHR olarak seçilen hasta yok";
+"RemoteFetchingDataMsg" = "Uzak MirrorHR'den veri alınıyor";
+"RemoteNoDataKeyMsg" = "Uzak MirrorHR'den veri alınmıyor";
+"RemoteNoDataCaptionMsg" = "İnternet bağlantısı olmayabilir veya gerçek zamanlı oturum aktif olmayabilir";
+"RemoteMustHaveWatchInfoMsg" = "Bir Apple Watch eşleştirilmiş olmalı veya başka bir MirrorHR uygulaması veri akışı yapıyor olmalıdır. Tüm seçenekleri Ayarlar sekmesinde, Sağlık veri kaynağı bölümünde kontrol edebilirsiniz.";
+"RemoteCheckStatusActiveMsg" = "Uzak durumu kontrol et";
+"RemoteCheckingStatusDisabledMsg" = "Kontrol ediliyor ...";
+"RemoteRunningMsgMaxTime" = "Uzak MirrorHR'den BPM al (maksimum 5 dakika)";
+"RemoteRealTimeIsNotRunningMsg" = "Gerçek Zaman, uzak MirrorHR'de çalışmıyor";
+"RemoteTryReceivingBpmsMsg" = "Uzak MirrorHR'den BPM almaya çalışalım";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Uzak MirrorHR'den BPM alınıyor (sadece birkaç dakika)";
+"RemoteStreamingOptionsSettingsMsg" = "Ayarlar - Sağlık Veri Kaynakları bölümünde bazı akış seçeneklerini ayarlayabilirsiniz";
+"RemoteConnectedAndReceivingMsg" = "İnternete bağlı ve şu kişiden veri alıyor:";
+"RemoteNoPatientAssociatedMsg" = "İlişkilendirilmiş hasta yok";
+"RemoteSelectActivePatientMsg" = "Aktif Hasta seçin";
+"RemoteThereIsNoInternetConnectionMsg" = "İnternet Bağlantısı YOK";
+"RemoteConnectedToInternetMsg" = "İnternete Bağlı";
+"RemoteSendingDataToMsg" = "Veri gönderiliyor:";
+"RemoteNoCaregiverAssociatedMsg" = "İlişkilendirilmiş bakıcı yok";
+"BackupAndRestoreHeaderMsg" = "Yedekleme ve Geri Yükleme";
+"LocalNotificationsHeaderMsg" = "Yerel Bildirimler";
+"RemoteNotificationsHeaderMsg" = "Uzak Bildirimler";
+"RemoteActivePatientsHeaderMsg" = "Aktif hastalar";
+"Ask4HelpNeedsYourHelpMsg" = "yardımınıza ihtiyacı var!";
+"RemoteNotificationTitleMsg" = "Uzak Bildirim";
+"LocationServicesLocalized" = "Konum Hizmetleri";
+"RemoteDiaryOnlyDataSourceTitle" = "Sadece Günlük";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Apple Watch ile eşleştirilmiş ve ana olayları internet üzerinden bakıcılara gönderiyor";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Apple Watch ile eşleştirilmiş ve ana olayları ve BPM'leri internet üzerinden bakıcılara gönderiyor";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Başka bir MirrorHR'den internet üzerinden ana olaylar alınıyor";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Başka bir MirrorHR'den internet üzerinden ana olaylar ve BPM'ler alınıyor";
+"RemotePotentialOnboardingRestartMsg" = "Bazı yeni ayarların doğru yapılandırılması için başlangıç yeniden başlayabilir.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Apple Watch mevcut değil. MirrorHR sadece bir günlük olarak çalışır. Biyometrik veri kaynağı etkin değil, alarm yok.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR doğrudan bir Apple Watch ile eşleştirilmiş ve biyometrik veri alabilir. Yerel alarmlar ve bildirimler etkin.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR, Apple Watch ile eşleştirilmiş ve ana olayları internet üzerinden bir bakıcıya gönderebilir. Bakıcının bu olayları almak ve yapılandırmak için MirrorHR'yi çalıştırması gereklidir. Bu bildirimlerde bir gecikme olabilir.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR, Apple Watch ile eşleştirilmiş ve ana olayları ve BPM'leri internet üzerinden bir bakıcıya gönderebilir. Bakıcının bu olayları ve BPM'leri almak ve yapılandırmak için MirrorHR'yi çalıştırması gereklidir. Bu bildirimlerde bir gecikme olabilir.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR doğrudan bir Apple Watch ile bağlantılı değildir, ancak başka bir MirrorHR'den internet üzerinden ana olayları alabilir. Bu bildirimleri almakta bir gecikme olabilir.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR doğrudan bir Apple Watch ile bağlantılı değildir, ancak başka bir MirrorHR'den internet üzerinden ana olayları ve BPM'leri alabilir. Bu bildirimleri almakta bir gecikme olabilir ve MirrorHR'nin ön planda olması gerekmektedir.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR uzak iPhone'da aktif değil";
+"RemoteStopReceivedFromPatientMsg" = "Uzak hastadan gerçek zamanlı oturum durdurma komutu alındı";
+"RemoteNoDataFromTheInternetMsg" = "Uzak hastadan veri alınmadı";
+
+
+// Version 15 - Temmuz 2024
+
+"CreateMirrorHRBckTitle" = "MirrorHR Yedekleme Oluştur";
+"BackupRestoredMsg" = "Yedekleme Geri Yüklendi";
+"RestoreBackupMsg" = "Yedeklemeyi Geri Yükle";
+"ConfirmRestoreMsg" = "Geri Yüklemeyi Onayla";
+"ProcessingMsg" = "İşleniyor...";
+"ConfirmRestoreMessageExt" = "Yedeklemeyi geri yüklemek istediğinizden emin misiniz? Bu, mevcut verileri üzerine yazacaktır.";
+"RestoreOnlyMsg" = "Geri Yükle";
+"RestoreCompleteSuccessMsg" = "Geri yükleme başarıyla tamamlandı.";
+"RestoreFailureMsg" = "Geri yükleme hatası: ";
+"BackupErrorSorryMsg" = "Üzgünüm, MirrorHR yedeklemesini geri yükleyemiyorum";
+"SwitchedActivePatientBecauseSeverEvent" = "Ciddi olayı yönetmek için Aktif Hasta değiştirildi. BPM almaya başladı.";
+"SameEventsMsg" = "Aynı olaylar";
+"HandlingRemoteCommandMsg" = "Uzaktan Komut Yönetiliyor: ";
+"event_realTimeSessionEnded" = "Gerçek Zaman oturumu sona erdi";
+"RealTimeRemoteActiveMsg" = "Gerçek Zaman, uzak MirrorHR'de aktif.";
+"RealTimeRemoteOffMsg" = "Gerçek Zaman, uzak MirrorHR'de KAPALI.";
+"RemoteRealtimeUnkwongMsg" = "Gerçek Zaman durumu, uzak MirrorHR'de BİLİNMİYOR.";
+"RemoteNoPatientSelectedMsg" = "Uzak MirrorHR olarak seçilen hasta yok";
+"RemoteFetchingDataMsg" = "Uzak MirrorHR'den veri alınıyor";
+"RemoteNoDataKeyMsg" = "Uzak MirrorHR'den veri alınmıyor";
+"RemoteNoDataCaptionMsg" = "İnternet bağlantısı olmayabilir veya gerçek zamanlı oturum aktif olmayabilir";
+"RemoteMustHaveWatchInfoMsg" = "Eşleştirilmiş bir Apple Watch'unuz veya veri akışı yapan başka bir MirrorHR uygulamanız olmalıdır. Tüm seçenekleri Ayarlar sekmesinde, Sağlık veri kaynağı bölümünde kontrol edebilirsiniz.";
+"RemoteCheckStatusActiveMsg" = "Uzak durumu kontrol et";
+"RemoteCheckingStatusDisabledMsg" = "Kontrol ediliyor ...";
+"RemoteRunningMsgMaxTime" = "Uzak MirrorHR'den BPM al (maksimum 5 dakika)";
+"RemoteRealTimeIsNotRunningMsg" = "Gerçek Zaman, uzak MirrorHR'de çalışmıyor";
+"RemoteTryReceivingBpmsMsg" = "Uzak MirrorHR'den BPM almaya çalışalım";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Uzak MirrorHR'den BPM alınıyor (sadece birkaç dakika)";
+"RemoteStreamingOptionsSettingsMsg" = "Ayarlar - Sağlık Veri Kaynakları bölümünde bazı akış seçeneklerini ayarlayabilirsiniz";
+"RemoteConnectedAndReceivingMsg" = "İnternete bağlı ve şu kişiden veri alıyor:";
+"RemoteNoPatientAssociatedMsg" = "İlişkilendirilmiş hasta yok";
+"RemoteSelectActivePatientMsg" = "Aktif Hasta seçin";
+"RemoteThereIsNoInternetConnectionMsg" = "İnternet Bağlantısı YOK";
+"RemoteConnectedToInternetMsg" = "İnternete Bağlı";
+"RemoteSendingDataToMsg" = "Veri gönderiliyor:";
+"RemoteNoCaregiverAssociatedMsg" = "İlişkilendirilmiş bakıcı yok";
+"BackupAndRestoreHeaderMsg" = "Yedekleme ve Geri Yükleme";
+"LocalNotificationsHeaderMsg" = "Yerel Bildirimler";
+"RemoteNotificationsHeaderMsg" = "Uzak Bildirimler";
+"RemoteActivePatientsHeaderMsg" = "Aktif hastalar";
+"Ask4HelpNeedsYourHelpMsg" = "yardımınıza ihtiyacı var!";
+"RemoteNotificationTitleMsg" = "Uzak Bildirim";
+"LocationServicesLocalized" = "Konum Hizmetleri";
+"RemoteDiaryOnlyDataSourceTitle" = "Sadece Günlük";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Apple Watch ile eşleştirilmiş ve ana olayları internet üzerinden bakıcılara gönderiyor";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Apple Watch ile eşleştirilmiş ve ana olayları ve BPM'leri internet üzerinden bakıcılara gönderiyor";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Başka bir MirrorHR'den internet üzerinden ana olaylar alınıyor";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Başka bir MirrorHR'den internet üzerinden ana olaylar ve BPM'ler alınıyor";
+"RemotePotentialOnboardingRestartMsg" = "Bazı yeni ayarların doğru yapılandırılması için başlangıç yeniden başlayabilir.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Apple Watch mevcut değil. MirrorHR sadece bir günlük olarak çalışır. Biyometrik veri kaynağı etkin değil, alarm yok.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR doğrudan bir Apple Watch ile eşleştirilmiş ve biyometrik veri alabilir. Yerel alarmlar ve bildirimler etkin.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR, Apple Watch ile eşleştirilmiş ve ana olayları internet üzerinden bir bakıcıya gönderebilir. Bakıcının bu olayları almak ve yapılandırmak için MirrorHR'yi çalıştırması gereklidir. Bu bildirimlerde bir gecikme olabilir.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR, Apple Watch ile eşleştirilmiş ve ana olayları ve BPM'leri internet üzerinden bir bakıcıya gönderebilir. Bakıcının bu olayları ve BPM'leri almak ve yapılandırmak için MirrorHR'yi çalıştırması gereklidir. Bu bildirimlerde bir gecikme olabilir.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR doğrudan bir Apple Watch ile bağlantılı değildir, ancak başka bir MirrorHR'den internet üzerinden ana olayları alabilir. Bu bildirimleri almakta bir gecikme olabilir.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR doğrudan bir Apple Watch ile bağlantılı değildir, ancak başka bir MirrorHR'den internet üzerinden ana olayları ve BPM'leri alabilir. Bu bildirimleri almakta bir gecikme olabilir ve MirrorHR'nin ön planda olması gerekmektedir.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR uzak iPhone'da aktif değil";
+"RemoteStopReceivedFromPatientMsg" = "Uzak hastadan gerçek zamanlı oturum durdurma komutu alındı";
+"RemoteNoDataFromTheInternetMsg" = "Uzak hastadan veri alınmadı";
+
+
+"version15_WhatsNewDescription" = "MirrorHR - Epilepsy Research Kit'in Versiyon 15'ine hoş geldiniz! Çocuklarımızın ve sevdiklerimizin özerkliğini artıran tam uzaktan izleme sistemimizi tanıtmaktan heyecan duyuyoruz. Ana olayların kaydedilmesi, ilaçların ve tedavilerin takibi dışında, artık bu etkinliklerin tümü için uzaktan bildirimler alabilir, kilometrelerce uzakta olsanız bile alarm ve BPM dahil. Bu özellik, hastanın MirrorHR çalıştıran bir iPhone ile eşleştirilmiş bir Apple Watch takmasını gerektirir ve siz, bakıcı olarak, yalnızca iPhone'unuzda MirrorHR'a sahip olmanız gerekir.
+
+Her zaman olduğu gibi, MirrorHR, epilepsi yönetimine daha net bir bakış açısı kazanmanıza, sağlık hizmeti sağlayıcınızla daha iyi tartışmaları teşvik etmenize yardımcı olur. Değerli geri bildirimleriniz, performans iyileştirmelerine ve hata düzeltmelerine yol açtı ve uygulamayı her zamankinden daha sorunsuz hale getirdi.
+
+MirrorHR'yi seviyor musunuz? İncelemeleriniz ve geri bildirimleriniz, deneyimi geliştirmek için çok önemlidir. Bir inceleme bırakmaktan veya bize önerilerinizi e-posta ile göndermekten çekinmeyin. Bağlantıları Ayarlar bölümünde bulabilirsiniz. Sürekli desteğiniz için teşekkür ederiz!";
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.mirror-labs.Epilepsy-Research-Kit.keepStreamingActive</string>
+		<string>com.mirror-labs.Epilepsy-Research-Kit.cleanUpBackGroundTask</string>
+		<string>com.mirror-labs.Epilepsy-Research-Kit</string>
+		<string>com.mirror-labs.Epilepsy-Research-Kit.NotifyNoDataBackGroundTask</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MirrorHR - Epilepsy Research Kit</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLSchemes</key>
+	<string>MirrorHR</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>AppIcon</string>
+			<key>CFBundleURLName</key>
+			<string>com.mirror-labs.Epilepsy-Research-Kit</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>MirrorHR</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>61</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>itms-watchs</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Epilepsy Reseach Kit needs to acces your media library in order to read/store video diary entries</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Epilepsy Research Kit needs to access to bluetooth data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSBluetoothAlwaysUsageDescription - 2</key>
+	<string>Epilepsy Research Kit needs to access to bluetooth data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Epilepsy Research Kit needs to access to bluetooth data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_mirrorHR._tcp</string>
+		<string>_mirrorHR._udp</string>
+	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Epilepsy Research Kit needs to read your Calendars data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Epilepsy Research Kit wants to use your camera to let you record a videoDiary</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Epilepsy Research Kit needs to read your Contants data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Epilepsy Research Kit needs to read your health data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Epilepsy Research Kit needs to read your health data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>MirrorHR needs to use your phone&apos;s LAN to discover devices nearby and being able to stream data</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Epilepsy Research Kit needs to read your location data to provide you alerts and insights that may help you better manage your seizures.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Epilepsy Research Kit needs to access to Location data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Epilepsy Research Kit wants to use your microphone to record a VideoDiary</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Epilepsy Research Kit needs to access to Motion data to provide you alerts &amp; insights that may help you better manage your seizures.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Epilepsy Research Kit wants to leverage the photo library additions for the videoDiary</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Epilepsy Research Kit wants to leverage the photo library for the videoDiary</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Epilepsy Research Kit wants to use speech recognition to record the videoDiary</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>mirrorHRDocument</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>org.openxmlformats.spreadsheetml.sheet</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>xlsx</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

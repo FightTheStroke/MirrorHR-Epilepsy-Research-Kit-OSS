@@ -1,0 +1,826 @@
+/*
+  Localizable.strings French
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+
+"languageUIMsg" = "Langue de l'interface utilisateur";
+"languageUI_String" = "Français";
+"errorMsg" = "Erreur";
+"shareFeedback" = "Partager un commentaire";
+"doYouNeedHelpString" = "Avez-vous besoin d'aide ?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR : Kit de recherche sur l'épilepsie";
+"secondesChaîne" = "secondes";
+"defaultEmergencyNumber" = "15";
+"sympt_emptySymptom" = "symtpom vide";
+"sympt_seizure" = "Saisie";
+"sympt_highBPM" = "Battements cardiaques élevés";
+"sympt_lowBPM" = "Faible battement de foyer";
+"sympt_constipation" = "Constipation";
+"sympt_diarrhea" = "Diarrhée";
+"sympt_hiccup" = "Hiccup";
+"sympt_dizziness" = "Vertiges";
+"sympt_fatigue" = "Fatigue";
+"sympt_fever" = "Fièvre";
+"sympt_headache" = "Maux de tête";
+"sympt_medicalExamination" = "Examen médical";
+"sympt_hospitalization" = "Hospitalisation";
+"sympt_emergencyRoom" = "Salle d'urgence";
+"sympt_coughing" = "Tousse";
+"sympt_nausea" = "Nausée";
+"sympt_shortnessOfBreath" = "Essoufflement";
+"sympt_soreThroat" = "Maux de gorge";
+"sympt_vomiting" = "Vomissement";
+"sympt_excitement" = "Excitation";
+"sympt_moodChanges" = "Changements d'humeur";
+"sympt_sleepChanges" = "Changements de sommeil";
+"sympt_sleepDeprivation" = "La privation de sommeil";
+"sympt_appetiteChanges" = "Changements d'appétit";
+"sympt_videoLog" = "Journal vidéo";
+"sympt_videoSeizureLog" = "Journal des saisies";
+"sympt_textLog" = "Journal de texte";
+"sympt_stress" = "Stress";
+"sympt_medicationTaken" = "Médicament pris";
+"sympt_medicationForgotten" = "Médicament manqué";
+"sympt_other" = "Autre";
+"sympt_emergencyMedication" = "Médicaments d'urgence (ex. Buccolam, Micropam)";
+"tabListe de contrôle" = "Liste de contrôle";
+"tabRealTimeMonitor" = "TempsRéel";
+"tabJournal" = "Journal";
+"tabInsights" = "Insights";
+"tabSettings" = "Paramètres";
+"tabDebugLogs" = "Déboguer";
+"tabOnboarding" = "Onboarding";
+"realTimeNoWatchSampleImage" = "realtimesample";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "Je suis désolé, je n'ai pas pu enregistrer la vidéo :( ";
+"comingSoonMsg" = "Bientôt disponible : ";
+"youMustHaveWatchString" = "Une Apple Watch est nécessaire pour la surveillance et les alarmes en temps réel";
+"iHaveAWatchNowString" = "J'ai une Apple Watch";
+"appleWatchRequiredMsg" = "Apple watch est requis pour cette fonctionnalité";
+"importantMsg" = "Message important";
+"watchMainErrorMsg" = "L'application de la montre n'est pas installée OU la montre n'est pas couplée avec le téléphone, veuillez l'installer/vérifier";
+"wichLanguageDoUSpeak" = "Quelle langue parlez-vous ?";
+"selectLanguage" = "Veuillez sélectionner l'une des langues de reconnaissance vocale disponibles :";
+"willAddMoreLanguagesMsg" = "Nous ajouterons d'autres langues à l'avenir.";
+"quandQuestion" = "Quand?";
+"lastWeeksString" = "Dernières semaines";
+"lastMonthsString" = "Les derniers mois";
+"weekdaysString" = "Weekdays";
+"weekendString" = "Week-end";
+"loggedAtString" = "Connecté à : ";
+"fromString" = "De : ";
+"toString" = "À : ";
+"longueurChaîne" = "Longueur : ";
+"notesString" = "Remarques : ";
+"editNotesString" = "Modifier les notes pour : ";
+"rememberDuplicateNotificationsString" = "N'oubliez pas d'éviter les notifications sur la montre ou l'alarme ne se déclenchera pas lorsque l'application est en arrière-plan !";
+"gotItMsg" = "Compris!";
+"unplannedEventMsg" = "Désolé, un événement imprévu s'est produit";
+"stopLowBatteryNotificationsMsg" = "Arrêter les notifications de batterie faible";
+"continueMsg" = "Continuer";
+"firedAtMsg" = "Tiré à ";
+"manualAlarmTriggeredMsg" = "Déclenché manuellement sur ";
+"manualFalseAlarmTriggeredMsg" = "Fausse alarme";
+"byBPMofMsg" = "par un BPM de";
+"watchBatteryIsMsg" = "La batterie de la montre est ";
+"doYouWantLowBatteryNotificationsMsg" = "Voulez-vous continuer à recevoir des notifications en cas de batterie faible sur la montre ?";
+"firedByMsg" = "tiré par ";
+"bpmMsg1" = " BPM. ";
+"unclassifiedAlarmStopMsg" = " Session arrêtée, alarme non classée";
+"lastSeizureMsg" = "Dernière saisie";
+"seizureStatsMsg" = "Saisies";
+"videoLogBtnMsg" = "Journal vidéo";
+"seizureLogBtnMsg" = "Saisie vidéo";
+"drillDownByDateMsg" = "BPM par date";
+"symptomsLogs" = "Journal des symptômes";
+"insightsNavigationMsg" = "Insights";
+"analyzingDataMsg" = "Analyse des données...";
+"sinceLastEventMsg" = "Depuis le dernier événement : ";
+"sinceLastEventString" = "depuis le dernier";
+"fromPreviousMsg" = "Depuis l'événement précédent :";
+"congratsNoSeizureMsg" = "Félicitations ! Aucun événement grave !";
+"saveLogMsg" = "Enregistrer le journal";
+"detailLogMsg" = "Voulez-vous enregistrer des détails ?";
+"saveBtnMsg" = "Enregistrer";
+"speechHintMsg" = "Astuce : vous pouvez taper ou, si vous appuyez sur le symbole du microphone sur le clavier à l'écran, vous pouvez dicter.";
+"cancelActionMsg" = "Rejeter";
+"okActionMsg" = "OK";
+"realTimeMsg" = "RealTime";
+"alarmMsg" = "Alarme";
+"csvExportMsg" = "Exporter au format CSV";
+"olderString" = "Plus ancien";
+"thisWeekString" = "Cette semaine";
+"exportString" = "Exporter";
+"warningMsg" = "Avertissement";
+"startMsg" = "Démarrer";
+"stopMsg" = "Stop";
+"ciaoMsg" = "Ciao, je suis Mario";
+"ciaoHeadlineMsg" = "Ciao signifie 'Salut', en Italien";
+"ciaoDescriptionMsg" = "Merci de vous joindre à moi pour combattre l'épilepsie";
+"disclaimerTitleMsg" = "AVERTISSEMENT";
+"disclaimerHeadlineMsg" = "MirrorHR est conçu pour aider les parents, les médecins et les soignants à avoir plus d'informations sur les crises de leurs enfants bien-aimés. Il est développé par des parents et des médecins pour des parents et des médecins. MirrorHR n'est PAS un dispositif médical et il doit être utilisé uniquement en partenariat avec votre médecin.";
+"disclaimerDescriptionMsg" = "MirrorHR s'appuie sur Apple Iphone et Watch pour tous les capteurs et la collecte de données. Les vidéos sont stockées dans votre bibliothèque, les données de santé sont stockées dans l'Apple HealthKit local. Les seules données qui peuvent quitter votre téléphone sont les rapports d'incident (espérons-le très quelques fois).";
+"personalizeStartMsg" = "Personnalisons MirrorHR";
+"personalizeStartHeadlineMsg" = "MirrorHR est conçu pour aider les parents, les médecins et les soignants à mieux comprendre les crises de leurs proches.";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "Comment vous appelez-vous ?";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "Si vous êtes un parent ou un tuteur, veuillez saisir le nom de l'enfant dont vous vous occupez.";
+"whereULiveMsg" = "Où habitez-vous ?";
+"whereULiveHeadLineMsg" = "Afin que nous puissions détecter les conditions météorologiques et les corréler aux événements";
+"whereULiveDescriptionMsg" = "Nous exploitons https://openweathermap.org pour cette fonctionnalité";
+"alarmSettingsMsg" = "PARAMETRES D'ALARME";
+"alarmString" = "ALARMS";
+"minBpmMsg" = "BPM minimum";
+"minMaxBpmDescriptionMsg" = "MirrorHR mesure le rythme cardiaque en temps réel (BPM) et déclenche une alarme lorsque ces conditions sont remplies :";
+"maxBpmMsg" = "BPM maximum";
+"mirrorNotificationMsg" = "IMPORTANT !";
+"mirrorNotificationsWatchMsg" = "Désactiver les notifications sur la montre";
+"mirrorNotificationDescriptionMsg" = "C'est super important, faites-le maintenant, s'il vous plaît.\n Allez sur l'application Watch, les notifications et les notifications sécurisées de MirrorHR ne sont pas reflétées sur la montre.";
+"alarmSoundTitleMsg" = "ALARMES";
+"alarmSoundHeadlineMsg" = "(oui, il devrait pouvoir vous réveiller s'il se déclenche !)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "NOTIFICATIONS";
+"notificationSoundHeadlineMsg" = "Les notifications ne sont pas critiques, elles sont néanmoins très importantes";
+"notificationSoundDescriptionMsg" = "Par exemple, nous vous informons en cas de problèmes de réception de données de la montre, de batterie faible, etc., il est donc préférable de les surveiller";
+"parentalControlTitleMsg" = "Contrôle parental";
+"parentalControlOnString" = "Le contrôle parental est activé";
+"parentalControlHeadlineMsg" = "Empêcher l'arrêt de la session depuis la montre";
+"parentalControlDescriptionMsg" = "Il active certaines fonctions de sécurité comme empêcher l'arrêt de la session depuis la montre, le redémarrage automatique des notifications d'alarme après 15 minutes à partir d'une fausse alarme, etc. Si cette option est désactivée, vous recevrez une notification à la fin de la session de la montre.";
+"emergencyContactTitleMsg" = "Numéro d'urgence";
+"emergencyContactHeadLineMsg" = "juste pour l'avoir";
+"emergencyCallLabelMsg" = "Aide";
+"helpLabelMsg" = "Aide";
+
+"emergencyContactDescriptionMsg" = "Il peut s'agir du 15, ou son équivalent dans votre pays, ou de tout autre téléphone que vous souhaitez pouvoir appeler le plus rapidement possible, juste au cas où.";
+"emergencyContactDescriptionMsg4AboutView" = "Il peut s'agir du 15, ou son équivalent dans votre pays, ou de tout autre téléphone que vous souhaitez pouvoir appeler le plus rapidement possible.";
+"readyToStartTitleMsg" = "Prêt à démarrer !";
+"readyToStartHeadlineMsg" = "Merci pour votre aide.";
+"readyToStartDescriptionMsg" = "Vous pouvez toujours modifier n'importe quel paramètre à partir de l'onglet Paramètres";
+"whenBpmLowerThanMsg" = "Lorsque le BPM est inférieur à";
+"whenBpmHigherThanMsg" = "Lorsque le BPM est supérieur à";
+"triageDeltaTimeBeforeFireAlarmMsg" = "Tampon de temps avant déclenchement de l'alarme : ";
+"privacyMsg" = "Accepter la politique de confidentialité";
+"privacyAcceptanceMsg" = "Je comprends";
+"alarmSoundStyleMsg" = "Style de son d'alarme";
+"testAlarmSoundMsg" = "Test le son de l'alarme";
+"testAlarmBtnMsg" = "Test d'alarme";
+"testLowBatteryBtnMsg" = "Test batterie faible";
+"testAlarmSoundBgkTitleMsg" = "Test le son de l'alarme (retardé)";
+"testAlarmSoundBgkMsg" = "Important ! Testez l'alarme lorsque le téléphone est en mode Ne pas déranger.";
+"testAlarmImptMsg" = "Veuillez revenir à l'écran d'accueil de l'iphone et mettre le téléphone en mode silencieux, pour qu'il se déclenche lorsque l'application est en arrière-plan et même la nuit. L'alarme devrait se déclencher après 30 secondes. Si vous ne voyez que la notification mais vous n'entendez pas de son fort, veuillez vous assurer que les notifications ne sont pas dupliquées sur la montre";
+"notificationSoundStyleMsg" = "Style de son des notifications";
+"testNotificationSoundMsg" = "Test du son de notification";
+"openWatchAppMsg" = "Ouvrir l'application Watch";
+"testCallMsg" = "Test d'appel";
+"nameString" = "Nom :";
+"livingInString" = "Vivre dans :";
+"iSpeakLanguage" = "Je parle :";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Apple Watch disponible";
+"watchAvailableToggleCaptionString" = "Si vous possédez une Apple Watch, vous pouvez activer des fonctionnalités avancées telles que la surveillance en temps réel du rythme cardiaque, les alarmes, les notifications et bien plus encore.";
+"alarmSettingsFooterMsg" = "Il se déclenche immédiatement en fonction de ces conditions. L'Apple Watch doit être connectée";
+"parentalControlProfileMsg" = "La surveillance en temps réel ne peut pas être arrêtée à partir de l'Apple Watch et les alarmes sont réactivées automatiquement 15 minutes après le signalement d'une fausse alarme";
+"recordAVideoMsg" = "Enregistrer un journal vidéo";
+"notificationFooterMsg" = "Le moniteur en temps réel avec Apple Watch doit être activé pour ces notifications";
+"noDataNotificationMsg" = "Lorsque vous ne recevez pas de données d'Apple Watch pendant plus de";
+"batteryLevelProfileMsg" = "Lorsque le niveau de la batterie de la montre est inférieur à";
+"sleepSettingsTitleMsg" = "Paramètres SOMMEIL";
+"sleepSettingsFooterMsg" = "Le moniteur en temps réel avec Apple Watch doit être activé pour le suivi du sommeil";
+"deepSleepMaxBpmMsg" = "BPM max en sommeil profond";
+"lightSleepMaxBpmMsg" = "Veille légère max BPM";
+"notificationSettingsHeaderMsg" = "PARAMETRES DE NOTIFICATION";
+"notificationSettingsFooterMsg" = "Attention : une notification vaut mieux qu'un événement manqué...";
+"shouldFireNoDataMsg" = "Notification d'incendie en cas de non réception de données d'Apple Watch";
+"shouldFireLowBatteryMsg" = "Notification d'incendie lorsque la batterie de l'Apple Watch est faible";
+"notifyRealTimeEndMsg1" = "La surveillance en temps réel s'est terminée depuis l'Apple Watch";
+"notifyRealTimeEngMsg2" = "(pas nécessaire si le contrôle parental est activé)";
+"aboutMsg" = "À propos";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "Pour chaque symptôme, vous pouvez cliquer sur son nom pour ajouter/modifier une note, ou glisser vers la gauche pour le supprimer.";
+"deprecatedDefaultQuickLogNote" = "Balayez vers la droite pour modifier une note, balayez vers la gauche pour supprimer cette entrée";
+"debugModeMsg" = "Mode de journalisation des développeurs";
+"developerMode" = "Mode développeur";
+"migrateDBMsg" = "Migrer depuis la version précédente";
+"logsSoFarMsg" = "journaux jusqu'à présent";
+"seizuresSoFarMsg" = "saisies";
+"seizuresOnlyFilterMsg" = "Saisies";
+"editLogNotesMsg" = "Notes de journal - Modifier";
+"logASymptomMsg4LogsView" = "Enregistrer les événements";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "Réinitialiser tous les paramètres et supprimer toutes les données (attention, ce n'est pas réversible !)";
+"restartOnboardingMsg" = "Redémarrer l'intégration";
+"developerString" = "Développeur";
+"appNameString" = "Nom de l'application";
+"versionString" = "Version";
+"compatibilityString" = "Exigences";
+"contactsString" = "Contacts";
+"contactLabelMsg" = "Nous contacter";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "Politique de confidentialité";
+"privacyPolicyLinkLabel" = "Politique de confidentialité";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "Site Web";
+"sampleChartDataMsg" = "Exemple de données de graphique";
+"notificationTitleMsg" = "NOTIFICATIONS";
+"realTimeWarningMsg" = "L'Apple Watch doit être connectée pour les alarmes et les notifications";
+"chartOptionsTitleMsg" = "OPTIONS DE GRAPHIQUE";
+"showMarkersMsg" = "Afficher les marqueurs d'alarme";
+"showBandsMsg" = "Afficher les bandes du graphique";
+"reset2DefaultMsg" = "Réinitialiser les valeurs par défaut";
+"seeAllSettingsMsg" = "Ouvrir tous les paramètres";
+"realTimeOffMsg" = "Le temps réel est désactivé";
+"bootingProgressMsg" = "Démarrage...";
+"lastBpmMsg" = "Dernier BPM :";
+"secsAgoMsg" = "il y a quelques secondes";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "Paramètres des touches";
+"legendaLabelMsg" = "Légende :";
+"deepSleepLabelMsg" = "Sommeil profond";
+"lightSleepLabelMsg" = "Sommeil léger";
+"wakeLabelMsg" = "Réveillez-vous";
+"tagFalseAlarmTitleMsg" = "Tag de fausse alarme";
+"tagFalseAlarmActionMsg" = "Enregistrer la fausse alarme";
+"tagFalseAlarmAllGoodMsg" = "False";
+"tagEndOfSeizure" = "Terminer la saisie";
+"tagVideoSeizure" = "Vidéo";
+"saveSeizureMsg" = "Enregistrer la saisie";
+"seizureLabelMsg" = "Saisie";
+"falseAlarmSuggestion1" = "Stress";
+"falseAlarmSuggestion2" = "Rêve";
+"falseAlarmSuggestion3" = "Jeu";
+"elapsedTimeString" = "temps écoulé";
+"whatTimeIsNowString" = "heure actuelle";
+"defaultCityString" = "Milano";
+"initialBatteryMsg" = "Niveau initial de la batterie : ";
+"logLabelMsg" = "Journaux";
+"offLabelMsg" = "OFF";
+"tap3timesMsg" = "Tapez 3 fois";
+"watchAppNotInstalledString" = "MirrorHR n'est pas installé sur l'Apple Watch";
+"cantCommunicateWatchString" = "Impossible de communiquer avec l'Apple Watch";
+"watchNotPairedString" = "L'Apple Watch n'est pas couplée avec l'iPhone";
+"watchNotReachableString" = "MirrorHR sur la montre n'est pas accessible, veuillez vérifier qu'il s'exécute au premier plan, ou démarrez la session à partir de la montre";
+"canTFireNotificationString" = "Impossible de déclencher la notification à cause de ";
+"canTStartSessionString" = "Impossible de démarrer la session, veuillez vérifier que MirrorHR s'exécute au premier plan sur la montre et réessayez";
+"soSorryString" = "Je suis vraiment désolé :-( ... c'est juste arrivé : ";
+"saveAndCloseString" = "Enregistrer et fermer";
+"alarmFiredAtString" = "Alarme déclenchée à ";
+"byBPMOfString" = "par un BPM de";
+"checkRangeString" = ". Veuillez vérifier que la montre est portée correctement et qu'elle est dans la plage.";
+"alarmEventString" = "Alarme";
+"warningEventString" = "Avertissement";
+"noDataEventString" = "Aucune donnée";
+"lowBatteryEventString" = "Batterie faible";
+"unclassifiedEventString" = "Evénement non classé";
+"handleSeizureEventString" = "Gérer la saisie";
+"handleFalseAlarmEventString" = "Gérer les fausses alarmes";
+"stopFromWatchEventString" = "Arrêt reçu de l'Apple Watch";
+"sessionStopFromPhoneEventString" = "Session arrêtée depuis le téléphone";
+"criticalErrorEventString" = "Erreur critique : ";
+"criticalErrorSorryEventString" = "Je suis vraiment désolé :( J'ai rencontré une erreur inattendue.";
+"testSoundEventString" = "Testez le son pour : ";
+"notificationString" = "Notification";
+"sessionBootingEventString" = "Démarrage de session";
+"manualAlarmEventString" = "Alarme manuelle";
+"manualAlarmTriggeredNotesString" = "Déclenché manuellement par ";
+"logsInTotalMsg" = "journaux";
+"intervalBetweenLast2Seizures" = "Intervalle entre les dernières crises";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "M";
+"dayIndicatorString" = "d";
+"hoursIndicatorString" = "h";
+"minutesIndicatorString" = "m";
+"secondsIndicatorString" = "s";
+"eventsString" = "Événements";
+"insightsFilterToggleLeftString" = "Tous les journaux";
+"symptomString" = "Symptôme";
+"potentialTriggerString" = "Déclencheur potentiel";
+"severeEventString" = "Evénement grave";
+"goodHabitString" = "Bonne habitude";
+"badHabitString" = "Mauvaise habitude";
+"askPermissionsTitle" = "Autorisations";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "Vérifier les autorisations";
+"thanksForPermissionsString" = "Merci, les autorisations sont toutes accordées";
+"iPhoneBatteryIsMsg" = "La batterie de l'iPhone est ";
+"howLongDidItLastMsg" = "Combien de temps cela a-t-il duré ?";"languageUIMsg" = "Langue de l'interface utilisateur";
+"watchNotReachableString" = "MirrorHR est inaccessible sur l'Apple Watch : vérifiez qu'il est en cours d'exécution et au premier plan, ou appuyez sur START directement depuis MirrorHR sur l'Apple Watch";
+"noDataReceivedString" = "Aucune donnée reçue depuis plus de ";
+"medicationAlarmString" = "Rappel de médicament";
+"medicationAlarmViewTitle" = "Rappels de médicaments";
+"medicationAlarmMessage" = "Il est temps de prendre vos médicaments";
+"medicationTakenString" = "Médicament pris";
+"medicationSnoozeString" = "Répéter un rappel de médication";
+"medicationSnoozeStringDescription" = "Rappel de médicaments";
+"addMedicationReminderString" = "Ajouter/modifier des rappels de médicaments";
+"yes_String" = "Oui";
+"no_String" = "Non";
+"deleteAllRemindersString" = "Supprimer tous les rappels";
+"confirmString" = "Confirmer";
+"confirmDeleteMedicationRemindersMsg" = "Voulez-vous vraiment supprimer tous les rappels de médicaments ?";
+"medicationAlarmFooter" = "N'oubliez pas de toujours prendre vos médicaments ! Vous pouvez éventuellement répéter les rappels pendant 10 minutes.";
+"closeButtonString" = "Fermer";
+"howLongDidItLastMsg" = "Combien de temps cela a-t-il duré ?";
+"addButtonString" = "Ajouter";
+"nextScheduledRemindersString" = "Prochains rappels programmés :";
+"EveryWeekDayAtString" = "Chaque jour de la semaine à :";
+"EveryWeekEndAtString" = "Chaque week-end à :";
+"requestReviewMessage" = "Aimez-vous MirrorHR?";
+"manualMedicationMsg" = "Je le rapporte à la main dans l'agenda";
+"sympt_medicationChange" = "Changement de médicament";
+"medications_String" = "médicaments";
+"allLogs" = "Tous";
+"reportAsMissedMedicationString" = "Je le signalerai comme médication oubliée";
+"medicationNotificationBodyMessage" = "Il est temps de prendre vos médicaments. Appuyez ici pour vous connecter à MirrorHR ou pour répéter pendant 10 minutes";
+"letMeUpdateMissedMedicationString" = "Je les ai pris à une heure différente le même jour, permettez-moi de mettre à jour les données";
+"filterByDate" = "Filtrer par date";
+"event_realTimeSession" = "session en temps réel";
+"bpmTakesTimeMsg" = "Remarque : après la fin d'une session, le graphique BPM peut mettre quelques minutes à s'afficher.";
+"telemetrySectionString" = "Rejoindre la recherche";
+"shareAnonymizedTelemetryMsg" = "Partagez des données statistiques, de manière absolument anonyme, et aidez la recherche sur l'épilepsie";
+"telemetryRealTime" = "Nombre de sessions en temps réel";
+"telemetrySeizures" = "Nombre de saisies";
+"telemetrySymptoms" = "Nombre de symptômes enregistrés";
+"telemetryNavigation" = "Statistiques d'utilisation de base";
+"telemetryVideoLog" = "Nombre de VideoLog";
+"telemetrySeizuresVideoLog" = "Nombre de saisies VideoLog";
+"telemetryBPMValues" = "Seuil d'alarmes BPM";
+"telemetryMedicationReminders" = "Nombre de rappels de médicaments";
+"telemetryLanguage" = "Langage de l'interface";
+"telemetryExplainMsg" = "Les données de télémétrie sont entièrement anonymisées et si vous pouviez les partager avec nous, cela aiderait vraiment à améliorer la vie d'autres familles. Merci !";
+"enableAllTelemetryOptionsString" = "Activer/Désactiver toutes les options";
+"WhatsNewInThisVersion" = "Quoi de neuf dans cette version";
+"HereIsQuickUpdate" = "Voici une mise à jour rapide sur les dernières fonctionnalités";
+"helpOneHelpEveryone" = "La meilleure façon d'aider quelqu'un est d'aider tout le monde";
+"Sentiment_String" = "Humour";
+"detectSympstomsString" = "Symptômes détectés";
+"sympt_cold" = "Froid";
+"sentiment_negative" = "négatif";
+"sentiment_medium" = "neutre";
+"sentiment_positif" = "positif";
+"confirmSymptomsUnderstanding" = "D'après ce que vous avez dit, je comprends que vous souhaitez enregistrer ces symptômes, veuillez me les confirmer?";
+"appreciationForTheOpportunityToLearn" = "Si j'ai mal compris, veuillez supprimer le signalement ou en ajouter d'autres afin que je puisse m'améliorer avec le temps. Merci.";
+"sympt_therapy" = "Thérapie (réadaptation, etc.)";
+"sympt_fall" = "Chute";
+"sympt_headShot" = "Headshot";
+"supportingFunctionsString" = "Fonctions de support";
+"sympt_sport" = "Sport";
+"whatsNewInVideoLogV3" = "Dans cette version, il est encore plus puissant en reconnaissant automatiquement les symptômes et événements les plus courants, donnant la possibilité de les valider, puis de les tracer automatiquement dans le journal. Il sera donc encore plus facile de se souvenir de tous les éléments importants les choses, faites même juste une courte vidéo et l'application fera le reste.";
+"SymptomSearchBarSearchString" = "Rechercher ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "Oxygène sanguin";
+"RespiratoryRateString" = "Fréquence respiratoire";
+"sympt_vaccine" = "Vaccination générique";
+"sympt_covidVaccine" = "Vaccin Covid-19";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "Appuyez une fois sur le cercle à droite du symptôme pour enregistrer rapidement un symptôme ou un événement. Appuyez et maintenez enfoncé pendant 2 secondes sur le cercle à droite du symptôme pour ouvrir un écran où vous pouvez entrer d'autres données et / ou notes. Appuyez à nouveau sur le symbole (?) pour masquer ce message.";
+"kidWeightString" = "Poids";
+"measurementsUnitString" = "Unités de mesure";
+
+"version8_7OnboardingCardDescription" = "1. De nouveaux symptômes et événements qui peuvent être enregistrés dans l'Agenda (dont Covid et un générique 'autre') vous permettent ensuite d'être de plus en plus précis et complet dans les conversations avec les médecins.\n
+2. Pour ceux qui n'ont pas d'Apple Watch, il est désormais possible d'enregistrer la durée des crises manuellement lors de sa saisie dans le Journal.\n
+3. Toujours dans le Journal, il est maintenant possible d'ajouter des notes à n'importe quel symptôme ou événement, simplement en maintenant enfoncé le bouton  ⃝ pendant deux secondes. \n
+4. Si la session RealTime est active pendant le sommeil, en plus de la fréquence cardiaque, la fréquence respiratoire et l'oxygène dans le sang sont détectés et rapportés dans les notes à la fin de la session.\n
+5. Il est également possible d'enregistrer le poids (par exemple pour faire correspondre le changement de médicaments).\n
+6. Les données de télémétrie sont plus simples (toujours anonymes) et nous aident beaucoup à comprendre comment nous améliorer et aider de plus en plus de personnes. \n
+7. Correction de quelques bugs de style. \n
+8. Si vous aimez MirrorHR et si vous souhaitez nous faire des suggestions, sachez qu'un avis et un email sont toujours les bienvenus. Trouvez les liens dans la section Paramètres. \n
+Merci! \n ";
+
+"sympt_other_medications" = "Autres médicaments";
+"sympt_weightLog" = "Poids";
+"sympt_absence" = "Absence";
+
+"supportMirrorHRTak" = "Aidez-nous à développer davantage MirrorHR";
+"supportMirrorHRTakDescription" = "Nous apprécions beaucoup toute aide afin que nous puissions continuer à développer et à améliorer MirrorHR pour atteindre toute famille dans le besoin.";
+"OpenInBrowserLinkMsg" = "Ouvrir dans le navigateur";
+"joinMirrorHRCommunityTask" = "Rejoindre la communauté MirrorHR";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR est un effort mené par la communauté, car ce n'est qu'ensemble que nous pouvons avoir un impact.";
+"realTimeSessionTaskDescription" = "L'exécution de plusieurs sessions de surveillance vous aidera à mieux comprendre le fonctionnement du système et à mieux régler tous les paramètres.";
+"videoLogTaskDescription" = "Tenir un journal vidéo régulier, par exemple avant d'aller dormir, c'est un excellent moyen de réfléchir à ce qui s'est passé pendant la journée. Si vous mentionnez des symptômes, il peut également les enregistrer automatiquement. Attention : les enfants peuvent remplir amoureux de cette routine :-)";
+"medicationTakenTaskDecription" = "Oublier un médicament peut entraîner de nombreux problèmes. Assurez-vous de définir des rappels de médicaments (dans la vue Paramètres) et de suivre correctement les médicaments à chaque fois.";
+"noTaskHistoryYet" = "Aucun historique pour le moment";
+"stepTaskCompletedOn" = "terminé le";
+"faqCheckListPicker" = "FAQ";
+"habitsCheckListPicker" = "Habitudes";
+"RefreshListText" = "Actualiser";
+"shareWithDoctorTask" = "Partagez les données MirrorHR avec votre médecin";
+"shareWithDoctorTaskDescription" = "Partager régulièrement les données MirrorHR avec votre médecin est extrêmement important. Prenez l'habitude de le faire au moins une fois par semaine.";
+
+"exportAndShareDataCSV" = "Exporter et partager les données MirrorHR (CSV)";
+"exportAndShareDataXLS" = "Exporter et partager les données MirrorHR (XLS)";
+
+"version8_8OnboardingCardDescription" = "1. Nouvelle fonctionnalité de liste de contrôle qui aide à créer de bonnes habitudes, à résoudre les questions fréquemment posées et à participer à la communauté des parents et des médecins qui développent MirrorHR.\n
+2. Pour ceux qui n'ont pas d'Apple Watch, il est désormais possible d'enregistrer manuellement la durée des crises lors de sa saisie dans l'Agenda en un seul clic.\n
+3. Néanmoins, il est désormais possible d'ajouter des notes à n'importe quel symptôme ou événement simplement en maintenant enfoncé le bouton  ⃝ pendant deux secondes dans le journal.\n
+4. La fréquence respiratoire et l'oxygène dans le sang sont maintenant détectés si la session RealTime est active pendant le sommeil nocturne.\n
+5. Il est désormais possible d'exporter des données et de les réimporter en cas de changement de téléphone.\n
+6. Correction de quelques bugs de style.\n
+7. Si vous aimez MirrorHR et que vous souhaitez nous faire part de vos suggestions, sachez qu'un avis et un e-mail sont toujours les bienvenus. Recherchez les liens dans la section Paramètres.\n
+Merci !\n ";
+
+"FaqFromTheCommunity" = "Questions et suggestions de la communauté";
+"watchConnectivityFAQTask" = "Connectivité iPhone et Watch";
+"watchConnectivityFAQTaskDescription" = "Pourquoi est-ce que je reçois parfois la notification que les données n'ont pas été reçues ?";
+"resetCheckListAboutButton" = "Réinitialiser la liste de contrôle";
+"newBadgeText" = "nouveau";
+"rateMirrorHRTask" = "Aide à améliorer MirrorHR";
+"rateMirrorHRTaskDescription" = "Si vous aimez cette application, attribuez-lui cinq étoiles sur l'Apple Store, ou partagez vos commentaires ou suggestions par e-mail.";
+"thanksToBeLocalized" = "Merci !";
+
+"mirrorHRUserFlowTask" = "Comment utiliser MirrorHR";
+"mirrorHRUserFlowTaskDescription" = "Nous faisons de notre mieux pour rendre MirrorHR aussi simple que possible, vous trouverez toujours ici quelques suggestions sur la façon de l'utiliser.";
+
+"ImportMirrorHRXLSLocalized" = "Importer le fichier XLS MirrorHR";
+"ImportMirrorHRCSVLocalized" = "Importer le fichier CSV MirrorHR";
+
+"mirrorHRHistoryTask" = "L'histoire derrière MirrorHR";
+"mirrorHRHistoryTaskDescription" = "Pourquoi MirrorHR a-t-il été développé ? Comment a-t-il été développé ? Qu'est-ce que cela signifie d'être développé par des parents et des médecins pour des parents et des médecins ?";
+"checkListDefaultCompletiontMsg" = "Félicitations !";
+"checkListdefaultIncentiveMsg" = "Continuez !";
+"telemetryChecklistProgresses" = "Liste de contrôle progresse";
+"exportAndShareLastMonthBPMData" = "Exporter et partager les 30 derniers jours de données BPM complètes (CSV)";
+"knowMoreWHOTask" = "En savoir plus sur l'épilepsie";
+"knowMoreWHOTaskDescription" = "L'OMS (Organisation mondiale de la santé) est une excellente source d'informations sur l'épilepsie.";
+
+"sympt_dermatitis" = "Dermatite";
+"sympt_menses" = "Menstruations";
+
+"alarmSoundVolumeMsg" = "Volume";
+"ExportSeizuresDataOnlyMsg" = "Exporter les données saisies (CSV)";
+"Export6MonthsOfHRV" = "Exporter les six derniers mois de données HRV (si disponibles) (CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "L'exportation de toutes les données peut prendre un certain temps. Une fenêtre permettant de partager le fichier apparaîtra dès que possible.";
+
+"ImportedNElementsFromXLSLocalized" = "Symptômes importés: ";
+"CanTReadTheXLSFileLocalized" = "Impossible de lire le fichier XLS";
+"CanTReadTheCSVFileLocalized" = "Impossible de lire le fichier CSV";
+
+"ImportCompleteLocalizedAlertTitle" = "Importation terminée";
+
+"AlertConfirmMsgText" = "Confirmer";
+"BtnOverwriteMsg" = "Ecraser toutes les données";
+"BtnAppendMsg" = "Ajouter aux données existantes";
+"BtnCancelMsg" = "Annuler";
+
+"version9OnboardingCardDescription" = "1. Nouveaux boutons FastLog (vue Journal)
+2. Nouvelles données d'importation et d'exportation au format Excel, avec beaucoup plus de données (vues Insights et Checklist)
+3. Nouvelle option pour régler le volume des alarmes (vue Paramètres)
+4. Nouveaux événements menstruations et dermatites (vue journal)
+5. La plate-forme minimale est désormais iOS 15/watchOS 7.5 (pour leur fiabilité et leur sécurité accrues)
+6. Correction d'un bug : images et symboles sur certains appareils, sauvegarde du journal vidéo même sans audio, formule d'intervalle de saisie
+7. Problèmes connus : l'association de l'iPhone et de la montre peut nécessiter une réinitialisation sur certains appareils lors d'une mise à jour du système d'exploitation.
+8. Si vous aimez MirrorHR et que vous souhaitez nous faire part de vos suggestions, sachez qu'un avis et un e-mail sont toujours les bienvenus. Trouvez les liens dans la section Paramètres.
+Merci! ";
+
+"sympt_FilterSupport" = "Filtres avancés";
+"exportAndShareAnonymizedDataXLS" = "Envoyer des données anonymes";
+
+"appTerminatedMessage" = "MirrorHR a été fermé et n'est plus en mesure de recevoir des données ou d'envoyer des alarmes !";
+
+"alreadyTakenString" = "Terminé";
+"minutesAgoString" = "m il y a quelques";
+
+// Chaînes liées à la thérapie
+"therapiesNavTitle" = "Thérapies";
+"newTherapyString" = "Nouvelle thérapie";
+"newCocktailString" = "Nouvelle routine";
+"therapySampleName" = "Nom de la thérapie";
+"defaultNewTherapyName" = "nom de la thérapie";
+"defaultNewDrugName" = "nom du médicament";
+"newDrugString" = "Nouveau médicament";
+"drugShapePillDescription" = "Pilule";
+"drugShapeSpoonDescription" = "Liquide";
+"drugDosesTitle" = "Doses de médicaments";
+"cocktailSectionTitle" = "Routines";
+"drugsSectionTitle" = "Drogues";
+"therapyAlertYesNoSaveMsg" = "Voulez-vous l'enregistrer?";
+"missingFieldsALertMsg" = "Vous devez d'abord remplir tous les champs";
+"reminderAtString" = "Rappel à: ";
+"enableReminderString" = "Activer le rappel";
+"therapyUnitText" = "Unité:";
+"therapyShapeText" = "Forme:";
+"therapyQuantityText" = "Quantité:";
+"noDrugNameText" = "Aucun nom de médicament";
+"noDrugUnitText" = "Pas d'unité de médicament";
+"noDrugShapeText" = "Aucune forme de médicament";
+"noCocktailNameText" = "Aucun nom de routine";
+"drugOtherShapeDescription" = "Autre";
+"sampleRoutineNameText" = "es. matin";
+"sampleDrugNameString" = "es. Tegretol";
+"noReminderString" = "Pas de rappel";
+"noTherapyNameString" = "Aucune thérapie";
+"therapySessionFooterText" = "Ici, vous pouvez suivre l'historique de vos thérapies";
+"therapyOnboardingHeadline" = "Ici, vous pouvez suivre l'historique de vos thérapies";
+"noCurrentTherapyText" = "Il n'y a pas de traitement en cours";
+"currentTherapyTitleText" = "Thérapie actuelle";
+"addUpdateTherapiesText" = "Ajouter ou mettre à jour des thérapies";
+"editUpdateAllTherapyDB" = "Modifier les données de traitement";
+"cantDeleteAsUsedInCurrentTherapy" = "Cet enregistrement ne peut pas être supprimé car il est utilisé par la thérapie actuelle";
+"clearAllTherapyDataMsg" = "Effacer toutes les données";
+"confirmDeleteAllTherapyData" = "Ceci supprimera toutes les données liées à la thérapie";
+"navigationBackDefaultText" = "Retour";
+// EndTherapyRelatedStrings
+
+"version9_50onboardingCardDescription" =
+"1. iOS 15 uniquement
+2. Plus de données enregistrées dans RealTime Session (comme les statistiques bpm)
+3. Nouveau gestionnaire de thérapie
+4. L'exportation Excel exporte maintenant les 20 dernières saisies dans des onglets Excel séparés pour exporter beaucoup plus de BPM
+5. Export Excel de données entièrement anonymisées
+6. Graphique BPM lorsque vous cliquez sur la vue chronologique et que c'est une crise
+7. Correction de la saisie vidéo lors de la gestion d'une crise
+8. Ukrainien, Thay, langues russes
+9. Meilleure poignée NoData (maintenant il synchronise l'état arrêté avec la montre)
+10. Son de notification lorsque l'application est terminée
+11. Bouclier d'icônes activé/désactivé en fonction de l'état de surveillance
+12. Amélioration de la gestion des rappels de médicaments
+13. correction de bogues
+Si vous aimez MirrorHR et que vous souhaitez nous faire part de vos suggestions, sachez qu'un avis et un e-mail sont toujours les bienvenus. Trouvez les liens dans la section Paramètres.
+Merci!
+";
+"helpWithLocalizationString" = "Aidez-nous avec les localisations de MirrorHR";
+
+"kidDateOfBirthString" = "Date de naissance";
+"kidAgeString" = "Âge";
+
+"AbsenceEpilepsyType" = "Convulsions d'absence (anciennement appelées petit mal)";
+"TonicClonicEpilepsyType" = "Crises tonico-cloniques ou convulsives (anciennement appelées grand mal)";
+"AtonicEpilespyType" = "Convulsions atoniques (également connues sous le nom d'attaques par chute)";
+"ClonicEpilepsyType" = "Convulsions cloniques";
+"TonicEpilepsyType" = "Convulsions toniques";
+"MyoclonicEpilepsyType" = "Convulsions myocloniques";
+"FocalAwarenessEpilepsyType" = "Crises focales avec conscience conservée";
+"FocalNotAwareEpilepsyType" = "Crises focales avec perte de conscience";
+"UnknownEpilepyType" = "Inconnu";
+"Type d'épilepsie" = "Type d'épilepsie";
+
+"firstRunWatchAlertMsg" = "La première fois que vous exécutez MirrorHR sur votre Apple Watch, assurez-vous d'autoriser l'accès aux données de santé";
+
+"tabCommunity" = "Communauté";
+"CommunityNavigationTitle" = "Communauté";
+"firstRunWatchAlertMsg" = "La première fois que vous exécutez MirrorHR sur votre Apple Watch, assurez-vous d'autoriser l'accès aux données de santé";
+"firstRunWatchAlertMsgExtended" = "La première fois que vous exécutez MirrorHR sur votre Apple Watch, assurez-vous d'avoir autorisé l'accès à vos données de santé. Si le problème persiste, le plus simple est de désinstaller MirrorHR de votre téléphone et de votre Apple Watch, de le réinstaller et de faire attention à la première fois que MirrorHR est exécuté sur l'Apple Watch. ";
+"tabCommunityTitle" = "Communauté";
+"askForHelpChecklist" = "Aide";
+"askForHelpChecklistDescription" = "Avez-vous besoin d'aide ? Contactez-nous et nous ferons de notre mieux pour vous aider. Cependant, il peut y avoir quelques heures de décalage avec votre fuseau horaire. Vous pouvez également envoyer un e-mail directement à helpme@mirrorhr.org";
+"permissionsCheckFaq" = "L'Apple Watch ne peut pas lire votre fréquence cardiaque";
+"permissionsCheckFaqDescription" = "Pourquoi MirrorHR sur l'Apple Watch affiche-t-il toujours 0 BPM, même après quelques minutes d'exécution de l'application ?";
+
+"nightViewCardTitle" = "Vue nocturne";
+"nightViewCardHeadline" = "MirrorHR ne dort jamais";
+"nightViewCardDescription" = "Lorsque le suivi de la fréquence cardiaque est activé, vous pouvez activer le mode nuit en tournant simplement le téléphone horizontalement. La luminosité de l'écran diminue et seules les informations essentielles sont affichées. De plus, MirrorHR empêchera le téléphone de s'éteindre, vous permettant de surveiller la situation en un coup d'œil. Il est recommandé de garder le téléphone connecté à l'alimentation pendant la nuit. Remarque : Si vous avez mis à jour vers iOS 17, il est conseillé de désactiver la fonction Veille dans les paramètres de votre iPhone. ";
+"startFromWatchCardTitle" = "Démarrer depuis Apple Watch";
+"startFromWatchCardHeadline" = "Démarrer la surveillance depuis MirrorHR sur Apple Watch";
+"startFromWatchCardDescription" = "Pour garantir la confidentialité et la sécurité, la surveillance doit commencer à partir de l'application MirrorHR sur l'Apple Watch. Lorsque la surveillance est active, elle peut être arrêtée par l'iPhone, voire redémarrée dans les 15 minutes, après quoi elle doit être redémarrée à partir de Montre Apple.";
+"sympt_toothache" = "Mal de dents";
+"rebootWatchCardTitle" = "Redémarrez votre Apple Watch";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "Assurez-vous que MirrorHR est également mis à jour vers la dernière version sur votre Apple Watch. Parfois, cela peut prendre quelques minutes, et pour vous assurer que tout fonctionne correctement, il est recommandé d'éteindre et de rallumer votre Apple Watch à nouveau en appuyant sur le bouton latéral sous la couronne, comme sur l'image. ";
+"doctorsEmailString" = "E-mail du médecin:";
+"minutesString" = "minutes";
+
+"version9_60onboardingCardDescription" = "Bienvenue dans la version 9.60 de MirrorHR Epilepsy Research Kit : encore plus facile à utiliser et pleine de fonctionnalités.
+MirrorHR est une application gratuite, sécurisée et privée développée par des parents et des médecins pour des parents et des médecins.
+Certaines fonctionnalités, telles que la surveillance de la fréquence cardiaque en temps réel et les alarmes, nécessitent une Apple Watch (exécutant WatchOS 8+) connectée à un iPhone (exécutant iOS 15+). Cependant, si vous n'avez pas d'Apple Watch, l'application est toujours très utile pour enregistrer tous les événements et symptômes et favoriser une meilleure communication avec votre médecin.
+MirrorHR n'est pas un dispositif médical, et n'a pas vocation à l'être : il veut juste vous aider à en savoir plus sur l'épilepsie de vos proches en alliance avec votre médecin.
+
+Parmi les innovations notables de cette version :
+1. Amélioration du contrôle Apple Watch pour la gestion de la surveillance en temps réel.
+2. Amélioration de l'exportation des données vers Excel pour faciliter le partage des données avec votre médecin.
+3. Pré-remplissez éventuellement un e-mail pour votre médecin avec les données de la dernière crise d'épilepsie.
+4. De nouveaux symptômes sont disponibles dans l'agenda, et il est désormais possible de saisir la durée précise d'un symptôme ou d'un événement.
+5. Correction de quelques bugs et améliorations des performances.
+
+Nous vous rappelons également que MirrorHR est entièrement anonyme et que les données sont uniquement sur votre téléphone.
+La surveillance en temps réel nécessite un couplage avec une Apple Watch.
+Après la mise à jour, nous vous recommandons de redémarrer l'Apple Watch pour vous assurer que les deux applications (sur l'iPhone et l'Apple Watch) sont correctement alignées.
+
+Un merci spécial à deux super mères qui nous ont continuellement donné des suggestions pour améliorer MirrorHR : merci beaucoup, Stefania et Elena. #N'arrêtez jamais de vous battre
+
+Si vous souhaitez nous aider à rendre le kit de recherche sur l'épilepsie MirrorHR encore plus utile, veuillez nous contacter à helpme@mirrorhr.org et publier un avis sur l'App Store d'Apple.
+
+Merci de contribuer ensemble à la recherche sur l'épilepsie.
+";
+
+"backupSymptomsDataString" = "Sauvegarde des symptômes";
+"restoreSymptomsDataString" = "Restaurer les symptômes à partir de la sauvegarde";
+
+"AttentionRiskyWorkInProgressMessage" = "TRAVAIL EN COURS.\n\nVEUILLEZ ATTENDRE ICI ET GARDER MIRRORH ACTIF OU IL POURRAIT DEVENIR INSTABLE";
+
+"WhatsNew9_70_Title1" = "Prenez le contrôle";
+"WhatsNew9_70_SubTitle1" = "Nouvelle fonction de sauvegarde et de restauration";
+"WhatsNew9_70_Body1" = "Les données sont toujours sécurisées et sous votre contrôle total. Cliquez sur l'icône d'exportation dans la vue Journal pour voir de nouvelles options.";
+
+"WhatsNew9_70_Title2" = "Quoi de neuf";
+"WhatsNew9_70_SubTitle2" = "Cette page";
+"WhatsNew9_70_Body2" = "Un moyen plus simple de voir quelles sont les dernières mises à jour";
+
+"WhatsNew9_70_Title3" = "Corrections de bogues";
+"WhatsNew9_70_SubTitle3" = "Quelques bogues";
+"WhatsNew9_70_Body3" = "MirrorHR est plus fiable que jamais. Merci pour vos commentaires continus";
+
+"NotifyRTEndTitleMsg" = "La session en temps réel se termine";
+"NotifyRTEndCaptionMsg" = "Lancer une notification lorsqu'une session en temps réel est arrêtée. Cela peut aider à éviter qu'elle ne soit arrêtée par erreur";
+"NoDataEventStringV2" = "Je ne peux pas recevoir de données de l'Apple Watch !";
+"NoDataEventCaptionV2" = "Veuillez vérifier que l'iPhone et l'Apple Watch sont connectés et accessibles. Si l'erreur persiste, veuillez redémarrer.";
+"NoDataReceivedStringV2" = "Je n'ai pas reçu de données de l'Apple Watch depuis plus de ";
+
+"TelemetryLocalizedSymptomsLogged" = "Symptômes";
+"TelemetryLocalizedBpmMinMax" = "Seuils BPM";
+"TelemetryLocalizedMedicationReminders" = "Rappels de médicaments";
+"TelemetryLocalizedCheckList" = "La liste de contrôle progresse";
+"TelemetryLocalizedDateOfBirth" = "Âge";
+"TelemetryLocalizedEpilepsyType" = "Type d'épilepsie";
+"TelemetryLocalizedMirrorHRError" = "Erreurs d'application";
+"TelemetryLocalizedMonitoringSession" = "Sessions de surveillance";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "Voulez-vous ne plus recevoir de notifications pour les erreurs critiques ?";
+
+// Trucs liés au streaming
+"YouMustHaveWatchOrStreamingMain" = "Pour avoir un moniteur de rythme cardiaque en temps réel, recevoir des alarmes et de nombreuses autres fonctionnalités, vous devez avoir une Apple Watch couplée avec cet iPhone.";
+
+"YouMustHaveWatchOrStreamingSecondary" = "Vous pouvez également recevoir des données d'un autre iPhone couplé à une Apple Watch et connecté au même réseau.";
+
+"IGetDataFromAnotherPhoneInLan" = "Je peux obtenir des données d'un autre iPhone exécutant MirrorHR associé à une Apple Watch";
+
+"HealthDataSourceSettingsView" = "Source de données de santé";
+
+"EnableStreamingSettingsView" = "Activer la diffusion";
+
+"StreamingSectionFooterIntro" = "Vous devez avoir un iPhone couplé avec une Apple Watch pour activer la surveillance en temps réel, les alarmes, etc.
+Si vous avez d'autres iPhones (3 au maximum) sans Apple Watch, vous pouvez leur envoyer des données s'ils sont tous connectés au même réseau Wi-Fi (ex. grandes maisons, enfants dans une autre pièce avec l'application principale MirrorHR sur leur iPhone , et Apple Watch, etc.).";
+
+"StreamingSectionAlertMsg" = "MirroHR doit être installé sur tous les iPhones et l'indicateur de streaming doit être activé. L'appareil connecté à l'Apple Watch enverra des données, tandis que les autres appareils les recevront. Remarque : MirroHR doit être exécuté au premier plan sur les deux appareils. . En cas de perte de connexion, vous devez refaire la procédure de connexion dans la vue en temps réel. Si vous avez besoin d'aide avec cette fonctionnalité, n'hésitez pas à envoyer un e-mail à helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "Flux";
+"StreamingConnectedTo" = "Connecté à :";
+"NotConnectedToAnyStream" = "Non connecté à aucun flux";
+"StreamingReceivingDataFrom" = "Réception de données de :";
+"StreamingSendingDataTo" = "Envoi de données à :";
+"CheckStreamingUnderstandAlert" = "Vérifier la compréhension du streaming";
+"PairedWithAppleWatchView" = "Jumelé avec Apple Watch";
+
+"CiaoSettingsGreeting" = "Salut";
+"FrequentlyAskedQuestionsSeparator" = "Foire aux questions (FAQ)";
+
+"sympt_aura" = "Aura";
+"version10_5_WhatsNewDescription" = "1. Expérience utilisateur simplifiée et nouveaux symptômes.
+2. Correction de quelques bugs.
+Si vous aimez MirrorHR et que vous souhaitez nous faire part de vos suggestions, sachez qu'un avis et un e-mail sont toujours les bienvenus. Trouvez les liens dans la section Paramètres.
+Merci !";
+
+"InformazioniPersonaliHeader" = "Informations personnelles";
+
+"healthPermissionsFAQTask" = "Comment corriger les autorisations sur Apple HealthKit.";
+"cantWorkWithoutHealthAccessMessage" = "Désolé, je ne peux pas travailler sans avoir accès aux données de santé. S'il s'agit d'une erreur, veuillez vérifier les options d'assistance dans l'application MirrorHR sur l'iPhone ou réinstaller MirrorHR.";
+"healthAccessErrorMessage" = "Une erreur s'est produite lors de la lecture des données de santé d'Apple HealthKit. Veuillez vérifier les options d'assistance dans l'application MirrorHR sur l'iPhone.";
+"GrantAllPermissionsCarefullyMessage" = "Accordez l'autorisation de lire les données de santé. ";
+"GrantAllPermissionsCarefullyMessagePart2" = "Veuillez noter que si vous annulez le processus ou refusez une autorisation, MirrorHR ne pourra pas fonctionner du tout.";
+"TapHereToHandleMsg" = "Appuyez ici pour gérer.";
+"YouAreInStreamingMode" = "MirrorHR est configuré pour recevoir des données d'un autre iPhone couplé à une Apple Watch. Étant organisé uniquement pour recevoir des données, vous disposez de capacités et d'options limitées.";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "Je veux arrêter de recevoir des données d'un autre appareil et voir toutes les options.";
+"ItWillStopCurrentSessionMsg" = "Remarque : cela arrêtera la session en cours.";
+
+"MirrorHRLeveragesBPMHeadline" = "Des études cliniques ont montré que plus de 70 % des personnes atteintes d'épilepsie ont une fréquence cardiaque rapide et soudaine quelques secondes après le début de la crise. MirrorHR surveille en permanence la fréquence cardiaque (BPM) via l'Apple Watch, et il est possible de définir des alarmes pour vérifier certaines conditions. Si vous n'avez pas l'Apple Watch, il est recommandé par tous les médecins de tenir un journal de tous les symptômes et événements, et même dans ce cas, MirrorHR peut vous aider.";
+"AlarmOnboardingCardHeadline" = "Vous pouvez définir ici les seuils de fréquence cardiaque (BPM) pour lesquels vous souhaitez recevoir une alarme. Assurez-vous de ne pas dupliquer les notifications sur l'Apple Watch, sinon vous risquez de ne pas recevoir d'alarmes. Cette fonctionnalité nécessite que l'iPhone est couplé avec une Apple Watch. ";
+"CanTEarAlarmSoundGoBackMsg" = "Si vous n'avez pas reçu la notification d'alarme de test, veuillez revenir à l'écran précédent et assurez-vous d'avoir suivi toutes les étapes. Si vous avez besoin d'aide, n'hésitez pas à nous envoyer un e-mail à helpme@mirrorhr.org";
+
+"ItRequiresPermissionsAPopUpWillShow" = "Une fenêtre contextuelle demandant l'autorisation de lire les données de santé de la montre s'affichera si vous activez cette fonctionnalité. Veuillez accorder toutes les autorisations requises.";
+"HealthDataUnavailableErrorMsg" = "Les données de santé requises ne sont pas disponibles sur cet appareil. Veuillez vérifier les options d'assistance.";
+"QuantityTypeUnavailableErrorMsg" = "Le type de quantité de santé requis n'est pas disponible sur cet appareil. Veuillez vérifier les options d'assistance.";
+"DataTypeUnavailableErrorMsg" = "Le type de données de santé requis n'est pas disponible sur cet appareil. Veuillez vérifier les options d'assistance.";
+"HealthPermissionsNotGrantedErrorMsg" = "Vous n'avez pas accordé les autorisations requises pour lire les données de santé d'Apple HealthKit. Malheureusement, MirrorHR ne peut pas fonctionner sans cela. Si ce n'était pas intentionnel, veuillez nous contacter à helpme@mirrorhr.org, ou simplement essayez de supprimer et de réinstaller MirrorHR depuis l'Apple Store.";
+
+"AskNotificationPermissionsMsg" = "Accordez l'autorisation d'envoyer des notifications et des notifications critiques (elles se déclenchent même lorsque l'iPhone est en mode silencieux).";
+
+"AcceptingConditionsByContinuingMsg" = "En continuant à utiliser MirrorHR, je confirme avoir lu et compris ce qui précède, en acceptant les conditions.";
+"SwipeRightToContinueSetupMsg" = "Balayer vers la droite pour aller plus loin dans la configuration.";
+"StopUsingMirrorHRContactUsMsg" = "Si vous n'êtes pas d'accord, veuillez cesser d'utiliser MirrorHR. Si vous avez besoin d'informations, contactez-nous par e-mail à helpme@mirrorhr.org.";
+
+"AboutYouPersonalSettingsSection" = "À propos de vous";
+"SettingsSettingsSection" = "Paramètres";
+"MedicalPlanSettingsSection" = "Plan médical";
+"AboutMirrorHRSettingsSection" = "À propos de MirrorHR";
+
+"sympt_ask4Help" = "Demander de l'aide";
+"remoteNotificationsSettingsTitleMsg" = "Aidants";
+"remoteNotificationsCaregiversFooter" = "L'aidant peut partager son ID avec un patient en lui envoyant un lien (via WhatsApp, SMS ou un autre moyen). Lorsque le patient ouvre le lien, il peut enregistrer l'aidant pour recevoir une notification pour chaque événement ou alarme. Les deux doivent avoir MirrorHR installé et configuré. Vous pouvez avoir plusieurs aidants.";
+"yourUniqueIDText" = "Votre ID unique :";
+"shareYourIDCaregiverMsg" = "Partagez votre ID avec un patient pour devenir l'aidant et recevoir des notifications des symptômes enregistrés ou des alarmes.";
+"shareYourIDBtnMsg" = "Partagez votre identifiant patient avec un aidant, afin que vous puissiez envoyer des notifications pour les symptômes, les alarmes, etc.";
+"caregiversListMsg" = "Et voici la liste de vos aidants actuels qui peuvent recevoir des notifications de votre part.";
+"uUIDMsg" = "Votre ID unique et anonyme :";
+"saveSymptomInDiaryMsg" = "Enregistrer le symptôme dans le journal";
+"remoteNotificationMsg" = "Notification à distance :";
+"sympt_AlarmFired" = "Alarme déclenchée";
+"stopReceivingNotificationsFor15Mins" = "Arrêter de recevoir des notifications pendant 15 minutes.";
+"event_RealTimeSessionStarted" = "Session en temps réel démarrée";
+"tryPushNotificationBtnLabel" = "Essayer une notification";
+"testRemoteNotifications" = "C'était un test";
+
+"version11_WhatsNewDescription" = "Introduction d'une nouvelle fonctionnalité majeure : la surveillance à distance pour les aidants. Il est désormais possible d'envoyer des notifications à distance à l'application MirrorHR installée sur l'iPhone de l'aidant. Cette fonctionnalité peut être configurée dans l'onglet des paramètres et permet également d'envoyer une notification 'Demander de l'aide' depuis l'onglet Journal, ou via un nouveau widget sur l'écran d'accueil de l'iPhone.
+
+Si vous appréciez MirrorHR et souhaitez donner votre avis ou faire des suggestions, sachez qu'un avis et un email sont toujours les bienvenus. Vous pouvez trouver les liens dans la section Paramètres. Merci !";
+
+"alarmSentMsg" = "Alarme envoyée";
+"stopCountdownMsg" = "Arrêter le compte à rebours";
+"stoppedMsg" = "Arrêté";
+
+"TabHome" = "Accueil";
+"NextMedication" = "Prochaine médication";
+"RemindersLink" = "Rappels";
+"QuickNotesMsg" = "Note rapide";
+"savedBtnMsg" = "Sauvegardé";
+"RemindersNotSet" = "Rappels non définis";
+"TherapiesNotSet" = "Thérapies non définies";
+"ThisWeekMedicationAtGlance" = "Médicaments de la semaine";
+"SinceLastSeizureString" = "depuis la dernière crise d'épilepsie le";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "Bienvenue dans la Version 14 de MirrorHR - Kit de Recherche sur l'Épilepsie ! Nous sommes ravis de dévoiler un onglet Accueil revu, apportant des informations essentielles à portée de main. Il n'a jamais été aussi facile d'enregistrer des événements clés, de suivre les médicaments et les thérapies, et de prendre des notes rapides. Avec MirrorHR, obtenez une vision plus claire de la gestion de votre épilepsie, facilitant des discussions améliorées avec votre professionnel de santé. Vos précieux retours ont conduit à des améliorations de performance et à la correction de bugs, rendant l'application plus fluide que jamais.
+
+Vous aimez MirrorHR ? Vos avis et retours sont essentiels pour affiner l'expérience. N'hésitez pas à laisser un avis ou à nous envoyer un email avec vos suggestions. Trouvez les liens dans la section Paramètres. Merci pour votre soutien continu !";
+
+"MoodMsg" = "Humeur";
+"sympt_mood_happy" = "Content";
+"sympt_mood_calm" = "Calme";
+"sympt_mood_sad" = "Triste";
+"sympt_mood_angry" = "Énervé";
+"sympt_mood_anxious" = "Anxieux";
+
+"AppreciateDonationsMsg" = "MirrorHR sera toujours gratuit. Néanmoins, nous apprécions toute donation pour soutenir son développement, si vous le pouvez. Merci.";
+"ThankYouForDonationMsg" = "Merci pour votre don ! Très apprécié !";
+"DonationFailedMsg" = "Le don a échoué ! Vous pouvez réessayer plus tard. Merci.";
+"DonationCancelledMsg" = "Le don a été annulé. Vous pouvez réessayer plus tard. Merci.";
+"UnknownDonationStatusMsg" = "Statut du don inconnu. Vous pouvez réessayer plus tard. Merci.";
+
+"sympt_Myoclonic_Trembling" = "Tremblements Myocloniques";
+
+"EnableLocalStreaming" = "Activer le streaming local";
+"EnableReceivingRemoteStreaming" = "Activer la réception de données via Internet";
+"EnableReceivingRemoteStreamingFooter" = "Si vous êtes un aidant, vous pouvez recevoir des BPM et des notifications d'un MirrorHR distant. Une relation parent/tuteur et une connectivité Internet sont nécessaires. Les données peuvent être retardées en raison des conditions réseau, et les BPM peuvent être envoyés dès que possible.";
+
+"RemoteNoDataCaptionMsg" = "Il pourrait ne pas y avoir de connectivité Internet ou la session en temps réel pourrait ne pas être active sur le MirrorHR distant";
+"RemoteMustHaveWatchInfoMsg" = "Vous devez avoir une Apple Watch appariée ou une autre application MirrorHR diffusant des données. Vous pouvez vérifier toutes les options dans l'onglet Paramètres, section Source de Données de Santé.";
+"RemoteCheckStatusActiveMsg" = "Vérifier le statut distant";
+"RemoteCheckingStatusDisabledMsg" = "Vérification ...";
+"RemoteRunningMsgMaxTime" = "Recevoir des BPM du MirrorHR distant (max 5 min)";
+"RemoteRealTimeIsNotRunningMsg" = "RealTime ne fonctionne pas sur le MirrorHR distant";
+"RemoteTryReceivingBpmsMsg" = "Essayons de recevoir des BPM du MirrorHR distant";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Recevoir des BPM du MirrorHR distant (quelques minutes seulement)";
+"RemoteStreamingOptionsSettingsMsg" = "Vous pouvez configurer certaines options de diffusion en continu dans Paramètres - Sources de Données de Santé";
+"RemoteConnectedAndReceivingMsg" = "Connecté à Internet et recevant des données de :";
+"RemoteNoPatientAssociatedMsg" = "Aucun patient associé";
+"RemoteSelectActivePatientMsg" = "Sélectionner et activer un Patient";
+"RemoteThereIsNoInternetConnectionMsg" = "Il n'y a PAS de Connexion Internet";
+"RemoteConnectedToInternetMsg" = "Connecté à Internet";
+"RemoteSendingDataToMsg" = "Envoi des données à :";
+"RemoteNoCaregiverAssociatedMsg" = "Aucun soignant associé";
+"BackupAndRestoreHeaderMsg" = "Sauvegarde et Restauration";
+"LocalNotificationsHeaderMsg" = "Notifications Locales";
+"RemoteNotificationsHeaderMsg" = "Notifications à Distance";
+"RemoteActivePatientsHeaderMsg" = "Patients Actifs";
+"Ask4HelpNeedsYourHelpMsg" = "a besoin de votre aide!";
+"RemoteNotificationTitleMsg" = "Notification à Distance";
+"LocationServicesLocalized" = "Services de Localisation";
+"RemoteDiaryOnlyDataSourceTitle" = "Journal seulement";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Apparié avec Apple Watch et envoi des événements principaux aux soignants via Internet";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Apparié avec Apple Watch et envoi des événements principaux et des BPM aux soignants via Internet";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Réception des événements principaux d'un autre MirrorHR via Internet";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Réception des événements principaux et des BPM d'un autre MirrorHR via Internet";
+"RemotePotentialOnboardingRestartMsg" = "L'onboarding pourrait redémarrer pour une configuration correcte de quelques nouveaux paramètres.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Aucune Apple Watch disponible. MirrorHR fonctionne uniquement comme un journal. Aucune source de données biométriques activée, aucune alarme disponible.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR est apparié directement avec une Apple Watch et peut recevoir des données biométriques. Les alarmes locales et les notifications sont activées.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR est apparié avec une Apple Watch et peut envoyer des événements principaux à un soignant via Internet, sous forme de notifications. Le soignant doit avoir MirrorHR en cours d'exécution et configuré pour recevoir ces événements. Il peut y avoir un délai dans ces notifications.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR est apparié avec une Apple Watch et peut envoyer des événements principaux et des BPM à un soignant via Internet. Le soignant doit avoir MirrorHR en cours d'exécution et configuré pour recevoir ces événements et BPM. Il peut y avoir un délai dans ces notifications.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR n'est pas directement connecté à une Apple Watch, mais il peut recevoir des événements principaux d'un autre MirrorHR apparié avec une Apple Watch, via Internet. Il peut y avoir un délai dans la réception de ces notifications.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR n'est pas directement connecté à une Apple Watch, mais il peut recevoir à la fois des événements principaux et des BPM d'un autre MirrorHR apparié avec une Apple Watch, via Internet. Il peut y avoir un délai dans la réception de ces notifications, et MirrorHR doit être au premier plan pour garantir que les BPM sont reçus.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR n'est pas actif sur l'iPhone distant";
+"RemoteStopReceivedFromPatientMsg" = "Commande d'arrêt en temps réel reçue du patient distant";
+"RemoteNoDataFromTheInternetMsg" = "Aucune donnée reçue du patient distant";
+
+"version15_WhatsNewDescription" = "Bienvenue à la version 15 de MirrorHR - Epilepsy Research Kit! Nous sommes ravis de présenter notre système complet de surveillance à distance, améliorant l'autonomie de nos enfants et de nos proches. En plus d'enregistrer les événements principaux, de suivre les médicaments et les thérapies, vous pouvez désormais recevoir des notifications à distance pour toutes ces activités, y compris les alarmes et les BPM, même à des kilomètres de distance. Cette fonctionnalité nécessite que le patient porte une Apple Watch couplée à un iPhone exécutant MirrorHR, tandis que vous, en tant que soignant, n'avez besoin que de MirrorHR sur votre iPhone.
+
+Comme toujours, MirrorHR vous aide à obtenir une vision plus claire de la gestion de l'épilepsie, favorisant de meilleures discussions avec votre prestataire de soins de santé. Vos précieux commentaires ont conduit à des améliorations de performance et des corrections de bugs, rendant l'application plus fluide que jamais.
+
+Vous aimez MirrorHR ? Vos avis et commentaires sont essentiels pour affiner l'expérience. N'hésitez pas à laisser un avis ou à nous envoyer un e-mail avec vos suggestions. Trouvez les liens dans la section Paramètres. Merci pour votre soutien continu!";

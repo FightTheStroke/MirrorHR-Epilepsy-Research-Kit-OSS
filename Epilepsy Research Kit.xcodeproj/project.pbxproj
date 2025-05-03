@@ -1,0 +1,1491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46DF0EE82753F8B9009751B5 /* MirrorHRKit in Frameworks */ = {isa = PBXBuildFile; productRef = 46DF0EE72753F8B9009751B5 /* MirrorHRKit */; };
+		6D4D42B0270B48AA00577148 /* medicationReminderSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D42AF270B48AA00577148 /* medicationReminderSound.mp3 */; };
+		6D57A1CB26C910F700CBC9D0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A913540A25D1692800D901BF /* CloudKit.framework */; };
+		6D8324EA26F1AC3B00D9F840 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D8324ED26F1AC3B00D9F840 /* Localizable.strings */; };
+		6D8324EB26F1AC3B00D9F840 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D8324ED26F1AC3B00D9F840 /* Localizable.strings */; };
+		A9046AAB256181B9009504E4 /* HealthKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046A99256181B8009504E4 /* HealthKitSupport.swift */; };
+		A9046ADF2561821B009504E4 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046AD82561821A009504E4 /* NotificationView.swift */; };
+		A9046AE12561821B009504E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046ADA2561821A009504E4 /* ContentView.swift */; };
+		A9046AE22561821B009504E4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046ADB2561821A009504E4 /* NotificationController.swift */; };
+		A9046AE42561821B009504E4 /* WatchMainClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046ADD2561821B009504E4 /* WatchMainClasses.swift */; };
+		A9046AE52561821B009504E4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046ADE2561821B009504E4 /* ComplicationController.swift */; };
+		A9046B252561824B009504E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9046B0F2561824B009504E4 /* LaunchScreen.storyboard */; };
+		A9046B262561824B009504E4 /* MirrorHRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046B102561824B009504E4 /* MirrorHRApp.swift */; };
+		A90C845228A55C4200621107 /* SharedPkg in Frameworks */ = {isa = PBXBuildFile; productRef = A90C845128A55C4200621107 /* SharedPkg */; };
+		A91328B82471A8ED00E2607A /* loud-alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A91328B42471A8ED00E2607A /* loud-alarm.mp3 */; };
+		A91573F027C265F20003B763 /* melodysoft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A91573EF27C265F20003B763 /* melodysoft.mp3 */; };
+		A91AF5152DA7CD350039AEFE /* BatteryRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046AD92561821A009504E4 /* BatteryRelated.swift */; };
+		A91AF5162DA7CD7E0039AEFE /* MirrorHRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9046ADC2561821A009504E4 /* MirrorHRApp.swift */; };
+		A92113A72B80FAAD00FF1E2A /* MyStripeApplePayPackage in Frameworks */ = {isa = PBXBuildFile; productRef = A92113A62B80FAAD00FF1E2A /* MyStripeApplePayPackage */; };
+		A92AD1CE2C18606200BD6959 /* ModernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AD1CD2C18606200BD6959 /* ModernView.swift */; };
+		A92C4C1028BF68370020DA6B /* HandleScenePhases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C4C0F28BF68370020DA6B /* HandleScenePhases.swift */; };
+		A931DC982965D8B10037D4AB /* PermissionsManager in Frameworks */ = {isa = PBXBuildFile; productRef = A931DC972965D8B10037D4AB /* PermissionsManager */; };
+		A935A3EF2A2203130091C3F6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A935A3EE2A2203130091C3F6 /* WidgetKit.framework */; };
+		A935A3F12A2203130091C3F6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A935A3F02A2203130091C3F6 /* SwiftUI.framework */; };
+		A935A3F42A2203130091C3F6 /* MirrorHRWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A3F32A2203130091C3F6 /* MirrorHRWidgetBundle.swift */; };
+		A935A3F82A2203130091C3F6 /* MirrorHRWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A935A3F72A2203130091C3F6 /* MirrorHRWidget.swift */; };
+		A935A3FB2A2203140091C3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A935A3FA2A2203140091C3F6 /* Assets.xcassets */; };
+		A935A3FD2A2203140091C3F6 /* MirrorHRWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A935A3F92A2203130091C3F6 /* MirrorHRWidget.intentdefinition */; };
+		A935A3FE2A2203140091C3F6 /* MirrorHRWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A935A3F92A2203130091C3F6 /* MirrorHRWidget.intentdefinition */; };
+		A935A4012A2203140091C3F6 /* MirrorHRWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A935A3ED2A2203130091C3F6 /* MirrorHRWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A93DCDB224472C2300D2722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDB124472C2300D2722D /* Assets.xcassets */; };
+		A93DCDB524472C2300D2722D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDB424472C2300D2722D /* Preview Assets.xcassets */; };
+		A93DCDB824472C2300D2722D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDB624472C2300D2722D /* LaunchScreen.storyboard */; };
+		A93DCDD324472C2500D2722D /* Epilepsy Research Kit WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A93DCDD224472C2500D2722D /* Epilepsy Research Kit WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A93DCDDB24472C2600D2722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDDA24472C2600D2722D /* Assets.xcassets */; };
+		A93DCDF124472C2800D2722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDF024472C2800D2722D /* Assets.xcassets */; };
+		A93DCDF424472C2800D2722D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93DCDF324472C2800D2722D /* Preview Assets.xcassets */; };
+		A93DCE1424472F6800D2722D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93DCE1324472F6800D2722D /* HealthKit.framework */; };
+		A94A50A6280B1FFD00C0D210 /* SharedPkg in Frameworks */ = {isa = PBXBuildFile; productRef = A94A50A5280B1FFD00C0D210 /* SharedPkg */; };
+		A9537E2028D5CD6100479A07 /* SharedPkg in Frameworks */ = {isa = PBXBuildFile; productRef = A9537E1F28D5CD6100479A07 /* SharedPkg */; };
+		A976417028DF2E960071647C /* CommunicationManagerWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A976416F28DF2E960071647C /* CommunicationManagerWatch.swift */; };
+		A9942FDD2804698D0078F8F5 /* Epilepsy_Research_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9942FDC2804698D0078F8F5 /* Epilepsy_Research_KitTests.swift */; };
+		A9942FEA28046A060078F8F5 /* Epilepsy_Research_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9942FE928046A060078F8F5 /* Epilepsy_Research_KitUITests.swift */; };
+		A9942FEC28046A060078F8F5 /* Epilepsy_Research_KitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9942FEB28046A060078F8F5 /* Epilepsy_Research_KitUITestsLaunchTests.swift */; };
+		A9BF0BE62A22436300F757A6 /* HandleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BF0BE52A22436300F757A6 /* HandleURL.swift */; };
+		A9C34F832AEE57AC005C3C96 /* MirrorHRKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9C34F822AEE57AC005C3C96 /* MirrorHRKit */; };
+		A9C34F852AEE5A8B005C3C96 /* FastLogWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34F842AEE5A8B005C3C96 /* FastLogWidget.swift */; };
+		A9EBF2C42573EBCB004D1FAA /* cuckoo-cuckoo-clock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2B82573EBCA004D1FAA /* cuckoo-cuckoo-clock.mp3 */; };
+		A9EBF2C52573EBCB004D1FAA /* goes-without-saying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2B92573EBCB004D1FAA /* goes-without-saying.mp3 */; };
+		A9EBF2C62573EBCB004D1FAA /* car-horn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BA2573EBCB004D1FAA /* car-horn.mp3 */; };
+		A9EBF2C72573EBCB004D1FAA /* serious-strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BB2573EBCB004D1FAA /* serious-strike.mp3 */; };
+		A9EBF2C82573EBCB004D1FAA /* done-for-you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BC2573EBCB004D1FAA /* done-for-you.mp3 */; };
+		A9EBF2C92573EBCB004D1FAA /* gentle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BD2573EBCB004D1FAA /* gentle.mp3 */; };
+		A9EBF2CA2573EBCB004D1FAA /* horse-whinnies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BE2573EBCB004D1FAA /* horse-whinnies.mp3 */; };
+		A9EBF2CB2573EBCB004D1FAA /* you-have-new-message.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2BF2573EBCB004D1FAA /* you-have-new-message.mp3 */; };
+		A9EBF2CC2573EBCB004D1FAA /* door-knock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2C02573EBCB004D1FAA /* door-knock.mp3 */; };
+		A9EBF2CD2573EBCB004D1FAA /* frenzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2C12573EBCB004D1FAA /* frenzy.mp3 */; };
+		A9EBF2CE2573EBCB004D1FAA /* buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2C22573EBCB004D1FAA /* buzzer.mp3 */; };
+		A9EBF2CF2573EBCB004D1FAA /* system-fault.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9EBF2C32573EBCB004D1FAA /* system-fault.mp3 */; };
+		A9FF6B8029630C090050C245 /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6B7F29630C090050C245 /* PermissionsManager.swift */; };
+		AEB90932283EC97F009F20E0 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB90931283EC97F009F20E0 /* SnapshotHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A935A3FF2A2203140091C3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93DCDA024472C1E00D2722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A935A3EC2A2203130091C3F6;
+			remoteInfo = MirrorHRWidgetExtension;
+		};
+		A93DCDD424472C2500D2722D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93DCDA024472C1E00D2722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93DCDD124472C2500D2722D;
+			remoteInfo = "Epilepsy Research Kit WatchKit App";
+		};
+		A9942FDE2804698D0078F8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93DCDA024472C1E00D2722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93DCDA724472C1E00D2722D;
+			remoteInfo = "Epilepsy Research Kit";
+		};
+		A9942FED28046A060078F8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A93DCDA024472C1E00D2722D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A93DCDA724472C1E00D2722D;
+			remoteInfo = "Epilepsy Research Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A935A4022A2203140091C3F6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A935A4012A2203140091C3F6 /* MirrorHRWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A93DCE0024472C2800D2722D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A93DCDD324472C2500D2722D /* Epilepsy Research Kit WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2475F42D24AA40D7002730C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DF0EE62753F602009751B5 /* MirrorHRKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MirrorHRKit; sourceTree = "<group>"; };
+		6D1DAF8B271751E90038A973 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6D1DAF8D271751E90038A973 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = Localizable/ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D4D42AF270B48AA00577148 /* medicationReminderSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medicationReminderSound.mp3; sourceTree = "<group>"; };
+		6D8324E526F1ABC400D9F840 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6D8324EC26F1AC3B00D9F840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D8324EE26F1AC3D00D9F840 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Localizable/it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DA2E050271368B000CD9346 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6DA2E052271368B000CD9346 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DF5D65C2708441500CA7EA7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6DF5D65E2708441600CA7EA7 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "Localizable/pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A9046A99256181B8009504E4 /* HealthKitSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitSupport.swift; sourceTree = "<group>"; };
+		A9046AD82561821A009504E4 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A9046AD92561821A009504E4 /* BatteryRelated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryRelated.swift; sourceTree = "<group>"; };
+		A9046ADA2561821A009504E4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9046ADB2561821A009504E4 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A9046ADC2561821A009504E4 /* MirrorHRApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirrorHRApp.swift; sourceTree = "<group>"; };
+		A9046ADD2561821B009504E4 /* WatchMainClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchMainClasses.swift; sourceTree = "<group>"; };
+		A9046ADE2561821B009504E4 /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A9046AEA25618234009504E4 /* Epilepsy Research Kit Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Epilepsy Research Kit Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9046B0F2561824B009504E4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9046B102561824B009504E4 /* MirrorHRApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirrorHRApp.swift; sourceTree = "<group>"; };
+		A908604A280B1D3500D6D98C /* RoberdanToolbox */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RoberdanToolbox; path = Packages/RoberdanToolbox; sourceTree = "<group>"; };
+		A908604B280B1D3500D6D98C /* SharedPkg */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SharedPkg; path = Packages/SharedPkg; sourceTree = "<group>"; };
+		A908604D280B1D3500D6D98C /* MirrorHRTelemetryPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MirrorHRTelemetryPackage; path = Packages/MirrorHRTelemetryPackage; sourceTree = "<group>"; };
+		A910BEAD2801B5390057F90E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A910BEAF2801B5390057F90E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Localizable/ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9116E2127353B3800CB2192 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9116E2327353B3800CB2192 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A91328B42471A8ED00E2607A /* loud-alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "loud-alarm.mp3"; sourceTree = "<group>"; };
+		A913540A25D1692800D901BF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A91573EF27C265F20003B763 /* melodysoft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = melodysoft.mp3; sourceTree = "<group>"; };
+		A92AD1CD2C18606200BD6959 /* ModernView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernView.swift; sourceTree = "<group>"; };
+		A92C4C0F28BF68370020DA6B /* HandleScenePhases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleScenePhases.swift; sourceTree = "<group>"; };
+		A930BD20276F80D200F26F2D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A930BD22276F80D200F26F2D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable/de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A930BD23276F863F00F26F2D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A930BD25276F863F00F26F2D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Localizable/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A935A3ED2A2203130091C3F6 /* MirrorHRWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MirrorHRWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A935A3EE2A2203130091C3F6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A935A3F02A2203130091C3F6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A935A3F32A2203130091C3F6 /* MirrorHRWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorHRWidgetBundle.swift; sourceTree = "<group>"; };
+		A935A3F72A2203130091C3F6 /* MirrorHRWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorHRWidget.swift; sourceTree = "<group>"; };
+		A935A3F92A2203130091C3F6 /* MirrorHRWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MirrorHRWidget.intentdefinition; sourceTree = "<group>"; };
+		A935A3FA2A2203140091C3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A935A3FC2A2203140091C3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9367B1E28EF020D00104EBA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9367B1F28EF020E00104EBA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = Localizable/vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A93BA2462A23566700C0ADDA /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A93BA2472A23566700C0ADDA /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = Localizable/id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A93BA2482A23566F00C0ADDA /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A93BA2492A23566F00C0ADDA /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Localizable/he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A93BA24A2A23567B00C0ADDA /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A93BA24B2A23567C00C0ADDA /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = Localizable/el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A93DCDA824472C1E00D2722D /* Epilepsy Research Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epilepsy Research Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93DCDB124472C2300D2722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93DCDB424472C2300D2722D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A93DCDB724472C2300D2722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93DCDB924472C2300D2722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93DCDD224472C2500D2722D /* Epilepsy Research Kit WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epilepsy Research Kit WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93DCDDA24472C2600D2722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93DCDDC24472C2600D2722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93DCDF024472C2800D2722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93DCDF324472C2800D2722D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A93DCDF524472C2800D2722D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93DCDF624472C2800D2722D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A93DCE1124472F6200D2722D /* Epilepsy Research Kit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research Kit.entitlements"; sourceTree = "<group>"; };
+		A93DCE1324472F6800D2722D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		A93DCE1524472FD100D2722D /* Epilepsy Research Kit WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research Kit WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A941A376276131310005CCA9 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A941A378276131320005CCA9 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "Localizable/pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A941A379276131660005CCA9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A941A37B276131660005CCA9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = Localizable/fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A946D3E82933C14D00716FFD /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A946D3E92933C14E00716FFD /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "Localizable/ar-EG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A94D3B342AE66274000B3983 /* OpenAIPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OpenAIPackage; path = Packages/OpenAIPackage; sourceTree = "<group>"; };
+		A951983A28E983570051C086 /* RoberdanSecretsPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RoberdanSecretsPackage; path = Packages/RoberdanSecretsPackage; sourceTree = "<group>"; };
+		A9593C16294F280D00EDED56 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9593C17294F280D00EDED56 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = Localizable/ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A96463812AE548790050AA23 /* TherapyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TherapyPackage; path = Packages/TherapyPackage; sourceTree = "<group>"; };
+		A96761CC246BDF220047181C /* Epilepsy Research KitRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research KitRelease.entitlements"; sourceTree = "<group>"; };
+		A96761CD246BE0E70047181C /* Epilepsy Research Kit WatchKit ExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research Kit WatchKit ExtensionRelease.entitlements"; sourceTree = "<group>"; };
+		A96761DB246BE39A0047181C /* Epilepsy Research Kit WatchKit AppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research Kit WatchKit AppRelease.entitlements"; sourceTree = "<group>"; };
+		A976416F28DF2E960071647C /* CommunicationManagerWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationManagerWatch.swift; sourceTree = "<group>"; };
+		A97BCF3F2B80F9DB00DE2D5A /* MyStripeApplePayPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyStripeApplePayPackage; path = Packages/MyStripeApplePayPackage; sourceTree = "<group>"; };
+		A9838C7E2C1C331200660083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9838C802C1C331300660083 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A984DBA82953227A00E8DDB1 /* PermissionsManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PermissionsManager; path = Packages/PermissionsManager; sourceTree = "<group>"; };
+		A9942FDA2804698D0078F8F5 /* Epilepsy Research KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epilepsy Research KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9942FDC2804698D0078F8F5 /* Epilepsy_Research_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epilepsy_Research_KitTests.swift; sourceTree = "<group>"; };
+		A9942FE728046A060078F8F5 /* Epilepsy Research KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epilepsy Research KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9942FE928046A060078F8F5 /* Epilepsy_Research_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epilepsy_Research_KitUITests.swift; sourceTree = "<group>"; };
+		A9942FEB28046A060078F8F5 /* Epilepsy_Research_KitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epilepsy_Research_KitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9A290B9288321D30081FB79 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Localizable/nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9A752B62450AF3300D81A08 /* Epilepsy Research Kit WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Epilepsy Research Kit WatchKit App.entitlements"; sourceTree = "<group>"; };
+		A9B4E62C28251EE300E783E3 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9B4E62E28251EE300E783E3 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = Localizable/th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9BD831F2CDD5BDC002A1347 /* StateMachineKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StateMachineKit; path = Packages/StateMachineKit; sourceTree = "<group>"; };
+		A9BF0BE42A221F2400F757A6 /* MirrorHRWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MirrorHRWidgetExtension.entitlements; sourceTree = "<group>"; };
+		A9BF0BE52A22436300F757A6 /* HandleURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleURL.swift; sourceTree = "<group>"; };
+		A9C34F842AEE5A8B005C3C96 /* FastLogWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastLogWidget.swift; sourceTree = "<group>"; };
+		A9D58B16286458C200B8F5CA /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		A9D5D4F82C2864E900813C63 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9D5D4F92C2864E900813C63 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = Localizable/tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9EB70A22801B0CE0055F3DF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9EB70A42801B0CE0055F3DF /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = Localizable/uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9EBF2B82573EBCA004D1FAA /* cuckoo-cuckoo-clock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cuckoo-cuckoo-clock.mp3"; sourceTree = "<group>"; };
+		A9EBF2B92573EBCB004D1FAA /* goes-without-saying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "goes-without-saying.mp3"; sourceTree = "<group>"; };
+		A9EBF2BA2573EBCB004D1FAA /* car-horn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "car-horn.mp3"; sourceTree = "<group>"; };
+		A9EBF2BB2573EBCB004D1FAA /* serious-strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "serious-strike.mp3"; sourceTree = "<group>"; };
+		A9EBF2BC2573EBCB004D1FAA /* done-for-you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "done-for-you.mp3"; sourceTree = "<group>"; };
+		A9EBF2BD2573EBCB004D1FAA /* gentle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gentle.mp3; sourceTree = "<group>"; };
+		A9EBF2BE2573EBCB004D1FAA /* horse-whinnies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "horse-whinnies.mp3"; sourceTree = "<group>"; };
+		A9EBF2BF2573EBCB004D1FAA /* you-have-new-message.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-have-new-message.mp3"; sourceTree = "<group>"; };
+		A9EBF2C02573EBCB004D1FAA /* door-knock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "door-knock.mp3"; sourceTree = "<group>"; };
+		A9EBF2C12573EBCB004D1FAA /* frenzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frenzy.mp3; sourceTree = "<group>"; };
+		A9EBF2C22573EBCB004D1FAA /* buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buzzer.mp3; sourceTree = "<group>"; };
+		A9EBF2C32573EBCB004D1FAA /* system-fault.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "system-fault.mp3"; sourceTree = "<group>"; };
+		A9F67770276F8AD6003880E6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9F67772276F8AD6003880E6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9F67773276F8E8C003880E6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9F67775276F8E8C003880E6 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable/ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9F67776276F9057003880E6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A9F67778276F9058003880E6 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = Localizable/hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9FF6B7F29630C090050C245 /* PermissionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsManager.swift; sourceTree = "<group>"; };
+		AEB90931283EC97F009F20E0 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BF4FB830B0ECBD79AB9C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A50A6280B1FFD00C0D210 /* SharedPkg in Frameworks */,
+				A9537E2028D5CD6100479A07 /* SharedPkg in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A935A3EA2A2203130091C3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A3F12A2203130091C3F6 /* SwiftUI.framework in Frameworks */,
+				A935A3EF2A2203130091C3F6 /* WidgetKit.framework in Frameworks */,
+				A9C34F832AEE57AC005C3C96 /* MirrorHRKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93DCDA524472C1E00D2722D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92113A72B80FAAD00FF1E2A /* MyStripeApplePayPackage in Frameworks */,
+				6D57A1CB26C910F700CBC9D0 /* CloudKit.framework in Frameworks */,
+				A931DC982965D8B10037D4AB /* PermissionsManager in Frameworks */,
+				46DF0EE82753F8B9009751B5 /* MirrorHRKit in Frameworks */,
+				A90C845228A55C4200621107 /* SharedPkg in Frameworks */,
+				A93DCE1424472F6800D2722D /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FD72804698D0078F8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FE428046A060078F8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2475F42A24AA40D7002730C9 /* Epilepsy Research Kit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2475F42D24AA40D7002730C9 /* Info.plist */,
+				A9046AEA25618234009504E4 /* Epilepsy Research Kit Tests-Bridging-Header.h */,
+			);
+			path = "Epilepsy Research Kit Tests";
+			sourceTree = "<group>";
+		};
+		4628013826E395FB003015C2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A9046B102561824B009504E4 /* MirrorHRApp.swift */,
+				A92C4C0F28BF68370020DA6B /* HandleScenePhases.swift */,
+				A92AD1CD2C18606200BD6959 /* ModernView.swift */,
+				A9BF0BE52A22436300F757A6 /* HandleURL.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A9046A98256181B8009504E4 /* Experiments-Learnings */ = {
+			isa = PBXGroup;
+			children = (
+				A9046A99256181B8009504E4 /* HealthKitSupport.swift */,
+			);
+			path = "Experiments-Learnings";
+			sourceTree = "<group>";
+		};
+		A935A3F22A2203130091C3F6 /* MirrorHRWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF0BE42A221F2400F757A6 /* MirrorHRWidgetExtension.entitlements */,
+				A935A3F32A2203130091C3F6 /* MirrorHRWidgetBundle.swift */,
+				A935A3F72A2203130091C3F6 /* MirrorHRWidget.swift */,
+				A9C34F842AEE5A8B005C3C96 /* FastLogWidget.swift */,
+				A935A3F92A2203130091C3F6 /* MirrorHRWidget.intentdefinition */,
+				A935A3FA2A2203140091C3F6 /* Assets.xcassets */,
+				A935A3FC2A2203140091C3F6 /* Info.plist */,
+			);
+			path = MirrorHRWidget;
+			sourceTree = "<group>";
+		};
+		A93DCD9F24472C1E00D2722D = {
+			isa = PBXGroup;
+			children = (
+				A9D58B16286458C200B8F5CA /* TODO.md */,
+				46DF0EE62753F602009751B5 /* MirrorHRKit */,
+				A9405A01274FFF9C00B6E62D /* Packages */,
+				6D8324ED26F1AC3B00D9F840 /* Localizable.strings */,
+				A9046A98256181B8009504E4 /* Experiments-Learnings */,
+				A93DCDAA24472C1E00D2722D /* Epilepsy Research Kit */,
+				A93DCDD624472C2500D2722D /* Epilepsy Research Kit WatchKit App */,
+				A93DCDE524472C2600D2722D /* Epilepsy Research Kit WatchKit Extension */,
+				2475F42A24AA40D7002730C9 /* Epilepsy Research Kit Tests */,
+				A9942FDB2804698D0078F8F5 /* Epilepsy Research KitTests */,
+				A9942FE828046A060078F8F5 /* Epilepsy Research KitUITests */,
+				A935A3F22A2203130091C3F6 /* MirrorHRWidget */,
+				A93DCDA924472C1E00D2722D /* Products */,
+				A93DCE1224472F6800D2722D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A93DCDA924472C1E00D2722D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93DCDA824472C1E00D2722D /* Epilepsy Research Kit.app */,
+				A93DCDD224472C2500D2722D /* Epilepsy Research Kit WatchKit App.app */,
+				A9942FDA2804698D0078F8F5 /* Epilepsy Research KitTests.xctest */,
+				A9942FE728046A060078F8F5 /* Epilepsy Research KitUITests.xctest */,
+				A935A3ED2A2203130091C3F6 /* MirrorHRWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93DCDAA24472C1E00D2722D /* Epilepsy Research Kit */ = {
+			isa = PBXGroup;
+			children = (
+				4628013826E395FB003015C2 /* App */,
+				A9046B0F2561824B009504E4 /* LaunchScreen.storyboard */,
+				A9EBF2B32573EB76004D1FAA /* Sounds */,
+				A93DCE1124472F6200D2722D /* Epilepsy Research Kit.entitlements */,
+				A96761CC246BDF220047181C /* Epilepsy Research KitRelease.entitlements */,
+				A93DCDB124472C2300D2722D /* Assets.xcassets */,
+				A93DCDB624472C2300D2722D /* LaunchScreen.storyboard */,
+				A93DCDB924472C2300D2722D /* Info.plist */,
+				A93DCDB324472C2300D2722D /* Preview Content */,
+			);
+			path = "Epilepsy Research Kit";
+			sourceTree = SOURCE_ROOT;
+		};
+		A93DCDB324472C2300D2722D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A93DCDB424472C2300D2722D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A93DCDD624472C2500D2722D /* Epilepsy Research Kit WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A96761DB246BE39A0047181C /* Epilepsy Research Kit WatchKit AppRelease.entitlements */,
+				A9A752B62450AF3300D81A08 /* Epilepsy Research Kit WatchKit App.entitlements */,
+				A93DCDDA24472C2600D2722D /* Assets.xcassets */,
+				A93DCDDC24472C2600D2722D /* Info.plist */,
+			);
+			path = "Epilepsy Research Kit WatchKit App";
+			sourceTree = SOURCE_ROOT;
+		};
+		A93DCDE524472C2600D2722D /* Epilepsy Research Kit WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9046AD92561821A009504E4 /* BatteryRelated.swift */,
+				A976416F28DF2E960071647C /* CommunicationManagerWatch.swift */,
+				A9046ADE2561821B009504E4 /* ComplicationController.swift */,
+				A9046ADA2561821A009504E4 /* ContentView.swift */,
+				A9046ADC2561821A009504E4 /* MirrorHRApp.swift */,
+				A9046ADB2561821A009504E4 /* NotificationController.swift */,
+				A9046AD82561821A009504E4 /* NotificationView.swift */,
+				A9046ADD2561821B009504E4 /* WatchMainClasses.swift */,
+				A96761CD246BE0E70047181C /* Epilepsy Research Kit WatchKit ExtensionRelease.entitlements */,
+				A93DCE1524472FD100D2722D /* Epilepsy Research Kit WatchKit Extension.entitlements */,
+				A93DCDF024472C2800D2722D /* Assets.xcassets */,
+				A93DCDF524472C2800D2722D /* Info.plist */,
+				A93DCDF624472C2800D2722D /* PushNotificationPayload.apns */,
+				A93DCDF224472C2800D2722D /* Preview Content */,
+			);
+			path = "Epilepsy Research Kit WatchKit Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+		A93DCDF224472C2800D2722D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A93DCDF324472C2800D2722D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A93DCE1224472F6800D2722D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A913540A25D1692800D901BF /* CloudKit.framework */,
+				A93DCE1324472F6800D2722D /* HealthKit.framework */,
+				A935A3EE2A2203130091C3F6 /* WidgetKit.framework */,
+				A935A3F02A2203130091C3F6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9405A01274FFF9C00B6E62D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD831F2CDD5BDC002A1347 /* StateMachineKit */,
+				A97BCF3F2B80F9DB00DE2D5A /* MyStripeApplePayPackage */,
+				A94D3B342AE66274000B3983 /* OpenAIPackage */,
+				A96463812AE548790050AA23 /* TherapyPackage */,
+				A984DBA82953227A00E8DDB1 /* PermissionsManager */,
+				A951983A28E983570051C086 /* RoberdanSecretsPackage */,
+				A908604D280B1D3500D6D98C /* MirrorHRTelemetryPackage */,
+				A908604A280B1D3500D6D98C /* RoberdanToolbox */,
+				A908604B280B1D3500D6D98C /* SharedPkg */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A9942FDB2804698D0078F8F5 /* Epilepsy Research KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9942FDC2804698D0078F8F5 /* Epilepsy_Research_KitTests.swift */,
+			);
+			path = "Epilepsy Research KitTests";
+			sourceTree = "<group>";
+		};
+		A9942FE828046A060078F8F5 /* Epilepsy Research KitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6B7F29630C090050C245 /* PermissionsManager.swift */,
+				A9942FE928046A060078F8F5 /* Epilepsy_Research_KitUITests.swift */,
+				A9942FEB28046A060078F8F5 /* Epilepsy_Research_KitUITestsLaunchTests.swift */,
+				AEB90931283EC97F009F20E0 /* SnapshotHelper.swift */,
+			);
+			path = "Epilepsy Research KitUITests";
+			sourceTree = "<group>";
+		};
+		A9EBF2B32573EB76004D1FAA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A91573EF27C265F20003B763 /* melodysoft.mp3 */,
+				A9EBF2C22573EBCB004D1FAA /* buzzer.mp3 */,
+				6D4D42AF270B48AA00577148 /* medicationReminderSound.mp3 */,
+				A9EBF2C12573EBCB004D1FAA /* frenzy.mp3 */,
+				A9EBF2BA2573EBCB004D1FAA /* car-horn.mp3 */,
+				A9EBF2B82573EBCA004D1FAA /* cuckoo-cuckoo-clock.mp3 */,
+				A9EBF2BC2573EBCB004D1FAA /* done-for-you.mp3 */,
+				A9EBF2C02573EBCB004D1FAA /* door-knock.mp3 */,
+				A9EBF2BD2573EBCB004D1FAA /* gentle.mp3 */,
+				A9EBF2B92573EBCB004D1FAA /* goes-without-saying.mp3 */,
+				A9EBF2BE2573EBCB004D1FAA /* horse-whinnies.mp3 */,
+				A9EBF2BB2573EBCB004D1FAA /* serious-strike.mp3 */,
+				A9EBF2C32573EBCB004D1FAA /* system-fault.mp3 */,
+				A9EBF2BF2573EBCB004D1FAA /* you-have-new-message.mp3 */,
+				A91328B42471A8ED00E2607A /* loud-alarm.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A935A3EC2A2203130091C3F6 /* MirrorHRWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A935A4052A2203140091C3F6 /* Build configuration list for PBXNativeTarget "MirrorHRWidgetExtension" */;
+			buildPhases = (
+				A935A3E92A2203130091C3F6 /* Sources */,
+				A935A3EA2A2203130091C3F6 /* Frameworks */,
+				A935A3EB2A2203130091C3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrorHRWidgetExtension;
+			packageProductDependencies = (
+				A9C34F822AEE57AC005C3C96 /* MirrorHRKit */,
+			);
+			productName = MirrorHRWidgetExtension;
+			productReference = A935A3ED2A2203130091C3F6 /* MirrorHRWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A93DCDA724472C1E00D2722D /* Epilepsy Research Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93DCE0124472C2800D2722D /* Build configuration list for PBXNativeTarget "Epilepsy Research Kit" */;
+			buildPhases = (
+				C46AE927AC1CAB8589019F4C /* [CP] Prepare Artifacts */,
+				A93DCDA424472C1E00D2722D /* Sources */,
+				A93DCDA524472C1E00D2722D /* Frameworks */,
+				A93DCDA624472C1E00D2722D /* Resources */,
+				A93DCE0024472C2800D2722D /* Embed Watch Content */,
+				A935A4022A2203140091C3F6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A93DCDD524472C2500D2722D /* PBXTargetDependency */,
+				A935A4002A2203140091C3F6 /* PBXTargetDependency */,
+			);
+			name = "Epilepsy Research Kit";
+			packageProductDependencies = (
+				46DF0EE72753F8B9009751B5 /* MirrorHRKit */,
+				A90C845128A55C4200621107 /* SharedPkg */,
+				A931DC972965D8B10037D4AB /* PermissionsManager */,
+				A92113A62B80FAAD00FF1E2A /* MyStripeApplePayPackage */,
+			);
+			productName = "Epilepsy Research Kit";
+			productReference = A93DCDA824472C1E00D2722D /* Epilepsy Research Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A93DCDD124472C2500D2722D /* Epilepsy Research Kit WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93DCDFD24472C2800D2722D /* Build configuration list for PBXNativeTarget "Epilepsy Research Kit WatchKit App" */;
+			buildPhases = (
+				A93DCDD024472C2500D2722D /* Resources */,
+				33BF4FB830B0ECBD79AB9C4B /* Frameworks */,
+				A93DCDDD24472C2600D2722D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Epilepsy Research Kit WatchKit App";
+			packageProductDependencies = (
+				A9537E1F28D5CD6100479A07 /* SharedPkg */,
+			);
+			productName = "Epilepsy Research Kit WatchKit App";
+			productReference = A93DCDD224472C2500D2722D /* Epilepsy Research Kit WatchKit App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9942FD92804698D0078F8F5 /* Epilepsy Research KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9942FE02804698D0078F8F5 /* Build configuration list for PBXNativeTarget "Epilepsy Research KitTests" */;
+			buildPhases = (
+				A9942FD62804698D0078F8F5 /* Sources */,
+				A9942FD72804698D0078F8F5 /* Frameworks */,
+				A9942FD82804698D0078F8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9942FDF2804698D0078F8F5 /* PBXTargetDependency */,
+			);
+			name = "Epilepsy Research KitTests";
+			productName = "Epilepsy Research KitTests";
+			productReference = A9942FDA2804698D0078F8F5 /* Epilepsy Research KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9942FE628046A060078F8F5 /* Epilepsy Research KitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9942FEF28046A060078F8F5 /* Build configuration list for PBXNativeTarget "Epilepsy Research KitUITests" */;
+			buildPhases = (
+				A9942FE328046A060078F8F5 /* Sources */,
+				A9942FE428046A060078F8F5 /* Frameworks */,
+				A9942FE528046A060078F8F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9942FEE28046A060078F8F5 /* PBXTargetDependency */,
+			);
+			name = "Epilepsy Research KitUITests";
+			productName = "Epilepsy Research KitUITests";
+			productReference = A9942FE728046A060078F8F5 /* Epilepsy Research KitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93DCDA024472C1E00D2722D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1610;
+				ORGANIZATIONNAME = "FightTheStroke Foundation";
+				TargetAttributes = {
+					A935A3EC2A2203130091C3F6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A93DCDA724472C1E00D2722D = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1220;
+					};
+					A93DCDD124472C2500D2722D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					A9942FD92804698D0078F8F5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A93DCDA724472C1E00D2722D;
+					};
+					A9942FE628046A060078F8F5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A93DCDA724472C1E00D2722D;
+					};
+				};
+			};
+			buildConfigurationList = A93DCDA324472C1E00D2722D /* Build configuration list for PBXProject "Epilepsy Research Kit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+				"pt-BR",
+				es,
+				ms,
+				fr,
+				"pt-PT",
+				fi,
+				de,
+				"zh-Hans",
+				ja,
+				ko,
+				hi,
+				uk,
+				ru,
+				th,
+				nl,
+				vi,
+				"ar-EG",
+				ar,
+				id,
+				he,
+				el,
+				tr,
+			);
+			mainGroup = A93DCD9F24472C1E00D2722D;
+			packageReferences = (
+			);
+			productRefGroup = A93DCDA924472C1E00D2722D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93DCDA724472C1E00D2722D /* Epilepsy Research Kit */,
+				A93DCDD124472C2500D2722D /* Epilepsy Research Kit WatchKit App */,
+				A9942FD92804698D0078F8F5 /* Epilepsy Research KitTests */,
+				A9942FE628046A060078F8F5 /* Epilepsy Research KitUITests */,
+				A935A3EC2A2203130091C3F6 /* MirrorHRWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A935A3EB2A2203130091C3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A3FB2A2203140091C3F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93DCDA624472C1E00D2722D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93DCDB824472C2300D2722D /* LaunchScreen.storyboard in Resources */,
+				A9EBF2CC2573EBCB004D1FAA /* door-knock.mp3 in Resources */,
+				A93DCDB524472C2300D2722D /* Preview Assets.xcassets in Resources */,
+				A9EBF2CA2573EBCB004D1FAA /* horse-whinnies.mp3 in Resources */,
+				A9EBF2C92573EBCB004D1FAA /* gentle.mp3 in Resources */,
+				A9EBF2C52573EBCB004D1FAA /* goes-without-saying.mp3 in Resources */,
+				A9EBF2CD2573EBCB004D1FAA /* frenzy.mp3 in Resources */,
+				A9EBF2C62573EBCB004D1FAA /* car-horn.mp3 in Resources */,
+				A9EBF2C72573EBCB004D1FAA /* serious-strike.mp3 in Resources */,
+				A9046B252561824B009504E4 /* LaunchScreen.storyboard in Resources */,
+				A93DCDB224472C2300D2722D /* Assets.xcassets in Resources */,
+				6D4D42B0270B48AA00577148 /* medicationReminderSound.mp3 in Resources */,
+				A9EBF2CE2573EBCB004D1FAA /* buzzer.mp3 in Resources */,
+				A9EBF2CB2573EBCB004D1FAA /* you-have-new-message.mp3 in Resources */,
+				A91573F027C265F20003B763 /* melodysoft.mp3 in Resources */,
+				6D8324EA26F1AC3B00D9F840 /* Localizable.strings in Resources */,
+				A9EBF2C42573EBCB004D1FAA /* cuckoo-cuckoo-clock.mp3 in Resources */,
+				A9EBF2C82573EBCB004D1FAA /* done-for-you.mp3 in Resources */,
+				A91328B82471A8ED00E2607A /* loud-alarm.mp3 in Resources */,
+				A9EBF2CF2573EBCB004D1FAA /* system-fault.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93DCDD024472C2500D2722D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93DCDF424472C2800D2722D /* Preview Assets.xcassets in Resources */,
+				6D8324EB26F1AC3B00D9F840 /* Localizable.strings in Resources */,
+				A93DCDF124472C2800D2722D /* Assets.xcassets in Resources */,
+				A93DCDDB24472C2600D2722D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FD82804698D0078F8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FE528046A060078F8F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C46AE927AC1CAB8589019F4C /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A935A3E92A2203130091C3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935A3FD2A2203140091C3F6 /* MirrorHRWidget.intentdefinition in Sources */,
+				A935A3F82A2203130091C3F6 /* MirrorHRWidget.swift in Sources */,
+				A9C34F852AEE5A8B005C3C96 /* FastLogWidget.swift in Sources */,
+				A935A3F42A2203130091C3F6 /* MirrorHRWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93DCDA424472C1E00D2722D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9046AAB256181B9009504E4 /* HealthKitSupport.swift in Sources */,
+				A935A3FE2A2203140091C3F6 /* MirrorHRWidget.intentdefinition in Sources */,
+				A9046B262561824B009504E4 /* MirrorHRApp.swift in Sources */,
+				A9BF0BE62A22436300F757A6 /* HandleURL.swift in Sources */,
+				A92C4C1028BF68370020DA6B /* HandleScenePhases.swift in Sources */,
+				A92AD1CE2C18606200BD6959 /* ModernView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93DCDDD24472C2600D2722D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91AF5162DA7CD7E0039AEFE /* MirrorHRApp.swift in Sources */,
+				A91AF5152DA7CD350039AEFE /* battery-related.swift in Sources */,
+				A9046AE22561821B009504E4 /* NotificationController.swift in Sources */,
+				A9046AE52561821B009504E4 /* ComplicationController.swift in Sources */,
+				A976417028DF2E960071647C /* CommunicationManagerWatch.swift in Sources */,
+				A9046AE12561821B009504E4 /* ContentView.swift in Sources */,
+				A9046AE42561821B009504E4 /* WatchMainClasses.swift in Sources */,
+				A9046ADF2561821B009504E4 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FD62804698D0078F8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9942FDD2804698D0078F8F5 /* Epilepsy_Research_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9942FE328046A060078F8F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9942FEA28046A060078F8F5 /* Epilepsy_Research_KitUITests.swift in Sources */,
+				A9942FEC28046A060078F8F5 /* Epilepsy_Research_KitUITestsLaunchTests.swift in Sources */,
+				A9FF6B8029630C090050C245 /* PermissionsManager.swift in Sources */,
+				AEB90932283EC97F009F20E0 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A935A4002A2203140091C3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A935A3EC2A2203130091C3F6 /* MirrorHRWidgetExtension */;
+			targetProxy = A935A3FF2A2203140091C3F6 /* PBXContainerItemProxy */;
+		};
+		A93DCDD524472C2500D2722D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93DCDD124472C2500D2722D /* Epilepsy Research Kit WatchKit App */;
+			targetProxy = A93DCDD424472C2500D2722D /* PBXContainerItemProxy */;
+		};
+		A9942FDF2804698D0078F8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93DCDA724472C1E00D2722D /* Epilepsy Research Kit */;
+			targetProxy = A9942FDE2804698D0078F8F5 /* PBXContainerItemProxy */;
+		};
+		A9942FEE28046A060078F8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A93DCDA724472C1E00D2722D /* Epilepsy Research Kit */;
+			targetProxy = A9942FED28046A060078F8F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D8324ED26F1AC3B00D9F840 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8324EC26F1AC3B00D9F840 /* en */,
+				6D8324EE26F1AC3D00D9F840 /* it */,
+				6DF5D65E2708441600CA7EA7 /* pt-BR */,
+				6DA2E052271368B000CD9346 /* es */,
+				6D1DAF8D271751E90038A973 /* ms */,
+				A9116E2327353B3800CB2192 /* fr */,
+				A941A378276131320005CCA9 /* pt-PT */,
+				A941A37B276131660005CCA9 /* fi */,
+				A930BD22276F80D200F26F2D /* de */,
+				A930BD25276F863F00F26F2D /* zh-Hans */,
+				A9F67772276F8AD6003880E6 /* ja */,
+				A9F67775276F8E8C003880E6 /* ko */,
+				A9F67778276F9058003880E6 /* hi */,
+				A9EB70A42801B0CE0055F3DF /* uk */,
+				A910BEAF2801B5390057F90E /* ru */,
+				A9B4E62E28251EE300E783E3 /* th */,
+				A9A290B9288321D30081FB79 /* nl */,
+				A9367B1F28EF020E00104EBA /* vi */,
+				A946D3E92933C14E00716FFD /* ar-EG */,
+				A9593C17294F280D00EDED56 /* ar */,
+				A93BA2472A23566700C0ADDA /* id */,
+				A93BA2492A23566F00C0ADDA /* he */,
+				A93BA24B2A23567C00C0ADDA /* el */,
+				A9D5D4F92C2864E900813C63 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A93DCDB624472C2300D2722D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93DCDB724472C2300D2722D /* Base */,
+				6D8324E526F1ABC400D9F840 /* it */,
+				6DF5D65C2708441500CA7EA7 /* pt-BR */,
+				6DA2E050271368B000CD9346 /* es */,
+				6D1DAF8B271751E90038A973 /* ms */,
+				A9116E2127353B3800CB2192 /* fr */,
+				A941A376276131310005CCA9 /* pt-PT */,
+				A941A379276131660005CCA9 /* fi */,
+				A930BD20276F80D200F26F2D /* de */,
+				A930BD23276F863F00F26F2D /* zh-Hans */,
+				A9F67770276F8AD6003880E6 /* ja */,
+				A9F67773276F8E8C003880E6 /* ko */,
+				A9F67776276F9057003880E6 /* hi */,
+				A9EB70A22801B0CE0055F3DF /* uk */,
+				A910BEAD2801B5390057F90E /* ru */,
+				A9B4E62C28251EE300E783E3 /* th */,
+				A9367B1E28EF020D00104EBA /* vi */,
+				A946D3E82933C14D00716FFD /* ar-EG */,
+				A9593C16294F280D00EDED56 /* ar */,
+				A93BA2462A23566700C0ADDA /* id */,
+				A93BA2482A23566F00C0ADDA /* he */,
+				A93BA24A2A23567B00C0ADDA /* el */,
+				A9838C7E2C1C331200660083 /* en */,
+				A9838C802C1C331300660083 /* nl */,
+				A9D5D4F82C2864E900813C63 /* tr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A935A4032A2203140091C3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = MirrorHRWidget/MirrorHRWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MirrorHRWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MirrorHR - Epilepsy Research Kit";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 FightTheStroke Foundation. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				OTHER_LDFLAGS = "-fsanitize=undefined";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "MirrorHR Widget DEV 2023";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A935A4042A2203140091C3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = MirrorHRWidget/MirrorHRWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MirrorHRWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MirrorHR - Epilepsy Research Kit";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 FightTheStroke Foundation. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "MirrorHR Widget Distribution 2023";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A93DCDF724472C2800D2722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A93DCDF824472C2800D2722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A93DCDFE24472C2800D2722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsy Research Kit WatchKit Extension/Epilepsy Research Kit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				"DEVELOPMENT_TEAM[sdk=watchos*]" = 93T3LG4NPG;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "Epilepsy Research Kit WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				OTHER_LDFLAGS = "-fsanitize=undefined";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "2021 DEV WATCH";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "2021 DEV WATCH";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		A93DCDFF24472C2800D2722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsy Research Kit WatchKit Extension/Epilepsy Research Kit WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				"DEVELOPMENT_TEAM[sdk=watchos*]" = 93T3LG4NPG;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "Epilepsy Research Kit WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "2021 RESEARCH KIT DISTRI WATCH";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "2021 RESEARCH KIT DISTRI WATCH";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		A93DCE0224472C2800D2722D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsy Research Kit/Epilepsy Research Kit.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Epilepsy Research Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_PROFILING_CODE = YES;
+				INFOPLIST_FILE = "Epilepsy Research Kit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MirrorHR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fsanitize=undefined";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "2021 DEV IOS";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Epilepsy Research Kit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A93DCE0324472C2800D2722D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = "Epilepsy Research Kit/Epilepsy Research KitRelease.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Epilepsy Research Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93T3LG4NPG;
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				INFOPLIST_FILE = "Epilepsy Research Kit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MirrorHR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "2021 Research Kit DISTRIBUTION";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "2021 Research Kit DISTRIBUTION";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Epilepsy Research Kit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZE_OBJECT_LIFETIME = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+		A9942FE12804698D0078F8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.Epilepsy-Research-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epilepsy Research Kit.app/Epilepsy Research Kit";
+			};
+			name = Debug;
+		};
+		A9942FE22804698D0078F8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 61;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.Epilepsy-Research-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epilepsy Research Kit.app/Epilepsy Research Kit";
+			};
+			name = Release;
+		};
+		A9942FF028046A060078F8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 61;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.Epilepsy-Research-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Epilepsy Research Kit";
+			};
+			name = Debug;
+		};
+		A9942FF128046A060078F8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 61;
+				DEVELOPMENT_TEAM = 93T3LG4NPG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mirror-labs.Epilepsy-Research-Kit.Epilepsy-Research-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Epilepsy Research Kit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A935A4052A2203140091C3F6 /* Build configuration list for PBXNativeTarget "MirrorHRWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A935A4032A2203140091C3F6 /* Debug */,
+				A935A4042A2203140091C3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93DCDA324472C1E00D2722D /* Build configuration list for PBXProject "Epilepsy Research Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93DCDF724472C2800D2722D /* Debug */,
+				A93DCDF824472C2800D2722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93DCDFD24472C2800D2722D /* Build configuration list for PBXNativeTarget "Epilepsy Research Kit WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93DCDFE24472C2800D2722D /* Debug */,
+				A93DCDFF24472C2800D2722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93DCE0124472C2800D2722D /* Build configuration list for PBXNativeTarget "Epilepsy Research Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93DCE0224472C2800D2722D /* Debug */,
+				A93DCE0324472C2800D2722D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9942FE02804698D0078F8F5 /* Build configuration list for PBXNativeTarget "Epilepsy Research KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9942FE12804698D0078F8F5 /* Debug */,
+				A9942FE22804698D0078F8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9942FEF28046A060078F8F5 /* Build configuration list for PBXNativeTarget "Epilepsy Research KitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9942FF028046A060078F8F5 /* Debug */,
+				A9942FF128046A060078F8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46DF0EE72753F8B9009751B5 /* MirrorHRKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MirrorHRKit;
+		};
+		A90C845128A55C4200621107 /* SharedPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedPkg;
+		};
+		A92113A62B80FAAD00FF1E2A /* MyStripeApplePayPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyStripeApplePayPackage;
+		};
+		A931DC972965D8B10037D4AB /* PermissionsManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PermissionsManager;
+		};
+		A94A50A5280B1FFD00C0D210 /* SharedPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedPkg;
+		};
+		A9537E1F28D5CD6100479A07 /* SharedPkg */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedPkg;
+		};
+		A9C34F822AEE57AC005C3C96 /* MirrorHRKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MirrorHRKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A93DCDA024472C1E00D2722D /* Project object */;
+}

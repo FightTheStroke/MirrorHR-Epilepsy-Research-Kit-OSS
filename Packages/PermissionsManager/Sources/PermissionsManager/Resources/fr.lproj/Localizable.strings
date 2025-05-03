@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Cette application" ;
+
+// Statuts d'autorisation
+"NotDeterminedLocalized" = "Non déterminé" ;
+"DeniedLocalized" = "Refusé" ;
+"AuthorizedLocalized" = "Autorisé" ;
+"InconnuLocalisé" = "Inconnu" ;
+"NotAvailableLocalized" = "Non disponible" ;
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Erreur du gestionnaire d'autorisations : le type d'autorisation n'existe pas" ;
+
+// Noms des autorisations
+"CameraLocalized" = "Caméra vidéo" ;
+"CriticalNotificationsLocalized" = "Notifications critiques" ;
+"NotificationsLocalized" = "Notifications" ;
+"HealthDataLocalized" = "Données de santé" ;
+"MicrophoneLocalisé" = "Microphone" ;
+"SpeechRecognitionLocalized" = "Reconnaissance vocale" ;
+
+// Messages
+"OKMessageLocalized" = "Merci !" ;
+"RecoveryMsgLocalizePart1" = "Veuillez accéder aux paramètres de l'iPhone et rechercher" ;
+"DescriptionMsgPart1" = "Activation" ;
+"DescriptionMsgPart2" = "est essentiel pour que cette application fonctionne correctement.";
+"NoOkMessagePart1" = "Vous n'avez pas accordé l'accès à" ;
+"NoOkMessagePart2" = "et donc je ne peux pas travailler correctement. Je suis désolé.";
+"RecoveryMsgLocalizePart2" = "et accordez toutes les autorisations requises. Merci.";
+
+// Vérifier la vue
+"AuthCheckPointTitle" = "Vérification des autorisations" ;
+"GrantItBtnLabel" = "Accordez-le" ;
+"SomeMissingAuthNeeded" = "Certaines autorisations sont encore nécessaires pour que l'application fonctionne correctement. Accordez-les toutes. Si vous avez besoin d'aide, envoyez un e-mail à :";
+
+// Obligatoire
+"MandatoryMsg" = "Obligatoire" ;
+// La navigation
+"SkipMsgText" = "Ignorer" ;
+"LocationServicesLocalized" = "Services de localisation";

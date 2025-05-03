@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "هذا التطبيق";
+
+// Authorization Statuses
+"NotDeterminedLocalized" = "لم يحدد";
+"DeniedLocalized" = "رفض";
+"AuthorizedLocalized" = "مخول";
+"UnknownLocalized" = "مجهول";
+"NotAvailableLocalized" = "غير متوفر";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "خطأ في إدارة الأذونات: نوع الإذن غير موجود";
+
+// Permissions Names
+"CameraLocalized" = "كاميرا فيديو";
+"CriticalNotificationsLocalized" = "الإخطارات الحرجة";
+"NotificationsLocalized" = "إشعارات";
+"HealthDataLocalized" = "البيانات الصحية";
+"MicrophoneLocalized" = "ميكروفون";
+"SpeechRecognitionLocalized" = "التعرف على الكلام";
+
+// Messages
+"OKMessageLocalized" = "شكرًا لك!";
+"RecoveryMsgLocalizePart1" = "يرجى الانتقال إلى إعدادات iPhone والبحث عن";
+"DescriptionMsgPart1" = "التمكين";
+"DescriptionMsgPart2" = "ضروري لكي يعمل هذا التطبيق بشكل صحيح.";
+"NoOkMessagePart1" = "أنت لم تمنح حق الوصول إلى";
+"NoOkMessagePart2" = "ولذا لا يمكنني العمل بشكل صحيح. أنا آسف.";
+"RecoveryMsgLocalizePart2" = "ومنح جميع الأذونات المطلوبة. شكرًا لك.";
+
+// Check View
+"AuthCheckPointTitle" = "التحقق من التفويضات";
+"GrantItBtnLabel" = "منحها";
+"SomeMissingAuthNeeded" = "لا تزال هناك حاجة إلى بعض التراخيص حتى يعمل التطبيق بشكل صحيح. من فضلك امنحهم جميعًا. إذا كنت بحاجة إلى أي مساعدة ، أرسل بريدًا إلكترونيًا إلى:";
+
+// Mandatory
+"MandatoryMsg" = "إلزامي";
+
+// Navigation
+"SkipMsgText" = "تخطى";
+"LocationServicesLocalized" = "خدمات الموقع";

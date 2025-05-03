@@ -1,0 +1,45 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "This application";
+
+// Authorization Statuses
+"NotDeterminedLocalized" = "Not determined";
+"DeniedLocalized" = "Denied";
+"AuthorizedLocalized" = "Authorized";
+"UnknownLocalized" = "Unknown";
+"NotAvailableLocalized" = "Not available";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "Permissions Manager Error: permission type does not exist";
+
+// Permissions Names
+"CameraLocalized" = "Video camera";
+"CriticalNotificationsLocalized" = "Critical Notifications";
+"NotificationsLocalized" = "Notifications";
+"HealthDataLocalized" = "Health Data";
+"MicrophoneLocalized" = "Microphone";
+"SpeechRecognitionLocalized" = "Speech Recognition";
+
+// Messages
+"OKMessageLocalized" = "Thank you!";
+"RecoveryMsgLocalizePart1" = "Please go on iPhone settings, and look for";
+"DescriptionMsgPart1" = "Enabling";
+"DescriptionMsgPart2" = "is essential for this app to work correctly.";
+"NoOkMessagePart1" = "You did not granted access to";
+"NoOkMessagePart2" = "and so I can't work correctly. I'm sorry.";
+"RecoveryMsgLocalizePart2" = "and grant all required permissions. Thank you.";
+
+// Check View
+"AuthCheckPointTitle" = "Authorizations check";
+"GrantItBtnLabel" = "Grant it";
+"SomeMissingAuthNeeded" = "Some authorizations are still needed for the app to work correctly. Please grant them all. If you need any help send an email to:";
+
+// Mandatory
+"MandatoryMsg" = "Mandatory";
+
+// Navigation
+"SkipMsgText" = "Skip";
+"LocationServicesLocalized" = "Location Services";

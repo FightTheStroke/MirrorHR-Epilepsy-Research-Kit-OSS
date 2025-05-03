@@ -1,0 +1,849 @@
+/*
+  可本地化的字符串
+  癫痫研究套件
+
+  由 Roberto D'Angelo 于 15/09/21 创建。
+  版权所有 © 2021 FightTheStroke 基金会。版权所有。
+*/
+"languageUIMsg" = "UI 语言";
+"languageUI_String" = "Chinese Simplified";
+"errorMsg" = "错误";
+"shareFeedback" = "给我们一个反馈";
+"doYouNeedHelpString" = "你需要帮助吗？";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR: 癫痫研究工具包";
+"secondsString" = "秒";
+"defaultEmergencyNumber" = "120";
+"sympt_emptySymptom" = "空符号";
+"sympt_seizure" = "癫痫发作";
+"sympt_highBPM" = "高心跳";
+"sympt_lowBPM" = "炉膛低节拍";
+"sympt_constipation" = "便秘";
+"sympt_diarrhea" = "腹泻";
+"sympt_hiccup" = "打嗝";
+"sympt_dizziness" = "头晕";
+"sympt_fatigue" = "疲劳";
+"sympt_fever" = "发烧";
+"sympt_headache" = "头痛";
+"sympt_medicalExamination" = "体检";
+"sympt_hospitalization" = "住院";
+"sympt_emergencyRoom" = "急诊室";
+"sympt_coughing" = "咳嗽";
+"sympt_nausea" = "恶心";
+"sympt_shortnessOfBreath" = "呼吸急促";
+"sympt_soreThroat" = "喉咙痛";
+"sympt_vomiting" = "呕吐";
+"sympt_excitement" = "兴奋";
+"sympt_moodChanges" = "情绪变化";
+"sympt_sleepChanges" = "睡眠变化";
+"sympt_sleepDeprivation" = "睡眠剥夺";
+"sympt_appetiteChanges" = "食欲变化";
+"sympt_videoLog" = "视频日记";
+"sympt_videoSeizureLog" = "缉获日志";
+"sympt_textLog" = "文本日志";
+"sympt_stress" = "压力";
+"sympt_medicationTaken" = "服用的药物";
+"sympt_medicationForgotten" = "药物丢失";
+"sympt_other" = "其他";
+"sympt_emergencyMedication" = "紧急药物";
+"tabChecklist" = "清单";
+"tabRealTimeMonitor" = "实时";
+"tabDiary" = "日记";
+"tabInsights" = "洞察力";
+"tabSettings" = "设置";
+"tabDebugLogs" = "调试";
+"tabOnboarding" = "入职";
+"realTimeNoWatchSampleImage" = "realtimesample";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "对不起，我无法保存视频:(";
+"comingSoonMsg" = "即将推出：";
+"youMustHaveWatchString" = "实时监控和报警需要Apple Watch";
+"iHaveAWatchNowString" = "我有一个 Apple Watch";
+"appleWatchRequiredMsg" = "此功能需要苹果手表";
+"importantMsg" = "重要信息";
+"watchMainErrorMsg" = "手表应用程序未安装或手表未与手机配对，请安装/检查";
+"wichLanguageDoUSpeak" = "你说哪种语言？";
+"selectLanguage" = "请选择其中一种可用的语音识别语言：";
+"willAddMoreLanguagesMsg" = "我们将来会添加更多语言。";
+"whenQuestion" = "什么时候？";
+"lastWeeksString" = "上周";
+"lastMonthsString" = "最近几个月";
+"weekdaysString" = "工作日";
+"weekendString" = "周末";
+"loggedAtString" = "登录时间：";
+"fromString" = "来自：";
+"toString" = "收件人：";
+"LenghtString" = "长度：";
+"notesString" = "备注：";
+"editNotesString" = "编辑笔记：";
+"rememberDuplicateNotificationsString" = "请记住避免手表上的通知，否则应用在后台时不会触发闹钟！";
+"gotItMsg" = "明白了！";
+"unplannedEventMsg" = "抱歉，发生了意外事件";
+"stopLowBatteryNotificationsMsg" = "停止低电量通知";
+"continueMsg" = "继续";
+"firedAtMsg" = "发射于";
+"manualAlarmTriggeredMsg" = "手动触发";
+"manualFalseAlarmTriggeredMsg" = "误报";
+"byBPMofMsg" = "BPM of";
+"watchBatteryIsMsg" = "手表电池为";
+"doYouWantLowBatteryNotificationsMsg" = "你想继续在手表上接收低电量通知吗？";
+"firedByMsg" = "由触发";
+"bpmMsg1" = " BPM. ";
+"unclassifiedAlarmStopMsg" = "会话停止，未分类报警";
+"lastSeizureMsg" = "最后一次癫痫发作";
+"seizureStatsMsg" = "癫痫发作";
+"videoLogBtnMsg" = "视频日记";
+"seizureLogBtnMsg" = "视频捕获";
+"drillDownByDateMsg" = "BPM 按日期";
+"symptomsLogs" = "症状日记";
+"insightsNavigationMsg" = "见解";
+"analyzingDataMsg" = "正在分析数据...";
+"sinceLastEventMsg" = "自上次事件以来：";
+"sinceLastEventString" = "从上次开始";
+"fromPreviousMsg" = "自上一个事件以来：";
+"congratsNoSeizureMsg" = "恭喜！没有严重事件！";
+"saveLogMsg" = "保存日志";
+"detailLogMsg" = "有什么要记录的细节吗？";
+"saveBtnMsg" = "保存";
+"speechHintMsg" = "提示：您可以输入，或者，如果您按下屏幕键盘上的麦克风符号，您可以听写。";
+"cancelActionMsg" = "关闭";
+"okActionMsg" = "OK";
+"realTimeMsg" = "实时";
+"alarmMsg" = "报警";
+"csvExportMsg" = "导出到 CSV";
+"olderString" = "老";
+"thisWeekString" = "本周";
+"exportString" = "导出";
+"warningMsg" = "警告";
+"startMsg" = "开始";
+"stopMsg" = "停止";
+"ciaoMsg" = "Ciao，我是马里奥";
+"ciaoHeadlineMsg" = "Ciao在意大利语中的意思是'嗨'";
+"ciaoDescriptionMsg" = "感谢您与我一起抗击癫痫";
+"disclaimerTitleMsg" = "免责声明";
+"disclaimerHeadlineMsg" = "MirrorHR 旨在帮助父母、医生和护理人员更深入地了解他们心爱的孩子的癫痫发作。它是由父母和医生为父母和医生开发的。MirrorHR 不是医疗设备，必须使用它仅与您的医生合作。";
+"disclaimerDescriptionMsg" = "MirrorHR 依赖 Apple Iphone 和 Watch 进行所有传感器和数据收集。视频存储在您的媒体库中，健康数据存储在本地 Apple HealthKit 中。唯一可能离开您手机的数据是崩溃报告（希望非常几次）。";
+"personalizeStartMsg" = "让我们个性化 MirrorHR";
+"personalizeStartHeadlineMsg" = "MirrorHR 旨在帮助父母、医生和护理人员更深入地了解他们心爱的人的癫痫发作。";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "你叫什么名字？";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "如果您是家长或看护人，请输入您所照顾孩子的姓名。";
+"whereULiveMsg" = "你住在哪里？";
+"whereULiveHeadLineMsg" = "这样我们就可以检测天气状况并与事件相关联";
+"whereULiveDescriptionMsg" = "我们利用 https://openweathermap.org 来实现此功能";
+"alarmSettingsMsg" = "报警设置";
+"alarmString" = "警报";
+"minBpmMsg" = "最低 BPM";
+"minMaxBpmDescriptionMsg" = "MirrorHR 实时测量心跳 (BPM) 并在这些条件成立时发出警报：";
+"maxBpmMsg" = "最大 BPM";
+"mirrorNotificationMsg" = "重要！";
+"mirrorNotificationsWatchMsg" = "禁用手表通知";
+"mirrorNotificationDescriptionMsg" = "这非常重要，请立即执行。\n 打开 Watch 应用，MirrorHR 的通知和安全通知不会镜像到 Watch。";
+"alarmSoundTitleMsg" = "警报";
+"alarmSoundHeadlineMsg" = "（是的，它应该能够在它触发时唤醒你！）";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "通知";
+"notificationSoundHeadlineMsg" = "通知并不重要，但它们仍然非常重要";
+"notificationSoundDescriptionMsg" = "例如，我们会在从手表接收数据或电池电量不足等出现问题时通知，以便更好地监控它们";
+"parentalControlTitleMsg" = "家长控制";
+"parentalControlOnString" = "家长控制开启";
+"parentalControlHeadlineMsg" = "防止从手表停止会话";
+"parentalControlDescriptionMsg" = "它启用了一些安全功能，例如防止手表停止会话、误报 15 分钟后自动重启警报通知等。如果关闭此选项，您将在会话结束时收到通知从手表。";
+"emergencyContactTitleMsg" = "紧急电话号码";
+"emergencyContactHeadLineMsg" = "只是为了拥有它";
+"emergencyCallLabelMsg" = "帮助";
+"helpLabelMsg" = "帮助";
+
+"emergencyContactDescriptionMsg" = "它可以是 120，或者它在你的国家是等价的，或者你希望能够尽快拨打的任何其他电话，以防万一。";
+"emergencyContactDescriptionMsg4AboutView" = "它可以是 120，或者它在你的国家相当，或者你希望能够尽快拨打的任何其他电话。";
+"readyToStartTitleMsg" = "准备开始！";
+"readyToStartHeadlineMsg" = "感谢您的帮助。";
+"readyToStartDescriptionMsg" = "您可以随时从设置选项卡更改任何设置";
+"whenBpmLowerThanMsg" = "当 BPM 低于时";
+"whenBpmHigherThanMsg" = "当 BPM 高于时";
+"triageDeltaTimeBeforeFireAlarmMsg" = "触发警报前的时间缓冲：";
+"privacyMsg" = "接受隐私政策";
+"privacyAcceptanceMsg" = "我明白";
+"alarmSoundStyleMsg" = "闹钟声音样式";
+"testAlarmSoundMsg" = "测试报警声音";
+"testAlarmBtnMsg" = "测试报警";
+"testLowBatteryBtnMsg" = "测试低电量";
+"testAlarmSoundBgkTitleMsg" = "测试报警声音（延迟）";
+"testAlarmSoundBgkMsg" = "重要！当手机处于勿扰模式时测试闹钟。";
+"testAlarmImptMsg" = "请返回 iphone 主屏幕并将手机置于静音模式，以确保应用程序在后台甚至在夜间时触发。闹钟应在 30 秒后触发。以防您只看到通知但听不到强烈的声音，请确保手表上没有重复的通知";
+"notificationSoundStyleMsg" = "通知声音风格";
+"testNotificationSoundMsg" = "测试通知声音";
+"openWatchAppMsg" = "打开手表应用";
+"testCallMsg" = "测试调用";
+"nameString" = "姓名：";
+"livingInString" = "住在：";
+"iSpeakLanguage" = "我说：";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Apple Watch 可用";
+"watchAvailableToggleCaptionString" = "如果您有 Apple Watch，则可以启用高级功能，例如实时监控炉膛跳动、警报、通知等。";
+"alarmSettingsFooterMsg" = "它会根据这些条件立即触发。必须连接 Apple Watch";
+"parentalControlProfileMsg" = "无法从 Apple Watch 停止实时监控，警报会在标记错误警报 15 分钟后自动重新启用";
+"recordAVideoMsg" = "录制视频日记";
+"notificationFooterMsg" = "必须为这些通知启用 Apple Watch 实时监控";
+"noDataNotificationMsg" = "当超过一段时间未从 Apple Watch 接收数据时";
+"batteryLevelProfileMsg" = "手表电池电量低于";
+"sleepSettingsTitleMsg" = "睡眠设置";
+"sleepSettingsFooterMsg" = "必须启用 Apple Watch 实时监控才能进行睡眠跟踪";
+"deepSleepMaxBpmMsg" = "深度睡眠最大 BPM";
+"lightSleepMaxBpmMsg" = "轻度睡眠最大 BPM";
+"notificationSettingsHeaderMsg" = "通知设置";
+"notificationSettingsFooterMsg" = "注意：通知比错过的事件要好......";
+"shouldFireNoDataMsg" = "未从 Apple Watch 接收数据时触发通知";
+"shouldFireLowBatteryMsg" = "Apple Watch 电池电量低时发出通知";
+"notifyRealTimeEndMsg1" = "Apple Watch 的实时监控结束";
+"notifyRealTimeEngMsg2" = "（如果启用了家长控制，则不需要）";
+"aboutMsg" = "关于";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "对于每个症状，您可以单击其名称来添加/编辑注释，或向左滑动以删除它。";
+"deprecatedDefaultQuickLogNote" = "向右滑动编辑笔记，向左滑动删除此条目";
+"debugModeMsg" = "开发日志模式";
+"developerMode" = "开发者模式";
+"migrateDBMsg" = "从以前的版本迁移";
+"logsSoFarMsg" = "到目前为止的日志";
+"seizuresSoFarMsg" = "癫痫发作";
+"seizuresOnlyFilterMsg" = "癫痫发作";
+"editLogNotesMsg" = "日志记录 - 编辑";
+"logASymptomMsg4LogsView" = "日志事件";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "重置所有设置并删除所有数据（注意这是不可逆的！）";
+"restartOnboardingMsg" = "重新启动入职";
+"developerString" = "开发人员";
+"appNameString" = "应用名称";
+"versionString" = "版本";
+"compatibilityString" = "要求";
+"contactsString" = "联系人";
+"contactLabelMsg" = "联系我们";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "隐私政策";
+"privacyPolicyLinkLabel" = "隐私政策";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "网站";
+"sampleChartDataMsg" = "示例图表数据";
+"notificationTitleMsg" = "通知";
+"realTimeWarningMsg" = "Apple Watch 必须连接到闹钟和通知";
+"chartOptionsTitleMsg" = "图表选项";
+"showMarkersMsg" = "显示报警标记";
+"showBandsMsg" = "显示图表波段";
+"reset2DefaultMsg" = "重置为默认值";
+"seeAllSettingsMsg" = "打开所有设置";
+"realTimeOffMsg" = "实时关闭";
+"bootingProgressMsg" = "正在启动...";
+"lastBpmMsg" = "上次 BPM:";
+"secsAgoMsg" = "秒前";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "按键设置";
+"legendaLabelMsg" = "图例：";
+"deepSleepLabelMsg" = "深度睡眠";
+"lightSleepLabelMsg" = "轻度睡眠";
+"awakeLabelMsg" = "清醒";
+"tagFalseAlarmTitleMsg" = "标签误报";
+"tagFalseAlarmActionMsg" = "保存误报";
+"tagFalseAlarmAllGoodMsg" = "假";
+"tagEndOfSeizure" = "结束癫痫发作";
+"tagVideoSeizure" = "视频";
+"saveSeizureMsg" = "保存癫痫发作";
+"seizureLabelMsg" = "扣押";
+"falseAlarmSuggestion1" = "压力";
+"falseAlarmSuggestion2" = "梦想";
+"falseAlarmSuggestion3" = "游戏";
+"elapsedTimeString" = "经过的时间";
+"whatTimeIsNowString" = "当前时间";
+"defaultCityString" = "米兰";
+"initialBatteryMsg" = "初始电池电量：";
+"logLabelMsg" = "日志";
+"offLabelMsg" = "OFF";
+"tap3timesMsg" = "点击 3 次";
+"watchAppNotInstalledString" = "MirrorHR 未安装在 Apple Watch 上";
+"cantCommunicateWatchString" = "无法与 Apple Watch 通信";
+"watchNotPairedString" = "Apple Watch 未与 iPhone 配对";
+"watchNotReachableString" = "无法访问手表上的MirrorHR，请检查是否在前台运行，或从手表启动会话";
+"canTFireNotificationString" = "无法触发通知，因为";
+"canTStartSessionString" = "无法启动会话，请检查 MirrorHR 是否在 Watch 的前台运行，然后重试";
+"soSorryString" = "我很抱歉 :-( ... 这只是发生了：";
+"saveAndCloseString" = "保存并关闭";
+"alarmFiredAtString" = "警报在 ";
+"byBPMOfString" = "以 BPM 为单位";
+"checkRangeString" = "。请检查手表是否正确佩戴并在范围内.";
+"alarmEventString" = "报警";
+"warningEventString" = "警告";
+"noDataEventString" = "无数据";
+"lowBatteryEventString" = "低电量";
+"unclassifiedEventString" = "未分类事件";
+"handleSeizureEventString" = "处理癫痫发作";
+"handleFalseAlarmEventString" = "处理误报";
+"stopFromWatchEventString" = "停止从 Apple Watch 收到";
+"sessionStopFromPhoneEventString" = "会话从手机停止";
+"criticalErrorEventString" = "严重错误：";
+"criticalErrorSorryEventString" = "我很抱歉:(我遇到了一个意外错误。";
+"testSoundEventString" = "测试声音：";
+"notificationString" = "通知";
+"sessionBootingEventString" = "会话启动";
+"manualAlarmEventString" = "手动报警";
+"manualAlarmTriggeredNotesString" = "手动触发";
+"logsInTotalMsg" = "日志";
+"intervalBetweenLast2Seizures" = "上次癫痫发作之间的间隔";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "M";
+"dayIndi​​catorString" = "d";
+"hoursIndicatorString" = "h";
+"minutesIndicatorString" = "m";
+"secondsIndicatorString" = "s";
+"eventsString" = "事件";
+"insightsFilterToggleLeftString" = "所有日志";
+"symptomString" = "症状";
+"potentialTriggerString" = "潜在触发器";
+"severeEventString" = "严重事件";
+"goodHabitString" = "好习惯";
+"badHabitString" = "坏习惯";
+"askPermissionsTitle" = "权限";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "检查权限";
+"thanksForPermissionsString" = "谢谢，权限都给了";
+"iPhoneBatteryIsMsg" = "iPhone 电池为";
+"howLongDidItLastMsg" = "持续了多久？";"languageUIMsg" = "UI 语言";
+"watchNotReachableString" = "MirrorHR 在 Apple Watch 上无法访问：检查它是否正在运行并在前台，或者直接从 Apple Watch 上的 MirrorHR 按下 START";
+"noDataReceivedString" = "没有收到超过 的数据";
+"medicationAlarmString" = "用药提醒";
+"medicationAlarmViewTitle" = "用药提醒";
+"medicationAlarmMessage" = "该吃药了";
+"medicationTakenString" = "服用的药物";
+"medicationSnoozeString" = "暂停服药提醒";
+"medicationSnoozeStringDescription" = "用药提醒";
+"addMedicationReminderString" = "添加/编辑用药提醒";
+"yes_String" = "是";
+"no_String" = "否";
+"deleteAllRemindersString" = "删除所有提醒";
+"confirmString" = "确认";
+"confirmDeleteMedicationRemindersMsg" = "你真的要删除所有的用药提醒吗？";
+"medicationAlarmFooter" = "永远记得吃药！你最终可以将提醒暂停 10 分钟。";
+"closeButtonString" = "关闭";
+"howLongDidItLastMsg" = "持续了多久？";
+"addButtonString" = "添加";
+"nextScheduledRemindersString" = "下一个预定提醒：";
+"EveryWeekDayAtString" = "每个星期日在：";
+"EveryWeekEndAtString" = "每个周末在：";
+"requestReviewMessage" = "你喜欢MirrorHR吗？";
+"manualMedicationMsg" = "我在日记里用手背回来";
+"sympt_medicationChange" = "药物变化";
+"medications_String" = "药物";
+"allLogs" = "全部";
+"reportAsMissedMedicationString" = "我会将其报告为漏服药";
+"medicationNotificationBodyMessage" = "该吃药了。点击此处登录 MirrorHR 或小睡 10 分钟";
+"letMeUpdateMissedMedicationString" = "我在同一天的不同时间拿了它们，让我更新数据";
+"filterByDate" = "按日期过滤";
+"event_realTimeSession" = "实时会话";
+"bpmTakesTimeMsg" = "请注意：会话结束后，BPM 图表可能需要几分钟才能显示。";
+"telemetrySectionString" = "加入搜索";
+"shareAnonymizedTelemetryMsg" = "分享统计数据，绝对匿名，帮助癫痫研究";
+"telemetryRealTime" = "实时会话数";
+"telemetrySeizures" = "癫痫发作次数";
+"telemetrySymptoms" = "记录的症状数量";
+"telemetryNavigation" = "基本使用统计";
+"telemetryVideoLog" = "VideoLog 数量";
+"telemetrySeizuresVideoLog" = "癫痫发作次数 VideoLog";
+"telemetryBPMValues" = "BPM 警报阈值";
+"telemetryMedicationReminders" = "用药提醒次数";
+"telemetryLanguage" = "界面语言";
+"telemetryExplainMsg" = "遥测数据是完全匿名的，如果您能与我们分享这些数据，将真正有助于改善其他家庭的生活。谢谢！";
+"enableAllTelemetryOptionsString" = "启用/禁用所有选项";
+"WhatsNewInThisVersion" = "这个版本的新内容";
+"HereIsQuickUpdate" = "这是最新功能的快速更新";
+"helpOneHelpEveryone" = "帮助一个人最好的方式，就是帮助其他人";
+"Sentiment_String" = "情绪";
+"detectSympstomsString" = "检测到的症状";
+"sympt_cold" = "冷";
+"sentiment_negative"="负面";
+"sentiment_medium" = "中性";
+"sentiment_positive" = "positive";
+"confirmSymptomsUnderstanding" = "从你说的我了解到你要登记这些症状，请帮我确认一下？";
+"appreciationForTheOpportunityToLearn" = "如果我误解了，请取消标记或添加其他人，以便我可以随着时间的推移而改进。 谢谢。";
+"sympt_therapy" = "治疗（康复等）";
+"sympt_fall" = "秋天";
+"sympt_headShot" = "爆头";
+"supportingFunctionsString" = "支持函数";
+"sympt_sport" = "运动";
+"whatsNewInVideoLogV3" = "在这个版本中，它更加强大，通过自动识别最常见的症状和事件，提供验证它们的可能性，然后在日记中自动跟踪它们。所以它会更容易记住所有重要的 事情，只需做一个短视频，应用程序将完成其余的工作。";
+"SymptomSearchBarSearchString" = "搜索..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "血氧";
+"RespiratoryRateString" = "呼吸频率";
+"sympt_vaccine" = "通用疫苗接种";
+"sympt_covidVaccine" = "Covid-19 疫苗";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "在症状右侧的圆圈上按一次可快速记录症状或事件。在症状右侧的圆圈上按住 2 秒钟可打开一个屏幕，您可以在其中输入其他数据和/ 或注释。再次按符号 (?) 可隐藏此消息";
+"kidWeightString" = "体重";
+"measurementsUnitString" = "测量单位";
+
+"version8_7OnboardingCardDescription" = "1. 可以在日记中记录的新症状和事件（包括 Covid 和通用“其他”）然后让您在与医生的对话中越来越准确和完整。\n
+2.对于没有Apple Watch的人，现在可以在日记中输入时手动记录癫痫发作的长度。 \n
+3. 仍然在日记中，现在可以为任何症状或事件添加注释，只需按住⃝按钮两秒钟。\n
+4. 如果实时会话在睡眠期间处于活动状态，除了心率之外，还会检测呼吸频率和血液中的氧气，并在会话结束时在备注中报告。\n
+5.还可以记录重量（比如匹配换药）。\n
+6.遥测数据更简单（总是匿名的），对我们了解如何改进和帮助越来越多的人有很大帮助。\n
+7.修复了一些样式错误\n
+8. 如果您喜欢 MirrorHR 并想给我们建议，请知道我们随时欢迎评论和电子邮件。在“设置”部分找到链接。\n
+谢谢！\n";
+
+"sympt_other_medications" = "其他药物";
+"sympt_weightLog" = "重量";
+"sympt_absence" = "缺席";
+
+"supportMirrorHRTak" = "帮助我们进一步开发MirrorHR";
+"supportMirrorHRTakDescription" = "我们非常感谢任何帮助，以便我们可以继续开发和改进 MirrorHR，以惠及任何有需要的家庭。";
+"OpenInBrowserLinkMsg" = "在浏览器中打开";
+"joinMirrorHRCommunityTask" = "加入 MirrorHR 社区";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR 是一项由社区主导的工作，因为只有团结起来我们才能产生影响。";
+"realTimeSessionTaskDescription" = "运行多个监控会话将帮助您更好地了解系统的工作原理以及如何更好地调整所有设置。";
+"videoLogTaskDescription" = "保持定期的视频日记，例如在睡觉前，这是反思白天发生的事情的好方法。如果您提到症状，它也可以自动记录它们。请注意：孩子可能会填写爱上了那种例行公事:-)";
+"medicationTakenTaskDecription" = "忘记服药可能会导致很多问题。确保您设置了药物提醒（在设置视图中）并且每次都正确跟踪药物。";
+"noTaskHistoryYet" = "还没有历史记录";
+"stepTaskCompletedOn" = "完成时间";
+"faqCheckListPicker" = "常见问题";
+"habitsCheckListPicker" = "习惯";
+"RefreshListText" = "刷新";
+"shareWithDoctorTask" = "与您的医生共享 MirrorHR 数据";
+"shareWithDoctorTaskDescription" = "定期与您的医生分享 MirrorHR 数据非常重要。养成每周至少这样做一次的习惯。";
+
+"exportAndShareDataCSV" = "导出和共享 MirrorHR 数据 (CSV)";
+"exportAndShareDataXLS" = "导出和共享 MirrorHR 数据 (XLS)";
+
+"version8_8OnboardingCardDescription" = "1. 新的清单功能有助于培养良好习惯、解决常见问题以及参与开发 MirrorHR 的家长和医生社区。\n
+2.对于没有Apple Watch的人，现在可以在日记中一键输入时手动记录癫痫发作的长度。\n
+3. 不过，现在只需在日记中按住  ⃝ 按钮两秒钟，即可为任何症状或事件添加注释。\n
+4. 如果实时会话在夜间睡眠期间处于活动状态，现在可以检测到呼吸频率和血液中的氧气。\n
+5. 现在可以导出数据并重新导入，以防移动到新手机。\n
+6. 修复了一些样式错误。\n
+7. 如果您喜欢 MirrorHR 并想给我们建议，请知道我们随时欢迎评论和电子邮件。 在“设置”部分中找到链接。\n
+谢谢";
+
+"FaqFromTheCommunity" = "来自社区的问题和建议";
+"watchConnectivityFAQTask" = "iPhone 和 Watch 连接性";
+"watchConnectivityFAQTaskDescription" = "为什么有时会收到未收到数据的通知？";
+"resetCheckListAboutButton" = "重置清单";
+"newBadgeText" = "新";
+"rateMirrorHRTask" = "帮助改进 MirrorHR";
+"rateMirrorHRTaskDescription" = "如果你喜欢这个应用程序，请在 Apple Store 给它五颗星，或者通过邮件分享任何反馈或建议。";
+"thanksToBeLocalized" = "谢谢！";
+
+"mirrorHRUserFlowTask" = "如何使用 MirrorHR";
+"mirrorHRUserFlowTaskDescription" = "我们正在尽最大努力使 MirrorHR 尽可能简单，您仍然可以在这里找到一些关于如何使用它的建议。";
+
+"ImportMirrorHRXLSLocalized" = "导入 MirrorHR XLS 文件";
+"ImportMirrorHRCSVLocalized" = "导入 MirrorHR CSV 文件";
+
+"mirrorHRHistoryTask" = "MirrorHR 背后的故事";
+"mirrorHRHistoryTaskDescription" = "为什么要开发MirrorHR？它是如何开发的？由父母和医生为父母和医生开发意味着什么？";
+"checkListDefaultCompletiontMsg" = "恭喜";
+"checkListdefaultIncentiveMsg" = "继续";
+"telemetryChecklistProgresses" = "检查清单进度";
+"exportAndShareLastMonthBPMData" = "导出并分享过去 30 天的完整 BPM 数据 (CSV)";
+"knowMoreWHOTask" = "了解更多关于癫痫的信息";
+"knowMoreWHOTaskDescription" = "WHO（世界卫生组织）是关于癫痫的重要信息来源。";
+
+"sympt_dermatitis" = "皮炎";
+"sympt_menses" = "月经";
+
+"alarmSoundVolumeMsg" = "音量";
+"ExportSeizuresDataOnlyMsg" = "导出缉获数据 (CSV)";
+"Export6MonthsOfHRV" = "导出最近六个月的 HRV 数据（如果有）(CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "导出所有数据可能需要一些时间。共享文件的窗口将尽快出现。";
+
+"ImportedNElementsFromXLSLocalized" = "导入的症状：";
+"CanTReadTheXLSFileLocalized" = "无法读取 XLS 文件";
+"CanTReadTheCSVFileLocalized" = "无法读取 CSV 文件";
+
+"ImportCompleteLocalizedAlertTitle" = "导入完成";
+
+"AlertConfirmMsgText" = "确认";
+"BtnOverwriteMsg" = "覆盖所有数据";
+"BtnAppendMsg" = "添加到现有数据";
+"BtnCancelMsg" = "取消";
+
+"version9OnboardingCardDescription" = "1. 新的 FastLog 按钮（日记视图）
+2. Excel 格式的新导入和导出数据，包含更多数据（见解和清单视图）
+3.调节闹钟音量的新选项（设置视图）
+4.新事件月经和皮炎（日记查看）
+5. 最低平台现在是 iOS 15/watchOS 7.5（因为它们提高了可靠性和安全性）
+6. Bug 修复：部分设备中的图像和符号，即使没有音频也可以保存视频日志，癫痫发作间隔公式
+7. 已知问题：当有操作系统更新时，某些设备可能需要重置 iPhone 和 Watch 配对。
+8. 如果您喜欢 MirrorHR 并想给我们建议，请知道我们随时欢迎评论和电子邮件。 在“设置”部分中找到链接。
+谢谢！ ";
+
+"sympt_FilterSupport" = "高级过滤器";
+"exportAndShareAnonymizedDataXLS" = "发送匿名数据";
+
+"appTerminatedMessage" = "MirrorHR 已关闭，无法再接收数据或发送警报！";
+
+"alreadyTakenString" = "完成";
+"minutesAgoString" = "m 前";
+
+// TherapyRelatedStrings
+"therapiesNavTitle" = "治疗";
+"newTherapyString" = "新疗法";
+"newCocktailString" = "新例程";
+"therapySampleName" = "治疗名称";
+"defaultNewTherapyName" = "治疗名称";
+"defaultNewDrugName" = "药物名称";
+"newDrugString" = "新药";
+"drugShapePillDescription" = "药丸";
+"drugShapeSpoonDescription" = "液体";
+"drugDosesTitle" = "药物剂量";
+"cocktailSectionTitle" = "例程";
+"drugsSectionTitle" = "药物";
+"therapyAlertYesNoSaveMsg" = "你想保存吗？";
+"missingFieldsALertMsg" = "您必须先填写所有字段";
+"reminderAtString" = "提醒时间：";
+"enableReminderString" = "启用提醒";
+"therapyUnitText" = "单位：";
+"therapyShapeText" = "形状：";
+"therapyQuantityText" = "数量：";
+"noDrugNameText" = "没有药物名称";
+"noDrugUnitText" = "没有药物单位";
+"noDrugShapeText" = "没有药物形状";
+"noCocktailNameText" = "没有例程名称";
+"drugOtherShapeDescription" = "其他";
+"sampleRoutineNameText" = "es. Morning";
+"sampleDrugNameString" = "es. Tegretol";
+"noReminderString" = "没有提醒";
+"noTherapyNameString" = "没有治疗";
+"therapySessionFooterText" = "在这里您可以追踪您的治疗历史";
+"therapyOnboardingHeadline" = "在这里您可以跟踪您的治疗历史";
+"noCurrentTherapyText" = "目前没有治疗";
+"currentTherapyTitleText" = "实际治疗";
+"addUpdateTherapiesText" = "添加或更新疗法";
+"editUpdateAllTherapyDB" = "编辑治疗数据";
+"cantDeleteAsUsedInCurrentTherapy" = "此记录无法删除，因为它已被当前治疗使用";
+"clearAllTherapyDataMsg" = "清除所有数据";
+"confirmDeleteAllTherapyData" = "这将删除所有治疗相关数据";
+"navigationBackDefaultText" = "返回";
+// EndTherapyRelatedStrings
+
+"version9_50onboardingCardDescription" =
+"1. 仅限 iOS 15
+2. RealTime Session 中记录的更多数据（如 bpm stats）
+3. 新的治疗经理
+4. Excel 导出现在在单独的 Excel 选项卡中导出最近 20 次缉获量，以导出更多 BPM
+5. 完全匿名数据的 Excel 导出
+6.点击时间线视图时的BPM图表，这是一个癫痫发作
+7. 处理癫痫发作时的固定视频癫痫发作
+8. 乌克兰语、泰语、俄语
+9. 更好的 NoData 处理（现在它与手表同步停止状态）
+10.应用程序终止时的通知声音
+11. 根据监控状态开启/关闭图标屏蔽
+12. 改进用药提醒处理
+13. 错误修复
+如果您喜欢 MirrorHR 并想给我们建议，请知道我们随时欢迎评论和电子邮件。 在“设置”部分中找到链接。
+谢谢！
+";
+
+"helpWithLocalizationString" = "帮助我们进行 MirrorHR 的本地化";
+
+"kidDateOfBirthString" = "出生日期";
+"kidAgeString" = "年龄";
+
+"AbsenceEpilepsyType" = "失神发作（以前称为小发作）";
+"TonicClonicEpilepsyType" = "强直阵挛或惊厥性癫痫发作（以前称为大发作）";
+"AtonicEpilespyType" = "Atonic EpilespyType";
+"ClonicEpilepsyType" = "阵挛性癫痫发作";
+"TonicEpilepsyType" = "强直性癫痫发作";
+"MyoclonicEpilepsyType" = "肌阵挛发作";
+"FocalAwarenessEpilepsyType" = "保留意识的局灶性癫痫发作";
+"FocalNotAwareEpilepsyType" = "失去意识的局灶性癫痫发作";
+"UnknownEpilpyType" = "未知";
+"epilepsyTypeString" = "癫痫类型";
+
+"firstRunWatchAlertMsg" = "第一次在 Apple Watch 上运行 MirrorHR 时，请确保您授予访问健康数据的权限";
+
+"tabCommunity" = "社区";
+"CommunityNavigationTitle" = "社区";
+"firstRunWatchAlertMsg" = "第一次在 Apple Watch 上运行 MirrorHR 时，请确保您授予访问健康数据的权限";
+"firstRunWatchAlertMsgExtended" = "第一次在 Apple Watch 上运行 MirrorHR 时，请确保您授予访问您的健康数据的权限。如果问题仍然存在，最简单的方法是从您的手机和 Apple Watch 上卸载 MirrorHR，重新安装并注意MirrorHR 首次在 Apple Watch 上运行。";
+"tabCommunityTitle" = "社区";
+"askForHelpChecklist" = "帮助";
+"askForHelpChecklistDescription" = "您需要帮助吗？联系我们，我们将尽力为您提供帮助。但是，您所在的时区可能会有几个小时的差异。您也可以直接发送电子邮件至 helpme@mirrorhr.org";
+"permissionsCheckFaq" = "Apple Watch 无法读取您的心率";
+"permissionsCheckFaqDescription" = "为什么 Apple Watch 上的 MirrorHR 总是显示 0 BPM，即使在应用程序运行几分钟后也是如此？";
+
+"nightViewCardTitle" = "夜景";
+"nightViewCardHeadline" = "MirrorHR 从不睡觉";
+"nightViewCardDescription" = "当心率监测激活时，您可以通过简单地将手机横向旋转来启用夜间模式。屏幕亮度将降低，只显示必要信息。此外，MirrorHR将防止手机关闭，让您能够一目了然地监控情况。建议在夜间将手机连接到电源。注意：如果您已更新至iOS 17，建议您从iPhone的设置中禁用StandBy功能。";
+
+"startFromWatchCardTitle" = "从 Apple Watch 开始";
+"startFromWatchCardHeadline" = "从 Apple Watch 上的 MirrorHR 开始监控";
+"startFromWatchCardDescription" = "为确保隐私和安全，监控必须从 Apple Watch 上的 MirrorHR 应用程序开始。当监控处于活动状态时，它可以被 iPhone 停止，甚至在 15 分钟内重新启动，之后必须从苹果手表。";
+"sympt_toothache" = "牙痛";
+"rebootWatchCardTitle" = "重启你的 Apple Watch";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "确保您的 Apple Watch 上的 MirrorHR 也已更新到最新版本。有时可能需要几分钟，为了确保一切正常，建议您关闭 Apple Watch 再打开再次按住表冠下方的侧面按钮，如图所示。";
+"doctorsEmailString" = "医生的邮箱：";
+"minutesString" = "分钟";
+
+"version9_60onboardingCardDescription" = "欢迎使用 MirrorHR 癫痫研究套件 9.60 版：更易于使用且功能齐全。
+MirrorHR 是由家长和医生为家长和医生开发的免费、安全、私密的应用程序。
+某些功能，例如实时心率监测和警报，需要将 Apple Watch（运行 WatchOS 8+）连接到 iPhone（运行 iOS 15+）。但是，如果您没有 Apple Watch，该应用程序对于记录所有事件和症状以及促进与您的医生更好地沟通仍然非常有益。
+MirrorHR 不是医疗设备，也不打算成为：它只是想与您的医生合作，帮助您更多地了解您所爱之人的癫痫病。
+
+此版本的重大创新包括：
+1. 改进Apple Watch控制，实时监控管理。
+2. 改进数据导出到 Excel 以方便与您的医生共享数据。
+3. 可能为您的医生预先填写最后一次癫痫发作的数据的电子邮件。
+4. 日记中有新症状，现在可以输入症状或事件的精确持续时间。
+5.修复了一些错误和性能改进。
+
+我们还提醒您，MirrorHR 是完全匿名的，数据仅在您的手机上。
+实时监控需要与 Apple Watch 配对。
+更新后，我们建议重新启动 Apple Watch 以确保两个应用程序（在 iPhone 和 Apple Watch 上）正确对齐。
+
+特别感谢两位一直为我们提出改进MirrorHR建议的超级妈妈：非常感谢Stefania和Elena。 #永不停止战斗
+
+如果您想帮助我们使 MirrorHR 癫痫研究套件更有帮助，请通过 helpme@mirrorhr.org 与我们联系，并在 Apple App Store 上发表评论。
+
+感谢您共同为癫痫研究做出贡献。
+";
+
+"backupSymptomsDataString" = "备份症状";
+"restoreSymptomsDataString" = "从备份中恢复症状";
+
+"AttentionRiskyWorkInProgressMessage" = "工作正在进行中。\n\n请在此处等待并保持 MIRRORH 处于活动状态，否则它可能会变得不稳定";
+
+"WhatsNew9_70_Title1" = "盡在掌控";
+"WhatsNew9_70_SubTitle1" = "新的備份和恢復功能";
+"WhatsNew9_70_Body1" = "數據始終安全且由您完全控制。單擊日記視圖中的導出圖標以查看新選項。";
+
+"WhatsNew9_70_Title2" = "最新消息";
+"WhatsNew9_70_SubTitle2" = "本頁";
+"WhatsNew9_70_Body2" = "查看最新更新的更簡單方法";
+
+"WhatsNew9_70_Title3" = "錯誤修復";
+"WhatsNew9_70_SubTitle3" = "幾個錯誤";
+"WhatsNew9_70_Body3" = "MirrorHR 比以往任何時候都更可靠。感謝您的持續反饋";
+
+"NotifyRTEndTitleMsg" = "实时会话结束";
+"NotifyRTEndCaptionMsg" = "实时会话停止时触发通知。它可能有助于防止它被错误地停止";
+"NoDataEventStringV2" = "我无法从 Apple Watch 接收数据！";
+"NoDataEventCaptionV2" = "请检查 iPhone 和 Apple Watch 是否已连接且可访问。如果错误仍然存在，请重启。";
+"NoDataReceivedStringV2" = "我已经超过多长时间没有收到来自 Apple Watch 的数据了";
+
+"TelemetryLocalizedSymptomsLogged" = "症状";
+"TelemetryLocalizedBpmMinMax" = "BPM 阈值";
+"TelemetryLocalizedMedicationReminders" = "用药提醒";
+"TelemetryLocalizedCheckList" = "检查清单进展";
+"TelemetryLocalizedDateOfBirth" = "年龄";
+"TelemetryLocalizedEpilepsyType" = "癫痫类型";
+"TelemetryLocalizedMirrorHRError" = "应用程序错误";
+"TelemetryLocalizedMonitoringSession" = "监控会话";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "你想停止接收严重错误的通知吗？";
+
+//流相关的东西
+"YouMustHaveWatchOrStreamingMain" = "要拥有实时心跳监测器、接收警报和许多其他功能，您需要将 Apple Watch 与此 iPhone 配对。";
+
+"YouMustHaveWatchOrStreamingSecondary" = "或者，您可以从另一部与 Apple Watch 配对并连接到同一网络的 iPhone 接收数据。";
+
+"IGetDataFromAnotherPhoneInLan" = "我可以从另一部运行 MirrorHR 并与 Apple Watch 配对的 iPhone 获取数据";
+
+"HealthDataSourceSettingsView" = "健康数据源";
+
+"EnableStreamingSettingsView" = "启用流式传输";
+
+"StreamingSectionFooterIntro" = "您必须将 iPhone 与 Apple Watch 配对才能启用实时监控、警报等。
+如果您有其他没有 Apple Watch 的 iPhone（最多 3 部），如果它们都连接到同一个 wi-fi 网络（例如，大房子、另一个房间里的孩子在 iPhone 上使用主 MirrorHR 应用程序），您可以向它们发送数据 和 Apple Watch 等）。";
+
+"StreamingSectionAlertMsg" = "所有 iPhone 都应安装 MirrorHR，并启用流媒体标志。与 Apple Watch 连接的设备将发送数据，而其他设备将接收数据。请注意：MirroHR 必须在两者的前台运行 设备。如果连接丢失，您必须在实时视图中重新执行连接过程。如果您需要有关此功能的帮助，请随时发送电子邮件至 helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "流";
+"StreamingConnectedTo" = "连接到：";
+"NotConnectedToAnyStream" = "未连接到任何流";
+"StreamingReceivingDataFrom" = "接收数据来自：";
+"StreamingSendingDataTo" = "发送数据到：";
+"CheckStreamingUnderstandAlert" = "检查流媒体理解";
+"PairedWithAppleWatchView" = "与 Apple Watch 配对";
+
+"CiaoSettingsGreeting" = "你好";
+"FrequentlyAskedQuestionsSeparator" = "常见问题 (FAQ)";
+
+"sympt_aura" = "光环";
+"version10_5_WhatsNewDescription" = "1. 简化的用户体验和新的症状。
+2. 修复了一些错误。
+如果您喜欢 MirrorHR 并想给我们建议，请知道我们总是非常欢迎评论和电子邮件。 在“设置”部分中找到链接。
+谢谢！";
+
+"InformazioniPersonaliHeader" = "个人信息";
+
+"healthPermissionsFAQTask" = "如何修复 Apple HealthKit 的权限。";
+"cantWorkWithoutHealthAccessMessage" = "对不起，我无法访问健康数据无法工作。如果出错，请检查 iPhone 上 MirrorHR 应用程序中的支持选项或重新安装 MirrorHR。";
+"healthAccessErrorMessage" = "从 Apple HealthKit 读取健康数据时出错。请检查 iPhone 上 MirrorHR 应用程序中的支持选项。";
+"GrantAllPermissionsCarefullyMessage" = "授予读取健康数据的权限。";
+"GrantAllPermissionsCarefullyMessagePart2" = " 请注意，如果您取消该过程或拒绝某些权限，MirrorHR 将根本无法工作。";
+"TapHereToHandleMsg" = "点击此处进行处理。";
+"YouAreInStreamingMode" = "MirrorHR 设置为从另一部与 Apple Watch 配对的 iPhone 接收数据。组织起来只是为了接收数据，因此您的功能和选项有限。";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "我想停止从其他设备接收数据并查看完整选项。";
+"ItWillStopCurrentSessionMsg" = "注意：它将停止当前会话。";
+
+"MirrorHRLeveragesBPMHeadline" = "临床研究表明，超过 70% 的癫痫患者在癫痫发作后数秒内会出现突然的心率加快。MirrorHR 通过 Apple Watch 持续监测心率 (BPM)，并且可以设置警报以验证某些情况。如果您没有 Apple Watch，所有医生都建议您记下所有症状和事件的日记，即使在此 MirrorHR 中也可以为您提供帮助。";
+"AlarmOnboardingCardHeadline" = "您可以在此处设置您希望收到警报的心率阈值 (BPM)。请确保不要在 Apple Watch 上重复通知，否则您可能无法收到警报。此功能需要 iPhone与 Apple Watch 配对。";
+"CanTEarAlarmSoundGoBackMsg" = "如果您还没有收到测试警报通知，请返回上一屏幕并确保您已按照所有步骤操作。如果您需要支持，请随时发送电子邮件至 helpme@mirrorhr.org";
+
+"ItRequiresPermissionsAPopUpWillShow" = "如果您启用此功能，将显示要求允许从手表读取健康数据的弹出窗口。请授予所有必需的权限。";
+"HealthDataUnavailableErrorMsg" = "所需的健康数据在此设备上不可用。请检查支持选项。";
+"QuantityTypeUnavailableErrorMsg" = "所需的健康数量类型在此设备上不可用。请检查支持选项。";
+"DataTypeUnavailableErrorMsg" = "所需的健康数据类型在此设备上不可用。请检查支持选项。";
+"HealthPermissionsNotGrantedErrorMsg" = "您没有授予从 Apple HealthKit 读取健康数据所需的权限。不幸的是，MirrorHR 没有它就无法工作。如果是无意的，请通过 helpme@mirrorhr.org 联系我们，或者只是 尝试从 Apple Store 删除并重新安装 MirrorHR。";
+
+"AskNotificationPermissionsMsg" = "授予发送通知和重要通知的权限（即使 iPhone 处于静音模式，它们也会触发）。";
+
+"AcceptingConditionsByContinuingMsg" = "通过继续使用MirrorHR，我确认我已阅读并理解上述内容，接受条件。";
+"SwipeRightToContinueSetupMsg" = "向右滑动以进一步完成设置。";
+"StopUsingMirrorHRContactUsMsg" = "如果您不同意，请停止使用 MirrorHR。如果您需要任何信息，请发送电子邮件至 helpme@mirrorhr.org 联系我们。";
+
+"AboutYouPersonalSettingsSection" = "关于你";
+"SettingsSettingsSection" = "设置";
+"MedicalPlanSettingsSection" = "医疗计划";
+"AboutMirrorHRSettingsSection" = "关于 MirrorHR";
+
+"sympt_ask4Help" = "寻求帮助";
+"remoteNotificationsSettingsTitleMsg" = "护理人员";
+"remoteNotificationsCaregiversFooter" = "护理人员可以通过链接（通过WhatsApp、短信或其他方式）与患者共享其ID。当患者打开链接时，可以注册护理人员以接收每个事件或警报的通知。双方都必须安装和配置MirrorHR。您可以有多个护理人员。";
+"yourUniqueIDText" = "您的唯一ID：";
+"shareYourIDCaregiverMsg" = "与患者分享您的ID，以便您成为护理人员并接收记录的症状或警报的通知。";
+"shareYourIDBtnMsg" = "与看护人员分享您的患者ID，以便您可以发送症状、警报等通知。";
+"caregiversListMsg" = "以下是您当前可以接收通知的护理人员列表。";
+"uUIDMsg" = "您的唯一匿名ID：";
+"saveSymptomInDiaryMsg" = "在日记中保存症状";
+"remoteNotificationMsg" = "远程通知：";
+"sympt_AlarmFired" = "触发警报";
+"stopReceivingNotificationsFor15Mins" = "停止接收通知 15 分钟。";
+"event_RealTimeSessionStarted" = "实时会话已开始";
+"tryPushNotificationBtnLabel" = "尝试通知";
+"testRemoteNotifications" = "这是一个测试";
+
+"version11_WhatsNewDescription" = "引入一个重要的新功能：照护者的远程监控。现在可以向安装在照护者iPhone上的MirrorHR应用程序发送远程通知了。此功能可以在设置选项卡中配置，并且还能发送'求助'通知，可以从日记选项卡或iPhone主屏幕上的新小部件发送。
+
+如果您喜欢MirrorHR并希望提供反馈或建议，请知道我们非常欢迎您的评论和电子邮件。您可以在设置部分找到链接。谢谢！";
+
+"alarmSentMsg" = "报警已发送";
+"stopCountdownMsg" = "停止倒计时";
+"stoppedMsg" = "已停止";
+
+"TabHome" = "首页";
+"NextMedication" = "下一次用药";
+"RemindersLink" = "提醒";
+"QuickNotesMsg" = "快速笔记";
+"savedBtnMsg" = "已保存";
+"RemindersNotSet" = "还未设置提醒";
+"TherapiesNotSet" = "还未设置疗法";
+"ThisWeekMedicationAtGlance" = "本周药物";
+"SinceLastSeizureString" = "自上次癫痫发作以来";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "欢迎来到MirrorHR版本14 - 癫痫研究工具包！我们很高兴推出新的主页标签，将重要信息直接带到您的指尖。记录关键事件、跟踪药物和疗法以及快速记笔记从未如此简单。借助MirrorHR，您可以更清晰地了解您的癫痫管理，促进与您的医疗服务提供商的深入讨论。您宝贵的反馈帮助我们提高了性能并修复了一些错误，使应用程序比以往任何时候都更为顺畅。
+
+喜欢MirrorHR？您的评价和反馈对于完善体验至关重要。请随时留下评价或通过电子邮件向我们提供您的建议。您可以在设置部分找到链接。感谢您的持续支持！";
+
+"MoodMsg" = "心情";
+"sympt_mood_happy" = "快乐";
+"sympt_mood_calm" = "平静";
+"sympt_mood_sad" = "伤心";
+"sympt_mood_angry" = "生气";
+"sympt_mood_anxious" = "焦虑";
+
+"AppreciateDonationsMsg" = "MirrorHR 将永远免费。尽管如此，如果您能够，我们非常感激任何捐助以支持其开发。谢谢。";
+"ThankYouForDonationMsg" = "感谢您的捐赠！非常感激！";
+"DonationFailedMsg" = "捐赠失败！您可以稍后再试。谢谢。";
+"DonationCancelledMsg" = "捐赠已被取消。您可以稍后再试。谢谢。";
+"UnknownDonationStatusMsg" = "未知的捐赠状态。您可以稍后再试。谢谢。";
+
+"sympt_Myoclonic_Trembling" = "肌阵挛颤抖";
+
+"EnableLocalStreaming" = "启用本地流媒体";
+"EnableReceivingRemoteStreaming" = "启用通过互联网接收数据";
+"EnableReceivingRemoteStreamingFooter" = "如果您是照护者，您可以从远程 MirrorHR 接收 BPM 和通知。需要家长/监护人关系和互联网连接。由于网络条件，数据可能会延迟，BPM 可能会尽可能发送。";
+
+// 版本 15 - 2024年7月
+
+"CreateMirrorHRBckTitle" = "创建 MirrorHR 备份";
+"BackupRestoredMsg" = "备份已恢复";
+"RestoreBackupMsg" = "恢复备份";
+"ConfirmRestoreMsg" = "确认恢复";
+"ProcessingMsg" = "处理中...";
+"ConfirmRestoreMessageExt" = "确定要恢复备份吗？这将覆盖现有数据。";
+"RestoreOnlyMsg" = "恢复";
+"RestoreCompleteSuccessMsg" = "恢复成功完成。";
+"RestoreFailureMsg" = "恢复失败，错误：";
+"BackupErrorSorryMsg" = "抱歉，我无法恢复 MirrorHR 备份";
+"SwitchedActivePatientBecauseSeverEvent" = "切换了活动患者以处理刚收到的严重事件。开始接收 BPM。";
+"SameEventsMsg" = "相同事件";
+"HandlingRemoteCommandMsg" = "处理远程命令：";
+"event_realTimeSessionEnded" = "实时会话结束";
+"RealTimeRemoteActiveMsg" = "实时在远程 MirrorHR 上处于活动状态。";
+"RealTimeRemoteOffMsg" = "实时在远程 MirrorHR 上关闭。";
+"RemoteRealtimeUnkwongMsg" = "远程 MirrorHR 上的实时状态未知。";
+"RemoteNoPatientSelectedMsg" = "未选择远程 MirrorHR 患者";
+"RemoteFetchingDataMsg" = "从远程 MirrorHR 获取数据";
+"RemoteNoDataKeyMsg" = "未从远程 MirrorHR 接收数据";
+"RemoteNoDataCaptionMsg" = "可能没有互联网连接或远程 MirrorHR 上的实时会话未激活";
+"RemoteMustHaveWatchInfoMsg" = "您必须配对 Apple Watch 或其他 MirrorHR 应用以传输数据。您可以在设置选项卡的健康数据源部分检查所有选项。";
+"RemoteCheckStatusActiveMsg" = "检查远程状态";
+"RemoteCheckingStatusDisabledMsg" = "检查中...";
+"RemoteRunningMsgMaxTime" = "从远程 MirrorHR 接收 BPM（最多 5 分钟）";
+"RemoteRealTimeIsNotRunningMsg" = "实时未在远程 MirrorHR 上运行";
+"RemoteTryReceivingBpmsMsg" = "尝试从远程 MirrorHR 接收 BPM";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "从远程 MirrorHR 接收 BPM（仅几分钟）";
+"RemoteStreamingOptionsSettingsMsg" = "您可以在设置 - 健康数据源中设置一些流选项";
+"RemoteConnectedAndReceivingMsg" = "连接到互联网并接收数据自：";
+"RemoteNoPatientAssociatedMsg" = "没有关联的患者";
+"RemoteSelectActivePatientMsg" = "选择并激活患者";
+"RemoteThereIsNoInternetConnectionMsg" = "没有互联网连接";
+"RemoteConnectedToInternetMsg" = "已连接到互联网";
+"RemoteSendingDataToMsg" = "发送数据到：";
+"RemoteNoCaregiverAssociatedMsg" = "没有关联的看护人";
+"BackupAndRestoreHeaderMsg" = "备份和恢复";
+"LocalNotificationsHeaderMsg" = "本地通知";
+"RemoteNotificationsHeaderMsg" = "远程通知";
+"RemoteActivePatientsHeaderMsg" = "活跃患者";
+"Ask4HelpNeedsYourHelpMsg" = "需要你的帮助！";
+"RemoteNotificationTitleMsg" = "远程通知";
+"LocationServicesLocalized" = "位置服务";
+"RemoteDiaryOnlyDataSourceTitle" = "仅日记";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "已与 Apple Watch 配对，并通过互联网将主要事件发送给看护人";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "已与 Apple Watch 配对，并通过互联网将主要事件和 BPM 发送给看护人";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "通过互联网从另一个 MirrorHR 接收主要事件";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "通过互联网从另一个 MirrorHR 接收主要事件和 BPM";
+"RemotePotentialOnboardingRestartMsg" = "为了正确配置一些新设置，可能会重新开始引导过程。";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "没有可用的 Apple Watch。MirrorHR 仅作为日记使用。没有启用生物数据源，没有可用的警报。";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR 直接与 Apple Watch 配对，可以接收生物数据。本地警报和通知已启用。";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR 已与 Apple Watch 配对，可以通过互联网将主要事件发送给看护人，作为通知。看护人必须运行 MirrorHR 并配置为接收这些事件。这些通知可能会有延迟。";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR 已与 Apple Watch 配对，可以通过互联网将主要事件和 BPM 发送给看护人。看护人必须运行 MirrorHR 并配置为接收这些事件和 BPM。这些通知可能会有延迟。";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR 未直接连接到 Apple Watch，但可以通过互联网从另一个与 Apple Watch 配对的 MirrorHR 接收主要事件。这些通知可能会有延迟。";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR 未直接连接到 Apple Watch，但可以通过互联网从另一个与 Apple Watch 配对的 MirrorHR 接收主要事件和 BPM。这些通知可能会有延迟，并且 MirrorHR 应处于前台以确保接收 BPM。";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR 未在远程 iPhone 上激活";
+"RemoteStopReceivedFromPatientMsg" = "从远程患者接收到实时停止命令";
+"RemoteNoDataFromTheInternetMsg" = "未从远程患者接收到数据";
+
+"version15_WhatsNewDescription" = "欢迎使用MirrorHR - Epilepsy Research Kit的第15版！我们很高兴推出我们完整的远程监控系统，提高我们孩子和亲人的自主性。除了记录主要事件、跟踪药物和治疗外，现在您还可以收到所有这些活动的远程通知，包括警报和BPM，即使您距离亲人有几英里远。此功能要求患者佩戴与运行MirrorHR的iPhone配对的Apple Watch，而作为护理人员，您只需在您的iPhone上安装MirrorHR。
+
+一如既往，MirrorHR帮助您更清晰地了解癫痫管理，促进与您的医疗提供者的更好讨论。您宝贵的反馈意见带来了性能提升和错误修复，使应用程序比以往更加流畅。
+
+喜欢MirrorHR吗？您的评论和反馈对完善体验至关重要。随时留下评论或发送电子邮件给我们您的建议。在设置部分找到链接。感谢您的持续支持！";

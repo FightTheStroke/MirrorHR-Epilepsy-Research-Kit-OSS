@@ -1,0 +1,14 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "Deze toepassing";
+
+"AppreciateDonationsMsg" = "MirrorHR zal altijd gratis zijn. Toch waarderen we elke donatie om zijn ontwikkeling te ondersteunen, als je kunt. Dank je.";
+"ThankYouForDonationMsg" = "Bedankt voor je donatie! Zeer gewaardeerd!";
+"DonationFailedMsg" = "Donatie mislukt! Je kunt het later opnieuw proberen. Dank je.";
+"DonationCancelledMsg" = "Donatie is geannuleerd. Je kunt het later opnieuw proberen. Dank je.";
+"UnknownDonationStatusMsg" = "Onbekende donatiestatus. Je kunt het later opnieuw proberen. Dank je.";

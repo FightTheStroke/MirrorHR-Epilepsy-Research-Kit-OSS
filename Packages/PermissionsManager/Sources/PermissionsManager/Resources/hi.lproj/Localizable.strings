@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "यह एप्लिकेशन";
+
+// प्राधिकरण स्थितियां
+"NotDeterminedLocalized" = "निर्धारित नहीं";
+"DeniedLocalized" = "अस्वीकृत";
+"AuthorizedLocalized" = "Authorized";
+"UnknownLocalized" = "अज्ञात";
+"NotAvailableLocalized" = "उपलब्ध नहीं";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "अनुमतियाँ प्रबंधक त्रुटि: अनुमति प्रकार मौजूद नहीं है";
+
+// अनुमतियाँ नाम
+"CameraLocalized" = "वीडियो कैमरा";
+"CriticalNotificationsLocalized" = "महत्वपूर्ण सूचनाएं";
+"NotificationsLocalized" = "सूचनाएं";
+"HealthDataLocalized" = "स्वास्थ्य डेटा";
+"MicrophoneLocalized" = "माइक्रोफ़ोन";
+"SpeechRecognitionLocalized" = "Speech Recognition";
+
+// संदेश
+"OKMessageLocalized" = "धन्यवाद!";
+"RecoveryMsgLocalizePart1" = "कृपया iPhone सेटिंग पर जाएं और ढूंढें";
+"DescriptionMsgPart1" = "सक्षम किया जा रहा है";
+"DescriptionMsgPart2" = "इस ऐप के सही ढंग से काम करने के लिए आवश्यक है।";
+"NoOkMessagePart1" = "आपने इसका एक्सेस नहीं दिया";
+"NoOkMessagePart2" = "और इसलिए मैं ठीक से काम नहीं कर सकता। मुझे खेद है।";
+"RecoveryMsgLocalizePart2" = "और सभी आवश्यक अनुमतियाँ प्रदान करें। धन्यवाद।";
+
+// चेक देखें
+"AuthCheckPointTitle" = "प्राधिकरण जाँच";
+"GrantItBtnLabel" = "अनुदान दें";
+"SomeMissingAuthNeeded" = "एप्लिकेशन को ठीक से काम करने के लिए अभी भी कुछ प्राधिकरणों की आवश्यकता है। कृपया उन्हें सभी प्रदान करें। यदि आपको किसी भी सहायता की आवश्यकता है तो एक ईमेल भेजें:";
+
+// अनिवार्य
+"MandatoryMsg" = "अनिवार्य";
+// मार्गदर्शन
+"SkipMsgText" = "छोड़ें";
+"LocationServicesLocalized" = "स्थान सेवाएँ";

@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "这个应用程序";
+
+// 授权状态
+"NotDeterminedLocalized" = "未确定";
+"DeniedLocalized" = "拒绝";
+"AuthorizedLocalized" = "授权";
+"UnknownLocalized" = "未知";
+"NotAvailableLocalized" = "不可用";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "权限管理器错误：权限类型不存在";
+
+// 权限名称
+"CameraLocalized" = "摄像机";
+"CriticalNotificationsLocalized" = "重要通知";
+"NotificationsLocalized" = "通知";
+"HealthDataLocalized" = "健康数据";
+"MicrophoneLocalized" = "麦克风";
+"SpeechRecognitionLocalized" = "语音识别";
+
+// 消息
+"OKMessageLocalized" = "谢谢！";
+"RecoveryMsgLocalizePart1" = "请进入 iPhone 设置，寻找";
+"DescriptionMsgPart1" = "启用";
+"DescriptionMsgPart2" = "此应用程序正常运行必不可少。";
+"NoOkMessagePart1" = "您没有授予访问权限";
+"NoOkMessagePart2" = "所以我不能正常工作。对不起。";
+"RecoveryMsgLocalizePart2" = "并授予所有必需的权限。谢谢。";
+
+// 检查视图
+"AuthCheckPointTitle" = "授权检查";
+"GrantItBtnLabel" = "授予它";
+"SomeMissingAuthNeeded" = "应用程序正常运行仍需要一些授权。请全部授予。如果您需要任何帮助，请发送电子邮件至：";
+
+// 强制的
+"MandatoryMsg" = "强制";
+// 导航
+"SkipMsgText" = "跳过";
+"LocationServicesLocalized" = "定位服务";

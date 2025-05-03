@@ -1,0 +1,851 @@
+/*
+  Localizable.strings
+  Epilepsie-onderzoekskit
+ 
+  Gemaakt door Roberto D'Angelo op 15/09/21.
+  Copyright © 2021 Stichting FightTheStroke. Alle rechten voorbehouden.
+*/
+"languageUIMsg" = "UI-taal";
+"languageUI_String" = "Dutch";
+"errorMsg" = "Fout";
+"shareFeedback" = "Geef ons feedback";
+"doYouNeedHelpString" = "Heeft u hulp nodig?";
+"shortAppName" = "MirrorHR";
+"aboutWebsiteString" = "MirrorHr.org";
+"appName" = "MirrorHR: Epilepsie Onderzoekskit";
+"secondsString" = "seconden";
+"defaultEmergencyNumber" = "112";
+"sympt_emptySymptom" = "leeg symptoom";
+"sympt_seizure" = "Inbeslagneming";
+"sympt_highBPM" = "Hoge hartslag";
+"sympt_lowBPM" = "Lage hartslag";
+"sympt_constipation" = "Constipatie";
+"sympt_diarree" = "Diarree";
+"sympt_hiccup" = "Hiccup";
+"sympt_dizziness" = "Duizeligheid";
+"sympt_fatigue" = "Vermoeidheid";
+"sympt_fever" = "Koorts";
+"sympt_headache" = "Hoofdpijn";
+"sympt_medicalExamination" = "Medisch onderzoek";
+"sympt_hospitalisatie" = "Hospitalisatie";
+"sympt_emergencyRoom" = "Emergency Room";
+"sympt_coughing" = "Hoesten";
+"sympt_nausea" = "Misselijkheid";
+"sympt_shortnessOfBreath" = "Kortademigheid";
+"sympt_soreThroat" = "Keelpijn";
+"sympt_vomiting" = "braken";
+"sympt_excitement" = "Opwinding";
+"sympt_moodChanges" = "Stemmingsveranderingen";
+"sympt_sleepChanges" = "Slaapveranderingen";
+"sympt_sleepDeprivation" = "Slaaptekort";
+"sympt_appetiteChanges" = "Veranderingen in de eetlust";
+"sympt_videoLog" = "Video dagboek";
+"sympt_videoSeizureLog" = "Inbeslagnemingslogboek";
+"sympt_textLog" = "Tekstlogboek";
+"sympt_stress" = "Stress";
+"sympt_medicationTaken" = "Medicatie ingenomen";
+"sympt_medicationForgotten" = "Medicatie gemist";
+"sympt_other" = "Andere";
+"sympt_emergencyMedication" = "Noodmedicatie (bijv. Buccolam, Micropam)";
+"tabChecklist" = "Checklist";
+"tabRealTimeMonitor" = "RealTime";
+"tabDiary" = "Dagboek";
+"tabInsights" = "Insights";
+"tabSettings" = "Instellingen";
+"tabDebugLogs" = "Debuggen";
+"tabOnboarding" = "Onboarding";
+"realTimeNoWatchSampleImage" = "realtimesample";
+"personalizeStartImage" = "";
+"whatsUrNameImage" = "";
+"whereULiveImage" = "";
+"minBpmImage" = "";
+"maxBpmImage" = "";
+"mirrorNotificationImage" = "watchnotificationsoff";
+"alarmSoundImage" = "";
+"notificationSoundImage" = "";
+"parentalControlImage" = "";
+"emergencyContactImage" = "";
+"readyToStartImage" = "";
+"UNABLESAVEVIDEOMSG" = "Sorry, ik kon de video niet opslaan :( ";
+"comingSoonMsg" = "Binnenkort beschikbaar:";
+"youMustHaveWatchString" = "Er is een Apple Watch nodig voor realtime bewaking en alarmen";
+" iHaveAWatchNowString" = "Ik heb een Apple Watch";
+"appleWatchRequiredMsg" = "Apple Watch is vereist voor deze functie";
+"importantMsg" = "Belangrijk bericht";
+"watchMainErrorMsg" = "Horloge-app is niet geïnstalleerd OF horloge is niet gekoppeld aan de telefoon installeert/controleert";
+"wichLanguageDoUSpeak" = "Welke taal spreekt u?";
+"selectLanguage" = "Selecteer een van de beschikbare talen voor spraakherkenning:";
+"willAddMoreLanguagesMsg" = "We zullen meer talen toevoegen in de toekomst.";
+"whenQuestion" = "Wanneer?";
+"lastWeeksString" = "Laatste weken";
+"lastMonthsString" = "Laatste maanden";
+"weekdaysString" = "Weekdagen";
+"weekendString" = "Week-end";
+"loggedAtString" = "Gelogd op: ";
+"fromString" = "From: ";
+"toString" = "To: ";
+"LenghtString" = "Lenght: ";
+"notesString" = "Notes: ";
+"editNotesString" = "Bewerk notities voor: ";
+"rememberDuplicateNotificationsString" = "Vergeet niet om meldingen op het horloge te vermijden, anders gaat het alarm niet af als de app op de achtergrond is!";
+"gotItMsg" = "Begrepen!";
+"unplannedEventMsg" = "Sorry, er heeft zich een ongeplande gebeurtenis voorgedaan";
+"stopLowBatteryNotificationsMsg" = "Stop meldingen voor een bijna lege batterij";
+"continueMsg" = "Doorgaan";
+"firedAtMsg" = "Gevuurd op";
+"manualAlarmTriggeredMsg" = "Handmatig afgevuurd op";
+"manualFalseAlarmTriggeredMsg" = "Vals alarm";
+"byBPMofMsg" = "door een BPM van";
+"watchBatteryIsMsg" = "De batterij van het horloge is ";
+"doYouWantLowBatteryNotificationsMsg" = "Wilt u meldingen blijven ontvangen als de batterij bijna leeg is op het horloge?";
+"firedByMsg" = "ontslagen door";
+"bpmMsg1" = "BPM.";
+"unclassifiedAlarmStopMsg" = " Sessie gestopt, niet-geclassificeerd alarm";
+"lastSeizureMsg" = "Laatste aanval";
+"seizureStatsMsg" = "Aanvallen";
+"videoLogBtnMsg" = "Video dagboek";
+"seizureLogBtnMsg" = "Video-opname";
+"drillDownByDateMsg" = "BPM op datum";
+"symptomsLogs" = "Symptomendagboek";
+"insightsNavigationMsg" = "Insights";
+"analyzingDataMsg" = "Gegevens analyseren...";
+"sinceLastEventMsg" = "Sinds laatste gebeurtenis: ";
+"sinceLastEventString" = "sinds laatste op";
+"fromPreviousMsg" = "Sinds vorige gebeurtenis:";
+"congratsNoSeizureMsg" = "Gefeliciteerd! Geen ernstige gebeurtenissen!";
+"saveLogMsg" = "Logboek opslaan";
+"detailLogMsg" = "Is er een detail dat u wilt vastleggen?";
+"saveBtnMsg" = "Opslaan";
+"speechHintMsg" = "Tip: u kunt typen of, als u op het symbool van de microfoon op het schermtoetsenbord drukt, dicteren.";
+"cancelActionMsg" = "Afwijzen";
+"okActionMsg" = "OK";
+"realTimeMsg" = "RealTime";
+"alarmMsg" = "Alarm";
+"csvExportMsg" = "Exporteren naar CSV";
+"olderString" = "Ouder";
+"thisWeekString" = "Deze week";
+"exportString" = "Exporteren";
+"warningMsg" = "Waarschuwing";
+"startMsg" = "Begin";
+"stopMsg" = "Stop";
+"ciaoMsg" = "Ciao, ik ben Mario";
+"ciaoHeadlineMsg" = "Ciao betekent 'Hallo', in het Italiaans";
+"ciaoDescriptionMsg" = "Bedankt dat je meedoet in de strijd tegen epilepsie";
+"disclaimerTitleMsg" = "DISCLAIMER";
+"disclaimerHeadlineMsg" = "MirrorHR is ontworpen om ouders, artsen en verzorgers te helpen meer inzicht te krijgen in de aanvallen van hun geliefde kinderen. Het is ontwikkeld door ouders en artsen voor ouders en artsen. MirrorHR is GEEN medisch hulpmiddel en moet worden gebruikt alleen in samenwerking met uw arts.";
+"disclaimerDescriptionMsg" = "MirrorHR vertrouwt op Apple Iphone en Watch voor alle sensoren en gegevensverzameling. Video's worden opgeslagen in uw bibliotheek, gezondheidsgegevens worden opgeslagen in de lokale Apple HealthKit. De enige gegevens die uw telefoon kunnen achterlaten, zijn crashrapporten (hopelijk zeer paar keer).";
+"personalizeStartMsg" = "Laten we MirrorHR personaliseren";
+"personalizeStartHeadlineMsg" = "MirrorHR is ontworpen om ouders, artsen en verzorgers te helpen meer inzicht te krijgen in de aanvallen van hun geliefden.";
+"personalizeStartDescription" = "";
+"whatsUrNameMsg" = "Wat is uw naam?";
+"whatsUrNameHeadlineMsg" = "";
+"whatUrNameDescriptionMsg" = "Als u een ouder of verzorger bent, voer dan de naam in van het kind waarvoor u zorgt.";
+"whereULiveMsg" = "Waar woon je?";
+"whereULiveHeadLineMsg" = "Zodat we weersomstandigheden kunnen detecteren en kunnen correleren met gebeurtenissen";
+"whereULiveDescriptionMsg" = "We gebruiken https://openweathermap.org voor deze functie";
+"alarmSettingsMsg" = "ALARMINSTELLINGEN";
+"alarmString" = "ALARMEN";
+"minBpmMsg" = "Minimale BPM";
+"minMaxBpmDescriptionMsg" = "MirrorHR meet de hartslag in realtime (BPM) en geeft een alarm wanneer aan deze voorwaarden wordt voldaan:";
+"maxBpmMsg" = "Maximale BPM";
+"mirrorNotificationMsg" = "BELANGRIJK!";
+"mirrorNotificationsWatchMsg" = "Meldingen op het horloge uitschakelen";
+"mirrorNotificationDescriptionMsg" = "Dit is super belangrijk, doe het nu meteen, alstublieft.\n Ga op de Watch-app, meldingen en beveiligde meldingen van MirrorHR worden niet gespiegeld naar de Watch.";
+"alarmSoundTitleMsg" = "ALARMEN";
+"alarmSoundHeadlineMsg" = "(ja, het zou je moeten kunnen wekken als het afgaat!)";
+"alarmSoundDescriptionMsg" = "";
+"notificationSoundTitleMsg" = "MELDINGEN";
+"notificationSoundHeadlineMsg" = "Meldingen zijn niet kritisch, maar toch erg belangrijk";
+"notificationSoundDescriptionMsg" = "We geven bijvoorbeeld een melding als er problemen zijn met het ontvangen van gegevens van het horloge, of als de batterij bijna leeg is, dus het is beter om ze in de gaten te houden";
+"parentalControlTitleMsg" = "Ouderlijk toezicht";
+"parentalControlOnString" = "Ouderlijk toezicht is ingeschakeld";
+"parentalControlHeadlineMsg" = "Voorkomen dat de sessie vanaf de Watch wordt gestopt";
+"parentalControlDescriptionMsg" = "Het schakelt een aantal veiligheidsfuncties in, zoals het voorkomen van het stoppen van de sessie vanaf het horloge, automatisch herstarten van de alarmmeldingen na 15 minuten na een vals alarm, enz. Als dit is uitgeschakeld, ontvangt u een melding wanneer de sessie eindigt van het horloge.";
+"emergencyContactTitleMsg" = "Noodnummer";
+"emergencyContactHeadLineMsg" = "gewoon om het te hebben";
+"emergencyCallLabelMsg" = "Help";
+"helpLabelMsg" = "Help";
+
+"emergencyContactDescriptionMsg" = "Het kan 911 zijn, of het equivalent in uw land, of een andere telefoon die u zo snel mogelijk wilt kunnen bellen, voor het geval dat.";
+"emergencyContactDescriptionMsg4AboutView" = "Het kan 911 zijn, of het equivalent in uw land, of een andere telefoon die u zo snel mogelijk wilt kunnen bellen.";
+"readyToStartTitleMsg" = "Klaar om te beginnen!";
+"readyToStartHeadlineMsg" = "Bedankt voor uw hulp.";
+"readyToStartDescriptionMsg" = "U kunt altijd elke instelling wijzigen via het tabblad Instellingen";
+"whenBpmLowerThanMsg" = "Als BPM lager is dan";
+"whenBpmHigherThanMsg" = "Als BPM hoger is dan";
+"triageDeltaTimeBeforeFireAlarmMsg" = "Tijdbuffer voordat alarm afgaat: ";
+"privacyMsg" = "Accepteer privacybeleid";
+"privacyAcceptanceMsg" = "Ik begrijp het";
+"alarmSoundStyleMsg" = "Alarmgeluidsstijl";
+"testAlarmSoundMsg" = "Test alarmgeluid";
+"testAlarmBtnMsg" = "Testalarm";
+"testLowBatteryBtnMsg" = "Test batterij bijna leeg";
+"testAlarmSoundBgkTitleMsg" = "Test alarmgeluid (vertraagd)";
+"testAlarmSoundBgkMsg" = "Belangrijk! Test het alarm wanneer de telefoon in de modus Niet storen staat.";
+"testAlarmImptMsg" = "Ga terug naar het startscherm van de iphone en zet de telefoon in de stille modus, om ervoor te zorgen dat deze afgaat wanneer de app op de achtergrond is en zelfs 's nachts. Het alarm moet na 30 seconden afgaan. Als u alleen de melding ziet maar kan geen sterk geluid horen, zorg ervoor dat de meldingen niet worden gedupliceerd op het horloge";
+"notificationSoundStyleMsg" = "Geluidsstijl voor meldingen";
+"testNotificationSoundMsg" = "Test meldingsgeluid";
+"openWatchAppMsg" = "Open Watch-app";
+"testCallMsg" = "Testafroep";
+"nameString" = "Naam:";
+"livingInString" = "Wonen in:";
+"iSpeakLanguage" = "Ik spreek:";
+"watchAvailableSectionString" = "Apple Watch";
+"watchAvailableToggleString" = "Apple Watch beschikbaar";
+"watchAvailableToggleCaptionString" = "Als u een Apple Watch hebt, kunt u geavanceerde functies inschakelen, zoals realtime bewaking van de hartslag, alarmen, meldingen en nog veel meer.";
+"alarmSettingsFooterMsg" = "Het wordt onmiddellijk geactiveerd op basis van deze omstandigheden. Apple Watch moet verbonden zijn";
+"parentalControlProfileMsg" = "Realtime bewaking kan niet worden gestopt vanaf de Apple Watch en alarmen worden automatisch opnieuw ingeschakeld 15 minuten nadat een vals alarm is gesignaleerd";
+"recordAVideoMsg" = "Een videodagboek opnemen";
+"notificationFooterMsg" = "Realtime Monitor met Apple Watch moet zijn ingeschakeld voor deze meldingen";
+"noDataNotificationMsg" = "Als u langer dan geen gegevens van Apple Watch ontvangt";
+"batteryLevelProfileMsg" = "Als het batterijniveau van het horloge lager is dan";
+"sleepSettingsTitleMsg" = "SLEEP-instellingen";
+"sleepSettingsFooterMsg" = "Realtime Monitor met Apple Watch moet zijn ingeschakeld voor slaapregistratie";
+"deepSleepMaxBpmMsg" = "Diepe slaap max BPM";
+"lightSleepMaxBpmMsg" = "Lichte slaap max BPM";
+"notificationSettingsHeaderMsg" = "MELDINGSINSTELLINGEN";
+"notificationSettingsFooterMsg" = "Let op: een melding is beter dan een gemiste gebeurtenis ...";
+"shouldFireNoDataMsg" = "Brandmelding wanneer geen gegevens van Apple Watch worden ontvangen";
+"shouldFireLowBatteryMsg" = "Brandmelding wanneer de batterij van de Apple Watch bijna leeg is";
+"notifyRealTimeEndMsg1" = "Realtime controle beëindigd vanaf de Apple Watch";
+"notifyRealTimeEngMsg2" = "(niet nodig als Ouderlijk toezicht is ingeschakeld)";
+"aboutMsg" = "Over";
+"defaultQuickLogNote" = "";
+"insightClassInfoString" = "Voor elk symptoom kunt u op de naam klikken om een ​​notitie toe te voegen/bewerken, of naar links vegen om het te verwijderen.";
+"deprecatedDefaultQuickLogNote" = "Veeg naar rechts om een ​​notitie te bewerken, veeg naar links om dit item te verwijderen";
+"debugModeMsg" = "Logboekmodus voor ontwikkelaars";
+"developerMode" = "Ontwikkelaarsmodus";
+"migrateDBMsg" = "Migreren van vorige versie";
+"logsSoFarMsg" = "logt tot nu toe";
+"seizuresSoFarMsg" = "aanvallen";
+"seizuresOnlyFilterMsg" = "Seizures";
+"editLogNotesMsg" = "Lognotities - Bewerken";
+"logASymptomMsg4LogsView" = "Gebeurtenissen loggen";
+"emptySinceLastEventString" = "";
+"resetAllMsg" = "Reset alle instellingen en verwijder alle gegevens (zorg ervoor dat het niet onomkeerbaar is!)";
+"restartOnboardingMsg" = "Onboarding opnieuw starten";
+"developerString" = "Ontwikkelaar";
+"appNameString" = "App-naam";
+"versionString" = "Versie";
+"compatibilityString" = "Vereisten";
+"contactsString" = "Contacten";
+"contactLabelMsg" = "Neem contact met ons op";
+"linkDestinationString" = "http://www.fightthestroke.org/mirrorhr-eng";
+"compatibilityStringContent" = "iOS 16\\WatchOS 9";
+"developerStringLabel" = "FightTheStroke.org";
+"developerLinkDestination" = "http://www.fightthestroke.org/home-eng";
+"contactLinkDestination" = "http://www.fightthestroke.org/contactuseng";
+"privacyPolicyString" = "Privacybeleid";
+"privacyPolicyLinkLabel" = "Privacybeleid";
+"privacyPolicyLinkDestination" = "http://www.fightthestroke.org/privacy";
+"websiteString" = "Website";
+"sampleChartDataMsg" = "Voorbeeld grafiekgegevens";
+"notificationTitleMsg" = "MELDINGEN";
+"realTimeWarningMsg" = "Apple Watch moet verbonden zijn voor alarmen en meldingen";
+"chartOptionsTitleMsg" = "KAARTOPTIES";
+"showMarkersMsg" = "Toon alarmmarkeringen";
+"showBandsMsg" = "Toon grafiekbanden";
+"reset2DefaultMsg" = "Reset naar standaardwaarden";
+"seeAllSettingsMsg" = "Open alle instellingen";
+"realTimeOffMsg" = "Realtime is UIT";
+"bootingProgressMsg" = "Opstarten...";
+"lastBpmMsg" = "Laatste BPM:";
+"secsAgoMsg" = "seconden geleden";
+"bPmLabelMsg" = "BPM";
+"keySettingsNavigationTitleMsg" = "Sleutelinstellingen";
+"legendaLabelMsg" = "Legenda:";
+"deepSleepLabelMsg" = "Diepe slaap";
+"lightSleepLabelMsg" = "Lichte slaap";
+"wakeLabelMsg" = "Wakker";
+"tagFalseAlarmTitleMsg" = "Tag vals alarm";
+"tagFalseAlarmActionMsg" = "Opslaan vals alarm";
+"tagFalseAlarmAllGoodMsg" = "False";
+"tagEndOfSeizure" = "Beëindig de aanval";
+"tagVideoSeizure" = "Video";
+"saveSeizureMsg" = "Inbeslagneming Opslaan";
+"seizureLabelMsg" = "Inbeslagneming";
+"falseAlarmSuggestion1" = "Stress";
+"falseAlarmSuggestion2" = "Droom";
+"falseAlarmSuggestion3" = "Spel";
+"elapsedTimeString" = "verstreken tijd";
+"whatTimeIsNowString" = "huidige tijd";
+"defaultCityString" = "Milaan";
+"initialBatteryMsg" = "Initieel batterijniveau: ";
+"logLabelMsg" = "Logboeken";
+"offLabelMsg" = "UIT";
+"tap3timesMsg" = "Tik 3 keer";
+"watchAppNotInstalledString" = "MirrorHR is niet geïnstalleerd op de Apple Watch";
+"cantCommunicateWatchString" = "Kan niet communiceren met de Apple Watch";
+"watchNotPairedString" = "Apple Watch is niet gekoppeld aan de iPhone";
+"watchNotReachableString" = "MirrorHR op het horloge is niet bereikbaar, controleer of het op de voorgrond actief is, of start de sessie vanaf het horloge";
+"canTFireNotificationString" = "Kan melding niet activeren vanwege ";
+"canTStartSessionString" = "Kan de sessie niet starten, controleer of MirrorHR op de voorgrond op de Watch draait en probeer het opnieuw";
+"soSorryString" = "Het spijt me zo :-( ... dit is net gebeurd: ";
+"saveAndCloseString" = "Opslaan en sluiten";
+"alarmFiredAtString" = "Alarm afgevuurd op";
+"byBPMOfString" = "door een BPM of";
+"checkRangeString" = ". Controleer of het horloge correct is gedragen en binnen het bereik valt.";
+"alarmEventString" = "Alarm";
+"warningEventString" = "Warning";
+"noDataEventString" = "Geen gegevens";
+"lowBatteryEventString " = "Lage batterij";
+"unclassifiedEventString" = "Niet-geclassificeerde gebeurtenis";
+"handleSeizureEventString" = "Inbeslagneming afhandelen";
+"handleFalseAlarmEventString" = "Vals alarm afhandelen";
+"stopFromWatchEventString" = "Ontvangen van Apple WatchStop-telefoon stoppen";
+"session " = "Sessie gestopt vanaf de telefoon";
+"criticalErrorEventString" = "Kritieke fout: ";
+"criticalErrorSorryEventString" = "Het spijt me :( ik kwam een ​​onverwachte fout tegen.";
+"testSoundEventString" = "Test geluid voor: ";
+"notificationString" = "Melding";
+"sessionBootingEventString" = "Sessie opstarten";
+"manualAlarmEventSt ring" = "Handmatig alarm";
+"manualAlarmTriggeredNotesString" = "Handmatig geactiveerd door";
+"logsInTotalMsg" = "logboeken";
+"intervalBetweenLast2Seizures" = "Interval tussen de laatste aanvallen";
+"yearIndicatorString" = "Y";
+"monthsIndicatorString" = "M";
+"dayIndicatorString" = "d";
+"hoursIndicatorString" = "h";
+"minutesIndicatorString" = "m";
+"secondsIndicatorString" = "s";
+"eventsString" = "Evenementen";
+"insightsFilterToggleLeftString" = "Alle logboeken";
+"symptomString" = "Symptoom";
+"potentialTriggerString" = "Potentiële trigger";
+"severeEventString" = "Ernstige gebeurtenis";
+"goodHabitString" = "Goede gewoonte";
+"badHabitString" = "Slechte gewoonte";
+"askPermissionsTitle" = "Permissies";
+"aksPermissionsHeadline" = "";
+"checkPermissionsString" = "Controleer machtigingen";
+"thanksForPermissionsString" = "Bedankt, alle rechten zijn verleend";
+"iPhoneBatteryIsMsg" = "iPhone-batterij is leeg";
+"howLongDidItLastMsg" = "Hoe lang duurde het?";"languageUIMsg" = "UI-taal";
+"watchNotReachableString" = "MirrorHR is onbereikbaar op de Apple Watch: controleer of deze actief is en op de voorgrond staat, of druk rechtstreeks op START vanuit MirrorHR op de Apple Watch";
+"noDataReceivedString" = "Geen gegevens ontvangen voor meer dan ";
+"medicationAlarmString" = "Medicatieherinnering";
+"medicationAlarmViewTitle" = "Medicatieherinneringen";
+"medicationAlarmMessage" = "Het is tijd om uw medicijnen in te nemen";
+"medicationTakenString" = "Medicatie ingenomen";
+"medicationSnoozeString" = "Medicatieherinnering snoozen";
+"medicationSnoozeStringDescription" = "Medicatieherinnering";
+"addMedicationReminderString" = "Medicatieherinneringen toevoegen/bewerken";
+"yes_String" = "Ja";
+"no_String" = "Nee";
+"deleteAllRemindersString" = "Verwijder alle herinneringen";
+"confirmString" = "Bevestigen";
+"confirmDeleteMedicationRemindersMsg" = "Wilt u echt alle medicatieherinneringen verwijderen?";
+"medicationAlarmFooter" = "Vergeet niet om medicijnen in te nemen! U kunt herinneringen uiteindelijk 10 minuten snoozen.";
+"closeButtonString" = "Sluiten";
+"howLongDidItLastMsg" = "Hoe lang duurde het?";
+"addButtonString" = "Toevoegen";
+"nextScheduledRemindersString" = "Volgende geplande herinneringen:";
+"EveryWeekDayAtString" = "Elke weekDag om:";
+"EveryWeekEndAtString" = "Elk weekend om:";
+"requestReviewMessage" = "Vind je MirrorHR leuk?";
+"manualMedicationMsg" = "Ik draag het met de hand terug in het dagboek";
+"sympt_medicationChange" = "Medicatie wijzigen";
+"medications_String" = "Medicijnen";
+"allLogs" = "Alle";
+"reportAsMissedMedicationString" = "Ik zal het melden als gemiste medicatie";
+"medicationNotificationBodyMessage" = "Het is tijd om uw medicijnen in te nemen. Tik hier om in te loggen op MirrorHR of om 10 minuten te snoozen";
+"letMeUpdateMissedMedicationString" = "Ik heb ze op een ander tijdstip van dezelfde dag genomen, laat me de gegevens bijwerken";
+"filterByDate" = "Filter op datum";
+"event_realTimeSession" = "RealTime-sessie";
+"bpmTakesTimeMsg" = "Let op: nadat een sessie is afgelopen, kan het enkele minuten duren voordat de BPM-grafiek wordt weergegeven.";
+"telemetrySectionString" = "Doe mee met het onderzoek";
+"shareAnonymizedTelemetryMsg" = "Deel statistische gegevens, absoluut anoniem, en help onderzoek naar epilepsie";
+"telemetryRealTime" = "Aantal realtime sessies";
+"telemetrySeizures" = "Aantal aanvallen";
+"telemetrySymptoms" = "Aantal geregistreerde symptomen";
+"telemetryNavigation" = "Basisgebruiksstatistieken";
+"telemetryVideoLog" = "Aantal VideoLog";
+"telemetrySeizuresVideoLog" = "Aantal aanvallen VideoLog";
+"telemetryBPMValues" = "BPM alarmdrempel";
+"telemetryMedicationReminders" = "Aantal medicatieherinneringen";
+"telemetryLanguage" = "Interfacetaal";
+"telemetryExplainMsg" = "Telemetriegegevens zijn volledig geanonimiseerd en als u deze met ons zou kunnen delen, zal dit echt helpen om het leven van andere gezinnen te verbeteren. Dank u!";
+"enableAllTelemetryOptionsString" = "Alle opties inschakelen/uitschakelen";
+"WhatsNewInThisVersion" = "Wat is er nieuw in deze versie";
+"HereIsQuickUpdate" = "Hier is een korte update van de nieuwste functies";
+"helpOneHelpEveryone" = "De beste manier om iemand te helpen, is door alle anderen te helpen";
+"Sentiment_String" = "Sentiment";
+"detectSympstomsString" = "Gedetecteerde symptomen";
+"sympt_cold" = "Koud";
+"sentiment_negative" = "negatief";
+"sentiment_medium" = "neutraal";
+"sentiment_positive" = "positief";
+"confirmSymptomsUnderstanding" = "Van wat u zei, begrijp ik dat u deze symptomen wilt registreren. Bevestig ze alstublieft voor mij?";
+"appreciationForTheOpportunityToLearn" = "Als ik het verkeerd heb begrepen, verwijder dan de markering of voeg anderen toe zodat ik in de loop van de tijd kan verbeteren. Bedankt.";
+"sympt_therapy" = "Therapie (revalidatie, enz.)";
+"sympt_fall" = "Herfst";
+"sympt_headShot" = "Hoofdschot";
+"supportingFunctionsString" = "Ondersteunende functies";
+"sympt_sport" = "Sport";
+"whatsNewInVideoLogV3" = "In deze versie is het nog krachtiger door automatisch de meest voorkomende symptomen en gebeurtenissen te herkennen, de mogelijkheid te geven ze te valideren en ze vervolgens automatisch te traceren in het dagboek. Het wordt dus nog gemakkelijker om alle belangrijke dingen, doe gewoon een korte video en de applicatie doet de rest.";
+"SymptomSearchBarSearchString" = "Zoeken ..";
+"HRVString" = "HRV";
+"OxygenSaturationString" = "Bloed Zuurstof";
+"RespiratoryRateString" = "Ademhalingsfrequentie";
+"sympt_vaccine" = "Algemene vaccinatie";
+"sympt_covidVaccine" = "Covid-19-vaccin";
+"sympt_covid" = "Covid-19";
+"DiaryLogsHelpMsg" = "Druk eenmaal op de cirkel rechts van het symptoom om snel een symptoom of gebeurtenis vast te leggen. Houd 2 seconden ingedrukt op de cirkel rechts van het symptoom om een ​​scherm te openen waarin u andere gegevens kunt invoeren en / of notities. Druk nogmaals op het symbool (?) om dit bericht te verbergen.";
+"kidWeightString" = "Gewicht";
+"measurementsUnitString" = "Meeteenheden";
+ 
+"version8_7OnboardingCardDescription" = "1. Nieuwe symptomen en gebeurtenissen die zijn vastgelegd in het dagboek (inclusief Covid en een generieke 'andere') stellen u in staat om preciezer en vollediger te zijn in gesprekken met artsen.\n
+2. Voor degenen die geen Apple hebben Let op, het is nu mogelijk om de lengte van de aanvallen handmatig te registreren wanneer u deze in het dagboek invoert.\n
+3. Toch is het nu mogelijk om notities toe te voegen aan elk symptoom of elke gebeurtenis door simpelweg de ⃝-knop twee seconden ingedrukt te houden in het dagboek.\n
+4. Als de RealTime-sessie actief is tijdens de slaap, worden naast de hartslag ook de ademhalingsfrequentie en zuurstof in het bloed gedetecteerd en gerapporteerd in de notities aan het einde van de sessie.\n
+5. Het is ook mogelijk om het gewicht te registreren (bijvoorbeeld om de verandering van medicijnen te matchen).\n
+6. Telemetriegegevens zijn eenvoudiger (permanent anoniem) en helpen ons te begrijpen hoe we steeds meer mensen kunnen verbeteren en helpen.\n
+7. Enkele stijlfouten verholpen.\n
+8. Als je van MirrorHR houdt en ons suggesties wilt geven, weet dan dat een r e-mail en een e-mail zijn altijd van harte welkom. Zoek de links in het gedeelte Instellingen.
+Bedankt!\n ";
+ 
+"sympt_other_medications" = "Andere medicijnen";
+"sympt_weightLog" = "Gewicht";
+"sympt_absence" = "Afwezigheid";
+ 
+"version8_8OnboardingCardDescription" = "1. Nieuwe checklistfunctie die helpt bij het creëren van goede gewoonten, het oplossen van veelgestelde vragen en het deelnemen aan de gemeenschap van ouders en artsen die MirrorHR ontwikkelen.\n
+2. Voor degenen die geen Apple Watch hebben, is het nu mogelijk om de lengte van de aanvallen handmatig bij het invoeren in het dagboek met slechts één tik.\n
+3. Toch is het nu mogelijk om notities toe te voegen aan een symptoom of gebeurtenis door simpelweg de ⃝-knop twee seconden ingedrukt te houden in het dagboek.\n
+4. Ademhalingsfrequentie en zuurstof in het bloed worden nu gedetecteerd als de RealTime-sessie actief is tijdens de nachtrust.\n
+5. Het is nu mogelijk om gegevens te exporteren en opnieuw te importeren in geval van verhuizing naar een nieuwe telefoon.\n
+6. Opgelost enkele stijlfouten.\n
+7. Als je van MirrorHR houdt en ons suggesties wilt geven, weet dan dat een recensie en een e-mail altijd welkom zijn. Zoek de links in het gedeelte Instellingen.\n
+Bedankt!\n ";
+ 
+"version9OnboardingCardDescription" = "1. Nieuwe FastLog-knoppen (Dagboekweergave)
+2. Nieuwe import- en exportgegevens in Excel-formaat, met veel meer gegevens (Insights en Checklist-weergaven)
+3. Nieuwe optie voor het regelen van het volume van alarmen (weergave Instellingen)
+4. Nieuwe gebeurtenissen menstruatie en dermatitis ( Dagboekweergave)
+5. Minimumplatform is nu iOS 15/watchOS 7.5 (vanwege hun verhoogde betrouwbaarheid en beveiliging)
+6. Bug opgelost: afbeeldingen en symbolen op sommige apparaten, videolog opslaan, zelfs zonder audio, intervalformule voor aanvallen
+7. Bekende problemen: iPhone en Watch-koppeling moet op sommige apparaten mogelijk opnieuw worden ingesteld wanneer er een update van het besturingssysteem is.
+8. Als je van MirrorHR houdt en ons suggesties wilt geven, weet dan dat een recensie en een e-mail altijd welkom zijn. Zoek de links in het gedeelte Instellingen.
+Bedankt!";
+ 
+"supportMirrorHRTak" = "Help ons om MirrorHR verder te ontwikkelen";
+"supportMirrorHRTakDescription" = "We stellen alle hulp zeer op prijs, zodat we MirrorHR kunnen blijven ontwikkelen en verbeteren om elk gezin in nood te bereiken.";
+"OpenInBrowserLinkMsg" = "Open in browser";
+"joinMirrorHRCommunityTask" = "Word lid van MirrorHR Community";
+"joinMirrorHRCommunityTaskDescription" = "MirrorHR is een door de gemeenschap geleide inspanning, omdat we alleen samen een impact kunnen hebben.";
+"realTimeSessionTaskDescription" = "Het uitvoeren van meerdere monitoringsessies zal helpen u beter te begrijpen hoe het systeem werkt en hoe u alle instellingen beter kunt afstemmen.";
+"videoLogTaskDescription" = "Het bijhouden van een regelmatig videodagboek, bijvoorbeeld voordat u gaat slapen, is een geweldige manier om na te denken over wat er gedurende de dag is gebeurd. Als je symptomen noemt, kan hij ze ook automatisch registreren. Let op: kinderen kunnen die routine leuk vinden :-)";
+"medicationTakenTaskDecription" = "Het vergeten van een medicijn kan tot veel problemen leiden. Zorg ervoor dat u medicatieherinneringen instelt (in de instellingenweergave) en dat u elke keer de medicatie correct bijhoudt.";
+"noTaskHistoryYet" = "Nog geen geschiedenis";
+"stepTaskCompletedOn" = "voltooid op";
+"faqCheckListPicker" = "FAQ";
+"habitsCheckListPicker" = "Habits";
+"supportCheckListPicker" = "Community";
+"RefreshListText" = "Refresh";
+"shareWithDoctorTask" = "Deel MirrorHR-gegevens met uw arts";
+"shareWithDoctorTaskDescription" = "Het regelmatig delen van MirrorHR-gegevens met uw arts is extreem belangrijk. Maak er een gewoonte van om dit minstens één keer per week te doen.";
+"exportAndShareDataCSV" = "Exporteer en deel MirrorHR-gegevens (CSV)";
+"exportAndShareDataXLS" = "Exporteer en deel MirrorHR-gegevens (XLS)";
+ 
+"FaqFromTheCommunity" = " Vragen en suggesties van de community";
+"watchConnectivityFAQTask" = "iPhone en Watch-connectiviteit";
+"watchConnectivityFAQTaskDescription" = "Waarom krijg ik soms de melding dat de gegevens niet zijn ontvangen?";
+"permissionsCheckFaq" = "Kan niet lezen BPM";
+"permissionsCheckFaqDescription" = "Waarom kan Apple Watch BPM niet lezen en is het vastgesteld op 0?";
+"resetCheckListAboutButton" = "Reset checklist";
+"newBadgeText" = "new";
+"rateMirrorHRTask" = "Help om MirrorHR te verbeteren ";
+"rateMirrorHRTaskDescription" = "Als je deze app leuk vindt, geef hem dan vijf sterren in de Apple Store, of deel feedback of suggesties via e-mail.";
+"thanksToBeLocalized" = "Bedankt!";
+ 
+"mirrorHRUserFlowTask" = "Hoe MirrorHR te gebruiken ";
+"mirrorHRUserFlowTaskDescription" = "We doen ons best om MirrorHR zo eenvoudig mogelijk, toch vind je hier enkele suggesties voor het gebruik ervan.";
+ 
+"ImportMirrorHRXLSLocalized" = "Importeer MirrorHR XLS-bestand";
+"ImportMirrorHRCSVLocalized" = "Importeer MirrorHR CSV-bestand";
+ 
+"mirrorHRHistoryTask" = "Het verhaal achter MirrorHR";
+"mirrorHRHistoryTaskDescription" = "Waarom is MirrorHR ontwikkeld? Hoe is het ontwikkeld? Wat betekent het om door ouders en artsen voor ouders en artsen te worden ontwikkeld?";
+ 
+"checkListDefaultCompletiontMsg" = "Gefeliciteerd!";
+"checkListdefaultIncentiveMsg" = "Ga zo door!";
+"telemetryChecklistProgresses" = "Checklist vordert";
+"exportAndShareLastMonthBPMData" = "Exporteer en deel de laatste 30 dagen volledige BPM-gegevens (CSV)";
+"knowMoreWHOTask" = "Meer weten over epilepsie";
+"knowMoreWHOTaskDescription" = "WHO (Wereldgezondheidsorganisatie) is een geweldige bron van informatie over epilepsie.";
+ 
+"sympt_dermatitis" = "Dermatitis";
+"sympt_menses" = "Periode";
+ 
+"alarmSoundVolumeMsg" = "Volume";
+"ExportSeizuresDataOnlyMsg" = "Exporteer gegevens over inbeslagnames (CSV)";
+"Export6MonthsOfHRV" = "Exporteer laatste zes maanden van HRV-gegevens (indien beschikbaar) (CSV)";
+"FastLogMsg" = "FastLog";
+"waitExportFileMsg" = "Het kan even duren om alle gegevens te exporteren. Er verschijnt zo snel mogelijk een venster om het bestand te delen.";
+ 
+"ImportedNElementsFromXLSLocalized" = "Geïmporteerde symptomen: ";
+"CanTReadTheXLSFileLocalized" = "Kan XLS-bestand niet lezen";
+"CanTReadTheCSVFileLocalized" = "Kan CSV-bestand niet lezen";
+"ImportCompleteLocalizedAlertTitle" = "Import voltooid";
+ 
+"AlertConfirmMsgText" = "Bevestigen";
+"BtnOverwriteMsg" = "Alle gegevens overschrijven";
+"BtnAppendMsg" = "Toevoegen aan bestaande gegevens";
+"BtnCancelMsg" = "Annuleren";
+ 
+"sympt_FilterSupport" = "Geavanceerde filters";
+"exportAndShareAnonymizedDataXLS" = "Stuur anonieme gegevens";
+ 
+"appTerminatedMessage" = "MirrorHR is gesloten en kan geen gegevens meer ontvangen of alarmen verzenden!";
+ 
+"alreadyTakenString" = "Gereed";
+"minutesAgoString" = "m geleden";
+ 
+// TherapyRelatedStrings
+"therapiesNavTitle" = "Therapieën";
+"newTherapyString" = "Nieuwe therapie";
+"newCocktailString" = "Nieuwe routine";
+"therapySampleName" = "Therapienaam";
+"defaultNewTherapyName" = "therapienaam";
+"defaultNewDrugName" = "naam geneesmiddel";
+"newDrugString" = "Nieuw medicijn";
+"drugShapePillDescription" = "Pil";
+"drugShapeSpoonDescription" = "Vloeistof";
+"drugDosesTitle" = "Medicijndoses";
+"cocktailSectionTitle" = "Routines";
+"drugsSectionTitle" = "Drugs";
+"therapyAlertYesNoSaveMsg" = "Wilt u het opslaan?";
+"missingFieldsALertMsg" = "U moet eerst alle velden invullen";
+"reminderAtString" = "Herinnering om: ";
+"enableReminderString" = "Herinnering inschakelen";
+"therapyUnitText" = "Eenheid:";
+"therapyShapeText" = "Vorm:";
+"therapyQuantityText" = "Hoeveelheid:";
+"noDrugNameText" = "Geen medicijnnaam";
+"noDrugUnitText" = "Geen medicijneenheid";
+"noDrugShapeText" = "Geen medicijnvorm";
+"noCocktailNameText" = "Geen routinenaam";
+"drugOtherShapeDescription" = "Overig";
+"sampleRoutineNameText" = "es. ochtend";
+"sampleDrugNameString" = "es. Tegretol";
+"noReminderString" = "Geen herinnering";
+"noTherapyNameString" = "Geen therapie";
+"therapySessionFooterText" = "Hier kunt u de geschiedenis van uw therapieën volgen";
+"therapyOnboardingHeadline" = "Hier kunt u de geschiedenis van uw therapieën volgen";
+"noCurrentTherapyText" = "Er is geen huidige therapie";
+"currentTherapyTitleText" = "Actuele therapie";
+"addUpdateTherapiesText" = "Toevoegen of bijwerken van therapieën";
+"editUpdateAllTherapyDB" = "Bewerk therapiegegevens";
+"cantDeleteAsUsedInCurrentTherapy" = "Dit record kan niet worden verwijderd omdat het door de huidige therapie wordt gebruikt";
+"clearAllTherapyDataMsg" = "Wis alle gegevens";
+"confirmDeleteAllTherapyData" = "Hiermee worden alle therapiegerelateerde gegevens verwijderd";
+"navigationBackDefaultText" = "Terug";
+// EndTherapyRelatedStrings
+ 
+"version9_50onboardingCardDescription" =
+"1. Alleen iOS 15
+2. Meer gegevens vastgelegd in RealTime Session (zoals bpm-statistieken)
+3. Nieuwe Therapie Manager
+4. Excel-export exporteert nu de laatste 20 bladen in afzonderlijke Excel-tab om veel meer BPM's te exporteren
+5. Excel-export van volledig geanonimiseerde gegevens
+6. BPM-grafiek wanneer u op de tijdlijnweergave klikt en het is een aanval
+7. Vaste video-aanval bij het afhandelen van een aanval
+8. Oekraïens, Thay, Russische talen
+9. Betere NoData-handgreep (nu synchroniseert de status gestopt met het horloge)
+10. Meldingsgeluid wanneer de app wordt beëindigd
+11. Pictogramschild aan/uit op basis van de bewakingsstatus
+12. Verbeterde verwerking van medicatieherinneringen
+13. bugfixatie
+Als je van MirrorHR houdt en ons suggesties wilt geven, weet dan dat een recensie en een e-mail altijd welkom zijn. Zoek de links in het gedeelte Instellingen.
+Dank je!
+";
+ 
+"helpWithLocalizationString" = "Help ons met de lokalisaties van MirrorHR";
+ 
+"kidDateOfBirthString" = "Geboortedatum";
+"kidAgeString" = "Leeftijd";
+ 
+"AbsenceEpilepsyType" = "Absence-aanvallen (voorheen bekend als petit mal)";
+"TonicClonicEpilepsyType" = "Tonic-clonische of convulsieve aanvallen (voorheen bekend als grand mal)";
+"AtonicEpilespyType" = "Atonische aanvallen (ook bekend als druppelaanvallen)";
+"ClonicEpilepsyType" = "Clonische aanvallen";
+"TonicEpilepsyType" = "Tonische aanvallen";
+"MyoclonicEpilepsyType" = "Myoclonische aanvallen";
+"FocalAwarenessEpilepsyType" = "Focale aanvallen met behoud van bewustzijn";
+"FocalNotAwareEpilepsyType" = "Focale aanvallen met verlies van bewustzijn";
+"UnknownEpilepyType" = "Onbekend";
+"epilepsieTypeString" = "Epilepsietype";
+ 
+"firstRunWatchAlertMsg" = "De eerste keer dat u MirrorHR op uw Apple Watch uitvoert, moet u ervoor zorgen dat u toestemming geeft voor toegang tot gezondheidsgegevens";
+ 
+"tabCommunity" = "Gemeenschap";
+"CommunityNavigationTitle" = "Gemeenschap";
+"firstRunWatchAlertMsg" = "De eerste keer dat u MirrorHR op uw Apple Watch uitvoert, moet u ervoor zorgen dat u toestemming geeft voor toegang tot gezondheidsgegevens";
+"firstRunWatchAlertMsgExtended" = "De eerste keer dat u MirrorHR op uw Apple Watch uitvoert, moet u ervoor zorgen dat u toestemming geeft voor toegang tot uw gezondheidsgegevens. Als het probleem aanhoudt, is het eenvoudigste om MirrorHR van uw telefoon en Apple Watch te verwijderen, opnieuw te installeren en aandacht te besteden aan de eerste keer dat MirrorHR wordt uitgevoerd op de Apple Watch. ";
+"tabCommunityTitle" = "Gemeenschap";
+"askForHelpChecklist" = "Help";
+"askForHelpChecklistDescription" = "Heeft u hulp nodig? Neem contact met ons op en wij zullen ons best doen om u te helpen. Er kan echter een paar uur verschil zijn met uw tijdzone. U kunt ook rechtstreeks een e-mail sturen naar helpme@mirrorhr.org" ;
+"permissionsCheckFaq" = "De Apple Watch kan uw hartslag niet lezen";
+"permissionsCheckFaqDescription" = "Waarom geeft MirrorHR op de Apple Watch altijd 0 BPM aan, zelfs na een paar minuten dat de toepassing actief is?";
+ 
+"nightViewCardTitle" = "Nachtzicht";
+"nightViewCardHeadline" = "MirrorHR slaapt nooit";
+"nightViewCardDescription" = "Wanneer de hartslagmonitor actief is, kunt u de nachtmodus activeren door simpelweg de telefoon horizontaal te draaien. De schermhelderheid zal verlagen en alleen de essentiële informatie wordt weergegeven. Bovendien zal MirrorHR voorkomen dat de telefoon uitschakelt, zodat u de situatie in één oogopslag kunt monitoren. Het wordt aanbevolen om de telefoon gedurende de nacht aangesloten te houden op de voeding. Let op: Als u hebt geüpgraded naar iOS 17, is het raadzaam om de StandBy-functie in uw iPhone-instellingen uit te schakelen.";
+
+"startFromWatchCardTitle" = "Start vanaf Apple Watch";
+"startFromWatchCardHeadline" = "Begin met monitoren vanuit MirrorHR op Apple Watch";
+"startFromWatchCardDescription" = "Om privacy en veiligheid te garanderen, moet de bewaking starten vanuit de MirrorHR-toepassing op de Apple Watch. Als de bewaking actief is, kan deze worden gestopt door de iPhone of zelfs binnen 15 minuten opnieuw worden gestart, waarna deze opnieuw moet worden gestart vanaf de Apple-Horloge. ";
+"sympt_toothache" = "Kiespijn";
+"rebootWatchCardTitle" = "Herstart uw Apple Watch";
+"rebootWatchCardHeadline" = "";
+"rebootWatchCardDescription" = "Zorg ervoor dat MirrorHR ook op uw Apple Watch is bijgewerkt naar de nieuwste versie. Soms kan het een paar minuten duren, en om te controleren of alles goed werkt, is het raadzaam uw Apple Watch in en uit te schakelen opnieuw door de zijknop onder de kroon ingedrukt te houden, zoals op de afbeelding.";
+"doctorsEmailString" = "E-mailadres van de arts:";
+"minutesString" = "minuten";
+ 
+"version9_60onboardingCardDescription" = "Welkom bij versie 9.60 van MirrorHR Epilepsy Research Kit: nog gebruiksvriendelijker en boordevol functies.
+MirrorHR is een gratis, veilige en privé-app ontwikkeld door ouders en artsen voor ouders en artsen.
+Voor sommige functies, zoals realtime hartslagmeting en alarmen, is een Apple Watch (met WatchOS 8+) verbonden met de iPhone (met iOS 15+) vereist. Als je geen Apple Watch hebt, is de applicatie nog steeds erg handig om alle gebeurtenissen en symptomen vast te leggen en om een ​​betere communicatie met je arts te bevorderen.
+MirrorHR is geen medisch hulpmiddel, en dat is het ook niet van plan: het wil u alleen helpen meer te weten te komen over de epilepsie van uw dierbaren, in samenwerking met uw arts.
+
+Een van de belangrijkste innovaties van deze versie:
+1. Verbeterde Apple Watch-besturing voor realtime monitoringbeheer.
+2. Verbeterde gegevensexport naar Excel om het delen van gegevens met uw arts te vergemakkelijken.
+3. Mogelijkheid om vooraf een e-mail voor uw arts in te vullen met de gegevens van de laatste epileptische aanval.
+4. Nieuwe symptomen beschikbaar in het dagboek, en het is nu mogelijk om de precieze duur van een symptoom of gebeurtenis in te voeren.
+5. Enkele bugs en prestatieverbeteringen opgelost.
+
+We herinneren je er ook aan dat MirrorHR volledig anoniem is en dat de gegevens alleen op je telefoon staan.
+Realtime monitoring vereist koppeling met een Apple Watch.
+Na de update is het aan te raden de Apple Watch opnieuw te starten om ervoor te zorgen dat de twee applicaties (op de iPhone en op de Apple Watch) correct zijn uitgelijnd.
+
+Een speciale dank aan twee supermoeders die ons veel tips hebben gegeven om MirrorHR continu te verbeteren: heel erg bedankt Stefania en Elena. #Stop nooit met vechten
+
+Als je ons wilt helpen de MirrorHR Epilepsy Research Kit nog nuttiger te maken, neem dan gerust contact met ons op via helpme@mirrorhr.org en plaats een recensie in de Apple App Store.
+
+Dank u voor uw bijdrage aan het epilepsie-onderzoek, samen.
+";
+
+"backupSymptomsDataString" = "Back-upsymptomen";
+"restoreSymptomsDataString" = "Symptomen herstellen vanaf back-up";
+
+"AttentionRiskyWorkInProgressMessage" = "WERK IN UITVOERING.\n\nWACHT HIER EN HOUD DE SPIEGEL ACTIEF OF ER KAN ONSTABIEL WORDEN";
+
+"WhatsNew9_70_Title1" = "Heb de touwtjes in handen";
+"WhatsNew9_70_SubTitle1" = "Nieuwe back-up- en herstelfunctie";
+"WhatsNew9_70_Body1" = "Gegevens zijn altijd veilig en onder uw volledige controle. Klik op het exportpictogram in de agendaweergave om nieuwe opties te zien.";
+
+"WhatsNew9_70_Title2" = "Wat is er nieuw";
+"WhatsNew9_70_SubTitle2" = "Deze pagina";
+"WhatsNew9_70_Body2" = "Een gemakkelijkere manier om te zien wat de laatste updates zijn";
+
+"WhatsNew9_70_Title3" = "Bugfixes";
+"WhatsNew9_70_SubTitle3" = "Een paar fouten";
+"WhatsNew9_70_Body3" = "MirrorHR is betrouwbaarder dan ooit. Bedankt voor uw voortdurende feedback";
+
+"NotifyRTEndTitleMsg" = "Realtime sessie eindigt";
+"NotifyRTEndCaptionMsg" = "Voer een melding af wanneer een realtimesessie wordt gestopt. Dit kan helpen voorkomen dat deze per ongeluk wordt gestopt";
+"NoDataEventStringV2" = "Ik kan geen gegevens van de Apple Watch ontvangen!";
+"NoDataEventCaptionV2" = "Controleer of iPhone en Apple Watch verbonden en bereikbaar zijn. Als de fout zich blijft voordoen, start u opnieuw op.";
+"NoDataReceivedStringV2" = "Ik heb al langer dan geen gegevens van de Apple Watch ontvangen ";
+
+"TelemetryLocalizedSymptomsLogged" = "Symptomen";
+"TelemetryLocalizedBpmMinMax" = "BPM-drempels";
+"TelemetryLocalizedMedicationReminders" = "Medicatieherinneringen";
+"TelemetryLocalizedCheckList" = "Checklist vordert";
+"TelemetryLocalizedDateOfBirth" = "Leeftijd";
+"TelemetryLocalizedEpilepsyType" = "Epilepsietype";
+"TelemetryLocalizedMirrorHRError" = "Toepassingsfouten";
+"TelemetryLocalizedMonitoringSession" = "Bewakingssessies";
+
+"DoYouWantStopCriticalErrorNotificationsMsg" = "Wilt u geen meldingen meer ontvangen voor kritieke fouten?";
+
+//Streaming-gerelateerde dingen
+"YouMustHaveWatchOrStreamingMain" = "Als u een realtime hartslagmonitor wilt hebben, alarmen wilt ontvangen en vele andere functies, moet u een Apple Watch aan deze iPhone hebben gekoppeld.";
+
+"YouMustHaveWatchOrStreamingSecondary" = "U kunt ook gegevens ontvangen van een andere iPhone die is gekoppeld aan een Apple Watch en verbonden is met hetzelfde netwerk.";
+
+"IGetDataFromAnotherPhoneInLan" = "Ik kan gegevens ophalen van een andere iPhone met MirrorHR gekoppeld aan een Apple Watch";
+
+"HealthDataSourceSettingsView" = "Gezondheidsgegevensbron";
+
+"EnableStreamingSettingsView" = "Schakel streaming in";
+
+"StreamingSectionFooterIntro" = "U moet een iPhone hebben die is gekoppeld aan een Apple Watch om realtime bewaking, alarmen, enz. mogelijk te maken.
+Als je andere iPhones hebt (maximaal 3) zonder Apple Watch, kun je gegevens naar ze verzenden als ze allemaal zijn verbonden met hetzelfde wifi-netwerk (bijv. grote huizen, kinderen in een andere kamer met de belangrijkste MirrorHR-app op hun iPhone , en Apple Watch, enz.).";
+
+"StreamingSectionAlertMsg" = "Op alle iPhones moet MirrorHR zijn geïnstalleerd en moet de streaming-vlag zijn ingeschakeld. Het apparaat dat met de Apple Watch is verbonden, verzendt gegevens, terwijl de andere apparaten deze ontvangen. Let op: MirroHR moet op beide apparaten op de voorgrond worden uitgevoerd Als de verbinding verbroken is, moet u de verbindingsprocedure opnieuw uitvoeren in de RealTime View. Als u hulp nodig heeft bij deze functie, aarzel dan niet om een ​​e-mail te sturen naar helpme@mirrorhr.org";
+
+"RealTimeStreamButtonText" = "Stream";
+"StreamingConnectedTo" = "Verbonden met:";
+"NotConnectedToAnyStream" = "Niet verbonden met een stream";
+"StreamingReceivingDataFrom" = "Gegevens ontvangen van:";
+"StreamingSendingDataTo" = "Gegevens verzenden naar:";
+"CheckStreamingUnderstandAlert" = "Controleer streaming begrijpen";
+"PairedWithAppleWatchView" = "Gekoppeld met Apple Watch";
+
+"CiaoSettingsGreeting" = "Hallo";
+"FrequentlyAskedQuestionsSeparator" = "Veelgestelde vragen (FAQ)";
+
+"sympt_aura" = "Aura";
+"version10_5_WhatsNewDescription" = "1. Vereenvoudigde gebruikerservaring en nieuwe symptomen.
+2. Enkele bugs verholpen.
+Als je van MirrorHR houdt en ons suggesties wilt geven, weet dan dat een recensie en een e-mail altijd zeer welkom zijn. Zoek de links in het gedeelte Instellingen.
+Bedankt!";
+
+"InformazioniPersonaliHeader" = "Persoonlijke info";
+
+"healthPermissionsFAQTask" = "Hoe machtigingen op Apple HealthKit herstellen.";
+"cantWorkWithoutHealthAccessMessage" = "Sorry, ik kan niet werken zonder toegang tot gezondheidsgegevens. Als het een vergissing was, controleer dan de ondersteuningsopties in de MirrorHR-app op de iPhone of installeer MirrorHR opnieuw.";
+"healthAccessErrorMessage" = "Er is een fout opgetreden bij het lezen van gezondheidsgegevens van Apple HealthKit. Controleer de ondersteuningsopties in de MirrorHR-app op de iPhone.";
+"GrantAllPermissionsCarefullyMessage" = "Verleen toestemming om gezondheidsgegevens te lezen.";
+"GrantAllPermissionsCarefullyMessagePart2" = " Houd er rekening mee dat als u het proces annuleert of toestemming weigert, MirrorHR helemaal niet zal kunnen werken.";
+"TapHereToHandleMsg" = "Tik hier om af te handelen.";
+"YouAreInStreamingMode" = "MirrorHR is ingesteld om gegevens te ontvangen van een andere iPhone die is gekoppeld aan een Apple Watch. Omdat je georganiseerd bent om alleen gegevens te ontvangen, heb je beperkte mogelijkheden en opties.";
+"DoYouWantToDisableStreamingAndShowFullMirrorHR" = "Ik wil geen gegevens meer van een ander apparaat ontvangen en alle opties zien.";
+"ItWillStopCurrentSessionMsg" = "Opmerking: de huidige sessie wordt gestopt.";
+
+"MirrorHRLeveragesBPMHeadline" = "Klinische studies hebben aangetoond dat meer dan 70% van de mensen met epilepsie binnen enkele seconden na het begin van de aanval een plotselinge snelle hartslag heeft. MirrorHR controleert voortdurend de hartslag (BPM) via de Apple Watch, en het is mogelijk om stel alarmen in om bepaalde omstandigheden te verifiëren. Als je de Apple Watch niet hebt, wordt het door alle artsen aanbevolen om een ​​dagboek bij te houden van alle symptomen en gebeurtenissen, en zelfs hierin kan MirrorHR je helpen.";
+"AlarmOnboardingCardHeadline" = "Hier kunt u de hartslagdrempels (BPM) instellen waarvoor u een alarm wilt ontvangen. Zorg ervoor dat u geen dubbele meldingen op de Apple Watch doet, anders ontvangt u mogelijk geen alarmen. Deze functie vereist dat de iPhone is gekoppeld aan een Apple Watch.";
+"CanTEarAlarmSoundGoBackMsg" = "Als u de testalarmmelding niet hebt ontvangen, keert u terug naar het vorige scherm en controleert u of u alle stappen hebt gevolgd. Als u ondersteuning nodig heeft, aarzel dan niet om ons een e-mail te sturen op helpme@mirrorhr.org";
+
+"ItRequiresPermissionsAPopUpWillShow" = "Er verschijnt een pop-up die om toestemming vraagt om gezondheidsgegevens van het horloge te lezen als u deze functie inschakelt. Verleen alle vereiste machtigingen.";
+"HealthDataUnavailableErrorMsg" = "Vereiste gezondheidsgegevens zijn niet beschikbaar op dit apparaat. Controleer de ondersteuningsopties.";
+"QuantityTypeUnavailableErrorMsg" = "Het vereiste type gezondheidshoeveelheid is niet beschikbaar op dit apparaat. Controleer de ondersteuningsopties.";
+"DataTypeUnavailableErrorMsg" = "Het vereiste type gezondheidsgegevens is niet beschikbaar op dit apparaat. Controleer de ondersteuningsopties.";
+"HealthPermissionsNotGrantedErrorMsg" = "U hebt niet de vereiste machtigingen verleend om gezondheidsgegevens van de Apple HealthKit te lezen. Helaas kan MirrorHR niet zonder deze gegevens. Als het onbedoeld was, neem dan contact met ons op via helpme@mirrorhr.org, of gewoon probeer MirrorHR uit de Apple Store te verwijderen en opnieuw te installeren.";
+
+"AskNotificationPermissionsMsg" = "Verleen toestemming om meldingen en kritieke meldingen te verzenden (ze worden zelfs geactiveerd als de iPhone in de stille modus staat).";
+
+"AcceptingConditionsByContinuingMsg" = "Door MirrorHR te blijven gebruiken, bevestig ik dat ik het bovenstaande heb gelezen en begrepen en de voorwaarden accepteer.";
+"SwipeRightToContinueSetupMsg" = "Veeg naar rechts om verder te gaan met de configuratie.";
+"StopUsingMirrorHRContactUsMsg" = "Als u niet akkoord gaat, stop dan met het gebruik van MirrorHR. Als u informatie nodig heeft, neem dan contact met ons op via e-mail op helpme@mirrorhr.org.";
+
+"AboutYouPersonalSettingsSection" = "Over jou";
+"SettingsSettingsSection" = "Instellingen";
+"MedicalPlanSettingsSection" = "Medisch plan";
+"AboutMirrorHRSettingsSection" = "Over MirrorHR";
+
+"sympt_ask4Help" = "Om hulp vragen";
+"remoteNotificationsSettingsTitleMsg" = "Verzorgers";
+"remoteNotificationsCaregiversFooter" = "De verzorger kan zijn/haar ID delen met een patiënt door hem/haar een link te sturen (via WhatsApp, SMS of een andere methode). Wanneer de patiënt de link opent, kan hij/zij de verzorger registreren om meldingen te ontvangen voor elk evenement of alarm. Beide partijen moeten MirrorHR geïnstalleerd en geconfigureerd hebben. Je kunt meerdere verzorgers hebben.";
+"yourUniqueIDText" = "Je unieke ID:";
+"shareYourIDCaregiverMsg" = "Deel je ID met een patiënt om de verzorger te worden en meldingen te ontvangen voor geregistreerde symptomen of alarmen.";
+"shareYourIDBtnMsg" = "Deel uw patiënt-ID met een verzorger, zodat u meldingen kunt sturen voor symptomen, alarmen, enz.";
+"caregiversListMsg" = "En hier is de lijst van je huidige verzorgers die meldingen van jou kunnen ontvangen.";
+"uUIDMsg" = "Je unieke, anonieme ID:";
+"saveSymptomInDiaryMsg" = "Symptoom opslaan in dagboek";
+"remoteNotificationMsg" = "Externe melding:";
+"sympt_AlarmFired" = "Alarm afgegaan";
+"stopReceivingNotificationsFor15Mins" = "Stop met het ontvangen van meldingen voor 15 minuten.";
+"event_RealTimeSessionStarted" = "Realtime sessie gestart";
+"tryPushNotificationBtnLabel" = "Probeer een melding";
+"testRemoteNotifications" = "Dit was een test";
+
+"version11_WhatsNewDescription" = "Introductie van een belangrijke nieuwe functie: remote monitoring voor verzorgers. Het is nu mogelijk om remote meldingen te sturen naar de MirrorHR-app die op de iPhone van de verzorger is geïnstalleerd. Deze functie kan worden geconfigureerd in het instellingen tabblad en het maakt ook mogelijk om een 'Vraag om hulp'-melding te sturen vanuit het Dagboek-tabblad, of via een nieuwe widget op het iPhone-startscherm.
+
+Als je MirrorHR waardeert en feedback of suggesties wilt geven, weet dan dat een recensie en een e-mail altijd welkom zijn. Je kunt de links vinden in de Instellingen-sectie. Bedankt!";
+
+"alarmSentMsg" = "Alarm verzonden";
+"stopCountdownMsg" = "Stop aftellen";
+"stoppedMsg" = "Gestopt";
+
+"TabHome" = "Thuis";
+"NextMedication" = "Volgende medicatie";
+"RemindersLink" = "Herinneringen";
+"QuickNotesMsg" = "Snelle notitie";
+"savedBtnMsg" = "Opgeslagen";
+"RemindersNotSet" = "Herinneringen nog niet ingesteld";
+"TherapiesNotSet" = "Therapieën nog niet ingesteld";
+"ThisWeekMedicationAtGlance" = "Medicatie van deze week";
+"SinceLastSeizureString" = "sinds laatste aanval op";
+"NewAppNameString" = "Epilepsy Research Kit";
+
+"version14_WhatsNewDescription" = "Welkom bij versie 14 van MirrorHR - Epilepsie Onderzoeksset! We zijn verheugd om een vernieuwd Home-tabblad te onthullen, waardoor essentiële informatie binnen handbereik is. Het loggen van belangrijke gebeurtenissen, het bijhouden van medicijnen en therapieën, en het maken van snelle notities is nu eenvoudiger dan ooit. Met MirrorHR krijg je een duidelijker inzicht in je epilepsiebeheer, wat de gesprekken met je zorgverlener bevordert. Jouw waardevolle feedback heeft geleid tot prestatieverbeteringen en bugfixes, waardoor de app soepeler loopt dan ooit.
+
+Hou je van MirrorHR? Jouw beoordelingen en feedback zijn cruciaal om de ervaring te verbeteren. Voel je vrij om een beoordeling achter te laten of ons een e-mail te sturen met je suggesties. De links vind je in de sectie Instellingen. Bedankt voor je voortdurende steun!";
+
+"MoodMsg" = "Stemming";
+"sympt_mood_happy" = "Blij";
+"sympt_mood_calm" = "Kalm";
+"sympt_mood_sad" = "Verdrietig";
+"sympt_mood_angry" = "Boos";
+"sympt_mood_anxious" = "Bezorgd";
+
+"AppreciateDonationsMsg" = "MirrorHR zal altijd gratis zijn. Toch waarderen we elke donatie om zijn ontwikkeling te ondersteunen, als je kunt. Dank je.";
+"ThankYouForDonationMsg" = "Bedankt voor je donatie! Zeer gewaardeerd!";
+"DonationFailedMsg" = "Donatie mislukt! Je kunt het later opnieuw proberen. Dank je.";
+"DonationCancelledMsg" = "Donatie is geannuleerd. Je kunt het later opnieuw proberen. Dank je.";
+"UnknownDonationStatusMsg" = "Onbekende donatiestatus. Je kunt het later opnieuw proberen. Dank je.";
+
+"sympt_Myoclonic_Trembling" = "Myoclonische Trillingen";
+
+"EnableLocalStreaming" = "Lokale streaming inschakelen";
+"EnableReceivingRemoteStreaming" = "Ontvangst van gegevens via internet inschakelen";
+"EnableReceivingRemoteStreamingFooter" = "Als u een verzorger bent, kunt u BPM's en meldingen ontvangen van een externe MirrorHR. Een ouder/tutor-relatie en internetverbinding zijn vereist. Gegevens kunnen worden vertraagd vanwege netwerkcondities, en BPM's kunnen worden verzonden wanneer mogelijk.";
+
+// Versie 15 - Juli 2024
+
+"CreateMirrorHRBckTitle" = "Maak MirrorHR-back-up";
+"BackupRestoredMsg" = "Back-up hersteld";
+"RestoreBackupMsg" = "Back-up herstellen";
+"ConfirmRestoreMsg" = "Bevestig herstel";
+"ProcessingMsg" = "Verwerken...";
+"ConfirmRestoreMessageExt" = "Weet je zeker dat je de back-up wilt herstellen? Dit zal bestaande gegevens overschrijven.";
+"RestoreOnlyMsg" = "Herstellen";
+"RestoreCompleteSuccessMsg" = "Herstel succesvol voltooid.";
+"RestoreFailureMsg" = "Herstel mislukt met fout: ";
+"BackupErrorSorryMsg" = "Sorry, ik kan de MirrorHR-back-up niet herstellen";
+"SwitchedActivePatientBecauseSeverEvent" = "Actieve patiënt gewisseld om het zojuist ontvangen ernstige evenement af te handelen. BPM's ontvangen gestart.";
+"SameEventsMsg" = "Dezelfde evenementen";
+"HandlingRemoteCommandMsg" = "Afhandelen van afstandsbediening: ";
+"event_realTimeSessionEnded" = "RealTime-sessie beëindigd";
+"RealTimeRemoteActiveMsg" = "RealTime is actief op de externe MirrorHR.";
+"RealTimeRemoteOffMsg" = "RealTime is UIT op de externe MirrorHR.";
+"RemoteRealtimeUnkwongMsg" = "RealTime-status is ONBEKEND op de externe MirrorHR.";
+"RemoteNoPatientSelectedMsg" = "Geen patiënten geselecteerd als externe MirrorHR";
+"RemoteFetchingDataMsg" = "Gegevens ophalen van de externe MirrorHR";
+"RemoteNoDataKeyMsg" = "Geen gegevens ontvangen van de externe MirrorHR";
+"RemoteNoDataCaptionMsg" = "Er is mogelijk geen internetverbinding of de realtimesessie is mogelijk niet actief op de externe MirrorHR";
+"RemoteMustHaveWatchInfoMsg" = "U moet een gekoppelde Apple Watch of een andere MirrorHR-app hebben die gegevens streamt. U kunt alle opties controleren op het tabblad Instellingen, sectie Gezondheidsgegevensbron.";
+"RemoteCheckStatusActiveMsg" = "Controleer externe status";
+"RemoteCheckingStatusDisabledMsg" = "Controleren...";
+"RemoteRunningMsgMaxTime" = "Ontvang BPM's van de externe MirrorHR (maximaal 5 min)";
+"RemoteRealTimeIsNotRunningMsg" = "RealTime draait niet op de externe MirrorHR";
+"RemoteTryReceivingBpmsMsg" = "Laten we proberen BPM's van de externe MirrorHR te ontvangen";
+"RemoteReceivingBpmsFewMinsOnlyMsg" = "Ontvang BPM's van de externe MirrorHR (slechts enkele minuten)";
+"RemoteStreamingOptionsSettingsMsg" = "U kunt enkele streamingopties instellen in Instellingen - Gezondheidsgegevensbronnen";
+"RemoteConnectedAndReceivingMsg" = "Verbonden met internet en gegevens ontvangen van:";
+"RemoteNoPatientAssociatedMsg" = "Geen geassocieerde patiënten";
+"RemoteSelectActivePatientMsg" = "Selecteer en activeer patiënt";
+"RemoteThereIsNoInternetConnectionMsg" = "Er is GEEN internetverbinding";
+"RemoteConnectedToInternetMsg" = "Verbonden met internet";
+"RemoteSendingDataToMsg" = "Gegevens verzenden naar:";
+"RemoteNoCaregiverAssociatedMsg" = "Geen geassocieerde zorgverleners";
+"BackupAndRestoreHeaderMsg" = "Back-up en herstellen";
+"LocalNotificationsHeaderMsg" = "Lokale meldingen";
+"RemoteNotificationsHeaderMsg" = "Externe meldingen";
+"RemoteActivePatientsHeaderMsg" = "Actieve patiënten";
+"Ask4HelpNeedsYourHelpMsg" = "heeft uw hulp nodig!";
+"RemoteNotificationTitleMsg" = "Externe melding";
+"LocationServicesLocalized" = "Locatiediensten";
+"RemoteDiaryOnlyDataSourceTitle" = "Alleen dagboek";
+"RemoteAppleWatchAndInternetKeyEventsStreamingAsServerMsg" = "Gekoppeld met Apple Watch en het verzenden van belangrijke evenementen naar zorgverleners via internet";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "Gekoppeld met Apple Watch en het verzenden van belangrijke evenementen en BPM's naar zorgverleners via internet";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "Ontvang belangrijke evenementen van een andere MirrorHR via internet";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "Ontvang belangrijke evenementen en BPM's van een andere MirrorHR via internet";
+"RemotePotentialOnboardingRestartMsg" = "De onboarding kan opnieuw starten voor een juiste configuratie van enkele nieuwe instellingen.";
+"RemoteDiaryOnlyDataSourceDebugMsg" = "Geen Apple Watch beschikbaar. MirrorHR werkt alleen als dagboek. Geen biometrische gegevensbronnen ingeschakeld, geen alarmen beschikbaar.";
+"RemoteAppleWatchPairedOnlyDebugMsg" = "MirrorHR is rechtstreeks gekoppeld met een Apple Watch en kan biometrische gegevens ontvangen. Lokale alarmen en meldingen zijn ingeschakeld.";
+"RemoteappleWatchAndInternetKeyEventsStreamingAsServer" = "MirrorHR is gekoppeld met een Apple Watch en kan belangrijke evenementen naar een zorgverlener verzenden via internet, als meldingen. De zorgverlener moet MirrorHR uitvoeren en configureren om deze evenementen te ontvangen. Er kan vertraging optreden bij deze meldingen.";
+"RemoteAppleWatchAndInternetKeyEventsAndBPMsStreamingAsServer" = "MirrorHR is gekoppeld met een Apple Watch en kan belangrijke evenementen en BPM's naar een zorgverlener verzenden via internet. De zorgverlener moet MirrorHR uitvoeren en configureren om deze evenementen en BPM's te ontvangen. Er kan vertraging optreden bij deze meldingen.";
+"RemoteInternetStreamingAsClientForKeyEventsOnly" = "MirrorHR is niet rechtstreeks verbonden met een Apple Watch, maar kan belangrijke evenementen ontvangen van een andere MirrorHR die is gekoppeld met een Apple Watch, via internet. Er kan vertraging optreden bij het ontvangen van deze meldingen.";
+"RemoteInternetStreamingAsClientForKeyEventsAndBPMs" = "MirrorHR is niet rechtstreeks verbonden met een Apple Watch, maar kan zowel belangrijke evenementen als BPM's ontvangen van een andere MirrorHR die is gekoppeld met een Apple Watch, via internet. Er kan vertraging optreden bij het ontvangen van deze meldingen en MirrorHR moet op de voorgrond staan om ervoor te zorgen dat BPM's worden ontvangen.";
+"RemoteMirrorHRNotActiveMsg" = "MirrorHR is niet actief op de externe iPhone";
+"RemoteStopReceivedFromPatientMsg" = "Realtimestopcommando ontvangen van externe patiënt";
+"RemoteNoDataFromTheInternetMsg" = "Geen gegevens ontvangen van de externe patiënt";
+
+"version15_WhatsNewDescription" = "Welkom bij versie 15 van MirrorHR - Epilepsy Research Kit! We zijn verheugd om ons volledige systeem voor externe monitoring te introduceren, wat de autonomie van onze kinderen en dierbaren vergroot. Naast het loggen van belangrijke gebeurtenissen, het volgen van medicatie en therapieën, kunt u nu ook op afstand meldingen ontvangen voor al deze activiteiten, inclusief alarmen en BPM's, zelfs als u kilometers ver van uw dierbare verwijderd bent. Deze functie vereist dat de patiënt een Apple Watch draagt die is gekoppeld aan een iPhone waarop MirrorHR draait, terwijl u, als verzorger, alleen MirrorHR op uw iPhone nodig heeft.
+
+Zoals altijd helpt MirrorHR u om meer inzicht te krijgen in het beheer van epilepsie, waardoor betere gesprekken met uw zorgverlener mogelijk worden. Uw waardevolle feedback heeft geleid tot prestatieverbeteringen en bugfixes, waardoor de app soepeler werkt dan ooit.
+
+Houdt u van MirrorHR? Uw beoordelingen en feedback zijn cruciaal voor het verfijnen van de ervaring. Laat gerust een beoordeling achter of stuur ons een e-mail met uw suggesties. De links vindt u onder het gedeelte Instellingen. Bedankt voor uw voortdurende steun!";

@@ -1,0 +1,44 @@
+/*
+  Localizable.strings
+  Epilepsy Research Kit
+
+  Created by Roberto D’Angelo on 15/09/21.
+  Copyright © 2021 FightTheStroke Foundation. All rights reserved.
+*/
+"ThisAppNameString" = "แอปพลิเคชันนี้";
+
+// สถานะการให้สิทธิ์
+"NotDeterminedLocalized" = "ไม่ได้กำหนด";
+"DeniedLocalized" = "ถูกปฏิเสธ";
+"AuthorizedLocalized" = "ได้รับอนุญาต";
+"UnknownLocalized" = "ไม่รู้จัก";
+"NotAvailableLocalized" = "ไม่พร้อมใช้งาน";
+"PermissionsManagerErrorTypeDoesNotExistLocalized" = "ข้อผิดพลาดของตัวจัดการสิทธิ์: ไม่มีประเภทการอนุญาต";
+
+// ชื่อสิทธิ์
+"CameraLocalized" = "กล้องวิดีโอ";
+"CriticalNotificationsLocalized" = "การแจ้งเตือนที่สำคัญ";
+"NotificationsLocalized" = "การแจ้งเตือน";
+"HealthDataLocalized" = "ข้อมูลสุขภาพ";
+"MicrophoneLocalized" = "ไมโครโฟน";
+"SpeechRecognitionLocalized" = "การรู้จำเสียง";
+
+// ข้อความ
+"OKMessageLocalized" = "ขอบคุณ!";
+"RecoveryMsgLocalizePart1" = "โปรดไปที่การตั้งค่า iPhone และมองหา";
+"DescriptionMsgPart1" = "เปิดใช้งาน";
+"DescriptionMsgPart2" = "จำเป็นสำหรับแอปนี้ในการทำงานอย่างถูกต้อง";
+"NoOkMessagePart1" = "คุณไม่ได้รับอนุญาตให้เข้าถึง";
+"NoOkMessagePart2" = "ฉันจึงทำงานไม่ถูกต้อง ฉันขอโทษ";
+"RecoveryMsgLocalizePart2" = "และให้สิทธิ์ที่จำเป็นทั้งหมด ขอบคุณ";
+
+// ตรวจสอบดู
+"AuthCheckPointTitle" = "การตรวจสอบสิทธิ์";
+"GrantItBtnLabel" = "อนุญาต";
+"SomeMissingAuthNeeded" = "การอนุญาตบางอย่างยังจำเป็นเพื่อให้แอปทำงานได้อย่างถูกต้อง โปรดอนุญาตทั้งหมด ถ้าคุณต้องการความช่วยเหลือใดๆ ให้ส่งอีเมลไปที่:";
+
+// บังคับ
+"MandatoryMsg" = "จำเป็น";
+// การนำทาง
+"SkipMsgText" = "ข้าม";
+"LocationServicesLocalized" = "บริการระบุตำแหน่ง";
